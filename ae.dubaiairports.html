@@ -1,0 +1,924 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+<head id="Head1"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"c2e65c296a","applicationID":"2964191","transactionName":"NgdbYxRXCxdVBhBYCw9NeGQ2GRYCRAQDVBcEEE9eBVNKVVFSVANQVwYUAgIGXUkCXVFQSVgAC1FLUANUBFVUBFxZUg9VOVQKC0AWEEMFET1cWUhXFhRM","queueTime":0,"applicationTime":737,"ttGuid":"18077A1BBB90474","agent":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><meta charset="utf-8" /><title>
+	Privacy Policy | Dubai Airports
+</title><meta name="description" content="Dubai Airports is committed to respecting your privacy and protecting your personal information" /><meta name="viewport" content="user-scalable=no,initial-scale=1.0,width=device-width,minimum-scale=1,maximum-scale=1" /><meta name="apple-itunes-app" content="app-id=916143048" /><meta name="google-play-app" content="app-id=ae.dubaiairports" /><meta name="author" content="Dubai Airports" /><meta name="robots" content="INDEX, FOLLOW" /><link rel="apple-touch-icon" href="/Sitefinity/WebsiteTemplates/da/App_Themes/da/Images/apple-touch-icon-129x129-precomposed.png" /><link rel="shortcut icon" href="/Sitefinity/WebsiteTemplates/da/App_Themes/da/Images/favicon.png" type="image/x-icon" /><link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/da/components/fancyBox_2.1/source/jquery.fancybox.css" /><link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/da/components/bootstrap.css/css/bootstrap.min.css" /><link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/da/components/jquery-ui/themes/custom-theme/jquery-ui-1.10.3.custom.min.css" /><link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/da/components/slideShow/css/jquery.maximage.css?v=1.2" /><link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/da/App_Themes/da/CSS/common.min.css?v=1.0" /><link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/da/App_Themes/da/CSS/template-t.css?v=1.0" /><link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/da/components/bt-twitter/BTWidget.css?v=1.0" /><link rel="stylesheet" href="/Sitefinity/WebsiteTemplates/da/components/smartbanner/jquery.smartbanner.css" />
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '319024965123479');
+fbq('track', "PageView");</script>
+<!-- End Facebook Pixel Code -->
+<meta name="Generator" content="Sitefinity 10.2.6631.0 PE" /><link rel="canonical" href="http://www.dubaiairports.ae/privacy-policy" /><link href="/Telerik.Web.UI.WebResource.axd?d=PMrIT5dOWaVYIcpFWUE4nDg9GAiWynpB5axBsNf_UrHS9lFFGuGQTTEr_tIrWBeKqb71b29otBlwP070IuEZ6Fike2y8ShWruhAWgLxY8UccZMy_0&amp;t=635180875900000000&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d10.2.6631.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aen%3a5f23f658-7baa-4d9a-addc-a1e43a4c5d03%3a7a90d6a" type="text/css" rel="stylesheet" /><link href="/ResourcePackages/da/css/ghf-en.css" type="text/css" rel="stylesheet" media="all" /><meta name="keywords" content="Privacy Policy,Dubai Airports" /></head>
+<body id="template-d">
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=319024965123479&ev=PageView&noscript=1"
+/></noscript>
+    <form method="post" action="./privacy-policy" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl18_TSSM" id="ctl18_TSSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="dIw1+cF7Ugra1Wh4GHJjv4I7TNKrEduC9Leh1oWTr8C1Q8Iez/dP9gzeldG7eDW4/s3+eLugdN7FRvxAezTjHO6UnYv+6VEH4MyPBlW6EOrf1s5VTeENLToNrizTMu1HpPgomudD8e9wCzLOcDccXwBBXRBrItyEJisgr7E0OQ7ZeV3k4GJc3KK4faAVaFhqbIjJGN4G92Sn5vVmFk/blNC9gDxT4zoD3YYqqyQ4khsvrLSeenwSfDBJdY/JMV+xMxTfNV0viwlP9fZnyNyiApFNhLy7lAqEOpyhv+9Dgd4N7KOnAyQUlk2BT60qO9xMrUUk22u6MyuoSvUWzykWPyGQ5g4FImhAne+dZlsj9Pzr88zqKZdpos2W/CgxWVOBY3AE0HJnuhcsKo++yNaiPMVdJ+hQZO6P3A0sz/bh3gdmX8C35hv6+JXRflGjsxTcShzAo5G948cJDcdL1nInaILJsl9evYUUK6Qeral6HmdFte6VKPhmRsT7kGAHCebfwY/ITCnVQcfTBtpzhVC6322M02Cq4o4QwVaXsyWac0BeoSlAFhDn08BbWejq2RqYwLnmLGjz7pZRMdJzrID94are7kcPORr0Ie9IQPjMV8hMd3wdhW7Lce4oepcG0Izd9r34TKoKungDSYBZ6UT7tR1wIoSYJlSHt80bW2TmsxfJtcy3EkXrhMk9KiIS7wVRSoJE1HQujJfDLAcwugz1cO1iR1iRBL2IbJTe/Nu4pdjS5TwDIF+VXeAGoJxKLMa7+cYIbZse5d4BPw5z3WIootrNrOBJgTxZjo6aTkE/YH0xcK5U" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZMrmDlHeJqz9MHVDPPmbxwOB5eVoVnIlI87whWx-6f8mWEd7cg2&amp;t=635802961220000000" type="text/javascript"></script>
+
+<script type='text/javascript'>window.Dubai = (window.Dubai)? window.Dubai : {};window.Dubai.parentPage='';window.Dubai.section='';window.Dubai.currentPage='privacy-policy';window.Dubai.onloadServerTime=1537158087;window.Dubai.lanuage='en'; window.Dubai.jsonPath='http://dubaiairports.ae/api'; window.Dubai.urlParam = {};</script>
+<script src="/ScriptResource.axd?d=uHIkleVeDJf4xS50Krz-yE8By_RhrW7N70aIUOxoSJYSOhI90uLu1gzaHMSIVuvGJZypo8_XboDzpz2h4gt89PMCiR8n36D6iMPqkP1-_jiHGPahEr6RHyFwu0Z7tg6ZKhGdOSeYYHzrOgRp7pc--7qNg4Q1&amp;t=5f9d5645" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Jw6tUGWnA15YEa3ai3FadLgVMocsxfHUL2VvRQttc7rk6grqzYRLHeY0_Z4c9jt7kwYro5UyD-YEhryqweJATMSfhHN5-3GGqjTgGckeHjMDLq_BXaUaSuqliX1nan0CWB-Ul1ywvBxVweRLP6GDoyscHfk1&amp;t=5f9d5645" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=vGVeB8tx0DNaPr491vzEhkGKfvraXFcVMvu8AfFKz5_P6upP0Oc9EYPAKW9xi73GPmEPxsX2irCTL2SEa9-rRf2CHUBIdAUsRb_ZXHhnLarn9laY_-vph2SX5EVFbdo2r_xNOg2&amp;t=25371bbc" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=0GkboFisZrfvtJYkOlxjHE-qLJPthJ6PvSFboT-8PXodzmzFoYbNZftnRel-YiUqXtNcVtnoAnbPFkG8DwEIsLP5lTL-GS2_EDx0psjaUXDpJHckhpLxyoFNNX10Nc1U-AQ0Nkzv3AB9IvfCZwLqOaUHh9HHjqhBJXFY7e2JAopbG_6I0&amp;t=3a03ad1e" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8u3ngCqoRB16IXgFyG-fdgNQO27PLipcbi70-fuXFFk4cCixC6zjS9W3zwG0d3ElGkq3rkD9CinGQdG7JM6uRuF_vwAxjItIXRvDA4ijvF6tFEts0&amp;t=ffffffffd8a61378" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pL5wgiwL1GpmyqMwhkDjF2lH39_AM96mQSYmiyYbgaFfidPF_wrGP9vDWMwR7lRdQwlMBiQaXoA-enubkeeG9xRHtpy9ZLmCWWjcRR6lbuexy3H0YxAz_XemKe6EI5KHpke5-A2&amp;t=ffffffffd8a61378" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=75C6zhn_I2ZyGfX3QbVbDAzJK4s2XFHboo6Rwoz_B8_G16MUJjH33Nn2acAI2GXs9Je8XX1GKllkicFHhWP9R4NT_TSbvbnDk-aa0lqf6xvhkDpW0UZuplOpWTPNX39VA8RyRg2&amp;t=ffffffffd8a61378" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F5747B7E" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="1ugPX1DVwCHD4LYcdtDCltPzo8sEj5tJwIeg+m9hIF2jsyp/YssANhfpbW0D1S3rtC3GcSPI0JrraM9jEnb2CYV57Gekn6t6n4SfZjwrE2Q8O4n+Mvvx+21hVA7ThpvglWK4rbCqVrrK9wuMvd76vTNro+/Oc/O5BuwnGE8JcD3S8EbA" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+        <div class="wrapper">
+         <div class='__ghf __ghf-header'>
+            
+
+
+
+<div class='sfContentBlock'><!-- __global-header -->
+<header><div class="header-top"><div class="container"><div class="row"><div class="col-xs-12"><div class="container-inline"><div class="search-form"><!-- <form action="/search-results" method="GET"> -->
+ <svg role="img"><title>Search and explore</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-search" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ <label for="search-input">
+ <span class="hide">Search and explore</span>
+ <input autocomplete="off" id="search-input" placeholder="Search and explore" type="search" /></label>
+ <input id="indexCatalogue" name="indexCatalogue" type="hidden" value="dubai-airports-(en)" /><input id="wordsMode" name="wordsMode" type="hidden" value="0" /><!-- </form> -->
+ </div><span class="weather-widget"><span id="weather-temp"></span><svg role="img"><title>Weather</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-weather-sunny" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ </span>
+ <a class="lang-ar" data-lang-link="" href="/ar/"><span class="visually-hidden">Arabic</span><svg role="img"><title>Arabic</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-lang-ar" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ </a>
+ <a class="lang-en" data-lang-link="" href="/"><span class="visually-hidden">English</span>English</a>
+ <nav><ul><li><a href="/corporate">Corporate</a></li><li class="active"><a href="/">Passengers</a></li></ul></nav></div></div></div></div></div><div class="header-bottom"><div class="container"><div class="row"><div class="col-xs-12"><button class="icon hidden-md hidden-lg" data-header-menu="1"><span class="visually-hidden">Open menu</span>
+ <svg role="img"><title>Open menu</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-hamburger" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ </button><a class="logo" href="/"><span class="hide">Dubai Airports Homepage</span>
+ </a>
+ <a class="logo logo-zayed" href="https://www.zayed.ae/en" target="_blank">
+ <span class="hide">Year of Zayed</span>
+ </a>
+ <button class="icon hidden-md hidden-lg" data-header-search="1">
+ <span class="visually-hidden">Search in the website</span>
+ <svg role="img"><title>Search in the website</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-search" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ </button><nav class="main-menu"><ul><li class="before-you-fly"><a class="before-you-fly-link" href="javascript:void(0);"><span class="nav-wrapper"><span class="nav-title">Before you fly</span>
+ <span class="nav-subtitle">Plan your airport visit</span>
+ </span></a>
+ <div><div class="padding-container"><div class="row"><div class="col-xs-12 col-md-3"><h5>To / from the airport</h5><ul><li><a href="/before-you-fly/to-from-the-airport/by-taxi">By Taxi</a></li><li><a href="/before-you-fly/to-from-the-airport/by-metro">By Metro</a></li><li><a href="/before-you-fly/to-from-the-airport/by-bus">By Bus</a></li><li><a href="/before-you-fly/to-from-the-airport/car-parking">Car Parking</a></li><li><a href="/before-you-fly/to-from-the-airport/car-hire">Car Rental</a></li></ul></div><div class="col-xs-12 col-md-3"><h5>Which terminal</h5><ul><li><a href="/before-you-fly/which-terminal/check-by-airline">Check by airline</a></li><li><a href="/before-you-fly/which-terminal/airline-directory">Airline Directory</a></li></ul></div><div class="col-xs-12 col-md-3"><h5>Procedures</h5><ul><li><a href="/before-you-fly/procedures/immigration-visas">Immigration &amp; visas</a></li><li><a href="/before-you-fly/procedures/security-customs">Security &amp; customs</a></li><li><a href="/before-you-fly/procedures/flight-connections">Flight connections</a></li></ul></div><div class="col-xs-12 col-md-3"><h5>Baggage</h5><ul><li><a href="/before-you-fly/baggage/baggage-services">Baggage services</a></li><li><a href="/before-you-fly/baggage/baggage-regulations">Baggage regulations</a></li><li><a href="/before-you-fly/baggage/baggage-reclaim">Baggage reclaim</a></li><li><a href="/before-you-fly/baggage/lost-found">Lost &amp; found</a></li></ul></div></div></div></div></li><li class="while-you-are-here"><a class="while-you-are-here-link" href="/while-youre-here"><span class="nav-wrapper"><span class="nav-title">While you are here</span>
+ <span class="nav-subtitle">Enjoy your airport experience</span>
+ </span>
+ </a>
+ <div><div class="padding-container"><div class="row"><div class="col-xs-12"><ul><li class="touch-device-link"><a href="/while-youre-here">
+ <h5>While you are here</h5></a>
+ </li><li><a href="/while-youre-here/dining">Dining</a></li><li><a href="/while-youre-here/shopping">Shopping</a></li><li><a href="/while-youre-here/relax-refresh">Relax &amp; Refresh</a></li><li><a href="/while-youre-here/sleep-options">Sleep option</a></li><li><a href="/while-youre-here/services">Services</a></li><li><a href="/while-youre-here/map">Map</a></li></ul></div></div></div></div></li><li class="find-your-flight"><a class="find-your-flight-link" href="/flight-status"><span class="nav-wrapper"><span class="nav-pretitle">Your flight</span>
+ <span class="nav-title">
+ <span class="nav-title-text">Find your flight</span>
+ <span class="clear-flight" role="button"><svg role="img"><title>Clear selected flight</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-x2" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ </span>
+ </span>
+ <span class="nav-subtitle">Check your flight status</span>
+ </span>
+ </a>
+ <div><div class="padding-container"><div class="flight-finder"><div class="row"><div class="col-xs-12 text-center search-container"><fieldset><legend>Flight finder</legend>
+ <label for="flight-finder-input">Find your flight</label>
+ <div class="input-wrapper underline"><input data-search-flights="1" id="flight-finder-input" placeholder="Enter your flight number" type="text" /><svg class="input-icon" role="img"><title>Find your flight</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-find-your-flight" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+
+ <div class="search-results"><div class="results-empty"><p>Invalid flight number, please try again
+                                                                    </p></div><div><ul class="results-flight-list"></ul></div></div></div></fieldset></div></div><div class="row"><div class="col-xs-12"><nav><ul><li>Show:</li><li class="active" data-flightfinder-filter="all"><a href="javascript:void(0);">All Airports</a></li><li data-flightfinder-filter="dxb"><a href="javascript:void(0);">Dubai International (DXB)</a></li><li data-flightfinder-filter="dwc"><a href="javascript:void(0);">Dubai World Central (DWC)</a></li></ul></nav></div></div><div class="row"><div class="col-xs-6"><a class="list-marker" href="/flight-status?type=arrival">View all arrivals</a>
+ <table id="flightfinder-arrivals"><thead><tr><th>Time</th><th>Flight Number</th><th>Terminal</th><th>Twitter</th><th>Facebook Messenger</th><th>Final Call</th></tr></thead><tbody id="arrivals"><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr></tbody></table></div><div class="col-xs-6"><a class="list-marker" href="/flight-status?type=departure">View all departures</a>
+ <table id="flightfinder-departures"><thead><tr><th>Time</th><th>Flight Number</th><th>Terminal</th><th>Twitter</th><th>Facebook Messenger</th><th>Final Call</th></tr></thead><tbody id="departures"><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr><tr class="loading-table"><td>&nbsp;</td></tr></tbody></table></div></div></div></div></div></li></ul></nav></div></div></div></div><div class="header-search-mobile hidden-md hidden-lg"><div class="container"><div class="row"><div class="col-xs-12"><div class="search-form"><!-- <form action="/search-results" method="GET"> -->
+ <label for="search-input-mobile">
+ <span class="hide">Search and explore</span>
+ <input autocomplete="off" id="search-input-mobile" placeholder="Search and explore" type="search" /></label>
+ <input name="indexCatalogue" type="hidden" value="content" /><input name="wordsMode" type="hidden" value="AllWords" /><!-- </form> -->
+ </div></div></div></div></div></header><div class="mobile-menu hidden-md hidden-lg"><div class="mobile-menu-top"><button class="icon hidden-md hidden-lg" data-header-menu="1"><span class="visually-hidden">Close menu</span>
+ <svg role="img"><title>Close menu</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-x2" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ </button><a class="lang-ar" data-lang-link="" href="/ar/"><span class="visually-hidden">Arabic</span><svg role="img"><title>Arabic</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-lang-ar" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ </a>
+ <a class="lang-en" data-lang-link="" href="/">English</a>
+ </div><div class="tabs"><a class="tab-6 active" href="javascript:void(0);">Passengers</a>
+ <a class="tab-6" href="/corporate">Corporate</a>
+ </div><nav><ul><li><button class="mobile-menu-l1" id="before-you-fly" type="button"><svg role="img"><title>Before you fly</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-find-your-flight" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ <span class="title">Before you fly</span>
+ <span class="subtitle">Plan your airport visit</span>
+ </button><nav><h5>Before you fly</h5><ul><li><button class="mobile-menu-l2" type="button">To / from the airport</button><nav><ul><li><a href="/before-you-fly/to-from-the-airport/by-taxi">By taxi</a></li><li><a href="/before-you-fly/to-from-the-airport/by-metro">By metro</a></li><li><a href="/before-you-fly/to-from-the-airport/by-bus">By bus</a></li><li><a href="/before-you-fly/to-from-the-airport/car-parking">Car parking</a></li><li><a href="/before-you-fly/to-from-the-airport/car-hire">Car rental</a></li></ul></nav></li><li><button class="mobile-menu-l2" type="button">Which terminal</button><nav><ul><li><a href="/before-you-fly/which-terminal/check-by-airline">Check by airline</a></li><li><a href="/before-you-fly/which-terminal/airline-directory">Airline directory</a></li></ul></nav></li><li><button class="mobile-menu-l2" type="button">Procedures</button><nav><ul><li><a href="/before-you-fly/procedures/immigration-visas">Immigration &amp; visas</a></li><li><a href="/before-you-fly/procedures/security-customs">Security &amp; customs</a></li><li><a href="/before-you-fly/procedures/flight-connections">Flight connections</a></li></ul></nav></li><li><button class="mobile-menu-l2" type="button">Baggage</button><nav><ul><li><a href="/before-you-fly/baggage/baggage-services">Baggage services</a></li><li><a href="/before-you-fly/baggage/baggage-regulations">Baggage regulations</a></li><li><a href="/before-you-fly/baggage/baggage-reclaim">Baggage reclaim</a></li><li><a href="/before-you-fly/baggage/lost-found">Lost &amp; found</a></li></ul></nav></li></ul></nav></li><li><button class="mobile-menu-l1" type="button"><svg role="img"><title>While you're here</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-restaurant" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ <span class="title">While you're here</span>
+ <span class="subtitle">Enjoy your airport experience</span>
+ </button><nav><h5>While you're here</h5><ul><li><a href="/while-youre-here/dining">Dining</a></li><li><a href="/while-youre-here/shopping">Shopping</a></li><li><a href="/while-youre-here/relax-refresh">Relax &amp; Refresh</a></li><li><a href="/while-youre-here/services">Services</a></li><li><a href="/while-youre-here/map">Map</a></li></ul></nav></li><li><button class="mobile-menu-l1" id="find-your-flight" type="button"><svg role="img"><title>Find your flight</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-travel" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ <span class="title">Find your flight</span>
+ <span class="subtitle">Check flight status</span>
+ </button><nav><h5>Find your flight</h5><ul><li><a href="/flight-status?type=arrival">Arrival</a></li><li><a href="/flight-status?type=departure">Departures</a></li><li><a href="/flight-tracker">Flight Tracker</a></li></ul></nav></li><li><button class="mobile-menu-l1" id="more-links" type="button"><svg role="img"><title>More links</title>
+ <use xlink:href="/ResourcePackages/da/images/icons.svg#icon-phone" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
+ <span class="title">More links</span>
+ <span class="subtitle">What we offer</span>
+ </button><nav><h5>More links</h5><ul><li><a href="/contact">Contact</a></li><li><a href="/connect-newsletter">Connect Newsletter</a></li><li><a href="/corporate">Corporate site</a></li><li><a href="/weather">Weather</a></li><li><a href="/alert">Alert</a></li><li><a href="/privacy-policy">Privacy Policy</a></li><li><a href="/terms-of-use">Terms of Use</a></li><li><a href="/sitemap">Sitemap</a></li></ul></nav></li></ul></nav></div><button class="mobile-menu-overlay hidden-md hidden-lg" type="button"><span class="visually-hidden">Close side navigation</span></button><!-- /__global-header -->
+
+
+</div>
+        </div>
+            <div id="header">
+                <div class="top">
+                    <div class="container">
+                        
+<div class="sf_cols nonSearchableSiteToggling">
+    <div class="sf_colsOut sf_1col_1_100" style="">
+        <div id="SiteToggling_TE067B8A8031_Col00" class="sf_colsIn sf_1col_1in_100 myCustomCSSClass"><div class='sfContentBlock'><ul class="siteNav"> <li id="siteNavPass"><a href="/">Passengers</a></li> <li id="siteNavCorp"><a href="/corporate">Corporate</a></li> </ul>
+
+
+</div>
+ 
+        </div>
+    </div>
+</div>
+                        <a class="hide" href="#mainContent">[Skip to Content]</a>
+                        <div class="headerInfo">
+                            <div id="dubaiTime" class="time"></div>
+                            <div id="dubaiDate" class="date"></div>
+                            <a href="/weather" id='header_weather'>
+                                <div id="dubaiDegree" class="degree">degree</div>
+                                <div id="dubaiWeather" class="weather">weather</div>
+                            </a>
+                            <div class="languageContainer">
+                                
+
+<a  href="/ar/privacy-policy" class="langselector"><div class="language" lang="ar-ae">العربية</div></a>
+
+
+                                <div class="clearfix"></div>
+                            </div>
+
+                            <div id="navSearch">
+                                
+<div id="NavSearch_TE067B8A8029">
+	
+    
+ <fieldset class="sfsearchBox __ghf">
+     <legend class="hide">Search:</legend>
+     <span class="sfsearchTxt">
+     <input name="ctl00$NavSearch$TE067B8A8029$ctl00$ctl00$searchTextBox" type="text" id="NavSearch_TE067B8A8029_ctl00_ctl00_searchTextBox" class="sfsearchTxt search-page-input" title="Search Text" /></span>
+     <input type="submit" name="ctl00$NavSearch$TE067B8A8029$ctl00$ctl00$searchButton" value="Search" onclick="return false;" id="NavSearch_TE067B8A8029_ctl00_ctl00_searchButton" class="sfsearchSubmit" />
+ </fieldset>
+</div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="rightBgColor"></div>
+                    <div class="container">
+                        <div id="daLogo" class="logo">
+                            <div class="enContent">
+                                <img src="/Sitefinity/WebsiteTemplates/da/App_Themes/da/Images/logo-header-retina.png" width="100%" alt="Dubai Airports - connecting the world!" class="mobileHide" />
+                                <img src="/Sitefinity/WebsiteTemplates/da/App_Themes/da/Images/logo-header-mobile.png" width="100%" alt="Dubai Airports - connecting the world" class="mobileShow" />
+                            </div>
+                            <div class="arContent">
+                                <img src="/Sitefinity/WebsiteTemplates/da/App_Themes/da/Images/logo-header-arabic-retina.png" width="100%" alt="Dubai Airports - connecting the world!" class="mobileHide" />
+                                <img src="/Sitefinity/WebsiteTemplates/da/App_Themes/da/Images/logo-header-arabic-mobile.png" width="100%" alt="Dubai Airports - connecting the world" class="mobileShow" />
+                            </div>
+                        </div>
+                        <div class="navContainer">
+                            <a class="mobile_have_alert" href="/alert">Have Alert</a>
+                            <div class="openMenu">Open Menu</div>
+                            <div class="menu">
+                                <div class="languageContainer">
+                                    
+
+<a  href="/ar/privacy-policy" class="langselector"><div class="language" lang="ar-ae">العربية</div></a>
+
+
+                                </div>
+                                
+
+                                <div class="buttonContainer">
+                                    
+<div class="sf_cols ">
+    <div class="sf_colsOut sf_1col_1_100 megaAimWrapper" style="">
+        <div id="MainHeader_TE067B8A8046_Col00" class="sf_colsIn sf_1col_1in_100 myCustomCSSClass"><div class="sf_cols">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="MainHeader_TE067B8A8063_Col00" class="sf_colsIn sf_1col_1in_100"><div class='sfContentBlock'><a class="mobileCloseBtn"></a>
+<div class="mobileMenuTabs"> <a href="/corporate">Corporate</a> <a class="active">Passenger</a><span class="activeMenuArrow"></span> </div>
+
+
+</div>
+            
+        </div>
+    </div>
+</div><div class="sf_cols">
+    <div class="sf_colsOut sf_3cols_1_33 megaAim" style="width: 33%;">
+        <div id="MainHeader_TE067B8A8047_Col00" class="sf_colsIn sf_3cols_1in_33">
+
+<div>
+    <div class="button" id="planSection">
+        <div class="mClickDropdown"></div>
+        <div class="title">Before you fly</div>
+        <div class="subTitle">Plan your airport visit</div>
+        <div class="dropdownMenu">
+            <div class="container listContainer">
+                
+                                <ul>
+                                    <li class="list highlight">
+                                        <div class="title">To / from the airport</div>
+                                    </li>                                        
+                                    <div id="MainHeader_TE067B8A8055_ctl00_ctl00_ctl00_ctl00_childNodesContainer">
+                                <li class="list">
+                                    <a href="before-you-fly/to-from-the-airport/by-taxi" aria-hidden="true">
+                                        <div class="title">By taxi</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/to-from-the-airport/by-metro" aria-hidden="true">
+                                        <div class="title">By metro</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/to-from-the-airport/by-bus" aria-hidden="true">
+                                        <div class="title">By bus</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/to-from-the-airport/car-parking" aria-hidden="true">
+                                        <div class="title">Car parking</div>
+                                    </a>
+                                </li>                                        
+                            </div>
+                                </ul>
+                            
+                                <ul>
+                                    <li class="list highlight">
+                                        <div class="title">Temporary flights at DWC</div>
+                                    </li>                                        
+                                    
+                                </ul>
+                            
+                                <ul>
+                                    <li class="list highlight">
+                                        <div class="title">Which terminal</div>
+                                    </li>                                        
+                                    <div id="MainHeader_TE067B8A8055_ctl00_ctl00_ctl00_ctl02_childNodesContainer">
+                                <li class="list">
+                                    <a href="before-you-fly/which-terminal/check-by-airline" aria-hidden="true">
+                                        <div class="title">Check by airline</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/which-terminal/airline-directory" aria-hidden="true">
+                                        <div class="title">Airline directory</div>
+                                    </a>
+                                </li>                                        
+                            </div>
+                                </ul>
+                            
+                                <ul>
+                                    <li class="list highlight">
+                                        <div class="title">Procedures</div>
+                                    </li>                                        
+                                    <div id="MainHeader_TE067B8A8055_ctl00_ctl00_ctl00_ctl03_childNodesContainer">
+                                <li class="list">
+                                    <a href="before-you-fly/procedures/immigration-visas" aria-hidden="true">
+                                        <div class="title">Visa information</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/procedures/security-customs" aria-hidden="true">
+                                        <div class="title">Security & customs</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/procedures/flight-connections" aria-hidden="true">
+                                        <div class="title">Flight connections</div>
+                                    </a>
+                                </li>                                        
+                            </div>
+                                </ul>
+                            
+                                <ul>
+                                    <li class="list highlight">
+                                        <div class="title">Baggage</div>
+                                    </li>                                        
+                                    <div id="MainHeader_TE067B8A8055_ctl00_ctl00_ctl00_ctl04_childNodesContainer">
+                                <li class="list">
+                                    <a href="before-you-fly/baggage/baggage-services" aria-hidden="true">
+                                        <div class="title">Baggage services</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/baggage/baggage-regulations" aria-hidden="true">
+                                        <div class="title">Baggage regulations</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/baggage/baggage-reclaim" aria-hidden="true">
+                                        <div class="title">Baggage reclaim</div>
+                                    </a>
+                                </li>                                        
+                            
+                                <li class="list">
+                                    <a href="before-you-fly/baggage/lost-found" aria-hidden="true">
+                                        <div class="title">Lost & found</div>
+                                    </a>
+                                </li>                                        
+                            </div>
+                                </ul>
+                            
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_3cols_2_34 megaAim" style="width: 33%;">
+        <div id="MainHeader_TE067B8A8047_Col01" class="sf_colsIn sf_3cols_2in_34"><div class='sfContentBlock'><a class="topMenuButton" href="/while-youre-here-new">
+<div id="enjoySection" class="button">
+<div class="mClickDropdown">&nbsp;</div>
+<div class="title">While you're here</div>
+<div class="subTitle">Enjoy your airport experience</div>
+</div>
+</a>
+
+
+</div>
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_3cols_3_33 megaAim" style="width: 33%;">
+        <div id="MainHeader_TE067B8A8047_Col02" class="sf_colsIn sf_3cols_3in_33"><div class='sfContentBlock'><div id="jgHistory" class="specialButton button">
+<div class="jgHistoryBtn"> <a href="/flight-status">
+<div class="desc_txt">&nbsp;</div>
+<div class="flight_title">Find your flight</div>
+<div class="subTitle">Check flight status</div>
+</a> </div>
+<div class="arrow bigDeepGrey">&nbsp;</div>
+<div class="dropdownMenu mobileHide">
+<div class="container searchContainer">
+<div class="acSearchTitle"><label for="headerSearchTextbox">Find a flight</label></div>
+<div class="acSearchContainer" id="headAC">
+<div class="search"> <span class="textbox"><input type="text" id="headerSearchTextbox" placeholder="Enter your flight number" /></span> <span class="searchBtn"></span>
+<div class="autoComplete">
+<div class="flightStatusContainer">
+<div class="preloader"><img src="/Sitefinity/WebsiteTemplates/da/App_Themes/da/Images/ajax-loader.gif" alt="loading" /></div>
+<div class="dataContainer">&nbsp;</div>
+<div class="message">
+&rsquo;Flight not found. Flight codes look like CX501 and FZ004
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="container flightStatusContainer">
+<div class="flightFilter ">
+<div class="pull-left"><span class="showDesc">Show:</span></div>
+<div class="pull-left"> <a id="headerAllFlight" class="flightFilterBtn active" href="javascript:void(0)"><span class="tabTitle">All</span> Airports</a> <a id="headerDXBFlight" class="flightFilterBtn" href="javascript:void(0)"> Dubai International&nbsp;<span class="tabTitle">(DXB)</span></a> <a id="headerDWBFlight" class="flightFilterBtn" href="javascript:void(0)">Dubai World Central&nbsp;<span class="tabTitle">(DWC)</span></a> </div>
+<div class="clearfix">&nbsp;</div>
+</div>
+<div class="pull-left"> <a role="button" href="/flight-status?type=arrival">
+<div class="title">View all arrivals
+<span class="arrow white"></span></div>
+</a>
+<div id="headerArrivalFlight" class="dataContainer">&nbsp;</div>
+</div>
+<div class="pull-right"> <a role="button" href="/flight-status?type=departure">
+<div class="title">View all departures
+<span class="arrow white"></span></div>
+</a>
+<div id="headerDepartureFlight" class="dataContainer">&nbsp;</div>
+</div>
+<div class="clearfix">&nbsp;</div>
+</div>
+</div>
+</div>
+
+
+</div><div>
+	<!-- 2017.3.913.40 -->
+      <div class="button" id="moreLinksSection">
+        <div class="mClickDropdown"></div>
+  	<div class="title">Find your flight</div><div class="subTitle">Check flight status</div>
+      <div class="dropdownMenu">
+      <div class="container listContainer">
+	<ul>
+          
+      
+<li class='list highlight'>
+    <a href="/flight-status?type=arrival" class='more_link_Arrival'>
+        <div class="title">Arrival</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/flight-status?type=departure" class='more_link_Departure'>
+        <div class="title">Departure</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/flight-tracker" class='more_link_Flight Tracker'>
+        <div class="title">Flight Tracker</div>
+    </a>
+</li>
+      
+    
+        </ul>
+      		</div>
+        
+	</div>
+      </div>
+    <input id="ctl00_MainHeader_ctl09_ctl00_ctl00_dynamicContentListView_ClientState" name="ctl00_MainHeader_ctl09_ctl00_ctl00_dynamicContentListView_ClientState" type="hidden" /><span id="ctl00_MainHeader_ctl09_ctl00_ctl00_dynamicContentListView" style="display:none;"></span>
+
+
+</div><div>
+	
+      <div class="button" id="moreLinksSection2">
+        <div class="mClickDropdown"></div>
+  	<div class="title">More links</div><div class="subTitle">What we offer</div>
+      <div class="dropdownMenu">
+      <div class="container listContainer">
+	<ul>
+          
+      
+<li class='list highlight'>
+    <a href="/contact" class='more_link_contact'>
+        <div class="title">Contact</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/connect-newsletter" class='more_link_Connect Newsletter'>
+        <div class="title">Connect Newsletter</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/corporate" class='more_link_corporate'>
+        <div class="title">Corporate site</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/weather" class='more_link_weather'>
+        <div class="title">Weather</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/alert" class='more_link_alert'>
+        <div class="title">Alert</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/privacy-policy" class='more_link_privacy_policy'>
+        <div class="title">Privacy Policy</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/terms-of-use" class='more_link_terms-of-use'>
+        <div class="title">Terms of Use</div>
+    </a>
+</li>
+      
+    
+      
+<li class='list highlight'>
+    <a href="/sitemap" class='more_link_sitemap'>
+        <div class="title">Sitemap</div>
+    </a>
+</li>
+      
+    
+        </ul>
+      		</div>
+        
+	</div>
+      </div>
+    <input id="ctl00_MainHeader_ctl10_ctl00_ctl00_dynamicContentListView_ClientState" name="ctl00_MainHeader_ctl10_ctl00_ctl00_dynamicContentListView_ClientState" type="hidden" /><span id="ctl00_MainHeader_ctl10_ctl00_ctl00_dynamicContentListView" style="display:none;"></span>
+
+
+</div><div id="MainHeader_TE067B8A8052">
+	
+    
+ <fieldset class="sfsearchBox __ghf">
+     <legend class="hide">Search:</legend>
+     <span class="sfsearchTxt">
+     <input name="ctl00$MainHeader$TE067B8A8052$ctl00$ctl00$searchTextBox" type="text" id="MainHeader_TE067B8A8052_ctl00_ctl00_searchTextBox" class="sfsearchTxt search-page-input" title="Search Text" /></span>
+     <input type="submit" name="ctl00$MainHeader$TE067B8A8052$ctl00$ctl00$searchButton" value="Search" onclick="return false;" id="MainHeader_TE067B8A8052_ctl00_ctl00_searchButton" class="sfsearchSubmit" />
+ </fieldset>
+</div>
+            
+        </div>
+    </div>
+</div>
+ 
+        </div>
+    </div>
+</div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="longBottomContainer"></div>
+            <div id="mainContent">
+                <div class="container" id="templateTContent">
+
+                    <div class="previousSection">
+                        
+
+                    </div>
+                    <div class="pull-left">
+                        <div class="mainTitle">
+                            <h1>
+                                
+Privacy policy
+
+
+
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                        <div class="social" id="page_social_share">
+                            
+<div class='sfContentBlock'><div class="pull-right"> <ul class="clearfix"> <li class="text">Share</li> <li> <a href="javascript:void(0)" onclick="Dubai.socialShare('facebook')"> <div class="icon facebook">Facebook Share</div> </a> </li> <li> <a href="javascript:void(0)" onclick="Dubai.socialShare('twitter')"> <div class="icon twitter">Twitter share</div> </a> </li> <li> <a href="javascript:void(0)" onclick="Dubai.socialShare('gplus')"> <div class="icon googlep">Google+ share</div> </a> </li> <li> <a href="javascript:void(0)" onclick="Dubai.socialShare('email')"> <div class="icon email">Email Share</div> </a> </li> </ul> </div>
+
+
+</div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="gallery">
+                        
+<div class='sfContentBlock'><p>Dubai Airports is committed to respecting your privacy and protecting your personal information. We recognise our obligation to keep sensitive information secure and have created this statement to share and explain the current information management practices on our websites. The handling of all personal information by Dubai Airports is governed by the UAE and Dubai privacy and security acts. </p> <p>We are committed to protecting your privacy whether you are browsing for information or conducting business electronically. </p> <p><strong>Collection and use of online information </strong></p> <p>When you visit our websites, we will not collect your personal information unless you choose to use and receive online products and services that require it. All data capture uses up-to-date security mechanisms to ensure the integrity and confidentiality of information and systems.</p> <p><strong>Collection of IP address </strong></p> <p>Our web server(s) may automatically collects your IP address when you visit our websites (your IP address is your computer's unique address that lets other computers attached to the Internet know where to send data, but does not identify you individually). We use your IP address to help diagnose problems with our server and to compile statistics on site usage.</p> <p><strong>Use of cookies</strong> </p> <p>Dubai Airports websites may use cookies. &nbsp;cookie collects information about your travel activities and preferences that allows Dubai Airports and/or approved 3rd party companies to engage with you through personalized, relevant adverts when you're browsing other websites and social media platforms, and through ADARA analytics services. You can learn more about ADARA and opt out at https://www.adara.com/privacy-promise<br>&nbsp;<br></p><div><strong>Protection of personal information</strong><br></div> <p>The personal information you enter on our websites is only available to the authorised Dubai Airports employees who have a need to know it. It will not be available for public inspection without your consent. Also, no website user-information will be shared, sold, or transferred to any third party without your prior consent.</p> <p><strong>Important notice</strong></p> <p> Some of our websites link to other sites created and maintained by other public and/or private sector organizations. We provide these links solely for your information and convenience. When you link to an outside website, you are leaving the Dubai Airports website and our information management policies no longer apply.</p> <p><strong></strong></p> <p><strong>Third Party Website Disclaimer</strong></p> <p>
+Dubai Airports website may periodically provide links to third-party websites (Third-Party Sites). This Agreement governs this Site only and not any Third-Party Sites.  &nbsp; Our decision to provide a link to a Third-Party Site is not an endorsement of the content or services in that linked Third-Party Site. &nbsp; Dubai Airports does not operate or control any Third-Party Sites or any information contained therein.&nbsp; Dubai Airports makes no representation or warranty as to the availability or accuracy on information contained in any Third-Party Site and expressly disclaims any responsibility for the content and the accuracy of the information provided in any Third Party Sites. &nbsp; You agree to hold Dubai Airports harmless and absolve Dubai Airports from any and all liability, losses, damages and/or expenses incurred in connection with your use of any Third Party Site. You further agree that Dubai Airports shall not be liable or responsible to you in any way for any products or services available on any Third-Party Sites or any transaction carried out on or via a Third-Party Site.  &nbsp; If you decide to access linked Third-Party Sites, you do so at your own risk. You agree that Dubai Airports is not liable for any information obtained, viruses or malware, operational failures, interruptions of service or connection failures experienced due to your use of a Third-Party Site.&nbsp;  &nbsp; You should direct any concerns regarding any Third-Party Sites to the administrator of the applicable Third-Party Site. You expressly acknowledge that the security and privacy policies of any Third-Party Site may be different to Dubai Airport’s policies.&nbsp; You should refer to the separate terms of use, privacy policies and other rules posted on Third-Party Sites before you use any Third-Party Site. </p> <p> </p> <div> <div> <div id="_com_1" language="JavaScript"> </div> </div> </div> <strong>External links from Dubai Airports Website
+</strong> <p>A "link" from the Dubai Airports website may be defined as:</p> <p>- Hyperlinks activated by clicking on an image or text, leading to a web page that does not reside on the Dubai Airports website "explicit"</p> <p>- Mention of URL address providing users with the address of a web page that does not reside on the Dubai Airports website "implicit"</p> <p>- Dubai Airports marketing &amp; IT may establish links to external sites on the Dubai Airports website, provided that each external site meets at least one of the following criteria:</p> <p>Other government departments in Dubai</p> <p>Organizations that receive sponsorship from DA or DDF in the form of a financial grant, or a written contract by which DCA or DDF provides services in collaboration with the organization to achieve a mutual goal related to DCA or DDF purpose.</p> <p>Local and international economic development organizations that assist Dubai Airports in promoting its business.</p> <p> All links to external sites may open in a new browser window, and will meet accessibility guidelines. Other than links to other governmental agencies, all links to external sites are approved by the Dubai Airports website coordinators.</p> <p><strong>External links To Dubai Airports website</strong></p> <p>A site that links to the Dubai Airports website should not misrepresent its relationship with Dubai Airports. This means:</p> <p>- A browser or border environment should not be created around Dubai Airports content</p> <p>- The Dubai Airports logo should not be used without the permission of Dubai Airports</p> <p>- The site should not present false/inaccurate information about Dubai Airports services</p> <strong>Governing Law and Jurisdiction<br> </strong><br>
+All matters regarding the use of this website and or any related matter shall be governed by and construed in accordance with the laws and regulations of, and applicable in, the emirate of Dubai and federal laws of the United Arab Emirates.<br>
+&nbsp;<br> <div>The courts of Dubai will have exclusive jurisdiction over any claim arising from the use of this website and or any related matter, or related to, a visit to the website but we retain the right to bring proceedings against you for breach of the use of the website in your country of residence or any other relevant country.<br> <div>&nbsp;</div> </div>
+
+
+</div>
+                    </div>
+
+                </div>
+            </div>
+            <div id='masterFooter'>
+                <div id="footer">
+                    <div id='mobile_footer'>
+                        
+<div class='sfContentBlock'><div class="pull-right"> <ul class="clearfix"> <li class="text">Share</li> <li> <a href="javascript:void(0)" onclick="Dubai.socialShare('facebook')"> <div class="icon facebook">Facebook Share</div> </a> </li> <li> <a href="javascript:void(0)" onclick="Dubai.socialShare('twitter')"> <div class="icon twitter">Twitter share</div> </a> </li> <li> <a href="javascript:void(0)" onclick="Dubai.socialShare('gplus')"> <div class="icon googlep">Google+ share</div> </a> </li> <li> <a href="javascript:void(0)" onclick="Dubai.socialShare('email')"> <div class="icon email">Email Share</div> </a> </li> </ul> </div>
+
+
+</div>
+                    </div>
+                    <div class="container">
+                        
+
+ 
+<div class="sf_cols">
+    <div class="sf_colsOut sf_1col_1_100">
+        <div id="Footer_TE067B8A8030_Col00" class="sf_colsIn sf_1col_1in_100 myCustomCSSClass"><div class='sfContentBlock'><div class="pull-right social_footer">
+<div class="word">Stay connected</div>
+<ul class="clearfix">
+    <li> <a href="https://www.facebook.com/DubaiInternationalDXB" target="_blank">
+    <div class="social facebook"><span class="hide">Opens in a new window </span>facebook</div>
+    </a> </li>
+    <li> <a href="https://twitter.com/DubaiAirports" target="_blank">
+    <div class="social twitter"><span class="hide">Opens in a new window </span>twitter</div>
+    </a> </li>
+    <li> <a href="http://instagram.com/dubaiairports" target="_blank">
+    <div class="social instagram"><span class="hide">Opens in a new window </span>instagram</div>
+    </a> </li>
+    <li> <a target="_blank" href="https://foursquare.com/v/dubai-international-airport-dxb-%D9%85%D8%B7%D8%A7%D8%B1-%D8%AF%D8%A8%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A/4b08d1d7f964a520a11223e3">
+    <div class="social foursquare"><span class="hide">Opens in a new window </span>foursquare</div>
+    </a> </li>
+</ul>
+</div>
+<div class="pull-right social_footer"> <a href="http://www.mbrmajlis.ae/en" target="_blank"> <img alt="Mohammed Bin Rashid Smart Majlis" src="/Sitefinity/WebsiteTemplates/da/App_Themes/da/Images/majlis.png" class="majlis" width="91" height="50" /><span class="hide">Opens in a new window </span> </a> </div>
+<div class="pull-left">
+<ul class="footerLinks pull-left">
+    <li><a href="/contact">Contact us</a></li>
+    <li><a href="/sitemap">Sitemap</a></li>
+    <li><a href="/privacy-policy">Privacy</a></li>
+    <li><a href="/terms-of-use">Terms of use</a></li>
+    <li><a href="/faqs">FAQs</a></li>
+    <li><a href="/accessibility-statement">Accessibility</a></li>
+    <li><a href="/connect-newsletter/" target="_blank"><span class="hide">Opens in a new window </span>Connect Newsletter</a></li>
+    <li><a class="alertBubbleCaller" href="/alert">Alert</a></li>
+    <li> <a href="http://dubai.ae/en/pages/default.aspx" target="_blank" class="dubaiae"><span class="hide">Opens in a new window </span>
+    Dubai.ae
+    </a> </li>
+</ul>
+<ul class="footerWords pull-left">
+    <li>Content last updated: <span id="footerDate"></span></li>
+    <li>2015 &copy; Dubai Airports, All Rights Reserved</li>
+    <li>Site maintained by: Dubai Airports</li>
+</ul>
+</div>
+
+
+</div>
+ 
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+            
+<div>
+	
+      <div class='container'>
+      <div class="alertStatic">
+      <div class="alertBubble">
+        <div class="container">
+            	<span class="close-btn"  tabindex="0" role="button" ARIA-LABEL='close alert'></span><span class="arrow-down"></span>
+		<ul>
+            		
+        	</ul>
+          	<a class="noUnderline" href="/alert"><div class="moreLink">MORE ALERT ></div></a>
+          	<div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <input id="ctl00_Alert_ctl00_ctl00_ctl00_dynamicContentListView_ClientState" name="ctl00_Alert_ctl00_ctl00_ctl00_dynamicContentListView_ClientState" type="hidden" /><span id="ctl00_Alert_ctl00_ctl00_ctl00_dynamicContentListView" style="display:none;"></span>
+
+
+</div>
+        </div>
+        
+
+<div class='sfContentBlock'>
+
+
+</div><div class='sfContentBlock'><div id="live_chat_status"></div>
+
+
+</div>
+<!--__ghf-->
+        <div class='__ghf __ghf-footer'>
+            
+<div class='sfContentBlock'><!-- __global-footer -->
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="/contact">Contact us</a></li>
+                            <li><a href="/sitemap">Sitemap</a></li>
+                            <li><a href="/privacy-policy">Privacy</a></li>
+                            <li><a href="/terms-of-use">Terms of use</a></li>
+                            <li><a href="/faqs">FAQ</a></li>
+                            <li><a href="/accessibility-statement">Accessibility</a></li>
+                            <li><a href="/connect-newsletter/">Connect Newsletter</a></li>
+                            <li><a href="/alert">Alert</a></li>
+                        </ul>
+                    </nav>
+                   <ul class="social-links">
+                       <li>
+                           <a href="https://www.facebook.com/DubaiInternationalDXB" target="_blank"><span class="visually-hidden">Facebook</span><svg role="img">
+                       <title>Facebook</title>
+                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ResourcePackages/da/images/icons.svg#icon-facebook"></use>
+                   </svg>
+                   </a>
+                       </li>
+                       <li>
+                           <a href="https://twitter.com/DubaiAirports" target="_blank"><span class="visually-hidden">Twitter</span><svg role="img">
+                       <title>Twitter</title>
+                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ResourcePackages/da/images/icons.svg#icon-twitter"></use>
+                   </svg>
+                   </a>
+                       </li>
+                       <li>
+                           <a href="https://foursquare.com/v/dubai-international-airport-dxb-%D9%85%D8%B7%D8%A7%D8%B1-%D8%AF%D8%A8%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A/4b08d1d7f964a520a11223e3" target="_blank"><span class="visually-hidden">Foursquare</span><svg role="img">
+                       <title>Foursquare</title>
+                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ResourcePackages/da/images/icons.svg#icon-foursquare"></use>
+                   </svg>
+                   </a>
+                       </li>
+                       <li>
+                           <a href="http://instagram.com/dubaiairports" target="_blank"><span class="visually-hidden">Instagram</span><svg role="img">
+                       <title>Instagram</title>
+                       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ResourcePackages/da/images/icons.svg#icon-instagram"></use>
+                   </svg>
+                   </a>
+                       </li>
+                   </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <span class="links-wrapper">
+                        <a href="http://dubai.ae" class="link-dubai" target="_blank"><img style="width:63px" width="63" src="/ResourcePackages/da/images/logo_dubai.png" alt="dubai.ae"></a>
+                        <a href="http://www.mbrmajlis.ae" class="link-mohammed" target="_blank"><img style="width:82px" width="82" src="/ResourcePackages/da/images/logo_mbrmajlis.png" alt="MBR Smart Majlis"></a>
+                    </span>
+                    <span class="copyright"><span class="copyright-symbol">©</span> Dubai Airports, All Rights Reserved</span>
+                </div>
+            </div>
+        </footer>
+        <!-- /__global-footer -->
+
+
+</div>
+        </div>
+        <script type="text/template" id="headerFlightStatus">
+        {%~it :item:index%}
+        <tr>
+            <td>
+                <span class="flightfinder-time">
+                    {%=DA.DateUtils.getDATimeString(item.scheduled)%}
+                </span>
+            </td>
+            <td>
+                <span class="flightfinder-airport">
+                    {%=(item.type.replace(/(^[\s]+|[\s]+$)/g, '') == "arrivals") ? item.lang[DA.language].originName : item.lang[DA.language].destinationName %}
+                </span>
+                <span class="flightfinder-number">
+                    <span class="flightNumber">{%=item.flightNumber%}</span> {%~item.codeShare :pData:pIndex%} {%=pData.flightNumber%} {%=(pIndex == item.codeShare.length-1) ? "" : ",&nbsp;"%} {%~%}
+                </span>
+            </td>
+            {% terminal = item.terminal ? item.terminal.replace(/(^[\s]+|[\s]+$)/g, '') : ""; %}
+            <td><span class="flightfinder-terminal">{%=(terminal.length==1) ? "T"+terminal : terminal%}</span></td>
+            <td>
+                <a href="javascript:void(0)" data-twitter="{%=item.btTag%}" class="flightfinder-twitter" style="{%= item.showBtButton ? '' : 'display:none'%}">
+                    <svg role="img" aria-label="Twitter">
+                        <title>Twitter</title>
+                        <desc>Twitter</desc>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ResourcePackages/da/images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+            </td>
+            <td>
+                <a href="javascript:void(0)" data-fbmessenger="{%=item.btTag%}" class="flightfinder-fbmessenger" style="{%= item.showBtButton ? '' : 'display:none'%}">
+                    <svg role="img" aria-label="Facebook Messenger">
+                        <title>Facebook Messenger</title>
+                        <desc>Facebook Messenger</desc>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ResourcePackages/da/images/icons.svg#icon-facebook-messenger"></use>
+                    </svg>
+                </a>
+            </td>
+            <td>
+                <a href="{%= (DA.language == 'en')?'':'/ar' %}/journey-genie?uid={%=item.uid%}" class="flightfinder-finalcall">
+                    {%=item.expectedTimeStr%}
+                </a>
+            </td>
+        </tr>
+        {%~%}
+    </script>
+    <script type='text/template' id='autoCompleteFlightStatus'>
+        <li class="result-data">
+            <a href="{%= (DA.language == 'en')?'':'/ar' %}/journey-genie?uid={%=it.uid%}" title='{%=it.flightNumber%}'>
+                <div class="container">
+                <div class="row align-middle">
+                    <div class="col-xs-4">
+                        <span class='ac-time'>{%=DA.DateUtils.getDATimeString(it.scheduled)%}</span>
+                        <span class='ac-date'>{%=DA.DateUtils.getDADateString(it.scheduled)%}</span>
+                    </div>
+                    <div class="col-xs-6">
+                        <span class="ac-city">
+                                 {%=(it.type.replace(/(^[\s]+|[\s]+$)/g, '') == "arrivals") ? it.lang[DA.language].originName : it.lang[DA.language].destinationName %}
+                            </span>
+                        <span class="ac-number">{%=it.flightNumber%}
+                                    {%~it.codeShare :pData:pIndex%}
+                                        {%=pData.flightNumber%}
+                                        {%=(pIndex == it.codeShare.length-1) ? "" : ",&nbsp;"%}
+                                    {%~%}</span>
+                    </div>
+                    {% var scheduleDate = DA.DateUtils.getDATimeObject(it.scheduled); var btTag = scheduleDate.getFullYear() + "/" + (scheduleDate.getMonth() + 1) + "/" + scheduleDate.getDate(); btTag += " " + DA.DateUtils.getDATimeString(it.scheduled) +" GMT+04:00"; btTag += "|" + it.flightNumber; var showBtButton = (it.destinationCode.toLowerCase()!='dwc' && it.originCode.toLowerCase()!= 'dwc'); %}
+                    <div class="col-xs-1">
+                        <div data-twitter="{%= btTag %}" class="ac-twitter" style="{%= showBtButton ? '' : 'display:none'%}"><svg role="img" ><title>Twitter</title><use xlink:href="/ResourcePackages/da/images/icons.svg#icon-twitter"></use></svg></div>
+                    </div>
+                    <div class="col-xs-1">
+                        <div data-fbmessenger="{%= btTag %}" class="ac-fbmessenger" style="{%= showBtButton ? '' : 'display:none'%}"><svg role="img" aria-label="Facebook Messenger"><title>Facebook Messenger</title><desc>Facebook Messenger</desc><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ResourcePackages/da/images/icons.svg#icon-facebook-messenger"></use></svg></div>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </li>
+    </script>
+    
+<script type="text/javascript">window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery//3.1.0/jquery.min.js">\x3C/script>')</script><script type="text/javascript" src="/ResourcePackages/da/js/ghf.js"></script>
+    <!--/__ghf-->
+        <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/da/components/requirejs/require.js"></script>
+        <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/da/JS/config.js"></script>
+    
+<script type="text/javascript" src="/Sitefinity/WebsiteTemplates/da/JS/template-t.js"></script><script type="text/javascript" src="/Sitefinity/WebsiteTemplates/da/JS/greeterware.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl18_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Sitefinity.Resources, Version=10.2.6631.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:en:5f23f658-7baa-4d9a-addc-a1e43a4c5d03:7a90d6a';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Services.Search.Web.UI.Public.SearchBox, {"disableSuggestions":false,"indexCatalogue":"dubai-airports-(en)","language":"en","minSuggestLength":3,"resultsUrl":"/search","searchButton":$get("NavSearch_TE067B8A8029_ctl00_ctl00_searchButton"),"searchTextBox":$get("NavSearch_TE067B8A8029_ctl00_ctl00_searchTextBox"),"suggestionFields":"Title,Content","suggestionsRoute":"/restapi/search/suggestions","wordsMode":0}, null, null, $get("NavSearch_TE067B8A8029"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$MainHeader$ctl09$ctl00$ctl00$dynamicContentListView","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_MainHeader_ctl09_ctl00_ctl00_dynamicContentListView_ItemsContainer","DataService":{}}},"_virtualItemCount":3,"clientStateFieldID":"ctl00_MainHeader_ctl09_ctl00_ctl00_dynamicContentListView_ClientState","renderMode":1}, null, null, $get("ctl00_MainHeader_ctl09_ctl00_ctl00_dynamicContentListView"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$MainHeader$ctl10$ctl00$ctl00$dynamicContentListView","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_MainHeader_ctl10_ctl00_ctl00_dynamicContentListView_ItemsContainer","DataService":{}}},"_virtualItemCount":8,"clientStateFieldID":"ctl00_MainHeader_ctl10_ctl00_ctl00_dynamicContentListView_ClientState","renderMode":1}, null, null, $get("ctl00_MainHeader_ctl10_ctl00_ctl00_dynamicContentListView"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Services.Search.Web.UI.Public.SearchBox, {"disableSuggestions":false,"indexCatalogue":"dubai-airports-(en)","language":"en","minSuggestLength":3,"resultsUrl":"/search","searchButton":$get("MainHeader_TE067B8A8052_ctl00_ctl00_searchButton"),"searchTextBox":$get("MainHeader_TE067B8A8052_ctl00_ctl00_searchTextBox"),"suggestionFields":"Title,Content","suggestionsRoute":"/restapi/search/suggestions","wordsMode":0}, null, null, $get("MainHeader_TE067B8A8052"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$Alert$ctl00$ctl00$ctl00$dynamicContentListView","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_Alert_ctl00_ctl00_ctl00_dynamicContentListView_ItemsContainer","DataService":{}}},"clientStateFieldID":"ctl00_Alert_ctl00_ctl00_ctl00_dynamicContentListView_ClientState","renderMode":1}, null, null, $get("ctl00_Alert_ctl00_ctl00_ctl00_dynamicContentListView"));
+});
+//]]>
+</script>
+</form>
+    <div id='maximage'></div>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/da/JS/ga.js"></script>
+    <script type="text/javascript" src="/Sitefinity/WebsiteTemplates/da/JS/smartbanner.js"></script>
+    <script type="text/javascript" src="//tag.yieldoptimizer.com/ps/ps?t=s&p=2939&pg=ot&pgt=&vcat=&ph=%2fprivacy-policy&ln=en"></script>
+
+</body>
+</html>

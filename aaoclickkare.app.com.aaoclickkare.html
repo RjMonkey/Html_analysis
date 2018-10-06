@@ -1,0 +1,1827 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- custom style -->
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" type="text/css" href="https://aaoclickkare.com/front_end/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="https://aaoclickkare.com/front_end/css/mdb.css" />
+<!-- multiline tab -->
+<link href="https://aaoclickkare.com/front_end/css/zozo.examples.min.css" rel="stylesheet" />
+<link href="https://aaoclickkare.com/front_end/css/zozo.tabs.min.css" rel="stylesheet" />
+
+<!-- themes -->
+<link href="https://aaoclickkare.com/front_end/css/bootstrapTheme.css" rel="stylesheet">
+<link rel="stylesheet" href="https://aaoclickkare.com/css/font-awesome.min.css">
+
+<!-- sweet alert -->
+<link rel="stylesheet" type="text/css" href="https://aaoclickkare.com/front_end/css/sweet-alert.css" />
+<script	src="https://aaoclickkare.com/front_end/js/sweet-alert.js"></script>
+
+<!-- token filed -->
+<link rel="stylesheet" type="text/css" href="https://aaoclickkare.com/front_end/css/bootstrap-tokenfield.css" />
+<link rel="stylesheet" type="text/css" href="https://aaoclickkare.com/front_end/css/tokenfield-typeahead.css" />
+<!-- token filed design -->
+<link rel="stylesheet" type="text/css" href="https://aaoclickkare.com/front_end/jquery-ui-1.11.4.custom/jquery-ui.css" />
+
+<!-- designer another custom -->
+<link rel="stylesheet" type="text/css" href="https://aaoclickkare.com/front_end/css/front_end_custom.css" />
+<link href="https://aaoclickkare.com/front_end/css/pg_img_hover.css" rel="stylesheet">
+<link href="https://aaoclickkare.com/front_end/css/mystyle.css" rel="stylesheet">
+<link href="https://aaoclickkare.com/front_end/css/style.css" rel="stylesheet">
+<link href="https://aaoclickkare.com/front_end/css/pg_mystyle.css" rel="stylesheet">
+<link href="https://aaoclickkare.com/front_end/css/daterangepicker.css" rel="stylesheet">
+
+<!-- custom scrollbar stylesheet -->
+<link rel="stylesheet" href="https://aaoclickkare.com/front_end/css/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="https://aaoclickkare.com/front_end/pe-icon-7-stroke.css">
+
+<script>var HOST = "https://aaoclickkare.com/index.php/";</script>
+<title>AAOCLICKKARE</title>
+<style>
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background:
+		url('https://aaoclickkare.com/front_end/img/Preloader_8.gif') 50% 50%
+		no-repeat #fff;
+}
+</style>
+</head>
+<body>
+	<div class="loader">
+		<div class="col-md-12" style="text-align: center; padding-bottom: 30px;padding-top: 180px;">
+
+			<div style="font-weight: bold; font-size: 30px;">aaoclickkare</div>
+			<div style="font-size: 20px; padding-top: 15px;">Together, we shape
+				memories</div>
+		</div>
+	</div>
+<script>
+var HOST = 'https://aaoclickkare.com/index.php/';
+	
+/*var useragent = navigator.userAgent.toLowerCase();
+var myregexp = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/;
+var match = myregexp.exec(useragent);
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+var appromo=getCookie("appromo");
+
+if (match != null && appromo != 1) {
+	var now = new Date();
+	var time = now.getTime();
+	time += 3600 * 1000;
+	now.setTime(time);
+	document.cookie = 
+	'appromo=1' + 
+	'; expires=' + now.toUTCString() + 
+	'; path=/'; 
+	
+	window.location= HOST +'index/app_promo';
+}*/
+</script>
+<!-- Google Analytics -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-83376453-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
+<style>
+#contentscroll {
+	max-height: 500px;
+	overflow: auto;
+}
+</style>
+<div class="sliderbg proposal" id="skip">
+	<style>
+.sign_width {
+	width: 100%;
+}
+
+.login_button {
+	margin-left: -4%;
+	margin-right: 0;
+	margin-top: 8%;
+	width: 198%;
+	border-radius: 0;
+}
+
+.login_forgot {
+	
+}
+
+@media (min-width: 200px) and (max-width: 979px) {
+	.modal_body { 
+		max-height: 350px;  
+		padding: 6px;  
+		overflow: auto; 
+		-webkit-overflow-scrolling: touch; 
+	}
+}
+</style>
+<div class="topone" style="padding-top: 0px; padding-bottom: 10px;">
+	<div class="col-md-12">
+		<div class="col-md-3" style="padding-top: 12px;">
+			<div class="logo">
+				<a href="https://aaoclickkare.com/index.php/index"><img
+					src="https://aaoclickkare.com/front_end/img/logo.png"> </a>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div class="toponeright">
+				<nav class="mainmenu">
+					<a id="resp-menu" class="responsive-menu" href="#"><i
+						class="fa fa-reorder"></i> </a>
+
+					<ul class="menu">
+						<li class="roundbg header_profile"
+							style="padding-top: 17px; float: none;">						</li>
+						<li class="usernaneinn header_name" id="pg_display"
+							style="margin-left: 0; margin-top: 0; padding-right: 0;">Hello Guest</li>
+													
+																<li class="nav_bar_li"><a style="padding-right: 0px;" href="https://aaoclickkare.com/index.php/photographer">
+									<button class="btn btn-warning waves-effect waves-light button_size button-bold ">Hire</button>
+									</a></li>
+																								<li class="nav_bar_li">
+									<a style="padding-right: 11px;" href="https://aaoclickkare.com/index.php/index/get_hire">
+										<button type="button" class="btn btn-defualt waves-effect waves-light button_size button-bold"
+											style="background: rgb(255, 255, 255) none repeat scroll 0% 0% ! important; color: #000;"> get hired 
+										</button> 
+									</a>
+								</li>
+								
+																							<li class="nav_bar_li"><a style="padding-right: 41px;" ><button type="button"
+									class="btn btn-warning waves-effect waves-light button_size button-bold "
+									data-toggle="modal" data-target="#myModal-2">Sign in</button></a></li>
+																					
+											</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- sign in popup contant start -->
+<div class="modal fade two" id="myModal-2" role="dialog" style="z-index: 9999;">
+		<div class="modal-dialog modal-lg log" style="margin-top: 2%; -webkit-margin-before: 4%;">
+			<div class="modal-content">
+				<button type="button" class="closei" data-dismiss="modal">&times;</button>
+				<div class="modal_body photographer-quick-profile-section">
+					<div class="photographer-quick-section">
+						<div class="wizard-header" style="margin: -3% 0 0 0;">
+							<h3 style="text-align: center">
+								<b style="color: #333; font-weight: bold;">Sign</b> in <br> <small>Start making memories here!</small>
+							</h3>
+						</div>
+
+						<div class="col-md-12" style="margin: 0 0 2% -1.4%; width: 102.8%;">
+							<div class="col-md-3" style="background-color: #F6BD01; height: 5px"></div>
+							<div class="col-md-9" style="background-color: gray; height: 5px;"></div>
+						</div>
+
+						<input type="hidden" id="avoid" value="1">
+						<div class="col-md-6 middel_border">
+							<div class="photographer-quick-profile-right">
+								<div id="forgot" style="display: none">
+									<h2 class="login_forgot">
+										Forgot Password									</h2>
+									<form method="post" action="https://aaoclickkare.com/index.php/login/forgot_password"
+										class="form-horizontal" id="forgot_password">
+										<div class="col-md-12">
+											<div class="bs-component forgot_er" style="display: none">
+												<div class="alert alert-dismissible alert-warning">
+													<!--   <h4>Warning!</h4> -->
+													<img style="width: 30px; height: 30px; margin-top: -10px; float: left; padding-right: 0px; margin-right: 5px;" class="icon icons8-Error" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEdUlEQVRoge2ZTWgUSRTHX4xRCeIHIgiC6EEUFDyMqEm/Ci0M4ky9khEcdvXiQS8exJu74CXrwQVxF0TUkxcvgiB48KIHL7IieBCUICgYgrFeZfxCRBQ/Uh6mJmnHnpnqnpm0WfKDvky9V/V/Xd1V1f8BmGOO2YmR4ndDwW9Z62gLXQy2MuE3Jvymi8HWrPWkwgL0MIm7TGirl7hrAXqy1pUYo/CAK4LdZY3CA1nrSoRWuX5DOF4VLw4bJQ4zoTWE41rl+rPW5w0rcZIJLUu8b4dhnh2GeSzxPhNaVuJk1vq80ArXMOFHJpzUMhBTv8tAMOEkE37UCtdkqdELVnjVvRtXfmojvFKdFbyahTZv3F23TPgh7q672frAhDY6W78UtlzuNYQPXCHDjeKYcNi9+A9sudw7gxL9qK1MTDjWbGXSKtfPhGO1FW0mNbbkTT6/lAkrbq/Y3yreKNzviq68yeeXzoRGL1jhGSfsjs/uXd318Y578c/MhMaWvNgTbGCFn5Oep6bOYQo/v9gTbOimRi9Y4Q03G5cS5xJecrNyoxvavNFF3O2KeFcphqvq20fKmxaMSVw+JnH5SHnTgvr2SjFcxYTvmNDqIu6eGdV12Fyujwkfu5Pt8bgYlvjH1Om3wdGESRx3MY9tLtfXXdUxGMJjTGg14ZOnhcLC2BiFf9YK0YR/x8U8LRQWasInbm851l3VdXBBrDSEb5nQaiVKjeJ8CgEA0EqUXCFvuSBWdkd1DEziYvWYgbeaxfkWAgCgJd5yj+nFzqptwAThFib8yoRfjBzc3Cw2SSFGDm5mwi9M+HWCcEtnVcfACm+7O3euVWySQgAAmMQ5txzf7ozaxgPtc0W8Gt+7bUWr+KSFjO/dtoJJvHJj7OuM6jpGw3AREz5jQmukOOqTk7QQAAAjxVGX82w0DBe1pzoGrfCEG+CRDcP5XqJSFGLDcD4TPqquiHiiPdV1PKeB1Uz4vtr54C7fvDSFAABoNbjL5b1/TgOr06mOgQkvu6+660ny0hYCAKBlcN3lXk6mtqGYYIczDT5VaGh9stz0hVRoaD0TfmLCSaOCHclU12EBeljhvaqY4HTS/HYKAQBgCk675fheWy4ly+BgzS18Xdi+JGl+u4W8LmxfUnMpWQYHk+YDAEClHC6edguDQ2n6iJxsLcvgrzR9GBUcqrmUlXK4OHEHmsSpqFuYRoTN5fpq3yNpj+hRl1KTOJUo2aihdXFuYVZEXUqjhtZ5J7LCa43cwqyIuJTX/BJksLOZW5hw8H9q74iRwb/t9BV1KVkGO5sG23K5lxU+bOUW+sIKL0x/6uKFtvtzLiUrfNjUpWQpjvi4hd4DSzw/vWrh+Xb7i7qULMWR2KDRUriMCV/6uoU+cClcOyExPyExz6VwbSf6jLiUL0dL4bKfAjTh2SRuYVZEXUpNePaHRq0GNqZxC7Mi6lJqNbBxqsGQuJnWLcyKmktpSNys/iCFbOYW/qpEXUqWQsK0WziLL4kj8OOf+rPz0oT/Zf2EzPG/5TujyRRPL+0VqQAAAABJRU5ErkJggg==">
+													<p class="forgot_error"></p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="group group_margin_bottom">
+												<input class="inputMaterial float_lable" type="text"
+													name="email" required> <span class="highlight"></span> <span
+													class="bar"></span>
+												<div class="labli">
+													<i class="fa fa-at"></i> Email
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<center>
+												<button class="btn btn-warning waves-effect waves-light button-bold" id="forgot_pass" style="width:286px !important;margin-left:0px !important">
+													Submit												</button>
+												<button class="btn btn-warning waves-effect waves-light button-bold" id="forgot_pass_lod" style="width:286px !important;margin-left:0px !important;display:none">
+													<i class="fa fa-spinner"></i>
+												</button>
+											</center>
+										</div>
+									</form>
+									<div class="col-md-12">
+										<center>
+											<span>Already User?</span>
+											<a id="login_user" class="forgot"> Login</a>
+										</center>
+									</div>
+								</div>
+								<div id="signin_user">
+									<div class="col-md-10">
+										<div class="bs-component login_er" style="display: none">
+											<div class="alert alert-dismissible alert-warning">
+												<!--   <h4>Warning!</h4> -->
+												<img style="width: 30px; height: 30px; margin-top: -10px; float: left; padding-right: 0px; margin-right: 5px;" class="icon icons8-Error" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEdUlEQVRoge2ZTWgUSRTHX4xRCeIHIgiC6EEUFDyMqEm/Ci0M4ky9khEcdvXiQS8exJu74CXrwQVxF0TUkxcvgiB48KIHL7IieBCUICgYgrFeZfxCRBQ/Uh6mJmnHnpnqnpm0WfKDvky9V/V/Xd1V1f8BmGOO2YmR4ndDwW9Z62gLXQy2MuE3Jvymi8HWrPWkwgL0MIm7TGirl7hrAXqy1pUYo/CAK4LdZY3CA1nrSoRWuX5DOF4VLw4bJQ4zoTWE41rl+rPW5w0rcZIJLUu8b4dhnh2GeSzxPhNaVuJk1vq80ArXMOFHJpzUMhBTv8tAMOEkE37UCtdkqdELVnjVvRtXfmojvFKdFbyahTZv3F23TPgh7q672frAhDY6W78UtlzuNYQPXCHDjeKYcNi9+A9sudw7gxL9qK1MTDjWbGXSKtfPhGO1FW0mNbbkTT6/lAkrbq/Y3yreKNzviq68yeeXzoRGL1jhGSfsjs/uXd318Y578c/MhMaWvNgTbGCFn5Oep6bOYQo/v9gTbOimRi9Y4Q03G5cS5xJecrNyoxvavNFF3O2KeFcphqvq20fKmxaMSVw+JnH5SHnTgvr2SjFcxYTvmNDqIu6eGdV12Fyujwkfu5Pt8bgYlvjH1Om3wdGESRx3MY9tLtfXXdUxGMJjTGg14ZOnhcLC2BiFf9YK0YR/x8U8LRQWasInbm851l3VdXBBrDSEb5nQaiVKjeJ8CgEA0EqUXCFvuSBWdkd1DEziYvWYgbeaxfkWAgCgJd5yj+nFzqptwAThFib8yoRfjBzc3Cw2SSFGDm5mwi9M+HWCcEtnVcfACm+7O3euVWySQgAAmMQ5txzf7ozaxgPtc0W8Gt+7bUWr+KSFjO/dtoJJvHJj7OuM6jpGw3AREz5jQmukOOqTk7QQAAAjxVGX82w0DBe1pzoGrfCEG+CRDcP5XqJSFGLDcD4TPqquiHiiPdV1PKeB1Uz4vtr54C7fvDSFAABoNbjL5b1/TgOr06mOgQkvu6+660ny0hYCAKBlcN3lXk6mtqGYYIczDT5VaGh9stz0hVRoaD0TfmLCSaOCHclU12EBeljhvaqY4HTS/HYKAQBgCk675fheWy4ly+BgzS18Xdi+JGl+u4W8LmxfUnMpWQYHk+YDAEClHC6edguDQ2n6iJxsLcvgrzR9GBUcqrmUlXK4OHEHmsSpqFuYRoTN5fpq3yNpj+hRl1KTOJUo2aihdXFuYVZEXUqjhtZ5J7LCa43cwqyIuJTX/BJksLOZW5hw8H9q74iRwb/t9BV1KVkGO5sG23K5lxU+bOUW+sIKL0x/6uKFtvtzLiUrfNjUpWQpjvi4hd4DSzw/vWrh+Xb7i7qULMWR2KDRUriMCV/6uoU+cClcOyExPyExz6VwbSf6jLiUL0dL4bKfAjTh2SRuYVZEXUpNePaHRq0GNqZxC7Mi6lJqNbBxqsGQuJnWLcyKmktpSNys/iCFbOYW/qpEXUqWQsK0WziLL4kj8OOf+rPz0oT/Zf2EzPG/5TujyRRPL+0VqQAAAABJRU5ErkJggg==">
+												<p class="login_error"></p>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-10">
+										<form method="post" action="https://aaoclickkare.com/index.php/login/login"
+											class="form-horizontal" style="margin-bottom: 1px;" id="login">
+											<div class="col-md-12">
+												<div class="group group_margin_bottom assignment_margin_left">
+													<input class="inputMaterial float_lable sign_width"
+														type="text" value="" name="email"> <span
+														class="highlight"></span> <span class="bar sign_width"></span>
+													<div class="labli lable_size">
+														<i class="fa fa-at"></i> Email
+													</div>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div
+													class="group group_margin_bottom assignment_margin_left">
+													<input class="inputMaterial float_lable sign_width"
+														type="password" value="" name="password" id="password"> 
+														<span class="highlight"></span> <span
+														class="bar sign_width"></span>
+													<div class="labli lable_size">
+														<i class="fa fa-unlock-alt"></i> Password
+													</div>
+												</div>
+											</div>
+											<div style="padding-right: 0px; padding-left: 2%; margin-top: 1%;">
+												<button style="width:153px;" class="btn btn-warning waves-effect waves-light   button-bold"
+																					id=login_index>Login</button>
+												<button style="display:none;width:153px;" class="btn btn-warning waves-effect waves-light  button-bold"
+																					id=loding><i class="fa fa-spinner"></i></button>	
+												<a id="get_password" class="forgot" style="font-weight: normal; padding-left: 0%;">Forgot
+													password?</a>
+											</div>
+
+										</form>
+										<div style="width: 101%; height: 20px; border-bottom: 1px solid rgb(170, 170, 170); text-align: center">
+											<span style="background-color: #ffffff; color: #697379; display: block; font-size: 1rem; margin: 0 auto -3%; padding: 2% 3%; text-align: center; width: 11%;">
+												Or<!--Padding is optional-->
+											</span>
+										</div>
+										<div style="margin-top: 13px;">
+											<div>
+												<a href="https://aaoclickkare.com/index.php/auth_oa2/session/facebook"
+													class="btn-sm-full fb-bg rectangle waves-effect waves-light social_button"
+													style="margin-left: 0px; width: 48%;"> <i
+													class="fa fa-facebook"> </i> <span style="color: #ffffff;">Facebook</span>
+												</a> 
+												<a href="https://aaoclickkare.com/index.php/auth_oa2/session/google"
+													class="btn-sm-full gplus-bg rectangle waves-effect waves-light social_button"
+													style="margin-left: 0px; width: 48%; margin-right: 0px;"> <i
+													class="fa fa-google"> </i> <span style="color: #ffffff;">Google
+												</span>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 middle-header-two">
+							<div style="text-align: center; padding-bottom: 30px;" class="col-md-12">
+								<div style="font-size: 20px; padding-top: 15px;">Together, we shape memories</div>
+							</div>
+							<div class="col-md-12" style="text-align: center; padding-bottom: 30px;">
+
+								<div style="font-weight: bold; font-size: 30px;">
+									<!-- Portrait Mode icon by Icons8 -->
+									<img class="icon icons8-Tourist-Male" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEEklEQVRoge2YX2hbVRzHj8oUn4SyIT7bZL5MdEWaZLch99ys2T1ZEueWtghuRPege66WMWsDQom5za2OalJLMZZ26aKj7bo2mQW35WS24JugQ8Wp2YO+KEI1YWj79aGmtGn+J73Xh37h95Kb3N/nk/M7h8slZC97+f/EbDY/KklSjyRJn1JK71BK/6SUIl92u92mN2PJiKJ4klL681bgwhJF8YbenEVDKX27HHhBfStJUrCjo+MJvbkJIYSIoni+BvittSqK4gt6w7dTSv+uUwCU0n/sdrtdT4EbDcDn90XG6/U+rDm8zWZ7plrIl7vs+Lj/GH6adCL6pqOYxEnNBSRJeqtaaCRc26qIxEeaCxQbn3LQ5SQkSfpSc4H8mV8LdBmJH/UQyFJKa4YurP8E/tJDAE0UwJ5ALUHM4Ow7bck1S+D8GUsWU0amoYDx3tqlg7jY69gGE/YZEPYZSsIWuz7yugNrlw4CMWNGUwHEjDsAIz4DImUESl6PGTUWmDIyxIz3kHCuNzpCSDjXETNmMPWUQzOBTZGE607DAknXN5qDbxEYa3wFXKP6CSQ99oYFFl1UN4ENCdetBgQ+1xV+Q8DdioTrjzrgf0PS3ao3PyGEECy4rUi4fq8JfsFt1Zt7W/DZcQNmLJXhZyzA4vNP6s1bNIgQILof+ORp4KoILDJgUQau2jY+i+4HIkT7B7dqgwhBNaU3546Y1SOz7SEhWa1Ae0hImtUjs3pzE0IIGeLONsuwcN+kCrgbbclVgr8bbcmZVAGWYeF+6Jb8rG7gobRsUjhLK5yhM2yFSRUwMmderSQwMmdeNakCOsNWKJxB4U4+xJ1tmoFfXJQfCabZmMLZ+gYAg2fcBpMqoPdaJ5avtJaEX77Sit5rnTCpAjzjNuR/r3C2pnD2vv/rXX4/9O6K+3ElJX+xpTEUztA9IcKkCjg3cxQKZ5hdOIzMRAtyY/uQG9uHzEQLZhcOQ+EM52aOwqQK6J4QUXgfhTv5YEo+sCvwgyn5gJJyfr+zKYNvWoJJFeCblopA1fbdYJp9FViyP9ZUeIA8oHA5WQqq/L9afrWK1RBn800VGOLspXJQhXN9YfQsTrVN4sShaZw4NI1TbZO48OErO/ZLWdk0e7Ep8PG496EgZz+Ua9Z/3YH8yRJY8qDHOr4Jn68e6zgCS57NE6v/uqPSan3nh//BhgVCqWNSpbEYvCmjSw7j9HNzVZWXfYDBm3LFcXsn7RQbFlA4e69SI4WzquHzVc09lZQ83AyB2/UI9LlWEPfnEPfn0OdaqU+As3TDAkHOfq1H4PJAFvMBYD4AxAey9Qr80owVyOkokGuGQFXNio3Q5YEs4gNZvHF8uV6Bxh+96xVoyibWUuDVrtGq4V/rjmgnsJddzr9Or+bPciZYZgAAAABJRU5ErkJggg==" width="48" height="48">
+								</div>
+								<div style="color:  #b2b2b2;">Create profile, get
+									hired &amp; get paid</div>
+							</div>
+							<div style="text-align: center; padding-bottom: 30px;"
+								class="col-md-12">
+
+								<div style="font-weight: bold; font-size: 30px;">
+									<!-- Portrait Mode icon by Icons8 -->
+									<!-- User Male icon by Icons8 -->
+									<img width="48" height="48" class="icon icons8-User-Male"
+										src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADaElEQVRoge2Wy2sTURSHbyOC3bhTqGhaWo0iFHci1cTMuWma2NxYaqKCgqLoP6BiQcUB0YhtKYhoNiIFcTRatZuZ7txIFyLuxNfCByq1vhDxUZvk58JGk5CmSebOjIsc+EE2597vmzk3dxirV73+jwoGg4uJaDfnfJiI7hPReyL6RUQoDuc85jTv3yKitUQ0MhvsLHkXDAYXOwre2dm5hIhSVUAX57pj8JzzEBF9MAGfy1NFUQb9fv86O+H3ElFaAnxBFEUxAoFAu9XwO4goKxs+Lz+IKG4JPBF1ENGUhfC5ZDnnu6TCh8PhhUT03Ab4XL4pirJGmgARDdgIn8u4FHiv19tk0+iUSti0ABGddggeRHTLFLyqqi4ieuOgwM9wOLzQzNP3yYbaszWA4WMhvLjcjVsnQwhwC8eIiI7KhoYhCjJ+bhO6Q7xc//GaBTjnt62ALs6z4W5s2zyrRO3fTET00Cro4kymIti/PVBq3XtmBD5bCV2c76MRHNnXWbA+5/ytGYGS3/gyoYuT0QXOHuzK3++HGQFboEslf28pAnZA1wXyC1rbsh09G9NOC+zs8WVwefnS6gWurrzxOrkaIuR3TECE/HidXA1oK6q/C6B5vkLz4MFgOwK8tMCj816c6nXjVK8bjy/4KoarpC/ACQ8G2wHNA2ieLzULQPNgNBEquUliixt9XU3o62pCItZcsUAlfaOJUA6+ZoGbfxcwAWKq75/AteoFrnhWQfN8Kifw+IIPiS1uJGLNeJLcWLFAxX1/4D/WdIj/vIW2ZdBWXIcRsf0QQ48AmidVM3yBiCEmbRcwxDvT4HkC4w4I3JUnoIsBBwT65QmMdXvtPwPR9fIEUvF50MWEffBiAqrqkibAGGPQxWEbBQ5KhWeMMaTijTDEq3IbZy62YHqAlU3mYstcAi9wx79AugBjjEGPxGCIbFmJS62YHmgoAd+AzKXWueCzMKK9lsD/kxAn5xqB7EgH0slFmB6aj+mh+UgnFyE70lHB+ERPWArPGGMAa4AhUtLnfkxcBViD5QKMMQZVdc28ibLjVGGyMKInbIMvENEjMejipYl/m5fQRY/t4AUSqXgjjMihqu4JXUxgLHoAqXijo/D5BVV1wRAbYIh+GGJ8RmgKhpia+X0XRvQM9Oh66ZdUvepVe/0G8Z+FcEFDCTMAAAAASUVORK5CYII=">
+								</div>
+								<div style="color:  #b2b2b2;">Find best person to capture the memories</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- sign in popup contant end -->	<div class="profile-part">
+		<div class="container edit">
+			<h4 class="proposal-heading">Privacy Policy</h4>
+		</div>
+	</div>
+</div>
+
+
+<div class="tabsmain area">
+	<section class="section-full dark-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 need-part" id="boxscroll">
+					<div class="" id="contentscroll">
+						<h3>Acceptance of Terms</h3>
+						<p align="justify">PLEASE READ THESE TERMS CAREFULLY AND
+							THOROUGHLY before using the services. By accessing the site,
+							viewing any content or using any services available on the site,
+							you are agreeing to be bound by these terms, which together with
+							our privacy policy, governs our relationship with you in relation
+							to the site. If you disagree with any part of the terms then you
+							may not access the site.</p>
+						<p align="justify">We hereby declare that the website
+							"www.aaoclickkare.com" and all its web pages are owned, governed
+							and operated by aaoclickkare Pvt. Ltd., (hereinafter referred to
+							as "aaoclickkare”) a privately held company registered in India
+							and is accessed by you under the Terms of Use described below
+							(“Terms”).</p>
+						<p align="justify">“aaoclickkare” reserves the right, at its sole
+							discretion, to change, modify, replace or otherwise amend the
+							terms at any time. If the alterations constitute a material
+							change to the terms, “aaoclickkare” will post notice of the
+							changes and amended terms on the website. Constitution of a
+							material change will be determined at aaoclickkare’s sole
+							discretion. It is your responsibility to review and become
+							familiar with any such modifications. Usage of any service or
+							viewing any content following notification of a material change
+							to the terms shall constitute your acceptance of the Terms as
+							modified</p>
+						<p align="justify" style="text-transform: uppercase;">YOUR USE OF
+							THE WEBSITE IMPLIES THAT YOU SPECIFICALLY AGREE THAT YOU ARE AT
+							LEAST 18 YEARS OF AGE AND YOU ARE COMPETENT UNDER LAW TO ENTER
+							INTO A LEGALLY ENFORCEABLE AND BINDING CONTRACT.</p>
+						<h3>In this Agreement:</h3>
+						<p align="justify">“aaoclickkare” means the company who owns and
+							operate the website and application.</p>
+						<p align="justify">“Services” includes services provided in
+							website and mobile application.</p>
+						<p align="justify">“Client” means a User that understands and
+							purchases Service Provider Services or items from Service
+							Providers or identifies a Service Provider through the Website.</p>
+						<p align="justify">“Account” means the account which gets opened
+							when you register on the Website.</p>
+						<p align="justify">“Service Provider” means a User that offers and
+							provides services or identifies as a Service Provider through the
+							Website, including but not limiting to various affiliate /
+							registered merchants / vendors / service providers and
+							freelancers</p>
+						<p align="justify">“Service Provider Services” means all services
+							provided by Service Providers.</p>
+						<p align="justify">“Package”, “Project” or “Listing” means a job
+							offered or awarded by a Client via the Website, which may include
+							Package listed by a Client, a project awarded by a Client (for
+							example through a posting), a service bought by a Client from a
+							Service Provider, and service awarded by a Client to a Service
+							Provider as a result of a Package Sale or posting via
+							aaoclickkare</p>
+						<p align="justify">“User”, “you” or “your” means an individual who
+							visits or uses services of the website</p>
+						<p align="justify">“User Contract” means: (a) this User Agreement;
+							(b) the Code of Conduct as amended from time to time; (c) any
+							other contractual provisions accepted by both the Service
+							Provider and Client uploaded to the Website, to the extent not
+							inconsistent with the User Agreement and the Code of Conduct; and
+							(d) the Project and or Package terms as awarded and accepted on
+							the Website, to the extent not inconsistent with the User
+							Agreement and the Code of Conduct.</p>
+						<p align="justify">“Website” or “Site” means the websites operated
+							and managed by aaoclickkare and available at: aaoclickkare.com
+							and any related aaoclickkare service, tool or application.</p>
+						<h3>Privacy policy:</h3>
+						<p align="justify">Aaoclickkare is committed to protect the
+							personal information of its users. aaoclickkare respects your
+							privacy and thus we believe that you have complete right to know
+							our policies for privacy and our practices regarding the
+							information that we collect from you. This policy also explains
+							our privacy practices for the website and services provided by
+							aaoclickkare. By using and/or accessing the Site and its related
+							sites, applications, services, goods and/or creating an account
+							at aaoclickkare, you consent to the terms and conditions of this
+							privacy policy, including to our collection, use, disclosure,
+							processing and retention of your personal information.</p>
+						<p align="justify">When you register to the aaoclickkare, we ask
+							you to provide some personal information, including your email
+							address, city, contact number, charges, business name and
+							interests. We may collect additional information such as physical
+							address and additional authentication information, to ensure the
+							integrity (for example, prevention of fraud or similar attempt).
+							We collect such information to provide better services and
+							enhanced user experience to all of our Users.</p>
+						<p align="justify">Moreover, we collect information while you
+							access, browse, and view or otherwise use the website. In short,
+							when you access the website we are aware of your usage of the
+							website, and may gather, collect and record the information
+							relating to such usage, including browser information,
+							geo-location information, IP address, device and connection
+							information and web-log information, and all communications
+							recorded by Users through the Site. We use that information to
+							enhance user experience, personalize your browsing experience as
+							well as monitor the website for any kind of fraud and prevent
+							inappropriate content or behavior. We may also collect additional
+							information obtained from third parties such as demographic and
+							navigation data.</p>
+						<p align="justify">Once you register, your profile name and
+							additional information regarding your account is made public and
+							is visible to all Users of the website. This information includes
+							photos you upload, video links, ratings, and additional
+							information you may choose to add to your profile.</p>
+						<p align="justify">We also collect technical information
+							indirectly and automatically through our systems. This
+							information may include logging your IP address, software
+							configuration, details of operating system and use of cookies
+							(cookies are small files sent from us to your device and
+							sometimes back). Cookies ultimately help us to improve your
+							navigation and ease of use of our Site. Cookies do not contain
+							any personally identifiable information. You can read further
+							information about Cookies in this policy below, under cookies
+							section.</p>
+						<p align="justify">We keep the gathered information as long as it
+							is necessary and relevant for our operations. In addition, we may
+							retain personal information from closed accounts to comply with
+							the law, prevent fraud, collect any fees owed, resolve disputes,
+							troubleshoot problems, assist with any investigation, enforce our
+							Site terms and take other actions permitted by law.</p>
+						<h3>Disclosure of your information:</h3>
+						<p align="justify">We do not sell, rent or share personal
+							information about you with other people or non-affiliated
+							companies except to provide services you have requested. We may
+							combine your personal information with information we collect
+							automatically or obtain from other companies and use it to
+							improve and personalize our services, content and advertising.</p>
+						<p align="justify">We may provide your information to the
+							following entities only in order to operate the website, and
+							prevent fraud and illegal activities, as detailed below
+						
+						
+						<ul style="list-style-type: square; padding: 30px;">
+							<li><p align="justify">to Users of this site who are interested
+									to interact with you for availing or providing the required
+									services.</p></li>
+							<li><p align="justify">to our employees, independent contractors,
+									service providers, and Our suppliers to fulfill your package or
+									service request.</p></li>
+							<li><p align="justify">service providers for the purpose of
+									opening, operating and servicing your account;</p></li>
+							<li><p align="justify">to respond to court order, judicial
+									process or to regulatory authorities or law enforcement
+									agencies or in connection with an investigation on matters
+									related to public safety, as permitted by law;</p></li>
+							<li><p align="justify">to protect against fraud, unauthorized
+									transactions (such as money laundering), claims or other
+									liabilities. We do not collect credit information; but allow
+									our payment vendors to collect information for the purpose of
+									collecting payments from Users on the website or transferring
+									payments to Users on the website. We are not exposed to the
+									payment information provided to our payment vendors, and this
+									information is subject to the privacy policy applicable to the
+									payment vendor.</p></li>
+							<li><p align="justify">We provide information about you to other
+									company when aaoclickkare is merged with or acquired by another
+									company. In this event, we will notify you before any
+									information about you is transferred and becomes subject to a
+									different privacy policy.</p></li>
+						</ul>
+						</p>
+						<h3>Cookies</h3>
+						<p align="justify">When you visit the website, we may use
+							industry-wide technologies such as "cookies" (or similar
+							technologies), which store certain information on your computer
+							and which will allow us, including but not limited to, to enable
+							automatic sign-in to the Site, make your browsing much more
+							convenient and effortless and allow us to test user experience
+							and offer you personalized browsing or promotions. Cookies (which
+							may be small text files, html files, Flash files or other
+							technology) are text files that help store user preferences and
+							activity. The website uses cookies to collect statistical data
+							about its use, to tailor the website's functionality to suit
+							personal preferences and to assist with various aspects of
+							website operation. These files contain a variety of information
+							such as information about web pages visited by you, the length of
+							time you visited certain sites, data about how you came to visit
+							particular sites, the scope and nature of those sites, areas
+							viewed by you, and additional information.</p>
+						<p align="justify">You can however choose to accept or refuse the
+							cookies by changing the settings of your browser. You can reset
+							your browser to refuse all cookies or allow your browser to show
+							you when a cookie is being sent. If you choose not to accept
+							these cookies, your experience at Our Site and other websites may
+							be diminished and some features may not work as intended.</p>
+						<h3>Intellectual property and proprietary rights</h3>
+						<p align="justify">aaoclickkare respects the intellectual property
+							of Users, and we ask our users to do the same. If notified of
+							allegedly infringing, defamatory, damaging, illegal, or offensive
+							Content, We may, in our sole discretion, investigate the
+							allegation and/or edit, remove or request the removal of such
+							Content. Notwithstanding the foregoing, we do not ensure that any
+							such Content will be edited or removed.</p>
+						<p align="justify">We may, in appropriate circumstances and at our
+							discretion, disable and/or terminate the accounts of users who
+							may infringe or repeatedly infringe the copyrights or other
+							intellectual property rights of aaoclickkare and/or others.</p>
+						<p align="justify">We own all right, title and interest in and to
+							the aaoclickkare services and all materials contained in the
+							website, including, without limitation, our site designs, logos,
+							button icons, images, digital downloads, data compilations, text,
+							and graphics that are protected by copyright, trademark and other
+							intellectual property laws except for the Content uploaded by the
+							users in which ownership still lies with the user who uploads
+							such photos or images. Any unauthorized use of the materials
+							provided as part of the aaoclickkare and/or its services is
+							strictly prohibited.</p>
+						<h3>Changes to Privacy Policy</h3>
+						<p align="justify">We reserve the right, at our discretion, to
+							change, modify, update, add or remove portions of this privacy
+							policy at any time, so please re-visit this page periodically to
+							make sure that you are aware of the current privacy
+							practices.Your continued use of aaoclickkare services following
+							any changes will constitute and signify your acceptance of, and
+							agreement to be bound by, those changes.</p>
+						<h3>Terms of Use</h3>
+						<p align="justify">1. Eligibility</p>
+						<p align="justify">You will not use the aaoclickkare Website if
+							you:</p>
+						<p align="justify">
+						
+						
+						<ul style="list-style-type: square; padding: 30px;">
+							<li><p align="justify">are not able to form legally binding
+									contracts; or</p></li>
+							<li><p align="justify">are a person barred from receiving and
+									rendering services under the laws of India or other applicable
+									jurisdiction; or</p></li>
+							<li><p align="justify">are suspended from using the aaoclickkare
+									Website.</p></li>
+
+						</ul>
+						</p>
+						<p align="justify">Users may provide a business name or a company
+							name whichever applicable, which is to be associated with the
+							User's Account. Users acknowledge and agree that where a business
+							name or company name is associated with their Account, this User
+							Agreement is a contract with the User as an individual (not the
+							business or company) and Users remain solely responsible for all
+							activity undertaken in respect of their Account.</p>
+						<p align="justify">We may, at our absolute discretion, refuse to
+							register a person or corporate entity as a User.</p>
+						<p align="justify">2. User conduct</p>
+						<p align="justify">While using the aaoclickkare Website, you will
+							not:</p>
+						<p align="justify">
+						
+						
+						<p align="justify">
+						
+						
+						<ul style="list-style-type: square; padding: 30px;">
+							<li><p align="justify">post content or items in inappropriate
+									categories or areas on our websites and services or influence
+									someone to do the same;</p></li>
+							<li><p align="justify">infringe any laws, third party rights or
+									our policies, such as the Code of Conduct;</p></li>
+							<li><p align="justify">fail to deliver payment for services
+									delivered to you, unless the Service Provider has materially
+									changed the Service provided from the bid or a clear
+									typographical error is made</p></li>
+							<li><p align="justify">fail to deliver Services purchased from
+									you, unless the Client fails to meet the terms, materially
+									alters the terms of the Services from the listing; circumvent
+									or manipulate our fee structure, the billing process, or fees
+									owed to aaoclickkare;</p></li>
+							<li><p align="justify">post false, inaccurate, misleading,
+									defamatory or offensive content (including personal
+									information)or influence someone to do the same;</p></li>
+							<li><p align="justify">take any action that may undermine the
+									feedback or reputation systems (such as displaying, importing
+									or exporting feedback information or using it for purposes
+									unrelated to the aaoclickkare Website);</p></li>
+							<li><p align="justify">transfer your aaoclickkare account
+									(including feedback) and Username to another party without our
+									consent;</p></li>
+							<li><p align="justify">distribute or post spam, unsolicited, or
+									bulk electronic communications, chain letters, or pyramid
+									schemes or influence someone to do the same;</p></li>
+							<li><p align="justify">distribute viruses or any other
+									technologies that may harm aaoclickkare, the Website, or the
+									interests or property of aaoclickkare users (including their
+									Intellectual Property Rights, privacy and publicity rights) or
+									is unlawful, threatening, abusive, defamatory, invasive of
+									privacy, vulgar, obscene, profane or which may harass or cause
+									distress or inconvenience to, or incite hatred of, any person
+									or influence someone to do the same;</p></li>
+							<li><p align="justify">download and aggregate listings from our
+									website for display with listings from other websites without
+									our express written permission, "frame", "mirror" or otherwise
+									incorporate any part of the Website into any other website
+									without our prior written authorization;</p></li>
+							<li><p align="justify">attempt to modify, translate, adapt, edit,
+									decompile, disassemble, or reverse engineer any software
+									programs used by us in connection with the aaoclickkare Website
+									or influence someone to do the same;</p></li>
+							<li><p align="justify">copy, modify or distribute rights or
+									content from the Aaoclickkare Website or aaoclickkare's
+									copyrights and trademarks or influence someone to do the same;
+									or</p></li>
+							<li><p align="justify">harvest or otherwise collect information
+									about Users, including email addresses, without their consent.</p>
+							</li>
+
+						</ul>
+						</p>
+						<p align="justify">3. Purpose of the site and description of
+							services</p>
+						<p align="justify">aaoclickkare is a marketplace where Clients and
+							Service Providers can identify each other and buy and sell
+							Photography related Services online. Subject to the terms of this
+							Agreement, aaoclickkare provides the Site Services to Clients and
+							Service Providers, including hosting and maintaining the Site,
+							enabling the formation of Service Contracts between Clients and
+							Service Providers. If a Client and Service Provider agree on
+							terms of the Aaoclickkare Services, a Service Contract is formed
+							directly between such Client and Service Provider, subject to the
+							provisions set forth in Section 4 (Relationship between Client
+							and Service Provider). When a Client and Service Provider enter a
+							Service Contract, they use the Site to engage or hire,
+							communicate, and pay online through a secure medium.</p>
+						<p align="justify">Your access to and use of the Site may be
+							interrupted from time to time as a result of equipment
+							malfunction, updating, maintenance or repair of the Site or any
+							other reason within or outside the control of “aaoclickkare”.
+							“aaoclickkare” reserves the right to suspend or discontinue the
+							availability of the site and/or any Service and/or remove any
+							Content at any time at its sole discretion and without prior
+							notice. “aaoclickkare” may also impose limits on certain features
+							and Services or restrict your access to parts of or all of the
+							site and the services at any time without notice or liability.</p>
+						<p align="justify">4. Content submitted or made available for
+							inclusion on the Website</p>
+						<p align="justify">By submitting content to the site you are
+							granting “aaoclickkare” a worldwide, Non exclusive license to use
+							the content and are representing and warranting to “aaoclickkare”
+							That the content is owned or duly licensed by you, and that
+							“aaoclickkare” is free to publish, distribute and use the content
+							as hereinafter provided for without obtaining permission Or
+							license from any third party or individual.</p>
+						<p align="justify">In consideration of aaoclickkare’s agreement to
+							allow you to post content to the Site and aaoclickkare’s
+							agreement to publish such content and for other valuable
+							consideration the receipt and sufficiency of which are hereby
+							expressly and irrevocably acknowledged, you agree with
+							“aaoclickkare” as follows:</p>
+						<p align="justify">You acknowledge that:</p>
+						<p align="justify">By posting Content to the site you hereby grant
+							to “aaoclickkare” a non-exclusive, transferable, fully paid,
+							worldwide license (with the right to sublicense) to use,
+							distribute, reproduce, modify, adapt, publicly perform and
+							publicly display such Content in connection with the services.
+							This license will exist for the period during which the Content
+							is posted on the site and will automatically terminate upon the
+							removal of the Content from the Website through account
+							deactivation;</p>
+						<p align="justify">The license granted to “aaoclickkare” includes
+							the right to use your Content fully or partially for promotional
+							reasons and to distribute and redistribute your Content to other
+							parties, web-sites, applications, and other entities.</p>
+						<p align="justify">“aaoclickkare” uses standard measures to
+							restrict the ability of users and visitors to the Site to make
+							high resolution copies of Content posted on the Site.
+							Notwithstanding this, “aaoclickkare” makes no representation and
+							warranty that Content posted on the Site will not be unlawfully
+							copied without your consent. “aaoclickkare” does not restrict the
+							ability of users and visitors to the Site to make low resolution
+							or ‘thumbnail’ copies of Content posted on the Site and you
+							hereby expressly authorize “aaoclickkare” to permit users and
+							visitors to the Site to make such low resolution copies of your
+							Content;</p>
+						<p align="justify">Subject to the terms of the foregoing license,
+							you retain full ownership or other rights in your Content and any
+							intellectual property rights or other proprietary rights
+							associated with your Content.</p>
+						<p align="justify">You represent and warrant that:</p>
+						<p align="justify">You are the owner of all rights, including all
+							copy rights in and to all Content you submit to the site;</p>
+						<p align="justify">You have the full and complete right to enter
+							into this agreement and to grant to “aaoclickkare” the rights in
+							the Content herein granted, and that no further permissions are
+							required from, nor payments required to be made to any other
+							person in connection with the use by “aaoclickkare” of the
+							Content as contemplated herein;</p>
+						<p align="justify">The Content does not defame any person and does
+							not infringe upon the copyright, moral rights, publicity rights,
+							privacy rights or any other right of any person, or violate any
+							law or judicial or governmental order.</p>
+						<p align="justify">You shall not have any right to terminate the
+							permissions granted herein, nor to seek, obtain, or enforce any
+							injunctive or other equitable relief against “aaoclickkare”, all
+							of which such rights are hereby expressly and irrevocably waived
+							by you in favour of “aaoclickkare”.</p>
+						<p align="justify">5. Contractual relationship between Client and
+							Service Provider</p>
+						<p align="justify">Upon the Client buying a Package or awarding a
+							Job or assignment to the Service Provider, or the Service
+							Provider’s acceptance on the Website, or the purchase of an item
+							or Package by a Client from the Service Provider, the Client and
+							Service Provider will be deemed to have entered into a User
+							Contract under which the Client agrees to purchase, and the
+							Service Provider agrees to deliver the Service Provider Services.
+							You agree not to enter into any contractual provisions in
+							conflict with the User Agreement.</p>
+						<p align="justify">You are solely responsible for ensuring that
+							you comply with your obligations to other Users. If you do not,
+							you may become liable to that User. You must ensure that you are
+							aware of any domestic laws (including common law), international
+							laws, statutes, ordinances and regulations relevant to you as a
+							Client or Service Provider, or in any other uses you make of the
+							Website.</p>
+						<p align="justify">If another User breaches any obligation to you,
+							you are solely responsible for enforcing any rights that you may
+							have. For the avoidance of doubt, we have no responsibility for
+							enforcing any rights under a User Contract.</p>
+						<p align="justify">Depending on their jurisdiction, Service
+							Providers and Clients may have rights under statutory warranties
+							that cannot lawfully be excluded. Nothing in this User Agreement
+							is intended to override a right that by applicable law may not be
+							excluded.</p>
+						<p align="justify">Each User acknowledges and agrees that the
+							relationship between Clients and Service Providers is that of an
+							independent contractor. Nothing in this User Agreement creates a
+							partnership, joint venture, agency or employment relationship
+							between Users. Nothing in this User Agreement shall in any way be
+							construed as forming a joint venture, partnership or an
+							employer-employee relationship between Service Provider and the
+							User at any stage.</p>
+						<p align="justify">6. Fees and Services</p>
+						<p align="justify">We charge fees from Service Provider’s cost for
+							services such as buying a package or purchasing a photographer’s
+							service for full day or half day. While accepting an offer,
+							Service provider has an opportunity to read and accept the fees
+							that will be charged depending on our fee structure, which may
+							change from time to time. Aaoclickkare has the right to change
+							the fees for promotional events or for any other purpose at any
+							time. Price of packages, and availability of any Service provider
+							or services on our website are subject to change without notice.</p>
+						<p align="justify">Non-payment</p>
+						<p align="justify">If Client fails to pay aaoclickkare Fees or any
+							other amounts due under this Agreement, whether by cancelling
+							Client's credit or debit card, initiating an improper chargeback,
+							or any other means, aaoclickkare may suspend or close Client's
+							Account and revoke Client's access to the Site, including
+							Client's ability to use the Site to process any additional
+							payments or obtain any additional aaoclickkare Services. Without
+							limiting other available remedies, Client must pay aaoclickkare
+							upon demand for amounts owed under this Agreement, plus interest
+							on the outstanding amount at the lesser of one and one-half
+							percent (1.5%) per month or the maximum interest allowed by
+							applicable law, plus attorneys' fees and other costs of
+							collection to the extent permitted by applicable law. To the
+							extent permitted by applicable law, aaoclickkare, at our
+							discretion, may set off amounts due against other amounts
+							received from or held by aaoclickkare for Client, make
+							appropriate reports to credit reporting agencies and law
+							enforcement authorities, and cooperate with credit reporting
+							agencies and law enforcement authorities in any resulting
+							investigation or prosecution.</p>
+						<p align="justify">Payment Methods</p>
+						<p align="justify">In order to use certain aaoclickkare Services,
+							Client must provide account information for at least one valid
+							Payment Method. aaoclickkare makes the following methods of
+							payment available: credit cards, debit cards and bank transfers
+							to select banks in India.</p>
+						<p align="justify">By providing Payment Method information through
+							the Site, Client represents, warrants, and covenants that: (a)
+							Client is legally authorized to provide such information to us;
+							(b) Client is legally authorized to perform payments using the
+							Payment Method(s); and (c) such action does not violate the terms
+							and conditions applicable to Client's use of such Payment
+							Method(s) or applicable law. When Client authorizes a payment
+							using a Payment Method via the Site, Client represents, warrants,
+							and covenants that there are sufficient funds or credit available
+							to complete the payment using the designated Payment Method. To
+							the extent that any amounts owed under this Agreement cannot be
+							collected from Client's Payment Method(s), Client is solely
+							responsible for paying such amounts by other means.</p>
+						<p align="justify">We reserve the right to seek reimbursement from
+							you, and you will reimburse us, if we suspect fraud or criminal
+							activity associated with your payment, withdrawal, or Engagement,
+							if we discover erroneous or duplicate transactions, or if we have
+							supplied our services in accordance with this Agreement yet we
+							receive any chargeback from the credit card company, bank or
+							other payment method as used by you, or as used by your Client if
+							you are a Service Provider. You agree that we have the right to
+							any other payment methods or accounts you hold with us,
+							offsetting any amounts determined to be owing, deducting amounts
+							from future payments or withdrawals, charging your credit card,
+							or obtaining reimbursement from you by any other lawful means.
+							Failure to pay for reimbursements of chargebacks is cause for
+							termination of the applicable aaoclickkare Account.</p>
+						<p align="justify">Indian Rupee and foreign currency conversion</p>
+						<p align="justify">aaoclickkare and its Services operate in Indian
+							Rupees (INR). If your Payment Method is denominated in a currency
+							other than Indian Rupees and requires currency conversion,
+							additional fees may be charged to your account and or Payment
+							Method.</p>
+						<p align="justify">7. Formal Invoices and Taxes</p>
+						<p align="justify">As applicable by Indian Tax laws, aaoclickkare
+							will automatically generate Invoices towards the Client on behalf
+							of the Service Provider for any Package Sales, or payments
+							received towards services awarded to a Service Provider. As a
+							Service Provider on aaoclickkare, you automatically authorize
+							aaoclickkare to invoice Clients on your behalf following standard
+							norms.</p>
+						<p align="justify">Taxes</p>
+						<p align="justify">You understand and agree that you are solely
+							responsible for paying any taxes, including any goods and
+							services or value added taxes, which may be applicable depending
+							on the jurisdiction of the services provided. These taxes will be
+							added to fees billed to you, if applicable.</p>
+						<p align="justify">When required by applicable Indian tax law, we
+							may deduct or withhold taxes for payments due to you. If we
+							deduct or withhold taxes from payments due to you, we will issue
+							to you the relevant withholding tax certificate evidencing
+							deposit of the taxes with the relevant regulatory authorities.</p>
+						<p align="justify">As we are a company incorporated in India, all
+							fees earned by us from Indian Users will be subject to Indian
+							Services Tax on all fees, which will be shown separately on all
+							invoices.</p>
+						<p align="justify">You must also comply with your obligations
+							under income tax provisions in your jurisdiction.</p>
+						<p align="justify">8. Cancellations & Return of funds</p>
+						<p align="justify">For any reason if you want to cancel your
+							booking, you may do it anytime. Charges for cancellation of
+							booking will be applicable as shown below:</p>
+						<p align="justify">
+						
+						
+						<ul style="list-style-type: square; padding: 30px;">
+							<li><p align="justify">Cancelling the event before 26 days (or
+									more) from the date of event: No charges for cancellation *</p>
+							</li>
+							<li><p align="justify">Cancelling the event between 11 to 25 days
+									from the date of event: 50% of the booking amount will be
+									charged for cancellation *</p></li>
+							<li><p align="justify">Cancelling the event between 0 to 10 days
+									from the date of event: 100% of the booking amount will be
+									charged for cancellation *</p></li>
+						</ul>
+						</p>
+						<p align="justify">* - payment gateway charges are applicable.
+							After booking confirmation, if you wish to change your chosen
+							event dates or location, we will try our best to accommodate
+							these changes wherever possible. However, it may not always be
+							possible. All cost incurred due to the changes will be applicable
+							to you.</p>
+						<p align="justify">9. Non-circumvention</p>
+						<p align="justify">You agree not to circumvent the Payment Methods
+							offered by the Site. By way of illustration and not in limitation
+							of the foregoing, you must not:</p>
+						<p align="justify">Submit proposals or solicit Clients identified
+							through the Site to contact, hire, work with, or pay outside of
+							aaoclickkare.</p>
+						<p align="justify">Accept proposals or solicit Clients identified
+							through the Site to contact, deliver services, invoice, or
+							receive payment outside of aaoclickkare.</p>
+						<p align="justify">Invoice or report on the Site an invoice or
+							payment amount lower than that actually agreed between Client and
+							Service Provider.</p>
+						<p align="justify">You agree to notify aaoclickkare immediately if
+							another person improperly contacts you or suggests making or
+							receiving payments outside of the Site. If you are aware of a
+							breach or potential breach of this non-circumvention agreement,
+							please submit a confidential report to aaoclickkare by sending an
+							email message to: info@aaoclickkare.com</p>
+						<p align="justify">10. Relationship with aaoclickkare</p>
+						<p align="justify">aaoclickkare is not a party to the dealings
+							between Client and Service Provider, including posts, proposals,
+							screening selection, contracting, and performance of Service
+							Provider Services. aaoclickkare merely makes the Site Services
+							available to enable Service Providers to identify and determine
+							the suitability of Clients for themselves and to enable Clients
+							to identify and determine the suitability of Service Providers
+							for themselves. aaoclickkare does not, in any way, supervise,
+							direct, or control Service Provider or Service Provider's work.
+							aaoclickkare does not set Service Provider's work hours, work
+							schedules, or location of work. aaoclickkare will not provide
+							Service Provider with training or any equipment, labor, or
+							materials needed for a particular Service Contract. aaoclickkare
+							does not provide the premises at which the Service Provider will
+							perform the work. aaoclickkare makes no representations about,
+							and does not guarantee the quality, safety, or legality of, the
+							Service Provider Services; the truth or accuracy of Service
+							Provider's listings on the Site; the qualifications, background,
+							or identities of Users; the ability of Service Providers to
+							deliver the Service Provider Services; the ability of Clients to
+							pay for the Service Provider Services; or that a Client or
+							Service Provider can or will actually complete a transaction.</p>
+						<p align="justify">You hereby acknowledge and agree that
+							aaoclickkare may provide information on the Site about a Service
+							Provider or Client, such as feedback, a strength or risk score,
+							geographical location, or verification of identity or
+							credentials. However, such information is based solely on data
+							that Service Provider or Client voluntarily submits to
+							aaoclickkare and does not constitute and will not be construed as
+							an introduction, endorsement, or recommendation by
+							aaoclickkare;aaoclickkare provides such information solely for
+							the convenience of Users.</p>
+						<p align="justify">Service Contracts</p>
+						<p align="justify">You expressly acknowledge, agree, and
+							understand that: (a) aaoclickkare is merely a venue where Users
+							may act as Clients and/or Service Providers; (b) aaoclickkare is
+							not a party to any Service Contracts between Clients and Service
+							Providers; (c) you are not an employee of aaoclickkare and that
+							aaoclickkare does not, in any way, supervise, direct, or control
+							the Service Provider or Service Provider Services; (d)
+							aaoclickkare will not have any liability or obligations under or
+							related to Service Contracts or any acts or omissions by you or
+							other Users; (e) aaoclickkare has no control over Service
+							Providers or the Service Provider Services offered or rendered by
+							Service Providers; and (f) aaoclickkare makes no representations
+							as to the reliability, capability, or qualifications of any
+							Service Provider or the quality, security, or legality of any
+							Service Provider Services, and aaoclickkare disclaims any and all
+							liability relating thereto.</p>
+						<p align="justify">11. Ownership of Work Product and Intellectual
+							Property Rights</p>
+						<p align="justify">Upon Service Providers receipt of full payment
+							from Client, the Work Product, including without limitation all
+							Intellectual Property Rights in the Work Product, will be the
+							solely of the Client. The service provider may retain other
+							rights as applicable by law.</p>
+						<p align="justify">License to or Waiver of Other Rights</p>
+						<p align="justify">If the Service Provider has any right to the
+							Work Product, including without limitation any Intellectual
+							Property Right, that cannot be assigned to Client by Service
+							Provider, Service Provider hereby automatically, upon Service
+							Provider's receipt of full payment from Client, unconditionally
+							and irrevocably grants to Client during the term of such rights,
+							an exclusive, even as to Service Provider, irrevocable,
+							perpetual, worldwide, fully-paid and royalty-free license to such
+							rights, with rights to sublicense through multiple levels of sub
+							licensees, to reproduce, make derivative works of, distribute,
+							publicly perform and publicly display in any form or medium,
+							whether now known or later developed, make, use, sell, import,
+							offer for sale and exercise any and all such rights. If Service
+							Provider has any rights to such Work Product that cannot be
+							assigned or licensed, Service Provider hereby automatically, upon
+							Service Provider's receipt of payment from Client,
+							unconditionally and irrevocably waives the enforcement of such
+							rights, and all claims and causes of action of any kind against
+							Client or related to Client's customers, with respect to such
+							rights, and will, at Client's request and expense, consent to and
+							join in any action to enforce such rights.</p>
+						<p align="justify">Assistance</p>
+						<p align="justify">Service Provider will assist Client in every
+							way, including by signing any documents or instruments reasonably
+							required, both during and after the term of the Service Contract,
+							to obtain and enforce Intellectual Property Rights relating to
+							Work Product in all countries. In the event Client is unable,
+							after reasonable effort, to secure Service Provider's signature
+							on any document needed in connection with the foregoing, Service
+							Provider hereby designates and appoints Client and its duly
+							authorized officers and agents as its agent and attorney in fact
+							to act on its behalf to further the purposes of this Section with
+							the same legal force and effect as if executed by Service
+							Provider.</p>
+						<p align="justify">12. Access and Interference</p>
+						<p align="justify">You agree that you will not use any robot,
+							spider, scraper or other automated means to access the
+							aaoclickkare Website for any purpose without our express written
+							permission.</p>
+						<p align="justify">Additionally, you agree that you will not:</p>
+						<p align="justify">
+						
+						
+						<ul style="list-style-type: square; padding: 30px;">
+							<li><p align="justify">take any action that imposes or may impose
+									(in our sole discretion, exercised reasonably) an unreasonable
+									or disproportionately large load on our infrastructure;</p></li>
+							<li><p align="justify">interfere with, damage, manipulate,
+									disrupt, disable, modify, overburden, or impair any device,
+									software system or network connected to or used (by you or us)
+									in relation to the aaoclickkare Website or your Account, or
+									assist any other person to do any of these things, or take any
+									action that imposes, or may impose, in our discretion, an
+									unreasonable or disproportionately large load on our
+									infrastructure;</p></li>
+							<li><p align="justify">copy, reproduce, modify, create derivative
+									works from, distribute, or publicly display any content (except
+									for your information) from the website’s without the prior
+									express written permission of Service Provider and the
+									appropriate third party, as applicable;</p></li>
+							<li><p align="justify">interfere or attempt to interfere with the
+									proper working of the website’s, services or tools, or any
+									activities conducted on or with the website’s, services or
+									tools; or</p></li>
+							<li><p align="justify">bypass our robot exclusion headers or
+									other measures we may use to prevent or restrict access to the
+									Website.</p></li>
+						</ul>
+						</p>
+						<p align="justify">13. Security</p>
+						<p align="justify">You must immediately notify us upon becoming
+							aware of any unauthorized access or any other security breach to
+							the Website, your Account or the Service Provider Services and do
+							everything possible to mitigate the unauthorized access or
+							security breach (including preserving evidence and notifying
+							appropriate authorities). You are solely responsible for securing
+							your password. We will not be liable for any loss or damage
+							arising from unauthorized access of your account resulting from
+							your failure to secure your password.</p>
+						<p align="justify">14. Indemnity</p>
+						<p align="justify">You will indemnify, defend, and hold harmless
+							aaoclickkare, our Affiliates, and our respective directors,
+							officers, employees, representatives, and agents (each an
+							"Indemnified Party") from any and all claims, damages,
+							liabilities, costs, losses, and expenses (including, but not
+							limited to, reasonable attorneys' fees and all related costs and
+							expenses) arising from or relating to any claim, suit,
+							proceeding, demand, or action brought by you or a third party
+							against an Indemnified Party relating to: (a) use of the Site and
+							the Site Services by you or your agents, including any payment
+							obligations incurred through use of the Site Services; (b) any
+							Service Contract entered into by you or your agents, including,
+							but not limited to, the classification of a Service Provider as
+							an independent contractor; the classification of aaoclickkare as
+							an employer or joint employer of Service Provider; any
+							employment-related claims, such as those relating to employment
+							termination, employment discrimination, harassment, or
+							retaliation; and any claims for unpaid wages or other
+							compensation, overtime pay, sick leave, holiday or vacation pay,
+							retirement benefits, worker's compensation benefits, unemployment
+							benefits, or any other employee benefits; (c) failure to comply
+							with this Agreement by you or your agents; (d) failure to comply
+							with applicable law by you or your agents; (e) negligence,
+							willful misconduct, or fraud by you or your agents; and (f)
+							defamation, libel, violation of privacy rights, unfair
+							competition, or infringement of Intellectual Property Rights or
+							allegations thereof to the extent caused by you or your agents.</p>
+						<p align="justify">In addition, we can apply any funds in your
+							Account against any liabilities you owe to us or loss suffered by
+							us as a result of your non-performance or breach of this User
+							Agreement.</p>
+						<p align="justify">15. No Warranty As To Each User’s Purported
+							Identity.</p>
+						<p align="justify">“aaoclickkare” does not endorse any User. As
+							identification of any User on the internet is difficult, we
+							cannot and do not confirm any User's purported identity. We may
+							provide information about a User, such as a Rating, geographical
+							location or verification of identity or credentials. However,
+							such information is based solely on data that the User submits
+							and we provide such information solely for the convenience of
+							Users and the provision of such information is not an
+							introduction, endorsement or recommendation by us.</p>
+						<p align="justify">16. No Warranty As To Content On The Website</p>
+						<p align="justify">We provide the services, the Website and all
+							contents on it on an 'AS IS', 'with all faults' and 'as
+							available' basis and without warranties of any kind either
+							express or implied.</p>
+						<p align="justify">The information on the Website may change
+							frequently as the website is dynamic time-sensitive website. It
+							is possible that some information could be considered offensive,
+							harmful, inaccurate or misleading or mislabeled or deceptively
+							labeled accidently by us or accidentally or purposefully by a
+							third party.</p>
+						<p align="justify">Without limiting the foregoing, we make no
+							representation or warranty about:</p>
+						<p align="justify">
+						
+						
+						<ul style="list-style-type: square; padding: 30px;">
+							<li><p align="justify">The Website or any Services or Service
+									Provider Services;</p></li>
+							<li><p align="justify">The accuracy, reliability, availability,
+									veracity, timeliness or content of the Website or any Service
+									Provider Services;</p></li>
+							<li><p align="justify">Whether the Website or Service Provider
+									Services will be up-to-date, uninterrupted, secure, error-free
+									or non-misleading;</p></li>
+							<li><p align="justify">Whether defects in the Website will be
+									corrected;</p></li>
+							<li><p align="justify">Whether the Website or the Service
+									Provider Services or any data, content or material will be
+									backed up or whether business continuity arrangements are in
+									place in respect of the Website or Service Provider Services;</p>
+							</li>
+							<li><p align="justify">Any third party agreements or any
+									guarantee of business gained by you through the Website or
+									Service Provider Services or us; or</p></li>
+							<li><p align="justify">The Website or Service Provider Services
+									or infrastructure on which they are based, being error or
+									malicious code free, secure, confidential or performing at any
+									particular standard or having any particular function.</p></li>
+							<li><p align="justify">To the extent permitted by law, we
+									specifically disclaim any implied warranties of title,
+									merchantability, fitness for a particular purpose, quality,
+									suitability and non-infringement.</p></li>
+						</ul>
+						</p>
+						<p align="justify">17. Limitation of Liability</p>
+						<p align="justify">You acknowledge and agree that entire risk
+							arising out of your use of “aaoclickkare” and its services,
+							access of website or application whether in person or online
+							remains with you.</p>
+						<p align="justify">
+						
+						
+						<ul style="list-style-type: square; padding: 30px;">
+							<li><p align="justify">In no event shall we, our related
+									entities, our affiliates or staff be liable, whether in
+									contract, warranty, tort (including negligence), or any other
+									form of liability, for:</p></li>
+							<li><p align="justify">Any indirect, special, incidental or
+									consequential damages that may be incurred by you;</p></li>
+							<li><p align="justify">Any loss of income, business or profits
+									(whether direct or indirect) that may be incurred by you;</p></li>
+							<li><p align="justify">Any claim, damage, or loss which may be
+									incurred by you as a result of any of your transactions
+									involving the Website.</p></li>
+							<li><p align="justify">The limitations on our liability to you
+									above shall apply whether or not we, our related entities, our
+									affiliates or staffs have been advised of the possibility of
+									such losses or damages arising.</p></li>
+
+						</ul>
+						</p>
+						<p align="justify">Notwithstanding the above provisions, nothing
+							in this User Agreement is intended to limit or exclude any
+							liability on the part of us and our affiliates and related
+							entities where and to the extent that applicable law prohibits
+							such exclusion or limitation including those within the
+							Competition and Consumer Act 2010 (Cth) and relevant state fair
+							trading legislation.</p>
+						<p align="justify">To the extent that we are able to limit the
+							remedies available under this User Agreement, we expressly limit
+							our liability for breach of a non-excludable condition or
+							warranty implied by virtue of any legislation to the following
+							remedies (the choice of which is to be at our sole discretion) to
+							the supply of the Service Provider services again or the payment
+							of the cost of having the Service Provider services supplied
+							again.</p>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+</div>
+
+<div class="inta-heading">
+	<div class="container">
+		<div class="new_title">
+			<h3>
+				<i class="fa fa-instagram inst" style="color: #000"></i>
+				aaoclickkare
+			</h3>
+		</div>
+	</div>
+</div>
+
+<div class="instra" style="display: inline-flex;">
+	<a href="" class="insta-pic"><img
+		src="https://aaoclickkare.com/front_end/images/instagram/1.jpg"
+		style="height: 143px; width: auto;"> </a> <a href="" class="insta-pic"><img
+		src="https://aaoclickkare.com/front_end/images/instagram/2.jpg"
+		style="height: 143px; width: auto;"> </a> <a href="" class="insta-pic"><img
+		src="https://aaoclickkare.com/front_end/images/instagram/3.jpg"
+		style="height: 143px; width: auto;"> </a> <a href="" class="insta-pic"><img
+		src="https://aaoclickkare.com/front_end/images/instagram/4.jpg"
+		style="height: 143px; width: auto;"> </a> <a href="" class="insta-pic"><img
+		src="https://aaoclickkare.com/front_end/images/instagram/5.jpg"
+		style="height: 143px; width: auto;"> </a> <a href="" class="insta-pic"><img
+		src="https://aaoclickkare.com/front_end/images/instagram/6.jpg"
+		style="height: 143px; width: auto;"> </a> <a href="" class="insta-pic"><img
+		src="https://aaoclickkare.com/front_end/images/instagram/7.jpg"
+		style="height: 143px; width: auto;"> </a> <a href="" class="insta-pic"><img
+		src="https://aaoclickkare.com/front_end/images/instagram/9.jpg"
+		style="height: 143px; width: auto;"> </a>
+</div>
+
+<!-- custom scrollbar plugin -->
+<script type="text/javascript" src="https://aaoclickkare.com/front_end/js/jquery-2.1.3.min.js"></script>
+<script src="https://aaoclickkare.com/front_end/js/jquery.mCustomScrollbar.js"></script>
+<script>
+	(function($){
+		$(window).load(function(){
+			$("#contentscroll").mCustomScrollbar({
+					theme:"minimal"
+				});
+				
+			});
+		})(jQuery);
+			 
+		
+</script>
+
+</body>
+</html>
+<style>
+
+.pac-container {
+    background-color: #fff;
+    border-radius: 2px;
+    border-top: 1px solid #d9d9d9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    overflow: hidden;
+    position: absolute !important;
+    z-index: 1000;
+}
+.pac-logo::after {
+    background-image: url("https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 120px 14px;
+    content: "";
+    display: block;
+    height: 16px;
+    padding: 1px 1px 1px 0;
+    text-align: right;
+}
+.hdpi.pac-logo::after {
+    background-image: url("https://maps.gstatic.com/mapfiles/api-3/images/powered-by-google-on-white3_hdpi.png");
+}
+.pac-item {
+    border-top: 1px solid #e6e6e6;
+    color: #999;
+    cursor: pointer;
+    font-size: 11px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 4px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pac-item:hover {
+    background-color: #fafafa;
+}
+.pac-item-selected, .pac-item-selected:hover {
+    background-color: #ebf2fe;
+}
+.pac-matched {
+    font-weight: 700;
+}
+.pac-item-query {
+    color: #000;
+    font-size: 13px;
+    padding-right: 3px;
+}
+.pac-icon {
+    background-image: url("https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons.png");
+    background-size: 34px auto;
+    display: inline-block;
+    height: 20px;
+    margin-right: 7px;
+    margin-top: 6px;
+    vertical-align: top;
+    width: 15px;
+}
+.hdpi .pac-icon {
+    background-image: url("https://maps.gstatic.com/mapfiles/api-3/images/autocomplete-icons_hdpi.png");
+}
+.pac-icon-search {
+    background-position: -1px -1px;
+}
+.pac-item-selected .pac-icon-search {
+    background-position: -18px -1px;
+}
+.pac-icon-marker {
+    background-position: -1px -161px;
+}
+.pac-item-selected .pac-icon-marker {
+    background-position: -18px -161px;
+}
+.pac-placeholder {
+    color: gray;
+}
+</style>
+<style>
+.form_padding {
+	padding-left: 3.5%;
+	padding-right: 3.5%;
+}
+</style>
+<style>
+.pac-container {
+	z-index: 999999;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+
+.pac-item {
+	color: black;
+	line-height: 35px !important;
+	font-size: 15px !important;
+}
+
+.black_fad {
+	opacity: 0.96;
+	z-index: 9999;
+	background-color: #fff;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+@media (min-width: 200px) and (max-width: 979px) {
+	.modal_body { 
+		max-height: 350px;  
+		padding: 6px;  
+		overflow: auto; 
+		-webkit-overflow-scrolling: touch; 
+	}
+}
+
+</style>
+<!-- cart detail -->
+<div class="modal fade two" id="cart_detail" role="dialog" >
+	<div class="">
+		<div class="modal-dialog modal-lg" style="margin-top: 0;">
+			<div class="modal-content" style="">
+				<button type="button" class=" button-bold closei" data-dismiss="modal">&times;</button>
+				<!-- <div class="photographer-quick-profile-section">
+				<div class="photographer-quick-section">-->
+				<div class="modal_body" style="display: block;">
+					<div class="col-md-12" id="pay_detail" style="width: 94%; margin-left: 3%;" >
+					
+					</div>
+				</div>
+				<!-- </div>
+			</div> -->
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- cartd detail -->
+
+<!-- payment modal -->
+<div class="modal fade two" id="payment_modal" role="dialog">
+	<div class="modal-dialog modal-lg modal_position">
+		<div class="modal-content">
+			<button type="button" class=" button-bold closei"
+				data-dismiss="modal">&times;</button>
+			<div class="modal_body modal_content_div" style="width:94%;"></div>
+		</div>
+	</div>
+</div>
+<!-- payment Modal -->
+
+<!-- proposal buy -->
+<div class="modal fade two " id="buy_proposal_bid" role="dialog"
+	style="z-index: 9999">
+	<div class="">
+		<div class="modal-dialog modal-lg ">
+			<div class="modal-content">
+				<button type="button" class="button-bold closei"
+					data-dismiss="modal" id="cart_refresh">&times;</button>
+				<div id="hire_buttons_proposal" class="modal_body col-md-12" style="width:94%;"></div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- proposal buy -->
+
+
+<footer class="footermain">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="fooone">
+					<h3 style="text-transform: none;">About Us</h3>
+					<p> In the month of September 2015, two friends decided to touch base
+						with each other after a long time. <br>
+						<a traget="_blank" style="color: #323232;" 							href="https://aaoclickkare.com/index.php/index/about_us" ><strong>More..</strong></a>
+					</p>
+					<ul class="fooicon">
+						<li style="margin-left: -6px;">
+							<a href="https://www.facebook.com/aaoclickkare" class="btn-sm fb-bg rectangle waves-effect waves-light social_icons social_icons_fb">
+								<i class="fa fa-facebook"> </i> 
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/aaoclickkare " class="btn-sm tw-bg rectangle waves-effect waves-light social_icons" style="padding-left: 7px;">
+								<i class="fa fa-twitter"> </i> 
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/channel/UC1xRUOxPxE1iZfeQ-DeNO-A?html5=1" class="btn-sm yt-bg rectangle waves-effect waves-light social_icons social_icons_fb" style="padding-left: 7px;">
+								<i class="fa fa-youtube"> </i> 
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/aaoclickkare/" class="btn-sm ins-bg rectangle waves-effect waves-light social_icons" style="padding-left: 7px;">
+								<i class="fa fa-instagram"> </i> 
+							</a>
+						</li>
+						<li>
+							<a href="https://in.pinterest.com/aaoclickkare" class="btn-sm pin-bg rectangle waves-effect waves-light social_icons" style="padding-left: 7px;">
+								<i class="fa fa-pinterest"> </i> 
+							</a>
+						</li>
+						<li>
+							<a href="http://aaoclickkare.tumblr.com/" class="btn-sm tlr-bg rectangle waves-effect waves-light social_icons social_icons_fb" style="padding-left: 7px;">
+								<i class="fa fa-tumblr"></i> 
+							</a>
+						</li>
+						<li>
+							<a href=" https://plus.google.com/104705883735361633253" class="btn-sm gplus-bg rectangle waves-effect waves-light social_icons social_icons_gl">
+								<i class="fa fa-google-plus"> </i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="fooone">
+					<h3>Information</h3>
+					<ul class="fooinsec">
+						<li>
+							<a href="https://aaoclickkare.com/index.php/">Home</a>
+						</li>
+						<li>
+							<a traget="_blank"  href="https://aaoclickkare.com/index.php/index/about_us#team" >Team aaoclickkare</a>
+						</li>
+						<li>
+							<a traget="_blank" href="https://aaoclickkare.com/index.php/index/privacy_policy">Privacy policy</a>
+						</li>
+						<li>
+							<a href="https://aaoclickkare.com/index.php/index/cancellation_policy">Cancellation policy</a>
+						</li>
+						<li>
+							<a href="https://aaoclickkare.com/index.php/index/faq">FAQ</a>
+						</li>
+						<li>
+							<a href="https://aaoclickkare.com/index.php/index/site_map">Sitemap</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="fooone">
+					<h3>Contact us</h3>
+					<ul class="fooicon fooinfoo">
+						<li>
+							<span>
+								<img src="https://aaoclickkare.com/front_end/img/web.png"> 
+							</span>
+							<p>info@aaoclickkare.com</p>
+						</li>
+						<li style="width: 100%;">
+							<span> 
+								<img src="https://aaoclickkare.com/front_end/img/phone.png">
+							</span>
+							<p>+91 9168268658</p>
+						</li>
+						<li>
+							<span>
+								<img src="https://aaoclickkare.com/front_end/img/footerloction.png">
+							</span>
+							<font color="#353535">Pune, Maharashtra</font>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-md-2">
+				<div class="fooone">
+					<h3>Our apps</h3>
+					<ul class="">
+						<li>
+							<a target="_blank" href="https://goo.gl/CdxWgm" >
+								<img class="icon icons8-Android-OS"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAC9klEQVRoge2aMWjUUBjHX0tvqrbgoFaoi4t6EMz3+0JaWuQGR0EUWpy6igq6FOmg4FQHB7dCER2KS0HBwQOpBR3EoohdhIKlBVEcLGpFUasVHe4dhDS5XnuXxGL+8A2X73sv/19eXpJ7iTENSlVLIjLRaD8iMqGqpUb7aYZaVHVaRAY324GIDKrqtDGmpYm+Ni/P87qBBaBro22BLmDB87zuJLxtWqo6BJSBguu6h4FR+3sWeGdj1m4btTUFoKyqQ1n7XyN7pN8AX4E/dcYX22bDI5ukWlX1gjVXL0gU2LAxpjVTEqBTRB40ABKOKd/3OzKDsXOiamZFVS8Dw8DnOsyvAleA88BSYPsLoDNtnlZgKmTwegD24npAInI7UH86PFImzUs4cC5sUFXvVPOqeq0OoEeB/i5F1JxJBaZYLG4DPsQYLQOTwO965oyqTgO3gF8R+SXHcdoTBxKRs028CKwHfCpxIHtUUwEC7icOBCynCPQpUZhSqdQGDKQZpVKpLVGoLSlVPaaqN4ExEekJ5cbTjN7e3h3VfYtIj/V0Q0SO1gXD2pviqogcD+TTmj/V2GthTlB5ugjmRmrC+L7fAfyM6HQ+ayAq/7fCuZVisbgtFsgOaWTH1ZtcFkCO47TXyPu1Trf+Gg07swKi8iAcl+/PgXKgHCgHyoFyoBwoB8qBjBGRAzGNvgOFDIEKwI+Y/P5YIFNZQJwLNwquuWUBZPd7NyI3Z9ZbDxcRB5gPNHrsed7ufwCoS1WfBLa/EhGnJkzAdEFVXTucraFcJkDVM8h13YOAYKdAw8oYqPnKgbYA0Lc0gRzH2Zk00GSKQDOJwhhjTF9f33bgKjADPLcRt979PlBTjbcxtSuBmqeqOu77/q7EgaIE3IsxORZROxJT+zoL75HKgXKglJUD/SdAi1l4jxQwFmNyOKJ2IKa2nIX3SHmed4i175U+uq67J1xrv3NYDAPV/UYuLXmed0REnlH5zuehqrpxtcA+e5ouAy9V9WSzfPwFn9RzSzjDM1IAAAAASUVORK5CYII="
+									width="40" height="40"> 
+							</a>
+							<a target="_blank" href="https://goo.gl/5hbw2r" >
+								<img class="icon icons8-Mac-Client"
+									src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAFHElEQVR4nO2dW4hVVRiAZ0jNK2IgZESWTUHt5jTr//49dpisLRhFgRIxQVEPUUQPhV1eIikiKh8k6kmILLvoS6BEJmGU9VIiWQ9eqFCjtAuKBEVlkjPTw+wi5Fz2nlln/nW264PvcWav+c6ZPeusvfeanp5IJBKJRCKRSCQSqSDAtcALqvq5iHxqPZ6zgizLZorIPcCXwNj/3Gs9tsrjnLsOOHhG+H/dbT2+ylKr1eYA64HRJvHHgK3W46wkaZqeD+xpEX4MGFPVp63HWjmccwuBA+3i5y63Hm+lGB4ePgfYWTD+T8B06zFXCuDxgvHHgGesx1spVPUq4FTB+KeARdZjrhSquqXEu3+d9XgrxcDAwMXASMH4h4DZ1mOuFMCTJU49cebjG2BXgfgngVusx1o58qnnyTbxf0/TdIX1WCvJ0qVLL2wTf9fAwMBl1uOsLPn0s+EpR1XXZFk2zXqMXcPQ0NC8NE2XqKrLZzZtZyvOucVnhD8GrHPOXdDq64D5aZouAQS4tFarzfH3k3QJwHRVXQW8nk8Pz3wXjwLfABtVdWVfX9+5Tb7Hi8BjIrKs2fJCvkD3gKq+D/zc5FhfA6+IyI2V/s0BZufLBsdKfHgaA34FNjd7MRocZ76I3C8inwCnSx7rO2B1vV6fNRVNpgxgmPGFsDIxGvkLsEFV7xCRPmB2rVabMzg4eLmq3g28Dfzp4TiHVHWVdbdJkyTJXGCThyBWbhwaGppn3XFCFL1A0gXuHxwcvMS6Zynyefq3AcTz5TFVddZdC9Hf378A2BtANN+ecM5dbd23Hb3A9gBidcIdzrnF1oFbIiIPBxDKt6eBh3p6enqt+7Yk/3TaboGs2zwpIrdaty0EsDmAYD4dBYatuxYCuAj4O4Bo3lTV56y7FgZ43jqYZ7+im25fofGiWtcqIjdZNy2MiFxhHcyzB6yblgK4L4BoPl1t3bQUqvpyANG8KSJ91k1Lka+7m4fz5I/WPUsDHAkgnBdV9UPrnqXBzwWQIBSRN617lqJer8+yjubZ9dZNSwHMDyCaN1X1LeumpajaCwC8Z920FPktgtbRfHrYumlpgN8CCOfLkXq9fp5101JQvXWgu6yblgL4yDqaT1X1XeumpRCRV62jeXakq5YjKnod+A3rroVR1SyAYL4dTdP0euu2hchvP6zU5cjcw865hdZ9C6GqnwUQrBPuTJJkhnXftojIswHE6pQ7kiSZa924JWmapgGE6qRfhD4z6gWOBhCqk/6hqo8Ee0oC1gUQaSo8wvitimHhnLsygDhToqpuse7dEBH51DrOVCgi11i3boiI3G4dZwr82LpzU/LrA812K6yEqnqzdeeWqOq91pE66J6e0J8TyLJsGuM3t1rH8q6ILLPuWwhVvc06VgfcZN21FPn2ANbRfPlDf3//AuumpcifZK/CI0ujqnqDdc8JATwaQMDJ+pJ1x8nQC+wIIOJE3Zdl2UzriJMCWAScCCBmWf8SkZp1Py+o6kpa72genKr6oHU3r1B8m8kQ3GDdqxP0quprAcRt5/Zg1/wnS75WtNFDpFOMXwDan3uU4ntIt/IDzoIddnuBpyj/N2GfiDwhIjR6hyZJMiNN01RV11D8fwn8Z/6sW/c8GzxZgOUFQo0A2yayAWuapiuAbbTfX/r7SmxPNhGSJJmRrxttBQ7np5HjwG5grY8L4fkn8rX59zyeH+Mg8A5wZ+U26ItEIpFIJBKJRCKRSCQSiUQikUgkEhz/ADDeDmWF0MnbAAAAAElFTkSuQmCC"
+									width="40" height="40">
+							</a>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="fooone">
+					<h3 style="text-transform: none;">Payment Methods</h3>
+					<li>
+						<a href="#">
+							<img class="icon icons8-Bank-Cards" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACQklEQVRoQ+2Zu04CQRSG/xnxAl4LaSwAE01sTLAwxsJbYYzZQrEyamGxD4BPYHwB9QEwsdFSoNgYOy+VlTyAhbTaYKHGBHbMYjCKu2SH3Z0RM1MRYHbOd/5zzp6zS9Dii7S4/VAAshVUCrScAtvnb4k2kx0ASBIgERQAAx4AFCqU7Bwvh63PtosrhKrGV8w7QshAUIbXX5cxVqq00QknCC4A3XjNAVgRZfy3c/IZLbJqdy4nwEsJIP2iAaxwOtIiwz4AvDLRxtfOy2gRW2dzKTC1tCIN4PYirwCgFPCQQL6EkG60eBL/G4DdmU4PwcC3de/mvbrBlzJaU0ABcIjgSYH51fMEg1ntPEGC6zyjg2HEYn3Y2hhDNBr+gdc0wKfxlTsI7DxpRwix1CTae7t+acSdA7MpI0ckdJ7d8UEMLY57B5hLGSUAwjvPUE8XhtenfQGQ1riN6gs/ABhQPNIittOfYzc6lzJ8B8hs7mAkWvzl3fvHBPTT/a/v6wEA8A80QQBcptccC+j84ZkDAHsuU5rkHillA1hhQ4BCmZJ0U0O9TICrrOZ60BKaA25D6M8COCbxUxz6iXXD/1x/FsBtC6QALE8FkcRKARsPCK1CUhSwK321u2YQv/lehYIwstE1/QSQ0k4DKF5lNdfvHRxzQNZAw4D8dVazfZTO9XS6OlISsyB4qHkmjCYvc8uOb2TqIRo2TRaEScxDYg31QNxtFWnif0UGFCijaR7jrXNcd31NGCVkiwIQ4uYGhygFlAIePfABAaD9MSeSflsAAAAASUVORK5CYII="
+								width="30" height="30">
+							<font color="#353535" style="font-size: 14px;">Net Banking</font>
+						</a>
+					</li>
+					<li>
+						<a href="#"> <!-- Visa icon by Icons8 --> 
+							<img class="icon icons8-Visa" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD6ElEQVRoQ+1ZXUgUURT+BjfKDBW0DHLNatOghdY2iLYgzV4KIgnChSB9qO0PsiCpQOnBhSCl0ocI9cGEqN6soKAoC3IxSNpAKcXA2oJ+Vlyj0mBk4tz1DnfGndDdsbWYAWHnzt5zzvdzzg5XCf/4Jf3j9cMCkGwFLQUsBRJkwLJQggQmvH2KApmHO/NtE9IlCXAByE84gzkBhhQgKKcoJyNXS4bEkBoArHhZeilJyDQnr7lRFAUR2aYUiSA0ALIPdHZIkrTb3LTmRlMU5Xa4taSMR9UBeDIyV9kXaBj62lK8IiaAxQefKObyNTvRvrYUq8RrFLAAzA7hU6JaCvwlog3T/P8KpM/7jp15AXhXPoQyOZd6R1aitueIhpXBxi1IT01ha46qLrQfc8JTkMHuyxpeITAQQXqqDb7SZdhcmMn+6OoNfcfNwGc0P/qgxvMUZKLj1Dr13n32OULD4zFVmLYC9rRPuLf3OnLkByxQxdNzuB/ysM87XNm4dnQt+0zFHG97g8e1G+C0p7G1Jb6nrHgqymlfNKWQ5kcfUXNrUF1vqlwDrydHva+40of7wXBiAGi3rzQX/uIuoN+Hptf74e/Zx4KKCTnbX5q3smffxibgqHqmARkYGMWFO9HXGAJEKpBCdNmzFqDn/EZNsfV336H+rua1R30+bQV4sse1buBzO0J9rXDfrGOBuH1Cw7/gPtvNimLfA0DFljUEUb0rH9W7lrO1G4FPqGrrj8ko/x4BH/0pw541X40Ra8OMAIjFjgxcRGGDW8Nsza23zMuih7k99L7u6o+AmOXM8+I4GbSP1NjhymJAVp/oStxCFOHaUScLCjmCojPdOL2nSPUrNe+3MVnDNgdFe0UVeDWiPbyepWiqLGSPttX1MHK4akaNPGMFWB+Ur2JJyO80bWj68OY16gleMLHqL3dESZi8qFjqA974vaEf2Fb3QqOkUSPPGIDob0rKp4qYoOOUSx2hRszpG5+w8NH5fngcofA4Mhba1PhGjTxjAGIfcAZ58+p9TPc0Qglk+aYckO9Hx2RkpNrg9zqQl7WATan1Z7qZKuLo1BueDwP9elwA1D6YjCayQ/N+sHGz4QQSC6DiaUJRk/LRSfYRZz71Af2eGDVyXADEZqOCRJuI04b3BRVxaHuuaitSjIqk3wJ90+u9LjZ+LDvGBSDmPEvSogUgScSraS0F5qwC2Qc7IxKk6Av9HL0URXkXbi1RTwz/r4Ot6LkognNVBQXKqJwCl+HRIrkmej6KywBckiRFX+aTfJFtQIe7Npz44+FukuuMK731D464aDNxk6WAiWTGFcpSIC7aTNxkKWAimXGF+g19hwtPQPT7ugAAAABJRU5ErkJggg=="
+								width="30" height="30"> 
+							<font color="#353535" style="font-size: 14px;">Visa</font>
+						</a>
+					</li>
+					<li>
+						<a href="#"> <!-- Mastercard icon by Icons8 --> 
+							<img class="icon icons8-Mastercard" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADbUlEQVRoQ+2ZXUiTURjH/+82k1KoQM0LwQ0n1EydEYWxMiLSmNWMyrCbhHVnoRBkUFd54U0WJRQWZGTRhaBWEoaFi4V6ERtUUjR1goSppOEKrdwbZ2PDfe+c98w03nOzwc7znP/veZ7zOQGrvAmrXD9kgH+dQTkDcgYkRkAuIYkBlGwekoG9pudqEe5rAPQQoJY8Ag8HIpwA7AIUdX2dB8l3fwsA8IpftEEQNvAYl7sPUZwVoCxaChEAsKeiu1MAjnAfmKNDEeh63WE0+VwGAJSYns2s2Oj7FItwWjqNmvAAFd0ix2AlzJWlw+gPfGAG4gQom+9F4e93yP0zAu3iiEfohGITbEn5sKvy0bN2f4h4Q84gctKc0Ge9R266dx5+nlLDPr4VjmkN3gzviBuYGcCw0I+aH3eQ6f4adTAC05xyBtbkYmjTRlF/4Ca0GQGLR4i9Y1KNxhdnPTCxGhNAjasFx+a7YvkO+P3JbiMOl/ZS2dzrr8T9wcqoNtQALOKthbtgOP6WSryvc7OlGu22QxFtqQBI2TTMNTAJ8RtVqQCdksqHue1qxHKiAnj8rRqZ7kmqwUM6k23xfDKVDzInzI+awtrEDUBWm3oXOVXE32xphSiq/Ri/QZSel55egHV4Z0iPuAHq55pQtvCSSsyr7SXYZxqgsonUuXXgBFoHTrID3J2pgXZxlIsYMJSRfTwPte1X2AH6po18xPu8NNDNA9d8CspvP1heANfljUhN/skF3LWwDuW32tgBWEpoqCoPOp2DC4DkEmKZxBGVb1EAp5KowCRPYpZlNKLCoypgG91mJnkZJWJYNjLnaQ3U2i9U0Q7u7JjKhvlh+D0o7n2AOGU5SthSClB08ZMkAG5HCaKC5TDnV1+sBIwqKhiuhznfyCwQQ+rN0JnpNsJY4okeqhJaGjrvhaYl5uFuQpGBxtQ62NcUeC80pTegTR+LmgVS84095xJ3oQkGMfzqh9ZzpfRGmFwlJ5QZsK4p9tzEghu5UmrTR6HP+uD5JM0xpQFZ68lnuENbJGLmDFAVcgI7RwOYBbA+gWPzcD1m6TD6Xwz/r4ctz9Oi4Lav4Cx8F0SFPuLTIskvgXAL7usCedwFsnnknIOPMRGwK0RFbdTHXQ4DLbsL+Q+OZQ950IByBuQMSIyAXEISAyjZfNVn4C+bZHlALt7hnAAAAABJRU5ErkJggg=="
+								width="30" height="30"> 
+							<font color="#353535" style="font-size: 14px;">Master Card</font>
+						</a>
+					</li>
+					<li>
+						<a href="#"> <!-- AmEx icon by Icons8 --> <!-- AmEx icon by Icons8 -->
+							<img class="icon icons8-AmEx" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADHUlEQVRoQ+2ZX0hTURzHf2djY7LaGkg5UbJJYIzUKIxGvSn00h9wrLceAqnHiWR7KuylpUjrrRX00JuG0J+XwB6jKIzUMkexoTi2JdGmIY2N7cTv6Lnszs3c3V1zcn5Pd7v3/H6/7/fzO5dxRqDGg9R4/yAEVJugICAIlOmAGKEyDSx7+SYCDZ75FpJN36NAOwmQlrIrqJCAAl0gQKapRtcf8x5ZyE0pE8Caz6Q+ASH7VKirfgpKE1SrP5YrQibAen32GRC4oH5lFTNSeB4dab/IM+YJmInvWPc3OsZxig13HCosYHCWquhVxVJFh9sl4+UEhICKmS5LLAj8H5+LVxEEao5Ak0UHHzxtrO9Hb37CrZdRdj1x1QanbEZ23esPwbvQGrs2GTTw3tMG5jot+9x447OkOXL3aFH97vEwjH+Ms/s+VxO4jlvYZ/w+N0oeIZ4sHE/DXoMGTnoDsJrMygS8Da6B82GI1cHCuIZHvgDMM7bRKH+m73Q9UErB6Q9B35n6os3j8yUJ4G5+jSZhbCrOGkMCSIITQJew6S5vALA5pGWq08JSPAV2q2ETgS+RJNx8EZEEhhMpMBu0MHGtldHDKOQ8X1CSgIGeAzDQvR+uPFmEV3OrEBiyw8qfDKPABfT4vsOk+zAriiRQ5OjrZXDYjGzE/jVC+Ozo5A8YOmcFJIHBzSg0byUJQDdxD+QHzuWlExapQS4GBThajayB+67mggLmonICSMph28OEI0Gsh5Sc/iAb1fzYtgA+y+g8FuWBRLDA72RGavCs3QSPLx+U4eei8gks4R6Y+iXlw82OzmPz3b5vcPt8IxtJHNn+p/INXNIewLFotuih6868zAm+qXGUsDhvkNPi+IsJKDQW6HTvg6BkFK+R+9ZTtAeKvvOqeGPbI1TFHrcsLQRUm4wgIAiU6cDuHaGGwZkEAWIu06CKLqeULsZGOqQTw911sIVHi5BNTe9UChToCmj0nUWPFpH9+vlo2scOdwlZ/3VW5cCxYYe7Wp17y8PdKvepqLz4g0ORbSouEgRUNFNRKkFAkW0qLhIEVDRTUaq/OumnQDnKF/gAAAAASUVORK5CYII="
+								width="30" height="30"> 
+							<font color="#353535" style="font-size: 14px;">American Express</font>
+						</a>
+					</li>
+				</div><!-- picture Modal -->
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+<div class="foodown" id="coy_write">
+	<div class="container">
+		<div class="bootstrap-2-compatible bootstrap-1-compatible foundation-4-compatible foundation-3-compatible foundation-2-compatible foundation-1-compatiblerow">
+			<div class="bootstrap-2-compatible bootstrap-1-compatible foundation-4-compatible foundation-3-compatible foundation-2-compatible foundation-1-compatiblelarge-12 col-xs-12 col-md-12 columns">
+				<div class="lstfoo">
+					<p>©2015-16 All rights reserved. aaoclickkare pvt. ltd.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="https://aaoclickkare.com/front_end/js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="https://aaoclickkare.com/front_end/js/bootstrap.min.js"></script>
+
+<!-- mutilne tab -->
+<script src="https://aaoclickkare.com/js/zozo.tabs.min.js"></script>
+
+<!-- form validation -->
+<script type="text/javascript" src="https://aaoclickkare.com/js/home_custom.js"></script>
+<script type="text/javascript" src="https://aaoclickkare.com/dist/js/formValidation.js"></script>
+<script type="text/javascript" src="https://aaoclickkare.com/dist/js/framework/bootstrap.js"></script>
+
+<!-- tken filed -->
+<script src="https://aaoclickkare.com/front_end/js/bootstrap-tokenfield.js"></script>
+<script src="https://aaoclickkare.com/front_end/js/jquery-ui.js"></script>
+
+<script type="text/javascript" src="https://aaoclickkare.com/front_end/js/mdb.js"></script>
+<script src="https://aaoclickkare.com/front_end/js/tooltip.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();		// to show tooltip
+});
+$('#get_password1').click(function (e) {
+	   e.preventDefault();
+		$('#signin_user1').css("display","none");
+	   	$('#forgot1').css("display","block");
+    e.preventDefault();
+	});
+$('#get_password_buy').click(function (e) {
+	   e.preventDefault();
+		$('.signin_user').css("display","none");
+	   	$('.forgot').css("display","block");
+ e.preventDefault();
+	});
+$('#login_user_buy').click(function (e) {
+	   e.preventDefault();
+		$('.signin_user').css("display","block");
+	   	$('.forgot').css("display","none");
+ e.preventDefault();
+	});
+</script>
+
+
+
+<script type="text/javascript">
+
+// to show tabs (zozo tabs) initialization
+
+$(document).ready(function() {
+	$("#tabbed-nav").zozoTabs({
+		position: "top-left",
+		theme: "white",
+		shadows: true,
+		multiline: true,
+		orientation: "horizontal",
+		size: "medium",
+		animation: {
+			easing: "easeInOutExpo",
+			duration: 500,
+			effects: "slideV"
+		}
+	});
+	$("#tabbed-nav3").zozoTabs({
+		position: "top-left",
+		theme: "white",
+ 		shadows: true,
+		multiline: true,
+		orientation: "vertical",
+		size: "medium",
+		animation: {
+			easing: "easeInOutExpo",
+			duration: 500,
+			effects: "slideV"
+		}
+	});
+});
+</script>
+
+<script>
+$(document).ready(function() {
+	// location typehead
+	var url = HOST+'/webservices30122015/get_locations_typehead';
+    $.ajax({
+		type: "POST",
+		url:url,
+		dataType: 'json',
+		success: function(res) {
+			var result =  JSON.stringify(res);
+			var json = JSON.parse(result);
+			$('.location_token').tokenfield({
+				autocomplete: {
+					source: json,
+					delay: 100
+				},
+				showAutocompleteOnFocus: true
+           	});
+			$('.location_token').on('tokenfield:createtoken', function (event) {
+				$('span[class="token-label"]').each(function(){
+					//alert($(this).html());alert(event.attrs.label);
+					var value1=$(this).html();
+					var value2=event.attrs.label;
+					if(value1==value2 ){
+						event.preventDefault();
+					}
+  				}); 
+				$("#location_id-tokenfield").blur();
+				$(".token-input").blur();
+            });
+			$('.location_token').on('tokenfield:removedtoken', function (e) {
+           	    var token_value=e.attrs.value+',';
+           	    var existing_token = document.getElementById("locations").value;
+	          	var result = existing_token.replace(/token_value+/g, "");
+	          	document.getElementById("locations").value=result;
+	          	$(".token-input").blur();
+           	  });
+            
+			$('.city_token').tokenfield({
+				autocomplete: {
+					source: json,
+					delay: 100
+				},
+				limit:1,
+				showAutocompleteOnFocus: true
+			});
+			$('.city_token').on('tokenfield:createtoken', function (event) {
+				$('span[class="token-label"]').each(function(){
+					//alert($(this).html());alert(event.attrs.label);
+					var value1=$(this).html();
+					var value2=event.attrs.label;
+					if(value1==value2 ){
+						event.preventDefault();
+					}
+  				}); 
+				$("#city-tokenfield").blur();
+			});
+		},
+	});
+
+	// category typeheads
+	var url = HOST+'webservices30122015/get_catgeories_typehead';
+	$.ajax({
+		type: "POST",
+		url:url,
+		dataType: 'json',
+		success: function(res) {
+			var result =  JSON.stringify(res);
+			var json = JSON.parse(result);
+			$('.catgeory_token').tokenfield({
+				autocomplete: {
+					source: json,
+					delay: 100,
+				},
+				showAutocompleteOnFocus: true
+			});
+           	$('.catgeory_token').on('tokenfield:createtoken', function (event) {
+				$('span[class="token-label"]').each(function(){
+					//alert($(this).html());alert(event.attrs.label);
+					var value1=$(this).html();
+					var value2=event.attrs.label;
+					if(value1==value2 ){
+						event.preventDefault();
+					}
+  				}); 
+				$("#category-tokenfield").blur();
+			});
+           	$('.catgeory_token').on('tokenfield:removedtoken', function (e) {
+           	    var token_value=e.attrs.value+',';
+           	    var existing_token = document.getElementById("category").value;
+	          	var result = existing_token.replace(/token_value+/g, "");
+	          	document.getElementById("category").value=result;
+	          	$("#category-tokenfield").blur();
+           	  });
+		},
+	});
+	
+	$('.floatlabel').on('keyup blur change', function() {
+		if( $(this).val() != '' ) {
+			$('#tagbox').fadeOut();
+			$('#tagbox2').fadeIn();
+		} else {
+			$('#tagbox2').fadeOut();
+			$('#tagbox').fadeIn();
+		}
+	}).focus();
+
+	//  to display cart count
+	
+});
+
+$(document).ready(function(){ 
+	var touch 	= $('#resp-menu');
+	var menu 	= $('.menu');
+	$(touch).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle();
+	});
+	$(window).resize(function(){
+		var w = $(window).width();
+		if(w > 767 && menu.is(':hidden')) {
+			menu.removeAttr('style');
+		}
+	});
+});
+</script>
+
+<script type="text/javascript">
+	// scroll up
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+ 	// scroll up
+    $('.scrollteam').click(function () {
+    	window.location.hash = '#team';
+        $("html, body").animate({
+            scrollTop: $(window.location.hash).offset().top
+        }, 600);
+        return false;
+    });
+
+   // to show loader
+	$(window).load(function() {
+		$(".loader").fadeOut("slow");
+	})
+	
+	if( document.getElementById("msg4")){
+		$("#msg4").delay(6000).hide(0, function() {
+			//alert('hide');
+		});
+	}
+</script>
+

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+    window.cookieconsent_options = {
+    	message: "This website uses cookies to ensure you get the best experience.",
+        learnMore: 'More info',
+        link: 'http://www.busythings.co.uk/privacy#cookies',
+        theme:false,
+        container:'#main-page'
+    };
+</script>
+<script src="/js/common.js"></script>
+
+
+<link href='/css/common_6.css' rel='stylesheet' type='text/css' />
+<link href='/css/colours.css' rel='stylesheet' type='text/css' />
+<link href='/css/Dropdown.css' rel='stylesheet' type='text/css' />
+
+<link href='/css/slick.css' rel='stylesheet' type='text/css' />
+<link href='/css/slick-theme.css' rel='stylesheet' type='text/css' />
+
+<script src="/js/slick.js"></script>
+<script src="/js/scrollmagic/ScrollMagic.min.js"></script>
+<script src="/js/greensock/TweenMax.min.js"></script>
+
+<script src="/js/scrollmagic/plugins/animation.gsap.min.js"></script>
+<script src="/js/scrollmagic/plugins/debug.addIndicators.min.js"></script>
+
+<script src="/js/jquery.form.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/css/component.css" />
+
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/css/ie7-8.css" /><![endif]-->
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/css/ie9.css" /><![endif]-->
+
+<link href='/css/colour-default.css' rel='stylesheet' type='text/css' /><title>Busythings | GDPR | Your privacy is important to us!</title>
+<meta name="description" content="Busythings is committed to keeping your personal data safe and is GDPR compliant."/>
+<meta property="fb:admins" content="rachel.hall.589100"/>
+<meta property="fb:app_id" content="190617627623905"/>
+<meta property="og:url" content="https://www.busythings.co.uk/privacy"/>
+<meta property="og:locale" content="en_GB"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Busy Things"/>
+<meta property="og:title" content="Busythings | GDPR | Your privacy is important to us!"/>
+<meta property="og:description" content="Busythings is committed to keeping your personal data safe and is GDPR compliant."/>
+<meta property="og:image" content="https://www.busythings.co.uk//public_images/gdpr/meta_FB_GDPR.jpg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta name="twitter:site" content="@busythings"/>
+<meta name="twitter:description" content="Busythings is committed to keeping your personal data safe and is GDPR compliant."/>
+<meta name="twitter:title" content="Busythings | GDPR | Your privacy is important to us!"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="og:image" content="https://www.busythings.co.uk//public_images/gdpr/meta_twitter_GDPR.jpg"/>
+<meta itemprop="name" content="Busythings | GDPR | Your privacy is important to us!"/>
+<meta itemprop="description" content="Busythings is committed to keeping your personal data safe and is GDPR compliant."/>
+<meta itemprop="url" content="https://www.busythings.co.uk/privacy"/>
+<meta itemprop="image" content="https://www.busythings.co.uk//public_images/gdpr/meta_FB_GDPR.jpg"/>
+<meta name="p:domain_verify" content="358e6f7fb40f366e217ff0db9735c69b"/>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10175261-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '540830816070427');
+fbq('track', "PageView");
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=540830816070427&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+<body class='pagestyle-standard balls-menu-8'>
+	<!--[if lte IE 8]>
+		<div style='text-align:center;padding:10px;background-color:yellow;'>busythings.co.uk runs best in Internet Explorer 9 or higher</div>
+	<![endif]-->
+	<div class='container'><div class='mp-pusher' id='mp-pusher'><nav id='mp-menu' class='mp-menu'><div class='mp-level light-grey-bg'><a href='/'><img src='/images/logos/logo-menu.png'></a><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='blue-music-bg'><a href='/schools'>Schools ></a><div class='mp-level blue-music-bg'><h2>Schools</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='blue-music-bg'><a href='/schools'>Overview</a></li><li class='blue-music-bg'><a href='/schools/early-years'>Early years ></a><div class='mp-level blue-music-bg'><h2>Early years</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='blue-music-bg'><a href='/schools/early-years'>Early years</a></li><li class='blue-music-bg'><a href='/schools/earlyyears/areasoflearning'>Areas of learning</a></li></ul></div></li><li class='blue-music-bg'><a href='/schools/key-stage-1-and-2'>Key stages 1 and 2 ></a><div class='mp-level blue-music-bg'><h2>Key stages 1 and 2</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='blue-music-bg'><a href='/schools/key-stage-1-and-2'>Key stages 1 and 2</a></li><li class='blue-music-bg'><a href='/schools/key-stage-1/subject-areas-ks1'>Subject areas</a></li></ul></div></li><li class='blue-music-bg'><a href='/schools/curriculum'>Curriculum ></a><div class='mp-level blue-music-bg'><h2>Curriculum</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='blue-music-bg'><a href='/schools/curriculum'>Curriculum</a></li><li class='blue-music-bg'><a href='/schools/curriculum/literacy'>English</a></li><li class='blue-music-bg'><a href='/schools/curriculum/mathematics'>Mathematics</a></li><li class='blue-music-bg'><a href='/schools/curriculum/science'>Science</a></li><li class='blue-music-bg'><a href='/schools/curriculum/humanities'>Humanities</a></li><li class='blue-music-bg'><a href='/schools/curriculum/music-and-art'>Music and Art</a></li></ul></div></li><li class='blue-music-bg'><a href='/schools/videos'>Videos</a></li><li class='blue-music-bg'><a href='/schools/activity-types'>Activities</a></li><li class='blue-music-bg'><a href='/schools/teacher-features'>For teachers</a></li><li class='blue-music-bg'><a href='/schools/subscribe'>Subscribe</a></li><li class='blue-music-bg'><a href='/schools/free-trial'>Free trial</a></li></ul></div></li><li class='info-text-light-gree-bg'><a href='/families'>Families ></a><div class='mp-level info-text-light-gree-bg'><h2>Families</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='info-text-light-gree-bg'><a href='/families'>Overview</a></li><li class='info-text-light-gree-bg'><a href='/families/games-and-activities'>Games and activities</a></li><li class='info-text-light-gree-bg'><a href='/families/subjects'>Subjects ></a><div class='mp-level info-text-light-gree-bg'><h2>Subjects</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='info-text-light-gree-bg'><a href='/families/subjects'>Subjects</a></li><li class='info-text-light-gree-bg'><a href='/families/subjects/english'>English</a></li><li class='info-text-light-gree-bg'><a href='/families/subjects/maths'>Maths</a></li><li class='info-text-light-gree-bg'><a href='/families/subjects/science'>Science</a></li><li class='info-text-light-gree-bg'><a href='/families/curriculum/geography'>Humanities</a></li><li class='info-text-light-gree-bg'><a href='/families/subjects/music-and-art'>Music and art</a></li></ul></div></li><li class='info-text-light-gree-bg'><a href='/families/parent-tools'>Parent tools</a></li><li class='info-text-light-gree-bg'><a href='/families/subscribe'>Subscribe</a></li><li class='info-text-light-gree-bg'><a href='/families/free-trial'>Free trial</a></li><li class='info-text-light-gree-bg'><a href='/families/gift'>Gift subscription</a></li></ul></div></li><li class='pink-pe-bg'><a href='/nurseries'>Nurseries ></a><div class='mp-level pink-pe-bg'><h2>Nurseries</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='pink-pe-bg'><a href='/nurseries'>Nurseries</a></li><li class='pink-pe-bg'><a href='/nurseries/subscribe'>Subscribe</a></li><li class='pink-pe-bg'><a href='/nurseries/free-trial'>Free trial</a></li></ul></div></li><li class='blue-ict-bg'><a href='/apps'>Apps ></a><div class='mp-level blue-ict-bg'><h2>Apps</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='blue-ict-bg'><a href='/apps'>Overview</a></li><li class='blue-ict-bg'><a href='/apps/problem-solving'>Problem solving</a></li><li class='blue-ict-bg'><a href='/apps/maths_3-5'>Maths (3-5)</a></li><li class='blue-ict-bg'><a href='/apps/maths-age-5-11'>Maths (5-11)</a></li><li class='blue-ict-bg'><a href='/apps/shapes'>Shapes</a></li><li class='blue-ict-bg'><a href='/apps/exploration'>Exploration</a></li><li class='blue-ict-bg'><a href='/apps/traditional-tales'>Traditional tales</a></li><li class='blue-ict-bg'><a href='/apps/christmas'>Christmas</a></li></ul></div></li><li class='red-citizen-bg'><a href='/blog'>Blog</a></li><li class='purple-mfl-bg'><a href='/about-us'>About ></a><div class='mp-level purple-mfl-bg'><h2>About</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='purple-mfl-bg'><a href='/about-us'>About</a></li><li class='purple-mfl-bg'><a href='/about-us/our-advisors'>Our advisors</a></li><li class='purple-mfl-bg'><a href='/about-us/our-awards'>Our awards</a></li></ul></div></li><li class='magenta-bg'><a href='/contact-us'>Contact ></a><div class='mp-level magenta-bg'><h2>Contact</h2><ul><li><a href='#' class='mp-back'>&lt; BACK</a></li><li class='magenta-bg'><a href='/contact-us'>Contact</a></li><li class='magenta-bg'><a href='/contact-us/support'>Technical support</a></li><li class='magenta-bg'><a href='/contact/book-a-tutorial'>Book a tutorial</a></li></ul></div></li><li class='orange-maths-bg'><a href='/shop'>Shop</a></li><li class='sidemenu-account-item'><a href='https://www.busythings.co.uk/account' class='menu-trigger'>MANAGE ACCOUNT</a></li></ul></div></nav><div class='scroller'><div class='scroller-inner'>		
+			<div id='main-page' style='text-align:center'>
+				<div id='header'>
+					<div id='header-top'><a id='bt-logo' href='/'><img src='/images/logos/logo-top-left.png'></a><a id='bt-logo-wide' href='/'><img src='/images/logos/plain_logo_no_strap.png'></a><a id='bt-logo-small' href='/'><img src='/images/logos/plain-logo-2lines.png'></a><div style='float:right'><a href='https://www.busythings.co.uk/play' title='Log in'><div class='log-in-button'>LOG IN</div></a></div><div id='balls-menu'><div id='ball-menu'><a href='/schools'><div class='circle blue-music-bg'>SCHOOLS</div></a><a href='/families'><div class='circle info-text-light-gree-bg'>FAMILIES</div></a><a href='/nurseries'><div class='circle pink-pe-bg'>NURSERIES</div></a><a href='/apps'><div class='circle blue-ict-bg'>APPS</div></a><a href='/blog'><div class='circle red-citizen-bg'>BLOG</div></a><a href='/about-us'><div class='circle purple-mfl-bg'>ABOUT</div></a><a href='/contact-us'><div class='circle magenta-bg'>CONTACT</div></a><a href='/shop'><div class='circle orange-maths-bg'>SHOP</div></a></div></div>
+
+<a href='https://www.busythings.co.uk/account'  class='account-ball'>MANAGE ACCOUNT</a><a href='https://www.busythings.co.uk/basket' class='basket-ball'>0</a><a href='#' id='trigger' class='menu-trigger circle'>&#9776;</a><div style='clear:both'></div></div>				</div>
+				<div id='page-content' >	
+					
+					<div class='image-band-outer  hero-image-band' style='background-image:url(/public_images/privacy/privacy.png);min-height:432px;background-position:center top;background-repeat:repeat-x;'><div class='image-band default '><div class='image-band-inner'><div class='text-block full-width  hide-mobile' style=''><div class='block-inner top-padding'><h2 class="hero-header"><span style="color: #00a99d;">Our Data Protection, Privacy &amp; Cookie Policy</span></h2>
+<h3 class="hero-header"><span style="color: #00a99d;">Your privacy is important to us</span></h3>
+<h1 class="hero-header"><span style="font-size: 22px;"><a class="action-button action-button-curved info-text-green-bg" href="https://www.busythings.co.uk/pdfs/data_privacy_cookie_policy.pdf" target="_blank"><span style="color: #ffffff;"><strong><span style="text-decoration: underline;">&nbsp;Download PDF</span></strong></span></a></span></h1></div></div><div class='text-block left-75  hide-desktop hide-wide' style=''><div class='block-inner '><h3 class="hero-header"><span style="color: #00a99d;">Data Protection, Privacy &amp; Cookie Policy</span></h3>
+<h4><span style="color: #00a99d;">You privacy is important to us</span></h4>
+<p style="text-align: center;"><span style="color: #00a99d; font-size: 16px;"><a class="action-button action-button-curved info-text-green-bg" href="/"><span style="color: #ffffff;"><strong><span style="text-decoration: underline;">&nbsp;Download PDF</span></strong></span></a></span></p></div></div><div style='clear:both'></div></div></div></div><div class='band-outer ' style=''><div class='band wide-band '><div class='band-inner'><div class='text-block full-width ' style=''><div class='block-inner no-padding'><p style="text-align: right;"><span style="font-size: 14px;"><a href="/your-data">How we use your data</a></span></p>
+<p style="text-align: right;"><span style="font-size: 14px;"><a href="/terms">Terms and Conditions</a></span></p>
+<p style="text-align: right;"><span style="font-size: 14px;"><a href="/gdpr">GDRR statement for schools </a></span></p>
+<p style="text-align: right;"><span style="font-size: 14px;"><strong><strong>&nbsp;</strong></strong></span></p></div></div><div class='text-block full-width ' style=''><div class='block-inner no-padding'><h3 style="text-align: left;"><span style="color: #00a99d;">Data Protection, Privacy and Cookie Policy</span></h3>
+<p><span style="color: #000000;">Last updated&nbsp;12th March 2018</span></p></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 0; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Introduction
+<ol style="color: black; font-weight: normal;">
+<li>This document sets out the obligations of Busythings Limited ("Busy Things") with regard to data protection and the rights of people with whom it works in respect of their personal data under applicable data protection legislation (including the Data Protection Act 1998 and when applicable the General Data Protection Regulations (the "GDPR")).</li>
+<li>Busy Things is a "data controller". This means that we are responsible for deciding how we hold and use personal information about you. We can be contacted by telephone on +44 (0)1332 364963, by email at&nbsp;<a href="mailto:enquiries@busythings.co.uk">enquiries@busythings.co.uk</a> or by post at the registered office address 3 St. James Court, Derby, DE1 1BT. The data protection officer ("DPO") is Duncan Witham whose service address is 3 St. James Court, Derby, DE1 1BT and can be contacted on +44 (0)1332 364963.</li>
+<li>This policy applies between any user of this website and Busy Things the owner and provider of this website. This Policy sets out procedures that Busy Things follows and where appropriate you must follow when dealing with personal data. The procedures set out herein are followed by Busy Things, its employees, contractors, agents, consultants, partners or other parties working on behalf of Busy Things.</li>
+<li>Busy Things views the correct and lawful handling of personal data as key to its success and dealings with third parties. Busy Things ensures that it handles all personal data correctly and lawfully.</li>
+<li>This policy applies only to the actions of Busy Things and users with respect to the Busy Things website. It does not extend to any websites that can be accessed from this website including, but not limited to, any links that may be provided to social media websites.</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 1; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">The Data Protection Principles
+<ol style="color: black; font-weight: normal;">
+<li>This Policy aims to ensure compliance with current UK data protection legislation and the GDPR. That legislation sets out principles with which any party handling personal data must comply. All personal data:
+<ol>
+<li>must be processed fairly, lawfully and in a transparent manner (and shall not be processed unless certain conditions are met);</li>
+<li>must be obtained only for specified and lawful purposes and shall not be processed in any manner which is incompatible with those purposes;</li>
+<li>must be adequate, relevant and not excessive with respect to the purposes for which it is processed;</li>
+<li>must be accurate and, where appropriate, kept up-to-date;</li>
+<li>must be kept for no longer than is necessary in light of the purpose(s) for which it is processed;</li>
+<li>must be processed in accordance with the rights of data subjects;</li>
+<li>must be protected against unauthorised or unlawful processing, accidental loss, destruction or damage through appropriate technical and organisational measures; and</li>
+<li>must not be transferred to a country or territory outside of the European Economic Area unless that country or territory ensures an adequate level of protection for the rights and freedoms of data subjects in relation to the processing of personal data.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 2; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Rights of Data Subjects
+<ol style="color: black; font-weight: normal;">
+<li>Data subjects have the following rights:
+<ol>
+<li>the right to be informed that their personal data is being processed;</li>
+<li>the right to access any of their personal data held by Busy Things within one month of making a request;</li>
+<li>the right to rectification if their personal data is inaccurate or incomplete within one month of making a request (this can be extended by two months where the request for rectification is complex);</li>
+<li>the right to erasure which enables data subjects to request the deletion or removal of personal data where there is no compelling reason for its continued processing;</li>
+<li>the right to restrict processing personal data;</li>
+<li>the right to data portability allows data subjects to obtain and reuse their personal data for their own purposes across different services;</li>
+<li>the right to object to processing based on legitimate interests or the performance of a task in the public interest/exercise of official authority (including profiling); direct marketing (including profiling); and processing for purposes of scientific/historical research and statistics; and</li>
+<li>rights in relation to automated decision making and profiling.</li>
+</ol>
+</li>
+<li>The rights listed in this clause 3 can be exercised by writing to Busythings Limited, 3 St. James Court, Derby, DE1 1BT or by email to&nbsp;<a href="mailto:enquiries@busythings.co.uk">enquiries@busythings.co.uk</a></li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 3; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Personal Data
+<ol style="color: black; font-weight: normal;">
+<li>Personal data is defined as information relating to an identifiable person who can be directly or indirectly identified in particular by reference to that data.</li>
+<li>The GDPR also defines "sensitive personal data" as data consisting of racial or ethnic origin, political opinions, religious or philosophical beliefs, or trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person's sex life or sexual orientation.</li>
+<li>Busy Things only holds personal data which is directly relevant to its dealings with a given data subject. That data will be held and processed in accordance with the data protection principles and with this Policy. The following data may be collected, held and processed by Busy Things from time to time:
+<ol>
+<li>Full Name;</li>
+<li>Date of birth (parent/home subscriptions only);</li>
+<li>Email address;</li>
+<li>Job title (school subscriptions only);</li>
+<li>Telephone number;</li>
+<li>School Name (school subscriptions only);</li>
+<li>School Address (school subscriptions only);</li>
+<li>Personal or home address (parent/home subscriptions only); and</li>
+<li>IP address (automatically collected);</li>
+<li>web browser type and version (automatically collected);</li>
+<li>operating system (automatically collected);</li>
+<li>your activity on this website, including the referring site and the pages you visit</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 4; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Processing Personal Data
+<ol style="color: black; font-weight: normal;">
+<li>Any and all personal data collected by Busy Things (including that detailed in Section 4 of this Policy) is collected in order to ensure that Busy Things can facilitate efficient transactions with third parties including, but not limited to, its customers, partners, associates and affiliates and efficiently manage its employees, contractors, agents and consultants. Personal data shall also be used by Busy Things in meeting any and all relevant obligations imposed by law.</li>
+<li>Personal data may be required by us from time to time in order to provide users with the best possible service and experience when using the website. Specifically, personal data may be used by us for the following reasons:
+<ol>
+<li>internal record keeping;</li>
+<li>improvement of our products/services;</li>
+<li>transmission by email of promotional materials that may be of interest to you;</li>
+<li>contact for market research purposes which may be done using email, telephone, or mail. Such information may be used to customise or update the website.</li>
+</ol>
+</li>
+<li>Personal data may be disclosed within Busy Things. Personal data may be passed from one department to another in accordance with the data protection principles and this Policy. Under no circumstances will personal data be passed to any department or any individual within Busy Things that does not reasonably require access to that personal data with respect to the purpose(s) for which it was collected and is being processed.</li>
+<li>Busy Things shall ensure that:
+<ol>
+<li>all personal data collected and processed for and on behalf of Busy Things by any party is collected and processed fairly and lawfully;</li>
+<li>data subjects are made fully aware of the reasons for the collection of personal data and are given details of the purpose for which the data will be used;</li>
+<li>personal data is only collected to the extent that is necessary to fulfil the stated purpose(s);</li>
+<li>all personal data is accurate at the time of collection and kept accurate and up-to-date while it is being held and/or processed;</li>
+<li>no personal data is held for any longer than necessary in light of the stated purpose(s);</li>
+<li>all personal data is held in a safe and secure manner, taking all appropriate technical and organisational measures to protect the data;</li>
+<li>all personal data is transferred using secure means, electronically or otherwise;</li>
+<li>no personal data is transferred outside of the UK or EEA (as appropriate) without first ensuring that appropriate safeguards are in place in the destination country or territory; and</li>
+<li>all data subjects can exercise their rights set out above in Section 3 and more fully in applicable legislation (including the GDPR).</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 5; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Data Protection Procedures
+<ol style="color: black; font-weight: normal;">
+<li>Busy Things shall ensure that all of its employees, contractors, agents, consultants, partners or other parties working on behalf of Busy Things comply with the following when processing and / or transmitting personal data:
+<ol>
+<li>all emails containing personal data must be encrypted;</li>
+<li>personal data may be transmitted over secure networks only - transmission over unsecured networks is not permitted in any circumstances;</li>
+<li>personal data may not be transmitted over a wireless network if there is a wired alternative that is reasonably practicable;</li>
+<li>personal data contained in the body of an email, whether sent or received, should be copied from the body of that email and stored securely. The email itself should be deleted. All temporary files associated therewith should also be deleted;</li>
+<li>where Personal data is to be sent by facsimile transmission the recipient should be informed in advance of the transmission and should be waiting by the fax machine to receive the data;</li>
+<li>where Personal data is to be transferred in hardcopy form it should be passed directly to the recipient. Using an intermediary is not permitted;</li>
+<li>all hardcopies of personal data should be stored securely in a locked box, drawer, cabinet or similar;</li>
+<li>all electronic copies of personal data should be stored securely using passwords and suitable data encryption, where possible on a drive or server which cannot be accessed via the internet; and</li>
+<li>all passwords used to protect personal data should be changed regularly and should not use words or phrases which can be easily guessed or otherwise compromised.</li>
+</ol>
+</li>
+<li>Any personal data you submit will be retained by Busy Things for a period of up to three years after a subscription or free trial has expired.</li>
+<li>Unless we are obliged or permitted by law to do so, and subject to Section 10, your personal data will not be disclosed to third parties.</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 6; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Organisational Matters
+<ol style="color: black; font-weight: normal;">
+<li>Busy Things shall ensure that the following measures are taken with respect to the collection, holding and processing of personal data:
+<ol>
+<li>the Data Protection Officer (the "DPO") within Busy Things shall be appointed with the specific responsibility of overseeing data protection and ensuring compliance with the GDPR;</li>
+<li>all employees, contractors, agents, consultants, partners or other parties working on behalf of Busy Things are made fully aware of both their individual responsibilities and Busy Things' responsibilities under the GDPR and shall be furnished with a copy of this Policy;</li>
+<li>all employees, contractors, agents, consultants, partners or other parties working on behalf of Busy Things handling personal data will be appropriately trained to do so;</li>
+<li>all employees, contractors, agents, consultants, partners or other parties working on behalf of Busy Things handling personal data will be appropriately supervised;</li>
+<li>methods of collecting, holding and processing personal data shall be regularly evaluated and reviewed;</li>
+<li>the Performance of those employees, contractors, agents, consultants, partners or other parties working on behalf of Busy Things handling personal data shall be regularly evaluated and reviewed;</li>
+<li>all employees, contractors, agents, consultants, partners or other parties working on behalf of Busy Things handling personal data will be bound to do so in accordance with the principles of the GDPR and this Policy by contract. Failure by any employee to comply with the principles or this Policy shall constitute a disciplinary offence. Failure by any contractor, agent, consultant, partner or other party to comply with the principles or this Policy shall constitute a breach of contract. In all cases, failure to comply with the principles or this Policy may also constitute a criminal offence under the GDPR;</li>
+<li>all contractors, agents, consultants, partners or other parties working on behalf of Busy Things handling personal data must ensure that any and all of their employees who are involved in the processing of personal data are held to the same conditions as those relevant employees of Busy Things arising out of this Policy and the GDPR;</li>
+<li>where any contractor, agent, consultant, partner or other party working on behalf of Busy Things handling personal data fails in their obligations under this Policy that party shall indemnify and hold harmless Busy Things against any costs, liability, damages, loss, claims or proceedings which may arise out of that failure.</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 7; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Access by Data Subjects
+<ol style="color: black; font-weight: normal;">
+<li>A data subject may make a subject access request ("SAR") at any time to see the information which Busy Things holds about them:
+<ol>
+<li>SARs must be made in writing, and if applicable, accompanied by the correct fee;</li>
+<li>Busy Things shall provide a copy of the information free of charge, unless the request is manifestly unfounded or excessive, particularly if it is repetitive, in which case Busy Things shall charge a reasonable fee based on the administrative cost of providing the information.</li>
+</ol>
+</li>
+<li>Upon receipt of an SAR Busy Things shall have a maximum period of 30 days within which to respond. The following information will be provided to the data subject:
+<ol>
+<li>whether or not Busy Things holds any personal data on the data subject;</li>
+<li>a description of any personal data held on the data subject;</li>
+<li>details of what that personal data is used for;</li>
+<li>details of any third-party organisations that personal data is passed to; and</li>
+<li>details of any technical terminology or codes</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 8; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Notification to the Information Commissioner's Office
+<ol style="color: black; font-weight: normal;">
+<li>As a data controller, Busy Things is required to notify the Information Commissioner's Office that it is processing personal data. Busy Things is registered in the register of data controllers.</li>
+<li>Data controllers must renew their notification with the Information Commissioner's Office on an annual basis. Failure to notify constitutes a criminal offence.</li>
+<li>Any changes to the register must be notified to the Information Commissioner's Office within 28 days of taking place.</li>
+<li>The DPO shall be responsible for notifying and updating the Information Commissioner's Office.</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 9; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Third Party Websites and Services
+<ol style="color: black; font-weight: normal;">
+<li>Busy Things may, from time to time, employ the services of other parties for dealing with payment processing and delivery of purchased items. The providers of such services do have access to certain personal data provided by users of the website.</li>
+<li>Any personal data used by such parties is used only to the extent required by them to perform the service that Busy Things requests. Any use for other purposes is strictly prohibited. Furthermore, any personal data that is processed by third parties shall be processed within the terms of this policy and in accordance with the GDPR.</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 10; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Links to Other Websites
+<ol style="color: black; font-weight: normal;">
+<li>This website may, from time to time, provide links to other websites. Busy Things has no control over such websites and is in no way responsible for the content thereof. This policy does not extend to your use of such websites. Users are advised to read the privacy policy or statement of other websites prior to using them.</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 11; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Changes of Business Ownership and Control
+<ol style="color: black; font-weight: normal;">
+<li>Busy Things may, from time to time, expand or reduce our business and this may involve the sale and/or the transfer of control of all or part of Busy Things. Personal data provided by users will, where it is relevant to any part of our business so transferred, be transferred along with that part and the new owner or newly controlling party will, under the terms of this policy, be permitted to use the personal data for the purposes for which it was originally supplied to us.</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 12; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Your Right to Withhold Information
+<ol style="color: black; font-weight: normal;">
+<li>You may access certain areas of the website without providing any personal data at all. However, to use all features and functions available on the website you may be required to submit certain personal data.</li>
+<li>You may restrict your internet browser's use of Cookies. For more information see the Cookie Policy attached to this document.</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 13; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Implementation of Policy
+<ol style="color: black; font-weight: normal;">
+<li>This Policy shall be deemed effective as of&nbsp;12th March 2018 No part of this Policy shall have retroactive effect and shall thus apply only to matters occurring on or after this date.</li>
+</ol>
+</li>
+</ol></div></div><div style='clear:both'></div></div></div></div><div class='band-outer ' style=''><div class='band wide-band '><div class='band-inner'><div class='text-block full-width ' style=''><div class='block-inner '><h3 style="text-align: left;"><span style="color: #00a99d;"><a id="cookies"></a>Cookie Policy</span></h3>
+<p><span style="color: #000000;">Last updated&nbsp;12th March 2018</span></p></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 0; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Cookies
+<ol style="color: black; font-weight: normal;">
+<li>This Website may place and access certain Cookies on your computer. Busy Things uses Cookies to improve your experience of using the Website and to improve our range of products and services. Busy Things has carefully chosen these Cookies and has taken steps to ensure that your privacy is protected and respected at all times.</li>
+<li>All Cookies used by this Website are used in accordance with current UK and EU Cookie Law.</li>
+<li>Most browsers allow you to block cookies, or to request permission for them to be set. The method for enabling these options varies from browser to browser. Instructions for common browsers can be found here:<br /><br />
+<table border="2">
+<tbody>
+<tr>
+<td><strong>Chrome&nbsp;</strong></td>
+<td><a href="https://support.google.com/chrome/answer/95647?hl=en" target="_blank">https://support.google.com/chrome/answer/95647?hl=en</a>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;<strong>Firefox</strong></td>
+<td><a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences" target="_blank">https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences</a></td>
+</tr>
+<tr>
+<td>&nbsp;<strong>Opera</strong></td>
+<td><a href="http://www.opera.com/help/tutorials/security/cookies/" target="_blank">http://www.opera.com/help/tutorials/security/cookies/</a></td>
+</tr>
+<tr>
+<td><strong>&nbsp;Internet Explorer</strong></td>
+<td><a href="https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies" target="_blank">https://support.microsoft.com/en-gb/help/17442/windows-internet-explorer-delete-manage-cookies</a></td>
+</tr>
+<tr>
+<td>&nbsp;<strong>Edge</strong></td>
+<td><a href="https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy" target="_blank">https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-and-privacy</a></td>
+</tr>
+<tr>
+<td>&nbsp;<strong>Safari</strong></td>
+<td><a href="https://support.apple.com/kb/PH21411" target="_blank">https://support.apple.com/kb/PH21411</a></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>Please note that blocking all cookies may have a negative impact on the usability of this website.</li>
+<li>Certain cookies are deemed necessary for the functioning of this site. This website places the following necessary Cookies:<br /><br />
+<table border="2">
+<tbody>
+<tr>
+<td><strong>Name of Cookie</strong>&nbsp;</td>
+<td><strong>Purpose</strong>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;<strong>PHPSESSID</strong></td>
+<td>Manages your session on this website. This is so we can remember what items you add to your shopping basket, which account you are logged into etc.</td>
+</tr>
+<tr>
+<td>&nbsp;<strong>_stripe*</strong></td>
+<td>These cookies are used by our credit card payment system and are included across the website as part of Stripe's credit card fraud prevention system. Stripe may choose set further cookies on your computer. More details can be found here:&nbsp;<a href="https://www.stripe.com/cookies-policy/legal" target="_blank">https://www.stripe.com/cookies-policy/legal</a></td>
+</tr>
+<tr>
+<td>&nbsp;<strong>Tawk*/_tawk*</strong></td>
+<td>These cookies are used by our online chat to provide technical support to our users. Tawk may choose to set further cookies on your computer. Mode details can be found here: <a href="https://www.tawk.to/privacy-policy/">https://www.tawk.to/privacy-policy/</a></td>
+</tr>
+<tr>
+<td><strong>curriculum-browser, clipart- browser (LocalStorage)</strong></td>
+<td>These are used to store the state of the curriculum and clipart browsers within Busy Things. This allows the browsers to return to their previous state when you return to the relevant page.</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>We use analytics cookies to monitor the usage of and improve our website. The following analytics cookies are placed:<br /><br />
+<table border="2">
+<tbody>
+<tr>
+<td><strong>Name of Cookie</strong>&nbsp;</td>
+<td><strong>Purpose</strong>&nbsp;</td>
+</tr>
+<tr>
+<td><strong>_utm*, _ga*</strong></td>
+<td>Used by Google Analytics to distinguish users and monitor usage of this website. For more information, see here:&nbsp;<a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage" target="_blank">https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage</a></td>
+</tr>
+<tr>
+<td><strong>&nbsp;Facebook Pixel</strong></td>
+<td>We use Facebook Pixel to monitor usage of this website. For more information, see:&nbsp;<a href="https://www.facebook.com/policies/cookies/" target="_blank">https://www.facebook.com/policies/cookies/</a></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>We use functionality cookies to allow you to customise your Busy Things experience on a particular device. These cookies will only be placed if you select the relevant option. We use the following functionality cookies:<br /><br />
+<table border="2">
+<tbody>
+<tr>
+<td><strong>param, paramvalue, token, accesscode&nbsp;</strong></td>
+<td>&nbsp;
+<p>These are used to remember your login details. They are only placed if you select the 'Remember me' option when logging in.</p>
+</td>
+</tr>
+<tr>
+<td>&nbsp;<strong>whiteboardmode, hideactivitydescriptions, hideunsupportedactivities</strong></td>
+<td>These are used to remember any changes you make in the &ldquo;Device settings&rdquo; panel. They are only placed when you click to confirm your choices.</td>
+</tr>
+<tr>
+<td>&nbsp;<strong>device-*</strong></td>
+<td>These cookies are used to remember if you have chosen the &ldquo;Don't show this again&rdquo; option on a specific warning message. They are only placed when you select the option and click past the warning message.</td>
+</tr>
+<tr>
+<td>&nbsp;<strong>guest_*</strong></td>
+<td>&nbsp;
+<p>These cookies are used if you access a guest account and, when prompted to enter your name and email address, select the 'Remember these details' option. They will only be placed when you select this option and click to confirm your details.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>Other cookies that may be placed on your computer:<br /><br />
+<table border="2">
+<tbody>
+<tr>
+<td>&nbsp;<strong>YouTube</strong></td>
+<td>This website uses embedded YouTube videos, which may place cookies on your computer. For more information, please see:&nbsp;<a href="https://www.google.co.uk/intl/en/policies/privacy/" target="_blank">https://www.google.co.uk/intl/en/policies/privacy/</a></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</li>
+</ol></div></div><div class='text-block full-width ' style=''><div class='block-inner bottom-padding'><ol style="counter-reset: item 1; color: #00a99d; font-weight: bold;">
+<li style="text-align: left;">Changes to this Policy
+<ol style="color: black; font-weight: normal;">
+<li>Busy Things reserves the right to change this Policy as we may deem necessary from time to time or as may be required by law. Any changes will be immediately posted on the Website and you are deemed to have accepted the terms of the Policy on your first use of the Website following the alterations.</li>
+</ol>
+</li>
+</ol></div></div><div style='clear:both'></div></div></div></div>					
+				</div>
+			</div>
+			<div id='footer'>
+				<div id='footer-social-media'><a class='social-media-link' href='http://www.facebook.com/busythings'><img src='/images/social/facebook.png'></a><a class='social-media-link' href='http://www.twitter.com/busythings'><img src='/images/social/twitter.png'></a><a class='social-media-link' href='http://www.youtube.com/busythings'><img src='/images/social/youtube.png'></a><a class='social-media-link' href='https://www.linkedin.com/company/busythings-co-uk'><img src='/images/social/linkedIn.png'></a><a class='social-media-link' href='mailto:enquiries@busythings.co.uk'><img src='/images/social/email.png'></a></div><div id='footer-menu'><a class='footer-link' href='/your-data'>How we use your data</a><a class='footer-link' href='/privacy'>Privacy, Data and Cookie Policy</a><a class='footer-link' href='/terms'>Terms and Conditions</a><a class='footer-link' href='/gdpr'>GDPR</a><a class='footer-link' href='/contact-us'>Contact us</a></div><img id='footer-monster' src='/images/common/footer_monster.png'><div id='footer-copyright'>Copyright &copy; Busythings Ltd 2016</div>			</div>
+			</div></div></div></div>		<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/58da41aaf7bbaa72709c2d01/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>
