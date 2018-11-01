@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html lang=en>
+
+
+
+
+
+
+    <head>
+    <meta name="google-site-verification" content="_B360VBetlteoII_jcWSrPO2yvIt78pQ4cucWRNwScs" />
+    <script type="text/javascript">
+    try{
+    (function(a,b){  
+  if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))
+    {  
+      if(window.location.hostname == "dittotv.com" || window.location.hostname == "www.dittotv.com"){
+        window.location.href = "http://m.dittotv.com/"
+      }
+      else(window.location.hostname =="m.dittotv.com")
+      {
+      }
+    } 
+    else{
+      if(window.location.hostname == "m.dittotv.com"){
+        window.location.href = "http://www.dittotv.com/"
+      }
+      else{
+      }
+    }
+})(navigator.userAgent||navigator.vendor||window.opera,'http://detectmobilebrowser.com/mobile');
+}catch(e){  
+}
+</script>
+
+<script type="text/javascript">
+
+/*Checking and redirecting to specific language page*/
+/*if cookie is hindi and url is hindi then no redirection*/
+/*if cookie is english and url is hindi then go to hindi page of same uri*/
+/*if cookie is hindi and url is english then go to hindi page of same uri*/
+/*if cookie is english and url is english then no redirection*/
+
+(function(){
+      function getCookie(name) {
+
+        var value = "; " + document.cookie;
+        var parts = value.split("; " + name + "=");
+        if (parts.length == 2) return parts.pop().split(";").shift();
+
+      }
+
+
+      var if_URL_has_hindi = (location.pathname.split("/")[1] == "hi")? true : false;
+      var url_param_lang = location.pathname.split("/")[1];
+      var if_cookie_has_hindi = (getCookie("i18n") == "hi")? true : false;
+      var the_cookie_value = getCookie("i18n");
+      var __newlang = getCookie("__newlang"); 
+      console.log("is url hindi "+if_URL_has_hindi);
+      console.log("is cookie hindi "+if_cookie_has_hindi);
+      console.log("new lang was " +__newlang);
+
+      if(__newlang){
+          if(__newlang != the_cookie_value){
+            /*
+            document.cookie = "i18n" + "=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT;";
+            document.cookie = "i18n" + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;"
+            */
+            document.cookie = "i18n="+__newlang+";path=/";
+
+            /*
+            if(__newlang == "hi"){
+              redirect = '/hi' + '/' + finalUri;
+            }else{
+              redirect = '/' + finalUri;
+            }
+            window.location = redirect;
+          }
+
+          if((__newlang == the_cookie_value) && (__newlang == "hi" ) && (__newlang != url_param_lang)){
+            redirect = '/hi' + '/' + finalUri;
+            window.location = redirect;
+          }
+          */
+      }
+    }
+
+
+/*
+      if(if_URL_has_hindi && !if_cookie_has_hindi){
+        console.log("the page should be redirected to hindi");
+        var uri = location.pathname;
+        var uriQueryParams = location.search;
+        var finalUri = uri.split('/').slice(1).join('/') + uriQueryParams;
+        var redirect;        
+        
+        redirect ='/' + finalUri;
+
+        //delete the language cookie if exist
+        document.cookie = "i18n" + "=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT;";
+        document.cookie = "i18n" + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;"
+        document.cookie = "i18n=hi";    
+        console.log(redirect);
+        window.location = redirect;
+      }else if(!if_URL_has_hindi && if_cookie_has_hindi){
+        console.log("the page should be redirected to hindi");
+        var uri = location.pathname;
+        var uriQueryParams = location.search;
+        var finalUri = uri.split('/').slice(1).join('/') + uriQueryParams;
+        var redirect;
+
+        redirect = '/hi' + '/' + finalUri;
+        //delete the language cookie if exist
+        document.cookie = "i18n" + "=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT;";
+        document.cookie = "i18n" + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;"
+        document.cookie = "i18n=hi";    
+        console.log(redirect);
+        window.location = redirect;
+      }
+*/
+
+
+})();
+</script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/favicons/manifest.json">
+    <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#bb076f">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+      <!-- Google Code for Remarketing Tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+ -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 926699670;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/926699670/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+    
+
+
+
+      <meta property="og:title" content="Privacy Policy"/>      
+<meta property="og:type" content="article"/>      
+<meta property="og:url" content="http://www.dittotv.com/policy"/>
+<meta property="og:image" content=""/>
+<meta property="og:description" content="dittoTV"/>
+
+      <title>Privacy Policy</title>
+<meta content="" name="description" />
+<meta content="Free" name="keywords" />
+      
+<meta property="twitter:title" content="Privacy Policy"/>           
+<meta property="twitter:url" content="http://www.dittotv.com/policy"/>
+<meta property="twitter:image" content=""/>
+<meta property="twitter:description" content="dittoTV"/>
+
+
+      <title>Privacy Policy</title>
+<meta content="" name="description" />
+<meta content="Free" name="keywords" />
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="icon" href="/assets/logos/favicon.ico" type="image/x-icon"/>
+      <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500,900' rel='stylesheet' type='text/css'/>
+      <link data-turbolinks-track="true" href="/assets/application-7dd5681dcda993fd4be2d7b52cb137c1.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/social-share-button-7dd5681dcda993fd4be2d7b52cb137c1.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/media-1f9b958f3fb6a6b4421bc42237a54e2c.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/bootstrap.min-cbc1a434468215d236c73920e325f7c6.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/bootstrap-checkbox-581a1c5e4e6a16d6c27aaea8c5bed462.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/classie-2b732309b693746250476562efaf7738.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/main_ditto-4f199e9aeb1ff21ed56ce831f20e839c.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/plans-8455e620199c87748af09905a9223c4f.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/style-f5904e48391fe15226853d96418724bf.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/jquery-ui-1.10.4.custom.min-autocomplete-d40799605f98c1d1944b29acde2f3831.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/raty-2bdac0bd5f5bee61a65879f008e22047.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/my_account-3201e8c54a8ac6eeedca42d49f494c86.css?body=1" media="all" rel="stylesheet" />
+<link data-turbolinks-track="true" href="/assets/new_ditto_styles-52751dd66db34aae66e798373c55f260.css?body=1" media="all" rel="stylesheet" />
+
+      
+
+
+      <meta content="authenticity_token" name="csrf-param" />
+<meta content="9uR5GYcpFidYRqSxoLf5LzchorAbUt+MJdVcWOtPGc4=" name="csrf-token" />
+
+      <!-- Facebook Conversion Code for dittoTV - Key Page Views -->
+      <script>(function() {
+          var _fbq = window._fbq || (window._fbq = []);
+          if (!_fbq.loaded) {
+              var fbds = document.createElement('script');
+              fbds.async = true;
+              fbds.src = '//connect.facebook.net/en_US/fbds.js';
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(fbds, s);
+              _fbq.loaded = true;
+          }
+      })();
+      window._fbq = window._fbq || [];
+      window._fbq.push(['track', '6022882922809', {'value':'0.01','currency':'INR'}]);
+      </script>
+      <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6022882922809&amp;cd[value]=0.01&amp;cd[currency]=INR&amp;noscript=1" /></noscript>
+      <link rel="alternate" href="http://www.dittotv.com/policy" hreflang="en" />
+      <!-- Twitter universal website tag code -->
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">twttr.conversion.trackPid('nur0u', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+  <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nur0u&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+  <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nur0u&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+</noscript>
+<!-- End Twitter universal website tag code -->
+      
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];
+a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+//Checking whether User_id is present or not
+//If User is not logged-in
+ ga('create', 'UA-26742255-1', 'auto');
+ ga('require', 'displayfeatures');
+ 
+ 
+
+ga('send', 'pageview');
+</script>
+
+<!-- End Google Analytics -->
+
+
+      <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1537423972980825');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1537423972980825&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+    </head>
+
+    <body class="cbp-spmenu-push">
+
+    <div class="bodyOuter-wrapper">
+
+      <script src="/assets/jquery-dac9ad6903802c77d85155bb31ad3ae9.js?body=1"></script>
+<script src="/assets/media-d0ddde18b590284eec583c56ec0025cb.js?body=1"></script>
+
+
+      <div class="container-fl wrapper" id="page">
+
+          <!-- my stream html should be added here -->
+  <!-- change password -->
+  <!--All the user action js files have be included here-->
+  <script src="/assets/sign_up-558e9e350b5b6e408e178af8110c60ba.js?body=1"></script>
+<script src="/assets/sign_in-c4f381a4967b161ee601cb2542961376.js?body=1"></script>
+<script src="/assets/sign_out-8dc4cfa0dc165fc9ba92b90bdd66f0d5.js?body=1"></script>
+<script src="/assets/otp_confirm-131fceb32fe946d7763cea78127a40ab.js?body=1"></script>
+<script src="/assets/otp_resend-0c2d56e06d2b4fe71a7f3f08d38dce47.js?body=1"></script>
+<script src="/assets/otp_forgot-98e3279071f2fda3d0211b12b482dc64.js?body=1"></script>
+<script src="/assets/change_password-149db49f9c7a064e0a796bb84d935a95.js?body=1"></script>
+
+  <div class="modal fade ditto-modal" id="privacy-policy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <a href="#" class="privacy-close" data-dismiss="modal"></a>
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="center-content">
+                  <h3 class="change_password_padding-bottom">Privacy Policy </h3>
+                  We have updated our privacy policy. Please read it
+                  <a href="/policy" target="_blank">here.</a>
+                  <div class="form-group dtermcond">
+                    <input type="checkbox" id="dtermcond" name="terms-conditions-pop"> Do not show this popup again.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="modal fade ditto-modal" id="paytm-cancelation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <a href="#" class="privacy-close" data-dismiss="modal"></a>
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="center-content">
+                  <h3 class="change_password_padding-bottom">Are you sure you want to discontinue Auto Renewal for Paytm Wallet?</h3></br>
+                  
+                  <a type="button" onclick="PaytmDeactivatePermitted()" id="pdpsubmit" class="btn btn-primary ditto-btn">Yes</a>
+                  <a data-dismiss="modal" id="rcancel" class="btn btn-primary ditto-btn reset_close">No</a>
+<!--                   <div class="form-group dtermcond">
+                    <input type="checkbox" id="dtermcond" name="terms-conditions-pop"> Do not show this popup again.
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade ditto-modal" id="reset-password" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <a href="#" class="modal-close" data-dismiss="modal"></a>
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="center-content">
+                  <h3 class="change_password_padding-bottom"> change password </h3>
+                  <div class="row" >
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-8">
+                      <form role="form" id="reset-passwd" onsubmit="return false">
+                        <div class="form-group">
+                          <input type="password" class="form-control fcexist" id="fcexist" placeholder="Current Password" onkeypress="return registerEnter(event);" maxlength="15">
+                          <label class="error fcexist"></label>
+                        </div>
+
+                        <div class="form-group">
+                          <input type="password" class="form-control fcpasswd" id="fcpasswd" placeholder="Please enter password" pattern=".{6,}" required title="6 characters minimum" onkeypress="return registerEnter(event);" maxlength="15"/>
+                          <label class="error fcpasswd"></label>
+                        </div>
+
+                        <div class="form-group">
+                      <input type="password" class="form-control fconpasswd" id="fconpasswd" placeholder="Confirm Password"  pattern=".{6,}" required title="6 characters minimum" onkeypress="return registerEnter(event);" maxlength="15"/>
+                          <label class="error fconpasswd"></label>
+                        </div>
+
+                        <a data-dismiss="modal" id="fccancel" class="btn btn-default ditto-btn black">Cancel</a>
+                        <a type="button" onclick="changePassword()" id="fcsubmit" class="btn btn-primary ditto-btn">Submit</a>
+                      </form>
+                    </div> <!-- col-xs-8-->
+                    <div class="col-xs-2"></div>
+                  </div> <!--row-->
+                </div> <!-- center-content-->
+              </div> <!-- Sign Up Tab -->
+            </div> <!--tab-content -->
+          </div> <!-- show-details -->
+        </div>
+
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+<div class="modal fade" id="comingSoonModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog share-dialog-box">
+    <div class="modal-content popup-border">
+      <div class="modal-body">
+        <a href="#" data-dismiss="modal" class="close_draw draw-top"></a>
+
+        <h2> Sharing Options</h2>
+        <div class='social-share-button' data-title='' data-img=''
+data-url='' data-desc='' data-via=''>
+<a class="ssb-icon ssb-facebook" data-site="facebook" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow " title="Share to Facebook"></a>
+<a class="ssb-icon ssb-twitter" data-site="twitter" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow " title="Share to Twitter"></a>
+<a class="ssb-icon ssb-google_plus" data-site="google_plus" href="#" onclick="return SocialShareButton.share(this);" rel="nofollow " title="Share to Google+"></a>
+</div>
+        <textarea name='awesome' class="social-sharing-textarea popup-wh" disabled = true>http://www.dittotv.com</textarea>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="circlesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content content-border">
+      <div class="modal-body">
+        <a href="#" data-dismiss="modal" class="close_draw draw-top"></a>
+        <img src="/assets/logos/circles.jpg"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content popup-radius">
+      <div class="modal-body">
+        <a href="#" data-dismiss="modal" class="close_draw draw-top"></a>
+        <h2 class="text-center center-text-color"> Please subscribed to watch full video</h2>
+        <a href="/plans" class="btn btn-primary btn-sm subscribed-now">Subscribed Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade ditto-modal" id="forgot-passwd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a href="#" class="modal-close" data-dismiss="modal"></a>
+          <h2 class="modal-title" id="myModalLabel">Forgot Password</h2>
+        </div>
+        <div class="modal-body">
+          <div class="forgotpwdsteps">
+            <p><span>Steps to use Forgot Password:</span></p>
+            <p>1. Please enter registered Email/Mobile Number</p>
+            <p>2. On Submit, you will be receiving the password on your registered mobile or email id</p>
+            <p>3. You will be redirected to Sign in window</p>
+            <p>4. Enter registered mobile number/email id and password which you have received</p>
+            <p>5. Enjoy the dittoTV services.</p>
+          </div>
+          <form id="forgot_password_form" >
+            <div class="form-group">
+              <input type="text" value="+65" class="country-code forgot-code" id="rcode" maxlength="5" name="rcode" disabled="disabled">
+              <input type="text" class="form-control width80 width-code fmsisdn" id="fmsisdn" maxlength="50" placeholder="Please enter registered Email/Mobile Number" onkeypress="return forgotEnterKey(event)">
+              <label class="error frgpswd mobileRegError"></label>
+            </div>
+            <a type="submit" onclick="forgotOtp()" id ="fsubmit" class="btn btn-primary ditto-btn margin-top10">Submit</a>
+          </form>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+
+  <div class="modal fade ditto-modal" id="change-passwd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog reset_dialog">
+      <div class="modal-content reset_success">
+        <div class="modal-body success">
+          <a href="#" class="modal-close" data-dismiss="modal"></a>
+          <form role="form">
+            <div class="form-group">
+              <h3 class="modal-title profile-scs-msg">Password changed successfully!</h3>
+            </div>
+                <a data-dismiss="modal" id="rcancel1" class="btn btn-primary ditto-btn reset_close">close</a>
+            <!-- <a type="submit" id= "fcsubmit" class="btn btn-primary ditto-btn">submit</a> -->
+          </form>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+
+
+
+  <div class="modal fade ditto-modal" id="sign-in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <a href="#" class="modal-close sign-in-clse" data-dismiss="modal"></a>
+            <ul class="nav nav-tabs" id="sign-tabs">
+               <li><a href="#ditto-sign-up" data-toggle="tab">Sign Up</a></li> 
+              <li class="active"><a href="#ditto-sign-in" data-toggle="tab">Sign In</a></li>
+            </ul> <!-- ul -->
+
+            <div class="tab-content">
+              <div class="tab-pane mt15" id="ditto-sign-up">
+
+                <div class="center-content">
+
+                  <br/>
+
+                  <!--<h3 id="sign-up-ditto" class="signup-padding"> register with dittoTV </h3>-->
+                        <p id="free_subscription_text" class="subscription-margin">Enjoy free subscription to TV shows, Movies & Videos</p>
+                  <div class="row OTP_form" >
+                    <div class="col-xs-2 mobile_code"></div>
+                    <div class="col-xs-8 ">
+
+                      <form role="form" id="sign-up-form" class="form-display" onsubmit="return false" style="display: block">
+                        <!--
+                        <div class="form-group">
+                          <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                      -->
+                        <div class="form-group">
+                          <input type="text" value="+65" class="country-code" id="rcode" maxlength="5" name="rcode" disabled="disabled">
+                          <input type="text" class="form-control asm user-name" maxlength="50" id="rmsisdn" placeholder="Please enter Email/Mobile Number" onkeypress="return otpRegisterEnter(event);"/>
+                          <label class="error rcode"></label>
+                          <label class="error rmsisdn"></label>
+                        </div>
+
+                       <div class="form-group">
+                          <input type="password" class="form-control rpasswd2" id="rpasswd2" placeholder="Please enter password" pattern=".{6,}" required title="6 characters minimum" onkeypress="return otpRegisterEnter(event);"/>
+                          <label class="error rpasswd"></label>
+                        </div>
+
+                        <div class="form-group">
+                          <input type="password" class="form-control rcpasswd2" id="rcpasswd2" placeholder="Confirm Password" pattern=".{6,}" required title="6 characters minimum" onkeypress="return otpRegisterEnter(event);"/>
+                          <label class="error rcpasswd"></label>
+                        </div>
+
+
+
+                        <a data-dismiss="modal" id="rcancel" class="btn btn-default ditto-btn black cnl-ml-60">Cancel</a>
+                        <a type="button" id="rsubmit-otp" class="btn btn-primary ditto-btn" onclick="registerWithOtp()">Submit</a>
+                        <!-- <a href="javascript:void(0)" id="resend_otp"><h3 class="resend_opt"> Resend Password</h3></a> -->
+                      </form>
+                    </div> <!-- col-xs-8-->
+                    <div class="col-xs-2"></div>
+                  </div> <!--row-->
+                  <div class="text-with-hr">
+                    <span>Or</span>
+                  </div>
+                  <h3 id="sign-up-social" style="color:#000;"> Connect with social network </h3>
+                  <div class="sign-up-icons social-icons">
+                  <!--  <button type="button" id="facebook-signup" class="btn btn-fb fb-left hull facebook-signup"><img src="/assets/icons/fb.jpg"></button>
+                   <button type="button" id="google_signup" class="btn btn-gplus gplus-left google_signup"><img src="/assets/icons/gplus.jpg"></button>
+                   <button type="button" id="twitter_signup" class="btn btn-twitter twitter-left twitter_signup"><img src="/assets/icons/twitter.png"></button> -->
+                    <a href="http://www.dittotv.com/auth/facebook"> <button type="button" id="facebook-signup1" class="btn btn-fb fb-left  facebook-signup1"><img src="/assets/icons/fb.jpg"></button></a>
+                   <a href="http://www.dittotv.com/auth/google_oauth2"><button type="button" id="google_signup1" class="btn btn-gplus gplus-left google_signup1"><img src="/assets/icons/gplus.jpg"></button>
+                   <a href="http://www.dittotv.com/auth/twitter"><button type="button" id="twitter_signup1" class="btn btn-twitter twitter-left twitter_signup1"><img src="/assets/icons/twitter.png"></button></a>
+                   </div>
+                   <!-- <h3 id="sign-up-social" style="color:#000;">Connect with native logins</h3>
+                  <div class="sign-up-icons social-icons">
+                   <a href="/auth/facebook"><img src="/assets/icons/fb-5586f61d4328763f4af2cb2f2aea69c7.jpg" alt="facebook"></a> 
+                   <a href="/auth/google_oauth2"><img src="/assets/icons/gplus-594ab8c526ceaeddfb9aacd336087d9f.jpg" alt="Google plus"></a>
+                   <a href="/auth/twitter"><img src="/assets/icons/twitter-29982e8b3f70e004081a720afefeef9a.png" alt="Google plus"></a> -->
+                   <!-- <button type="button" id="facebook-signup" class="btn btn-fb fb-left  facebook-signup"><img src="/assets/icons/fb.jpg"></button>
+                   <button type="button" id="google_signup" class="btn btn-gplus gplus-left google_signup"><img src="/assets/icons/gplus.jpg"></button>
+                   <button type="button" id="twitter_signup" class="btn btn-twitter twitter-left twitter_signup"><img src="/assets/icons/twitter.png"></button> -->
+
+                   <!-- </div> -->
+             <!--      <div id="sign-up-icons">
+                    <div class="btn-group social-btns ">
+                      <button type="button" id="facebook-signup" class="btn btn-fb fb-left facebook-signup"><img src="/assets/icons/fb.jpg"></button>
+                      <button type="button" id="facebook-signup" class="btn btn-fb fb-right hull facebook-signup">Connect with facebook</button>
+                    </div>
+                    <br><br>
+
+                    <div class="btn-group social-btns">
+                      <button type="button" id="google_signup" class="btn btn-gplus gplus-left google_signup"><img src="/assets/icons/gplus.jpg"></button>
+                      <button type="button" id="google_signup" class="btn btn-gplus gplus-right google_signup">Connect with google+</button>
+                    </div>
+                    <br><br>
+                    <div class="btn-group social-btns">
+                      <button type="button" id="twitter_signup" class="btn btn-twitter twitter-left twitter_signup"><img src="/assets/icons/twitter.png"></button>
+                      <button type="button" id="twitter_signup" class="btn btn-twitter twitter-right twitter_signup">Connect with twitter</button>
+                    </div>
+                  </div> -->
+                  <div class="form-group termcond">
+                   <input type="checkbox" class="termcond" id="termcond" name="signup-terms-conditions" checked><div><label for="termcond"></label></div><a href="/policy">I agree to the dittoTV Terms of Service </a>
+                    <label class="error lterm">In order to use our services, you must agree to dittoTV’s <a href="/policy" class="terms-style">Terms of Service</a>.</label>
+                  </div>
+                </div> <!-- center-content-->
+              </div> <!-- Sign Up Tab -->
+
+              <div class="tab-pane active mt15" id="ditto-sign-in">
+                <div class="center-content">
+                  <br/>
+                  <!--<h3 id="sign-in-ditto"> sign in  with dittoTV </h3>-->
+                  <div class="row">
+                    <div class="col-xs-2"></div> <!--col-xs-2-->
+                    <div class="col-xs-8">
+                      <form role="form" id="sign-in-form" class="form-display" onsubmit="return false">
+                        <label class="error fmsisdn"></label>
+                        <div class="form-group">
+
+                          <input type="text" value="+65" class="country-code" id="code" maxlength="5" name="code" disabled="disabled">
+
+                          <input type="text" class="form-control lmsisdn" maxlength="50" id="lmsisdn" type="email" placeholder="Please enter registered Email/Mobile Number" onkeypress="return loginEnter(event);"/>
+                          <label class="error lcode"></label>
+                          <label class="error lmsisdn"></label>
+                        </div>
+
+                        <div class="form-group">
+                          <input type="password" class="form-control lpasswd" id="lpasswd" placeholder="Password" onkeypress="return loginEnter(event);" maxlength="15"/>
+                          <label class="error lpasswd"></label>
+                          
+                        </div>
+
+                        <div class="form-group " >
+                          <a href="#" class="fpasswd">Forgot Password</a>
+                        </div>
+
+                        <a data-dismiss="modal" id="lcancel1" class="btn btn-default ditto-btn black">Cancel</a>
+                        <a type="button" onclick="userSignIn()" id="lsubmit" class="btn btn-primary ditto-btn">Login</a>
+                       
+
+                      </form>
+                    </div> <!--col-xs-8-->
+                    <div class="col-xs-2"></div> <!-- col-xs-2-->
+                  </div> <!-- row-->
+                  <div class="text-with-hr">
+                    <span>Or</span>
+                  </div>
+                  <h3 id="sign-in-social" style="color:#000;"> Sign in with social network</h3>
+                  <div class="sign-in-icons social-icons">
+                 <!--  <a href="javascript:void(0)"><button type="button" id="facebook_login1" class="btn btn-fb fb-left"><img src="/assets/icons/fb.jpg"  id="fb_hull"></button></a> -->
+                 <a href="http://www.dittotv.com/auth/facebook"><button type="button" id="facebook_login1" class="btn btn-fb fb-left"><img src="/assets/icons/fb.jpg"></button></a>
+                  <a href="http://www.dittotv.com/auth/google_oauth2"><button type="button" id="google_login1" class="btn btn-gplus gplus-left"><img src="/assets/icons/gplus.jpg"></button></a>
+                  <a href="http://www.dittotv.com/auth/twitter"><button type="button" id="twitter_login1" class="btn btn-twitter twitter-left"><img src="/assets/icons/twitter.png"></button></a>
+               <!--    <h5 style="margin-top:20px;">We are under process of user migration for Facebook to a newer and better system.</h5>
+                 <a href="http://www.dittotv.com/auth/facebook"><button type="button" id="facebook_login1" class="btn btn-fb fb-left"><img src="/assets/icons/fb.jpg"></button></a>
+                  <a href="http://www.dittotv.com/auth/google_oauth2"><button type="button" id="google_login1" class="btn btn-gplus gplus-left"><img src="/assets/icons/gplus.jpg"></button></a>
+                  <a href="http://www.dittotv.com/auth/twitter"><button type="button" id="twitter_login1" class="btn btn-twitter twitter-left"><img src="/assets/icons/twitter.png"></button></a>
+                  <h5 style="margin-top:20px;">We are under process of user migration for Facebook to a newer and better system.</h5>
+                    <ul style="text-align: justify;font-size: 12px;padding-left: 50px;margin-top: 20px;">
+                      <li>If you are an existing user, then you will be presented with 2 permission request screens. Please do not panic as this is expected to retrieve your existing profile and subscription details which will be migrated to newer system.</li>
+                     <li>If you are a new user, the above changes are not applicable.</li>
+                 </ul> -->
+
+
+
+               <!--      <div class="btn-group social-btns ">
+                      <button type="button" id="facebook_login" class="btn btn-fb fb-left"><img src="/assets/icons/fb.jpg"></button>
+                      <button type="button" id="facebook_login" class="btn btn-fb fb-right">Sign in with facebook</button>
+                    </div>
+                    <br><br>
+                    <div class="btn-group social-btns">
+                      <button type="button" id="google_login" class="btn btn-gplus gplus-left"><img src="/assets/icons/gplus.jpg"></button>
+                      <button type="button" id="google_login" class="btn btn-gplus gplus-right">Sign in with google+</button>
+                    </div>
+                    <br><br>
+
+                    <div class="btn-group social-btns">
+                      <button type="button" id="twitter_login" class="btn btn-twitter twitter-left"><img src="/assets/icons/twitter.png"></button>
+                      <button type="button" id="twitter_login" class="btn btn-twitter twitter-right">Sign in with twitter</button>
+                    </div> -->
+                  </div>
+                  <!-- <h3 id="sign-in-social" style="color:#000;"> Connect with native logins </h3>
+                  <div class="sign-in-icons social-icons">
+                 <a href="/auth/facebook"><img src="" alt="facebook"></a> 
+                  <a href="javascript:void(0)"><img src="/assets/icons/fb-5586f61d4328763f4af2cb2f2aea69c7.jpg" alt="facebook" id="fb_hull"></a>
+                   <a href="/auth/google_oauth2"><img src="/assets/icons/gplus-594ab8c526ceaeddfb9aacd336087d9f.jpg" alt="Google plus"></a>
+                   <a href="/auth/twitter"><img src="/assets/icons/twitter-29982e8b3f70e004081a720afefeef9a.png" alt="Google plus"></a>
+                </div> -->
+
+                </div> <!-- center-content-->
+
+              </div> <!-- sign up tab -->
+              <input type="hidden" id="activate_prepaid_val" value="false" />
+              <input type="hidden" id="activate_device_val" value="false" />
+            </div> <!--tab-content -->
+          </div> <!-- show-details -->
+
+          <div class="SuccessMessage" id="reg-success">
+            <a class="modal-close sign_up_tanx" data-dismiss="modal" href="#"></a>
+            <div class="Sucessheader">
+              <div class="sucessText">Successful!</div>
+            </div>
+            <div class="SucessBody">
+              <p>Your request for new password</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <div class="modal fade ditto-modal" id="otp-confirm-ditto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog opt_password_form">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group form-otp-resend">
+              <input type="text" class="form-control opt_no" id="opt_no" placeholder="Enter Password received via Email/SMS" pattern=".{6}" required title="6 digit Password" onkeypress="return otpConfirmNumericEnter(event);" maxlength="6"/>
+              <label class="error repasswd"></label>
+            </div>
+            <div class="form-group form-otp-resend">
+              <input type="password" class="form-control rpasswd-opt" id="rpasswd-opt" placeholder="New Password" pattern=".{6,}" required title="6 characters minimum" onkeypress="return otpConfirmEnter(event);" maxlength="15"/>
+              <label class="error rpasswd"></label>
+            </div>
+            <div class="form-group form-otp-resend">
+              <input type="password" class="form-control rcpasswd-opt" id="rcpasswd-opt" placeholder="Confirm Password" pattern=".{6,}" required title="6 characters minimum" onkeypress="return otpConfirmEnter(event);" maxlength="15"/>
+              <label class="error rcpasswd"></label>
+            </div>
+            <div class="form-group form-otp-resend">
+              <a data-dismiss="modal" id="rcancel" class="btn btn-default ditto-btn black">cancel</a>
+              <a type="button" id="rsubmit-confirm-otp" class="btn btn-primary ditto-btn" onclick="userOtpConfirm(event)">submit</a>
+            </div>
+            <a href="javascript:void(0)" id="resend_otp2">
+              <h3 class="resend_opt2"> resend <span>Password </span></h3>
+            </a>
+          </form>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+
+  <div class="modal fade ditto-modal" id="otp-resend-ditto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog password-form-width">
+      <div class="modal-content">
+        <div class="modal-body model-width">
+          <br/>
+          <form role="form">
+            <div class="form-group">
+              <a href="#" class="modal-close" data-dismiss="modal"></a>
+            </div>
+            <div class="form-group form-otp-resend">
+              <input type="text" value="+65" class="country-code country-input rcode-otp" id="rcode-otp" maxlength="5" name="rcode" disabled="disabled">
+              <input type="text" class="form-control asm input-width rmsisdn-otp" id="rmsisdn-otp" placeholder="Please enter registered Email/Mobile Number" onkeypress="return otpResendEnter(event);"/>
+              <label class="error rcode-otp"></label>
+              <label class="error rmsisdn-otp"></label>
+              <br/>
+              <a class="alternate-password" href="javascript:;">Need password on another email id?</a>
+              <br/>
+              <br/>
+              <input style="display: none;" type="text" class="form-control asm input-width rmsisdn-otp" id="alternate-otp-email" placeholder="Please enter Email" onkeypress="return otpResendEnter(event);"/>
+              <label class="error alternate-otp-email"></label>
+            </div>
+            <div class="form-group form-otp-resend">
+              <a data-dismiss="modal" id="rcancel" class="btn btn-default ditto-btn black">Cancel</a>
+              <a type="button" id="rsubmit-resend-otp" onclick="resendOTP()" class="btn btn-primary ditto-btn">Submit</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+
+  <div class="modal fade ditto-modal" id="reg_trail_pack_offer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog reset_dialog_dongle">
+      <div class="modal-content reg-offer-status-scs">
+        <div>
+          <h1 class="reg_user_trail_pack_scs-hdr">Successful!</h1>
+          <a href="#" class="modal-close device" data-dismiss="modal"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade ditto-modal" id="news-letter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content news-letter-body">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <a href="#" class="news-letter-close" data-dismiss="modal"></a>
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="center-content">
+                  <div class="shadow-for-popup">
+                    <div class="col-sm-12 pop-up-one">
+                      <img class="img-responsive" src="/assets/logos/news-letter.png">
+                    </div>
+                    <div class="col-sm-12 pop-up-break-pts"></div>
+                    <div class="col-sm-12 pop-up-two">
+                      <button type="button" class="btn" id="sign-up-button-popup" >
+                        <img class="img-responsive" src="/assets/logos/news-letter-signup.png">
+                      </button>
+                    </div>
+                    <div class="col-sm-12 pop-up-break-pts"></div>
+                    <div class="col-sm-12 pop-up-three" >
+                      <span>To enjoy FREE trial !</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   <div class="modal fade ditto-modal" id="promotional_banner" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content promotional_banner_body">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <a href="#" class="news-letter-close" data-dismiss="modal"></a>
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="center-content">
+                  <div class="shadow-for-popup">
+                    <div class="col-sm-12 pop-up-one">
+                       <a href="https://goo.gl/uuGcBq" target="_blank"><img class="img-responsive" src="/assets/icons/dittotv_promotion_zee_logo.jpg"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search related popup no catch up are there -->
+  <div class="modal fade" id="no_catchup_message" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content popup-radius">
+        <div class="modal-body">
+          <a href="#" data-dismiss="modal" class="close_draw draw-top"></a>
+          <h2 class="text-center center-text-color">Catch up for this show is not available</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="now_tvshow_pop_feature" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content popup-radius">
+        <div class="modal-body">
+          <a href="#" data-dismiss="modal" class="close_draw draw-top"></a>
+          <h2 class="not_live text-center center-text-color">This show is not Live.&nbsp;Please watch it at <span class="watch_prog_time"></span></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="now_tvshow_pop_over" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content popup-radius">
+        <div class="modal-body">
+          <a href="#" data-dismiss="modal" class="close_draw draw-top"></a>
+          <h2 class="not_live text-center center-text-color">Sorry this show is  over.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <div class="modal fade ditto-modal" id="fb_native_pop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <a href="#" class="fb-pop-close" data-dismiss="modal"></a>
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="center-content">
+                  <h3 class="change_password_padding-bottom">We are under process of user migration for Facebook to a newer and better system.
+                    <ul>
+                      <li>If you are an existing user, then you will be presented with 2 permission request screens. Please do not panic as this is expected to retrieve your existing profile and subscription details which will be migrated to newer system. </li>
+                      <li> If you are a new user, the above changes are not applicable.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!--  <div class="modal fade" id="no_payment_india" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content popup-radius">
+        <div class="modal-body">
+          <a href="#" data-dismiss="modal" class="close_draw draw-top"></a>
+          <h2 class="text-center center-text-color">.</h2>
+        </div>
+      </div>
+    </div>
+  </div> -->
+    <div class="modal fade ditto-modal" id="no_payment_india" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content promotional_banner_body">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <a href="javascript:void(0)" class="india_payments_close" data-dismiss="modal"></a>
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="center-content">
+                  <div class="shadow-for-popup">
+                    <div class="col-sm-12 pop-up-one" id="payment_disable_pop">
+                       <p>"Sorry, you cannot subscribe to dittotv anymore. Please visit <a href="https://www.zee5.com/home">www.zee5.com </a>for all your favorite content and much more"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="modal fade ditto-modal" id="gdpr_pop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="text-center">
+                  <h2 class="text-lowercase">Accept our Privacy Policy</h2>
+                  <label class="checkwrap"> I am above 18 years
+                    <input type="checkbox"  id="privacy_policy_agree">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkwrap">Agrees to the <a href="/policy" target="_blank">Privacy Notice </a> and <a href="/terms" target="_blank">Terms Of Use </a>
+                    <input type="checkbox" id="user_data" >
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkwrap">
+                    <input type="checkbox" id="warranty">Allowing dittoTV to use your data for Profiling and Analytics
+                    <span class="checkmark"></span>
+                  </label>
+                  <p class="text-left" style="margin-left: 35px;margin-top: 20px;">Allow dittoTV to send marketing SMS and Emails</p>
+                  <label class="checkwrap radiowrap">Yes
+                    <input type="radio" name="sms_cond" checked="checked" value="yes">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkwrap radiowrap">No
+                    <input type="radio" name="sms_cond" value="no">
+                    <span class="checkmark"></span>
+                  </label>
+                  <br>
+                  <label class="error lterm" style="margin-left: 35px; width: 100%;" id="gdpr_errors">
+                    Please check all checkboxes
+                  </label>
+                  <p class="text-center" style="margin-top: 30px; width: 70%;">
+                    <button type="submit" class="btn btn-primary ditto-btn" id="gdpr_sub">Proceed</button>
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade ditto-modal" id="gdpr_signup_pop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="text-center">
+                  <h2 class="text-lowercase">Accept our Privacy Policy</h2>
+                  <label class="checkwrap">I am above 18 years
+                    <input type="checkbox"  id="signup_privacy_policy_agree">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkwrap">Agrees to the <a href="/policy" target="_blank">Privacy Notice </a> and <a href="/terms" target="_blank">Terms Of Use </a>
+                    <input type="checkbox" id="signup_user_data" >
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkwrap">Allowing dittoTV to use your data for Profiling and Analytics
+                    <input type="checkbox" id="signup_warranty">
+                    <span class="checkmark"></span>
+                  </label>
+                  <p class="text-left" style="margin-left: 35px;margin-top: 20px;">Allow dittoTV to send marketing SMS and Emails</p>
+                  <label class="checkwrap radiowrap">Yes
+                    <input type="radio" name="signup_sms_cond" checked="checked" value="yes">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkwrap radiowrap">No
+                    <input type="radio" name="signup_sms_cond" value="no">
+                    <span class="checkmark"></span>
+                  </label>
+                  <br>
+                  <label class="error lterm" style="margin-left: 35px; width: 100%;" id="gdpr_signup_errors">
+                    Please check all checkboxes
+                  </label>
+                  <p class="text-center" style="margin-top: 30px; width: 70%;">
+                    <button type="submit" class="btn btn-primary ditto-btn" id="signup_gdpr_sub">Proceed</button>
+                  </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="modal fade ditto-modal" id="cookie_pop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="ditto-tabs sign-tabs">
+            <div class="tab-content">
+              <div class="tab-pane pop-up-display">
+                <div class="text-center">
+                  <h2 class="text-lowercase">Cookies Policy</h2>
+                  <p>dittoTV uses cookies for Personalization, Advertisements and Other purposes as detailed in the <a href="/cookies_policy" target="_blank">Cookie Policy.</a>
+                  </p>
+                  <p>By clicking on OK, you allow us to use the cookies.</p>
+                  <p style="margin-top: 30px; text-align: center; width: 100%;">
+                    <button type="submit" class="btn btn-primary ditto-btn" id="cookies_policy">OK</button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div id="tvod_content"></div>
+<!--Display auto popup for free trial-->
+
+
+
+        <div class="modal fade ditto-modal" id="payment-msg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog reset_dialog">
+            <div class="modal-content reset_success txn-popups">
+              <div class="modal-body success">
+                <a href="#" class="modal-close" data-dismiss="modal"></a>
+                <form role="form">
+                  <div class="form-group">
+                    <label id="transaction_status_msg"></label>
+                    <label id="customer_txn_msg"></label>
+                  </div>
+                  <a data-dismiss="modal" id="rcancel1" class="btn btn-primary ditto-btn reset_close">close</a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        
+<div id="page_details">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="/assets/new_home-5101bbd62cbbc36b2879f74ea8a339ea.css?body=1" media="screen" rel="stylesheet" />
+    <script src="/assets/new_home-84aaeb63a22238c868bd3e921e1a5802.js?body=1"></script>
+    <div class="page-container">
+      <div class="top-header">
+        <div class="header-wrapper custom-header">
+          <div class="row">
+            <div class="mt10 header">
+              <div class="col-md-12 col-sm-12 col-xs-12  ">
+                <div class="col-md-3 col-sm-4 col-xs-2 logo-wrapper">
+                  <a href="/">
+                    <img class="pull-left" src="/assets/logos/new_design_logo.png">
+                  </a>
+                  <ul class="header-download-app">
+                    <li><img class="pull-left" src="/assets/logos/essel.png"></li>
+                    <li><a href="http://www.windowsphone.com/en-in/store/app/ditto-tv/f58a5146-4a6c-4685-9b07-45a07a5d22ff" class="windows" target="_blank"><img src="/assets/logos/windows_sn.png"></a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=air.com.dittotv.AndroidZEECommercial" class="android" target="_blank"><img src="/assets/logos/android_sn.png"></a></li>
+                    <li><a href="https://itunes.apple.com/in/app/dittotv/id455180388?mt=8" class="ios" target="_blank"><img src="/assets/logos/ios_sn.png"></a></li>
+                    <p class="dtext en">Download our mobile app</p>
+                  </ul>
+                </div>
+                <div class="col-md-5 col-sm-4 col-xs-12 search-wrapper">
+                  <input id="search-new" type="text" placeholder="Find Live TV, TV Shows, Movies, Videos and more" value="" name="search-input" class="search-new">
+                  <button class="btn search-btn col-md-2 search-btn" value="search_btn" name="search" id="search-btn">
+                    <i class="fa fa-search icon-color" ></i>
+                  </button>
+                  <label class="error searchinput"></label>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-10 subscribe-features pull-right">
+                <div class="topheader dropdown prog-filter-wrap filter-lang-header pull-left">
+                      <a id="landing-lang-filter" role="button" data-toggle="dropdown" data-target="#" href="javascript:void(0)"> Language
+                      <img src="/assets/icons/down-arrow.png">
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="lang-filter">
+                          <li>
+                            <label for="_____">हिंदी</label>
+                            <input class="icheck-radio" id="hi" name="languages[]" type="radio" value="hi" />                          </li>
+                          <li>
+                            <label for="English">English</label>
+                            <input checked="checked" class="icheck-radio" id="en" name="languages[]" type="radio" value="en" />                          </li>
+                    </ul>
+                  </div>
+                  <ul class="subscription-wrapper pull-right">
+                    <li><a href="/plans"><img src="/assets/icon01.jpg"><span> Subscription Plans </span></a></li>
+                    <li class="sub-ico">
+                      <a href="/tvguide/0" class="">
+                        <img src="/assets/icons/epg-blue.png" title="Tv Guide" alt="Tv Guide">
+                        <span> TV Guide </span>
+                      </a>
+                    </li>
+                    <li class="sub-ico">
+                      <a href="javascript:void(0)" data-toggle="modal" id="ditto-login" class="my-account akamai" title="Login">
+                        <i class="fa fa-user fa-2x icon-color"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-md-offset-9">
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div  class="col-md-12 col-sm-12 col-xs-12 search-wrapper-mobile">
+          <input id="search-new2" type="text" placeholder="Find Live TV, TV Shows, Movies, Videos and more" value="" name="search-input" class="search-new">
+          <button class="btn search-btn col-md-2 search-btn" value="search_btn" name="search" id="search-btn">
+            <i class="fa fa-search icon-color"></i>
+          </button>
+          <label class="error searchinput"></label>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+
+    	<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right drawer" id="notification_drawer">
+		<a href="#" class="close_draw"></a>
+		<p class="heading">notifications</p>	 	
+	 	<p class="drawer-font"> Coming Soon</p>
+	</div>
+    <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right drawer" id="search_drawer">
+  <a href="#page" class="close_draw"></a>
+  <p class="heading search-para">Search</p>
+  <select id="search-category" class="select-fld">
+    <option value="all" selected>All</option>
+    <option value="livetv">Live Tv</option>
+    <option value="tvshows">Tv Shows</option>
+    <option value="movies">Movies</option>
+    <option value="videos">Videos</option>
+    <option value="channels">Channels</option>
+  </select>
+  <input type="text" maxlength="35" id="searchinput" class="select-fld" placeholder="Find live TV, movies, shows and more.." />
+  <span id="search-button">&nbsp;</span>
+  <label class="error searchinput"></label>
+  <div class="trending">
+    <p class="heading search-para"> trending</p>
+        <a href="/search/all/0/amitabh"><span class="badge">Amitabh</span></a>
+        <a href="/search/all/0/jodha akbar"><span class="badge">Jodha akbar</span></a>
+        <a href="/search/all/0/balika vadhu"><span class="badge">Balika vadhu</span></a>
+        <a href="/search/all/0/bikini"><span class="badge">Bikini</span></a>
+        <a href="/search/all/0/model"><span class="badge">model</span></a>
+        <a href="/search/all/0/kapil"><span class="badge">kapil</span></a>
+        <a href="/search/all/0/qubool hai"><span class="badge">qubool hai</span></a>
+        <a href="/search/all/0/football"><span class="badge">football</span></a>
+  </div>
+</div>
+    <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right drawer drawer-background" id="my_account_drawer">
+  <div class="drawer-padding">
+    <a href="#" class="close_draw"></a>
+    <p class="heading">My Account</p>
+  </div>
+  <ul class="nav nav-pills nav-stacked myprofile">
+    <li><a href="/users/account">My Profile</a></li>
+    <li><a href="/users/account/my_favorites">My Favorites</a></li>
+        <li><a href="/users/account/my_watchlist">My Watchlist</a></li>
+    <li><a href="/users/account/my_subscriptions">My Subscription Plan</a></li>
+        <li><a href="/users/account/my_device">my device</a></li>
+    <li class="disable-act-prepaid"><a  href="javascript:void(0);">Activate Prepaid</a></li>
+        <li><a  href="/registerdevice" id="activate_device">Activate Device</a></li>
+    <li><a href="javascript:void(0);" class="logout">Log Out</a></li>
+  </ul>
+</div>
+
+<script>
+    //Multi language redirection script - Balakrishna
+    $(document).ready(function(){
+        $(".topheader ul.dropdown-menu li label, .topheader ul.dropdown-menu li .iradio_minimal-pink .iCheck-helper").on("click",function() {
+            var language = $(this).parents("li").find("div .icheck-radio").val(),
+                    uri = location.pathname,
+                    uriQueryParams = location.search,
+                    uriArray = uri.split('/'),
+                    redirect = '',
+                    finalUri = uri.split('/').slice(1)
+            console.log('selected language ---> ' + language);
+
+            if (language != undefined){
+                if (uri == '/' || finalUri == '') {
+                    redirect = '/' + language;
+                } else {
+                    var uriCookies = getCookies();
+                    if(uriArray.indexOf(uriCookies.i18n) < 0){
+                                              
+                      /*we are constructing redirection url based of the query param existing*/
+                      /*if language choose in english and url param has hindi then remove hindi from query param*/
+                      /*if language choose in hindi and url param has hindi then dont add language param*/
+                      /*if language choose in hindi and url param has no hindi then addd hindi to query param*/
+                      /*if language choose in english and url param has no hindi then nothing to remove or add*/
+
+                        if(language == "en" && uri.split('/')[1] == "hi"){
+                              finalUri = uri.split('/').slice(2).join('/') + uriQueryParams;
+                              redirect = '/' + finalUri;
+                        }else if(language == "hi" && uri.split('/')[1] == "hi"){
+                              finalUri = uri.split('/').slice(1).join('/') + uriQueryParams;                          
+                              redirect = '/' + finalUri;
+                        }else if(language == "hi" && uri.split("/")[1] != "hi"){
+                              finalUri = uri.split('/').slice(1).join('/') + uriQueryParams;
+                              redirect = '/' + language + '/' + finalUri;
+                        }else if(language == "en" && uri.split("/")[1] != "hi"){
+                              finalUri = uri.split('/').slice(1).join('/') + uriQueryParams;
+                              redirect = '/' + finalUri;
+                        }
+                    }else{
+                        finalUri = uri.split('/').slice(2).join('/') + uriQueryParams;
+                        redirect = '/' + language + '/' + finalUri;
+                    }
+                    console.log(redirect);
+                }
+
+                //changing cookie value dynamically to retain language status
+                //before redirect we need to do this, to prevent sending cached cookies data from akamai
+                
+                /*
+                document.cookie = "__newlang" + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;"
+                document.cookie = "__newlang" + "=;path=/;expires=Thu, 01 Jan 1970 00:00:00 GMT;";
+                */
+                
+                document.cookie = "__newlang="+language+";path=/";
+                console.log("language cookie has been changed ");
+
+                console.log(document.cookie);
+                window.location = redirect;
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var myCookies = getCookies();
+  var gdpr_regions = ["AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR","DE","GR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE","GB"]
+  if(myCookies.session_id && ($.inArray(myCookies.region,gdpr_regions) !== -1) &&  myCookies.user_gdpr_cookies == "false"){
+     $("#cookie_pop").modal("show");
+  }
+
+  if(myCookies.session_id && ($.inArray(myCookies.region,gdpr_regions) !== -1) &&  myCookies.user_gdpr_cookies == undefined){
+     $("#gdpr_pop").modal("show");
+  }
+  
+  $("#cookies_policy").click(function(){
+     $("#cookies_policy").text("OK...")
+     $.ajax({
+        url: "/users/gdpr_cookie",
+        async: false,  
+        type: "GET",
+      success: function(response){
+        location.reload();
+      }
+    });
+  });
+})
+</script>
+  <div class="middle-wrapper">
+            <div class="nav-outer-wrapper">
+          <div class="nav-out">
+            <div class="nav-bar">
+              <a href="/livetv" class="livetv-icon"><span>live tv</span><img src="/assets/icons/livetv-icon-white.png"></a>
+              <a href="/tvshows" class="tvshows-icon"><span>tv shows</span><img src="/assets/icons/tvshows-icon-white.png"></a>
+              <a href="/movies" class="movies-icon"><span>movies</span><img src="/assets/icons/movies-icon-white.png"></a>
+              <a href="/videos" class="videos-icon"><span>videos</span><img src="/assets/icons/videos-icon-white.png"></a>
+
+            </div>
+            <div class="leftnavbar-bg">&nbsp;</div>
+          </div>
+        </div>
+
+    <div class="container-fluid static-page-wrapper">
+      <div class="row">
+      	        <div class="content-wrapper">
+<style>
+	ul {
+		font-size: 14px;
+		font-weight: 300;
+		padding-left: 40px;		
+	}
+	ul li { 
+		margin-bottom: 5px;
+	}
+	ul, h5 {
+		float: left;
+		width: 100%;
+	}
+</style>
+<div class="content_container policyPage">
+	<div class="row">
+		<h1 class="mt35" style="text-align: center;">Privacy Policy</h1>
+          <h2>Objective and Scope</h2>
+          <p class="policy_terms">
+          	Asia TV Limited ("we", "us", "ATL") values the trust placed in us by data subject ("you", "your", "user", "subscriber") and therefore, we follow the highest standards of privacy guidelines to protect the information shared by you with us.
+          </p>
+        	<p class="policy_terms">
+        		This Privacy Policy (“Privacy Policy”) governs the use of Personal Information shared (as defined below) with or collected by ATL from the users or subscribers of our online services in Europe including the ‘DITTOTV’ SVOD service and our Zee or &TV branded Websites and apps (the ‘Zee Services’). 
+        	</p>
+        	<p class="policy_terms">
+        		This privacy policy describes the usage of information provided or collected on the sites and applications where this privacy policy is posted. We follow this privacy policy in accordance with applicable law in the places where we operate.  In some cases, we may provide additional data privacy notices specific to certain services or regions. Those terms are to be read in combination with this policy.
+        	</p>
+        	<p class="policy_terms">
+        		Please keep in mind that when you provide information to us on a third-party site or platform (for example, via our applications like social media login the information we collect is through those third-party sites linked with our applications is covered by this privacy policy, and the information the third-party site or platform collects is subject to the third-party site or platform’s privacy practices. Privacy choices you have made on the third-party site or platform will not apply to our use of the information we have collected directly through our applications. Please also keep in observance that our sites and applications may contain links to other sites not owned or controlled by us and we are not responsible for the privacy practices of those sites. We encourage you to be aware when you leave our sites or applications and to read the privacy policies of other sites that may collect your personal information.
+        	</p>
+        	<p class="policy_terms">
+        		All capitalized terms that have not been specifically defined herein shall have the same meaning as provided under the Terms of Use.
+        	</p>
+        	<p class="policy_terms">
+						This Privacy Policy should be read in conjunction and together with the Terms of Use applicable to the Zee Service you are using. 
+        	</p>
+        	<h2>User Consent</h2>
+        	<p class="policy_terms">
+        		By using ZEE Services (for example, when you register for an account, purchase a service, enter a contest or promotion, communicate with us, on our sites or applications), you agree to provide consent to our collection, use and sharing of your personal information as described in this policy. In some cases, particularly if you reside in a country governed by a data protection regulation, we may ask you to provide explicit consent to access our rvices before proceeding for further operations.
+        	</p>
+        	<h2>Collection and Use of Personal Information</h2>
+        	<p>
+        	'Personal Information' or 'PII' is defined as any information that identifies (whether directly or indirectly) to a particular individual or natural person, such as the individual’s name, postal address, email address, and mobile number indicating to that particular person or is identifiable. When anonymous information is directly or indirectly associated with personal information, the resulting information also is treated as personal information.</p>
+        	<h2>Information you provide to us </h2>
+        	<p class="policy_terms">We may ask for and collect the following personal information about you when you use the Zee Services and without this information we may not be able to provide you with all the requested services;</p>
+        	<ul>
+        		<li>First/Last Name</li>
+        		<li>Mobile No.</li>
+        		<li>Email id</li>
+        		<li>Country</li>
+        		<li>Date of birth</li>
+        		<li>Gender</li>
+        	</ul>
+        	<h2>Information we collect automatically</h2>
+        	<p class="policy_terms">We collect information about you and your use of our service, your interactions with us and our advertising, as well as information regarding your computer or other device used to access our service. The information includes: </p>
+        	<ul>
+        		<li>Activities on the Zee Services such as type of content, watch history, search queries etc.</li>
+        		<li>Your interactions with our email, customer care and messaging platform.</li>
+        		<li>Geo-location information like IP addresses,</li>
+        		<li>Device information like device id, device model etc. and other unique identifiers</li>
+        		<li>Cookies;</li>        		
+        	</ul>
+        	<p class="policy_terms">
+        		You can read more about how we use cookies in our <a href="cookies_policy">cookies page</a>
+        	</p>
+        	<h2>Inferred Information through usage and log data</h2>
+        	<p class="policy_terms">
+        		We may track certain information about you based upon your behaviour on the Zee Services We use this information for conducting internal research on our users' demographics, devices, interests, and behaviour to better understand, protect and serve our users. This information is compiled and analysed on an aggregated basis. This information may include the platform that you just visited (whether this platform is on Zee Services or not), which platform you next visit, your computer browser information.
+        	</p>
+        	<p class="policy_terms">
+        		We may also collect Your Information to track user behaviour and preferences for internal analytics and research. We may also use your information: 
+        	</p>
+        	<ul>
+        		<li>
+        			to evaluate Your interest for various genres of content, services, offers; 
+        		</li>
+        		<li>
+        			to perform analytics and conduct customer research, to determine your interest, for identifying Content that generate sales and to analyse traffic patterns.
+        		</li>
+        	</ul>
+        	<p class="policy_terms">
+        		If you choose to post messages on social media accounts, message boards, chat rooms or other message areas or leave feedback, we will collect that information you provide to us. We retain this information as necessary to resolve disputes, provide customer support and troubleshoot problems as permitted by law.
+        	</p>
+        	<p class="policy_terms">
+        		If you send us personal correspondence, such as emails or letters, or if other users or third parties send us correspondence about your activities or postings on the Zee Services, we may collect and store such information.
+        	</p>
+        	<p class="policy_terms">
+        		We identify and use Your IP address to help diagnose any problems with our server, and to administer DITTOTV. Your IP address is also used to help identify you and to gather broad demographic information to customize your experience on the Zee Services .
+        	</p>
+        	<p class="policy_terms">
+        		We will occasionally ask you to complete optional online surveys. These surveys may ask you for contact information and demographic information (like zip code, age, etc.). We use this data to tailor your experience on the Zee Services , providing you with content that we think you might be interested in and to display content according to your preferences.
+        	</p>
+        	<h2>Information we collect through third parties </h2>
+        	<h5>Third party services</h5>
+        	<p class="policy_terms">
+        		If you link, connect or login through you the Zee Services account with a third party service i.e. Google, Facebook and Twitter they may send us information such as your registration and profile information from the service. Below mentioned are the information getting collected through social platforms such as:
+        	</p>
+        	<ul>
+        		<li>
+        			Facebook – Public information, Name, Email id, friend list 
+        		</li>
+        		<li>Google – Email id</li>
+        		<li>Twitter – Email id, twitter handle, read tweets from your timeline and see who the user is following.</li>
+        	</ul>
+        	<h5>Billing Information</h5>
+        	<p class="policy_terms">
+        		Based on Your purchase of a subscription package, our payment gateway partners including payment via Apple iTunes and Samsung Smart Pay may collect information with respect to your credit/debit card details or other bank account details along with your billing address. This information is stored by our payment gateway partners. For instance, the Zee Services will be using third party payment gateway partners to process and facilitate the payment of your subscription fee to the Zee Services for providing you access to the subscription. Please note that the Zee Services do not directly collect any financial information such as credit card or debit card or net banking details from you. Such payment gateway partners are not controlled by us. When you visit such payment gateways you do so at your own risk. These payment gateways may have their own privacy policies in place, which we recommend you review if you visit any such payment gateways. We do not assume any responsibility or liability for such payment gateways, the content of such payment gateways and their privacy practices, nor do we endorse them. We encourage you to familiarize yourself with the privacy statements provided by such payment gateways prior to providing them with information about you or entering into any transactions with them.
+        	</p>
+        	<p class="policy_terms">
+        		While transacting with these payment gateways, you may provide your financial information including without limitation your bank account details, credit card account details or your details pertaining to any payment settlement or pre-paid instrument service provider. You understand, agree and acknowledge that the Zee Services  never receive your financial and payment information from these payment gateways. Your Personal Information, Sensitive Personal Data or Information and financial information will be dealt by these payment gateways in accordance with their respective privacy policies and other terms and conditions and Zee shall not be liable, accountable or responsible for Your Personal Information, Sensitive Personal Data and Financial Information which you provide to these payment gateways.
+        	</p>
+        	<h2>Purposes and Lawfulness of processing</h2>
+        	<p class="policy_terms">
+        		We will only collect and process personal data about you where we have lawful basis. Lawful basis on which we would process our personal information includes obtaining explicit consent from you for processing your personal information or processing for “legitimate interests” where processing is necessary by us to provide you with customer support or process your data for providing premium services (For e.g. processing your information by our payment gateway service providers).
+        	</p>
+        	<p class="policy_terms">
+        		We use information to provide, analyse, administer, enhance and personalize our service and marketing efforts, to process your registration, your orders, payments, and to communicate with you related to below mentioned points. For example, we use information to:
+        	</p>
+        	<ul>
+        		<li>determine your general geographic location, provide localized content, provide you with customized and personalized viewing recommendations for movies and TV shows we think will be of interest to you, determine your Internet service provider, and help us quickly and efficiently respond to inquiries and requests;</li>
+        		<li>prevent, detect and investigate potentially prohibited or illegal activities, including fraud, and enforcing our terms (such as determining free trial eligibility);</li>
+        		<li>analyze and understand our audience, improve our service (including our user interface experiences) and optimize content selection, recommendation algorithms and delivery;</li>
+        		<li>communicate with you concerning our service (for example by email, push notifications text messaging, and online messaging channels), so that we can send you news about DITTOTV, details about new features and content available on the Zee Services, and special offers, promotional announcements, and consumer surveys, and to assist you with operational requests such as password reset requests.</li>
+        		<li>notify you about changes in terms of service.</li>
+        		<li>allow you to participate in interactive features offered through our Services.</li>
+        		<li>carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing, chargeback and collection.</li>
+        	</ul>
+        	<p class="policy_terms">
+        		We may also use your information to contact you about our own and third-party services that may be of interest to you. If you do not want us to use your information in this way, please provide explicit consent for the same when we collect your data and/or adjust your user preferences in your account profile concerning your choices/preferences provided.
+        	</p>
+        	<h2>Disclosure to third parties</h2>
+        	<h5>General Disclosure</h5>
+        	<p class="policy_terms">
+        		At times the Zee Services may make certain personal information available to strategic partners that work with the Zee Services to provide service, or that help the Zee Services market to customers. For example, when you purchase and activate subscription, you authorize the Zee Services to exchange the information you provide during the activation process to carry out a service. If you are approved for service, your account will be governed by the Zee Services’s privacy policy. Personal information will only be shared by the Zee Services to provide or improve our service and marketing aspects; it will not be shared with third parties for their marketing purposes.
+        	</p>
+        	<p class="policy_terms">
+        		We do not share your personal information with Companies, organizations, or individuals outside of ATL except in the following cases:
+        	</p>
+        	<h5>Service Provides</h5>
+        	<p class="policy_terms">
+        		the Zee Services may provide links to various third-party websites that may collect Your Personal Information. Use of Your information collected by such third-party platform will be governed by the privacy policy in such third-party platform. ATL has no control on the operation of such third-party websites and you may share information with such third party at your sole risk. ATL shall not be liable to you for any misappropriation of Your Personal Information by such third party.
+        	</p>
+        	<p class="policy_terms">
+        		We may share non-personally identifiable information publicly and with our partners — like publishers, advertisers, developers, or rights holders. For example, we share information publicly to show trends about the general use of our services. We also allow specific partners to collect information from your browser or device for marketing/promotions and measurement purposes using their own cookies or similar technologies.
+        	</p>
+        	<h5>Promotional Offers</h5>
+        	<p class="policy_terms">
+        		We’ll share or disclose your personal information outside of ATL when we have your consent. For example, providing SMS and E-mail related services such as marketing newsletters, promotions and offers.
+        	</p>
+        	<h5>Business Transfers </h5>
+        	<p class="policy_terms">
+        		We provide personal information to our affiliates and other trusted businesses or persons to process it for us, based on our instructions and in compliance with our Privacy Policy and any other appropriate confidentiality and security measures. For example, we use service providers to help us with customer support.
+        	</p>
+        	<h5>Legal</h5>
+        	<p class="policy_terms">
+        		In the event of any requirement by court order, government or quasi-government agency to disclose Your Personal Information, We will disclose information as may be legally required. We may also disclose Your Personal Information if we, in the good faith believe that such disclosure is reasonably necessary to respond to subpoenas, court orders, or other legal process.
+        	</p>
+        	<p class="policy_terms">
+	        	In the event ATL is merged with or acquired by another company or in case of re-organization or re-structuring of business, we and our affiliates may share your personal information, wholly or in part, with another business entity.
+	        </p>
+	        <h2>Your Controls and Choices</h2>
+	        <p class="policy_terms">
+	        	We provide you the ability to exercise certain controls and choices regarding our collection, use and sharing of your personal information. In accordance with applicable law, your controls and choices may include: 
+	        </p>
+	        <h5>Managing Your Information</h5>
+        	<p class="policy_terms">
+        		You can access and update some of your personal information through your account settings. If you have chosen to connect your Zee Services account to a third-party application, like Facebook or Google, you can change your settings and remove permission for the app by changing your account settings. You are responsible for keeping your personal information up-to-date. the Zee Services will send you periodic reminders via e-mail to maintain the accuracy of your personal information
+        	</p>
+        	<h5>Rectification of Inaccurate or Incomplete Information</h5>
+					<p>
+						You can ask us to correct inaccurate or incomplete personal information concerning you (this is the information which you cannot update yourself within your Zee Services account) by sending us an e-mail
+					</p>
+					<h5>Data Access and Portability</h5>
+					<p class="policy_terms">
+					In some jurisdictions, applicable law may entitle you to request copies of your personal information held by us. You may also be entitled to request copies of personal information that you have provided to us in a structured, commonly used, and machine-readable format and/or request us to transmit this information to another service provider (where technically feasible).</p>
+					<h5>Data Retention and Erasure</h5>
+					<p class="policy_terms">
+					We retain your personal information as long as necessary for the performance of the contract between you and us to comply with our legal obligations. If you no longer want us to use your information then you can request that we erase your personal information and close your Zee Services account. Please note that if your request for the erasure of your personal information;</p>
+					<ul>
+						<li>
+							We may retain some of your personal information as necessary for our legitimate business interests, such as fraud detection and prevention and enhancing safety. For example, if we suspend a Zee Services account for fraud or safety reasons, we may retain certain information from that account to prevent that user from opening a new account in the future.		
+						</li>
+						<li>
+							We may retain and use your personal information to the extent necessary to comply with our legal obligations. For example, we may keep some of your information for tax, legal reporting and auditing obligations.							
+						</li>
+						<li>
+							Information you have shared with others (e.g., Reviews, forum postings) may continue to be publicly visible on the Zee Services , even after your account is cancelled. However, attribution of such information to you will be removed. Additionally, some copies of your information (e.g., log records) may remain in our database, but are disassociated from personal identifiers.
+						</li>
+						<li>
+							Because we maintain copies of the Zee Services to protect from accidental or malicious loss and destruction, residual copies of your personal information may not be removed from our backup systems for a limited period of time.							
+						</li>
+					</ul>
+					<h5>Withdrawing Consent and Restriction of Processing</h5>
+					<p class="policy_terms">
+						For withdrawing your consent at any time during the tenure of your services with us, you may choose to do so by sending us an e-mail. We shall review your request and may ask you to verify your identity. Post verification we will withdraw the consent for which request was made by you and stop any further processing of your personal information
+					</p>	
+					
+					<h5>Objection to Processing</h5>
+					<p class="policy_terms">
+						Where your personal information is processed for direct marketing purposes, you may, at any time ask us to cease processing your data for these direct marketing purposes by sending an e-mail to us 
+					</p>
+					<h5>Complaints</h5>
+					<p class="policy_terms">
+						You can write to our data protection officer in case of any grievance or compliant. You have the right to  complaint about the data processing activities carried out by ATL before the competent data protection authorities. 
+					</p>
+					<p class="policy_terms">
+						Please be aware that if you do not allow us to collect personal information from you, we may not be able to deliver certain experiences, products, and services to you, and some of our services may not be able to take account of your interests and preferences. If collection of personal information is mandatory, we will make that clear at the point of collection so that you can make an informed decision whether to participate.  If you have questions about the specific personal information about you that we process or retain, and your rights regarding that personal information, please contact our customer support team
+					</p>
+					<h2>Children’s Privacy</h2>
+					<p class="policy_terms">
+						DITTOTV is not intentionally designed for or directed at persons less than 16 years of age. ATL does not knowingly permit any person who is under 16 years of age to register with the services or to provide any other personally identifying information. If ATL becomes aware that any personally identifiable information of persons less than 16 years of age has been collected on the Zee Services without verified parental consent, then ATL will take the appropriate steps to delete any such information and notify the parent.
+					</p> 
+					<p class="policy_terms">
+						However, we consider it the responsibility of parents to monitor their children’s use of our services. Nevertheless, it is our policy not to collect and process any personal information from children below 16 years of age or offer to send any promotional materials to persons in that category. ATL does not seek or intend to seek or receive any personal information from children. Should a parent or guardian have reasons to believe that a minor has provided ATL with personal information without their prior consent, please contact our customer support team to ensure that the personal information is removed from the Zee Services.
+						</p>
+						<h2>Data transfer, storage & processing globally</h2>
+					<p class="policy_terms">		
+						We operate globally and may transfer your personal information to individual companies of the ATL affiliated companies or third parties in locations around the world for the purposes described in this privacy policy. Wherever your personal information is transferred, stored or processed by us, we will take reasonable steps to safeguard the privacy of your personal information. Additionally, when using or disclosing personal information transferred from the European Union, we use standard contractual clauses approved by the European Commission, adopt other means under European Union law for ensuring adequate safeguards.
+						</p>
+						<h2>Security and compliance with laws</h2>
+						<p class="policy_terms">	
+							We are continuously implementing and updating administrative, technical, and physical security measures to help protect your information against unauthorized access, loss, destruction, or alteration. Some of the safeguards we use to protect your information are firewalls and data encryption, and information access controls. If you know or have reason to believe that your Zee Services account credentials have been lost, stolen, altered, or otherwise compromised or in case of any actual or suspected unauthorized use of your account, please contact us by contacting our customer support team.
+							</p>
+						<h2>Change in Policy </h2>
+						<p class="policy_terms">	
+							This Privacy Policy is subject to change from time to time. We reserve the right, at our sole discretion, to modify the terms of this Privacy Policy from time to time in order to ensure compliance with applicable laws (“Updated Terms”). The Updated Terms shall be effective immediately and shall supersede these the terms of this Privacy Policy. We will not be under an obligation to notify you of any changes to this privacy policy except if the changes made to the policy significantly affects your rights or as may be required by law. You shall be solely responsible for reviewing the Privacy Policy from time to time for any modifications. By continuing to use DITTOTV after the updated Terms have been published, you affirm your agreement to the updated terms.
+							</p>
+							<h2>Contact information</h2>
+							<h5>Support</h5>
+							<p class="policy_terms">	
+								If you require any information or clarification regarding the use of your personal information or this privacy policy or grievances with respect to use of your personal information, please email us at support@dittoTV.com.
+							</p>
+							<h5>Data Controller Officer</h5>
+							<p class="policy_terms">	
+								The data controller for the Zee Services is Asia TV Limited (ATL) with the business address of: Hygeia Building, 66-68 College Road, Harrow, United Kingdom, HA1 1BE.
+							</p>
+							<p class="policy_terms">	
+								The data protection officer (DPO) appointed by ATL is Mr. Gordon Finlayson who can be contacted at <a href="mailto:dpo@zee5.com">dpo@zee5.com .
+							</p>
+							<p class="policy_terms">	
+								If you have any queries, complaints regarding the collecting, processing, transfer of personal data/information or regarding this policy please do contact our Data Protection Officer.
+							</p>
+		<!-- <p>
+			We value the trust placed in use by You and therefore, we follow the highest standards of privacy guidelines to protect the information shared by You with us.
+		</p>
+
+		<p class="policy_terms">
+			This Privacy Policy (“<b>Privacy Policy</b>”) governs the use of Personal Information shared (as defined below) with or collected by ZDCL from the users of dittoTV. This Privacy Policy is subject to change from time to time without any written notice to You. Please review the Privacy Policy from time to time to be updated with the latest changes and modifications.
+		</p>
+
+		<p class="policy_terms">
+			By browsing, using, downloading or installing dittoTV, You agree to be bound by the terms of this Privacy Policy. If You do not agree with the terms contained herein, please do not download or browse dittoTV.
+		</p>
+
+		<p class="policy_terms"> 
+			By mere browsing or use of dittoTV, You consent to the terms of this Privacy Policy and agree to the use of Your Personal Information in the manner as provided under this Privacy Policy.
+		</p>
+
+		<p class="policy_terms"> 
+			All capitalized terms that have not been specifically defined herein shall have the same meaning as provided under the Terms of Use.
+		</p>
+		<p class="policy_terms">
+			This Privacy Policy should be read in conjunction and together with the Terms of Use available on <a target="_blank" href="http://www.dittotv.com/terms">www.dittotv.com/terms</a>
+		</p>
+
+		<h2>Collection and Use of Personal Information</h2>
+		<p class="policy_terms">
+			‘Personal Information’, ‘Information’ and ‘Sensitive Personal Data or Information’ shall have the meaning ascribed to it under the IT Act, 2000 and Information Technology (Reasonable Security Practises and Procedures and Sensitive Personal Data or Information) Rules, 2011.
+		</p>
+		<p class="policy_terms">
+			<h5>Generic Information/Financial Information</h5> 
+		</p>
+		<p class="policy_terms">
+			We collect Your Personal Information or Information when You use or browse dittoTV and at the time of Your registration with dittoTV and You share such information with Us through email or by posting on dittoTV or by any other means made available to You by Us. We collect information with respect to Your name, mobile number, email, address, IP Address, zip code, age, gender, occupation etc. Based on Your purchase of subscription package, our payment gateway partners collect information with respect to Your credit/debit card details or other bank account details. This information is stored by our payment gateway partners.
+		</p>
+		<p class="policy_terms">
+			We collect information in order to provide You with a safe, efficient, smooth and customized experience. This allows Us to provide services and features that most likely meet Your needs, and to customize Our dittoTV to make Your experience safer and easier.
+		</p>
+		<p class="policy_terms">
+			Except as provided herein, We do not solicit any Sensitive Information about You. However, if You share such information with Us voluntarily, We will not be liable for any actions, claims, costs, expenses or other liabilities that may arise as a consequence of such any unauthorized use or misuse of such information.
+		</p>
+		<p class="policy_terms">
+			<h5>Demographic Information</h5>
+		</p>
+		<p class="policy_terms">
+			We may track certain information about You based upon Your behaviour on dittoTV. We use this information for conducting internal research on Our users' demographics, interests, and behaviour to better understand, protect and serve Our users. This information is compiled and analysed on an aggregated basis. This information may include the website that You just visited (whether this website is on dittoTV or not), which website You next visit, Your computer browser information.
+		</p>
+		<p class="policy_terms">
+			We may also collect Your Information to track user behaviour and preferences for internal analytics and research. We may also use Your information: (i) to evaluate Your interest for various genres of content, services, offers; (ii) to perform analytics and conduct customer research, to determine Your interest, for identifying Content that generate sales and to analyse traffic patterns.
+		</p>
+		<p class="policy_terms">
+			If You choose to post messages on Our message boards, chat rooms or other message areas or leave feedback, We will collect that information You provide to Us. We retain this information as necessary to resolve disputes, provide customer support and troubleshoot problems as permitted by law.
+		</p>		
+		<p class="policy_terms">
+			If You send Us personal correspondence, such as emails or letters, or if other users or third parties send Us correspondence about Your activities or postings on dittoTV, We may collect and store such information.
+		</p>
+		<p class="policy_terms">
+			We identify and use Your IP address to help diagnose problems with Our server, and to administer dittoTV. Your IP address is also used to help identify You and to gather broad demographic information.
+		</p>
+		<p class="policy_terms">
+			We will occasionally ask You to complete optional online surveys. These surveys may ask You for contact information and demographic information (like zip code, age, or income level). We use this data to tailor Your experience at dittoTV, providing You with content that We think You might be interested in and to display content according to Your preferences.
+		</p>
+		<p class="policy_terms">
+			<h5>Cookie</h5> 
+		</p>
+		<p class="policy_terms">
+			A "cookie" is a small piece of information stored by a web server on a web browser so it can be later read back from that browser. Cookies are useful for enabling the browser to remember information specific to a given user. We place both permanent and temporary cookies in Your computer's hard drive. The cookies do not contain any of Your personally identifiable information.
+		</p>
+		<p class="policy_terms">
+			You will always have an option not to provide certain information and can choose to opt-out from provision of certain information.
+		</p>
+
+		<h2>Disclosure of Personal Information with Third Parties</h2>
+		<p class="policy_terms">
+			We may disclose Personal Information to affiliates and group companies. We may also disclose Your Personal Information with third parties strictly on confidential terms. We may disclose such information to third parties in order to provide You access to dittoTV and facilitate or Your participation in any contest, game or activity conducted by ZDCL, to comply with Our legal obligations, to enforce Our Terms of Use, to facilitate Our marketing and advertising activities, or to prevent, detect, mitigate, and investigate fraudulent or illegal activities related to dittoTV. 
+		</p>
+		<p class="policy_terms">
+			We will always take Your express consent at the time of sharing Your Personal Information with third parties for their marketing and advertising purposes.
+		</p>
+		<p class="policy_terms">
+			In the event of any requirement by court order, government or quasi-government agency to disclose Your Personal Information, We will disclose information as may be legally required. We may also disclose Your Personal Information if We, in the good faith believe that such disclosure is reasonably necessary to respond to subpoenas, court orders, or other legal process. 
+		</p>
+		<p class="policy_terms">
+			In the event ZDCL is merged with or acquired by another company or in case of re-organization or re-structuring of business, We and Our affiliates will share Your Personal Information, wholly or in part, with another business entity. 
+		</p>
+
+		<h2>Third Party Sites</h2>
+        <p class="policy_terms">
+        dittoTV may provide links to various third party websites that may collect Your Personal Information. Use of Your information collected by such third party website will be governed by the privacy policy in such third party website. ZDCL has no control on the operation of such third party websites and You may share information with such third party at Your sole risk. ZDCL shall not be liable to You for any misappropriation of Your Personal Information by such third party.
+        </p>
+
+		<h2>Promotional and Marketing Activities</h2>
+		<p class="policy_terms">
+			We will send communications to You at regular intervals to notify You of, among other things, various offers, new content, exclusive deals etc., that may be available or new services that You may be interest to subscribe etc. By accessing dittoTV, You expressly consent to receiving such communications from us at regular intervals.
+		</p>
+		<p class="policy_terms">
+			However, if You do not wish to receive any communication from us, You may request to opt-out by sending an email to <a href="mailto:support@dittotv.com?subject=Unsubscribe">support@dittotv.com</a> with the subject as “Unsubscribe”.
+		</p>
+
+		<h2>Security and Compliance with Laws</h2>
+		<p class="policy_terms">
+			We strive to protect Your Personal Information against unauthorized disclosure, misuse, unlawful use, modification, loss or destruction. We take all reasonable measures and precautions, as per standard industry practises, to keep Your Personal Information confidential. We ensure compliance with all applicable laws including but not limited to Information Technology (Reasonable security practices and procedures and sensitive personal data or information) Rules, 2011.
+		</p>
+
+		<h2>Amendments</h2>
+		<p class="policy_terms">
+			We reserve the right, at our sole discretion, to modify the terms of this Privacy Policy from time to time in order to ensure compliance with applicable laws (“Updated Terms”). The Updated Terms shall be effective immediately and shall supersede these the terms of this Privacy Policy. We will not be under an obligation to notify you of any changes to this Privacy Policy. You shall be solely responsible for reviewing the Privacy Policy from time to time for any modifications. By continuing to use dittoTV after the Updated Terms have been published, You affirm Your agreement to the Updated Terms.
+		</p>
+
+		<h2>Contact Us</h2>
+		<p class="policy_terms">
+			If You require any information or clarification regarding the use of Your Personal Information or this Privacy Policy, You can contact us at  <a href="mailto:support@dittotv.com">support@dittotv.com</a>
+		</p>
+		<p class="policy_terms">
+			If You have grievance with respect to use of Your Personal Information, please email to <a href="mailto:support@dittotv.com">support@dittotv.com</a>  
+		</p>
+		<p class="policy_terms">
+			ZDCL is a company based in India. By browsing/using dittoTV, You hereby acknowledge that ZDCL is not responsible or liable in any manner to comply with any local laws of Your territory except India with respect to dittoTV. 
+		</p> -->
+	</div>
+</div>
+</div>
+</div>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+  </div>
+  <div class="clearfix">&nbsp;</div>
+</div>
+<style>
+	.policy_terms{
+		padding-top: 10px;
+	}
+</style>
+        <div class="addthis_vertical_follow_toolbox">
+  <ul>
+    <li>
+      <a href="http://www.instagram.com/instaditto/" target="blank">
+        <img src="/assets/icons/instagram.jpeg" alt="instagram">
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="container-fluid footer-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-2 col-sm-2 col-xs-6 ml40">
+          <ul>
+            <li class="tvguide_spcl_cls"><a href="/tvguide/0">TV Guide</a></li>
+            <li><a href="/livetv">Live TV</a></li>
+                <li><a href="/tvshows">TV Shows</a></li>
+                <li><a href="/movies">Movies</a></li>
+                <li><a href="/videos">Videos</a></li>
+            <li><a href="http://blogs.dittotv.com" target="blank">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-6 pull-left">
+          <ul>
+                <li><a href="/about_us">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+                <li><a href="/support">Support</a></li>
+            <li><a href="/faq">FAQs</a></li>
+            <li><a href="/policy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/ownership">Ownership Claims and Dispute Resolution Mechanism</a></li>
+            <li><a href="/download">Download</a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-8 subs">
+          <div class="subs-price">
+            <span class="sub-text sub-pln-text">To Subscribe Click </span>
+          </div>
+          <div class="footer-btn">
+            <a href="javascript:void(0);" class="btn btn-primary btn-sm margin_bottom disable-act-prepaid min-width-btn">Activate Prepaid</a>
+              <a href="javascript:void(0);" type="button" class="btn btn-primary btn-sm activate_device min-width-btn">Activate Device</a>
+            <a href="/plans" class="btn btn-primary btn-sm margin_bottom min-width-btn">Subscription Plans</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <div class="row footer-top new-footer footer-header responsive_footer">
+  <div class="col-md-1">&nbsp;</div>
+  <div class="col-md-3">
+    <ul>
+      <li>Channels</li>
+    </ul>
+  </div>
+      <div class="col-md-3">
+        <ul>
+          <li>TV Shows</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <li>Movies</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <li>Videos</li>
+        </ul>
+      </div>
+  <!-- <div class="col-md-1">&nbsp;</div> -->
+</div>
+<!--<div class="row footer-top new-footer responsive_footer">-->
+<!--<div class="col-md-1">&nbsp;</div>-->
+<!--<div class="col-md-3">-->
+<!--<ul>-->
+<!---->
+<!--<li><a href=""></a></li>-->
+<!---->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="col-md-3">-->
+<!--<ul>-->
+<!---->
+<!--<li><a href=""></a></li>-->
+<!---->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="col-md-3">-->
+<!--<ul>-->
+<!---->
+<!--<li><a href=""></a></li>-->
+<!---->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="col-md-3">-->
+<!--<ul>-->
+<!---->
+<!--<li><a href=""></a></li>-->
+<!---->
+<!--</ul>-->
+<!--</div>-->
+<!--<div class="col-md-1">&nbsp;</div>-->
+<!--</div>-->
+
+<div class="row footer-top new-footer responsive_footer">
+  <div class="col-md-1">&nbsp;</div>
+  <div class="col-md-3">
+    <ul>
+          <li><a href="/livetv/zee-tv-1">Zee TV</a></li>
+          <li><a href="/livetv/zee-cinema-1">Zee Cinema</a></li>
+          <li><a href="/livetv/zee-classic">Zee Classic</a></li>
+          <li><a href="/livetv/al-jazeera">Al Jazeera</a></li>
+          <li><a href="/livetv/aaj-tak">Aaj Tak</a></li>
+          <li><a href="/livetv/times-now">Times Now</a></li>
+          <li><a href="/livetv/zee-news">Zee News</a></li>
+          <li><a href="/livetv/zee-bangla">Zee Bangla</a></li>
+          <li><a href="/livetv/zee-kannada">Zee Kannada</a></li>
+          <li><a href="/livetv/zee-marathi">Zee Marathi</a></li>
+          <li><a href="/livetv/zee-tamil">Zee Tamil</a></li>
+          <li><a href="/livetv/zee-telugu">Zee Telugu</a></li>
+          <li><a href="/livetv/india-today">India Today</a></li>
+          <li><a href="/livetv/zee-talkies">Zee Talkies</a></li>
+          <li><a href="/livetv/flowers-tv">Flowers TV</a></li>
+          <li><a href="/livetv/living-foodz">Living Foodz</a></li>
+          <li><a href="/livetv/wion">Wion</a></li>
+          <li><a href="/livetv/chardikla-time-tv">Chardikla Time TV</a></li>
+          <li><a href="/livetv/and-pictures-hd">&amp; Pictures HD</a></li>
+          <li><a href="/livetv/siddhivinayak-temple">Siddhivinayak Temple</a></li>
+    </ul>
+  </div>
+      <div class="col-md-3">
+        <ul>
+              <li><a href="/tvshows/brahmarakshas">BRAHMARAKSHAS</a></li>
+              <li><a href="/tvshows/look-whos-talking-with-niranjan-season-2">LOOK WHO&#39;S TALKING WITH NIRANJAN - SEASON 2</a></li>
+              <li><a href="/tvshows/strugglers">STRUGGLERS</a></li>
+              <li><a href="/tvshows/kumkum-bhagya">KUMKUM BHAGYA</a></li>
+              <li><a href="/tvshows/chala-hawa-yeu-dya-maharashtra-daura">CHALA HAWA YEU DYA </a></li>
+              <li><a href="/tvshows/bhabiji-ghar-par-hai">BHABIJI GHAR PAR HAI</a></li>
+              <li><a href="/tvshows/tuzhat-jeev-rangala">TUZHAT JEEV RANGALA</a></li>
+              <li><a href="/tvshows/jeena-isi-ka-naam-hai">JEENA ISI KA NAAM HAI</a></li>
+              <li><a href="/tvshows/zindagi-ki-mehek">ZINDAGI KI MEHEK</a></li>
+              <li><a href="/tvshows/buddha">BUDDHA</a></li>
+              <li><a href="/tvshows/freshers">FRESHERS</a></li>
+              <li><a href="/tvshows/kareena-kareena">KAREENA KAREENA</a></li>
+              <li><a href="/tvshows/hip-hip-hurray">HIP HIP HURRAY</a></li>
+              <li><a href="/tvshows/bhootu">BHOOTU</a></li>
+              <li><a href="/tvshows/style-and-the-city">THE ZEE HORROR SHOW</a></li>
+              <li><a href="/tvshows/hum-paanch">HUM PAANCH</a></li>
+              <li><a href="/tvshows/vadalvaat">VADALVAAT</a></li>
+              <li><a href="/tvshows/solvathellam-unmai-season-2">SOLVATHELLAM UNMAI SEASON 2</a></li>
+              <li><a href="/tvshows/muddha-mandaram">MUDDHA MANDARAM</a></li>
+              <li><a href="/tvshows/the-art-room">THE ART ROOM</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+              <li><a href="/movies/holiday">Holiday</a></li>
+              <li><a href="/movies/ramaiya-vastavaiya">Ramaiya Vastavaiya</a></li>
+              <li><a href="/movies/deewar">Deewar</a></li>
+              <li><a href="/movies/gadar-ek-prem-katha">Gadar - Ek Prem Katha</a></li>
+              <li><a href="/movies/the-great-gambler">The Great Gambler</a></li>
+              <li><a href="/movies/de-dhakka">De Dhakka</a></li>
+              <li><a href="/movies/desi-boys">Desi Boys</a></li>
+              <li><a href="/movies/gulaal">Gulaal</a></li>
+              <li><a href="/movies/heroine">Heroine</a></li>
+              <li><a href="/movies/fashion">Fashion</a></li>
+              <li><a href="/movies/kaksparsh">Kaksparsh</a></li>
+              <li><a href="/movies/elizabeth-ekadashi">Elizabeth Ekadashi</a></li>
+              <li><a href="/movies/khubsoorat">Khubsoorat</a></li>
+              <li><a href="/movies/ab-tumhare-hawale-watan-sathiyo">Ab Tumhare Hawale Watan Sathiyo</a></li>
+              <li><a href="/movies/oye-lucky-lucky-oye">Oye Lucky Lucky Oye</a></li>
+              <li><a href="/movies/don-2">Don 2</a></li>
+              <li><a href="/movies/sholay">Sholay</a></li>
+              <li><a href="/movies/yuvraaj">Yuvraaj</a></li>
+              <li><a href="/movies/raja-hindustani">Raja Hindustani</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+              <li><a href="/videos/shraddha-sizzles-in-dance-basanti">Shraddha sizzles in Dance Basanti</a></li>
+              <li><a href="/videos/highlights-misbahs-record-fastest-century">Highlights: Misbah&#39;s record fastest century</a></li>
+              <li><a href="/videos/experience-the-fun-behind-making-of-pk">Fun behind the making of PK</a></li>
+              <li><a href="/videos/srk-attends-arpitas-mehendi-ceremony">SRK, Salman reunite at Arpita&#39;s wedding</a></li>
+              <li><a href="/videos/the-right-fit-trousers">The Right Fit Trousers</a></li>
+              <li><a href="/videos/katrinas-top-songs-from-south">Katrina&#39;s Top Songs From South</a></li>
+              <li><a href="/videos/sonam-sizzles-on-ramp">Sonam Sizzles On Ramp</a></li>
+              <li><a href="/videos/srk-legion-of-france">SRK Legion of France</a></li>
+              <li><a href="/videos/farhan-turns-photographer">Farhan turns photographer</a></li>
+              <li><a href="/videos/sonam-on-salmans-footsteps">Sonam on salman&#39;s footsteps</a></li>
+              <li><a href="/videos/riteish-thanks-salman">Riteish thanks Salman</a></li>
+              <li><a href="/videos/priyanka-inspires-alia">Priyanka Inspires alia</a></li>
+              <li><a href="/videos/big-b-turns-hindi-tutor">Big B turns Hindi tutor</a></li>
+              <li><a href="/videos/twinkles-instructions-to-akki">Twinkle&#39;s instruction to Akki</a></li>
+              <li><a href="/videos/sunny-turns-teacher">Sunny turns teacher</a></li>
+              <li><a href="/videos/sonakshis-turns-crazy">Sonakshi turns crazy</a></li>
+              <li><a href="/videos/shraddha-vs-alia">Shraddha vs Alia</a></li>
+              <li><a href="/videos/karan-johar-gets-naughty">Karan Johar turns naughty</a></li>
+              <li><a href="/videos/bebo-refuses-to-join-social-media">Bebo refuses to join social media</a></li>
+              <li><a href="/videos/behind-the-scenes-kill-dill">Behind the scenes: Kill Dill</a></li>
+        </ul>
+      </div>
+  <div class="col-md-1">&nbsp;</div>
+</div>
+
+<div class="container-fluid copyrite">
+  <div class="footer-bottom">
+     © CONTENT COPYRIGHT. ALL RIGHTS RESERVED. ZEE ENTERTAINMENT ENTERPRISES LIMITED 2016 
+  </div>
+</div>
+
+        
+        <div id="fade-layer">&nbsp;</div>
+
+      </div>
+
+      <script data-turbolinks-track="true" src="/assets/social-share-button-36a2d1d1fd528dc5b98ef20336898cb3.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/application-d7eb8dcc7a8699886a3ca78ff556fdd2.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap.min-f128309aa9a3a5c7f53ad18243d071b1.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/classie-0872a85aea82a5cbd72dc45eee9dbbfa.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery.zaccordion-be9f09522646991215f0bf731f5fd93b.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/owl.carousel.min-c74cb98ead44783513dc197720a83146.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery.raty-055266dfffdc46d3c09613f7e07c00e0.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery.template-82c625aa6b03cbdbba33445eb9edc704.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/bootstrap-checkbox-4b89d3bb758ef3c53d8c8cbe68f1b433.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/icheck.min-d127843167baaae510488cfa139b0b48.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/search_v3-1b1388bace8ce4e282acd8a85d023278.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery.validate.min-cf946b0ac19f4c4cc06c885c622e789c.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery-ui-1.10.4.custom.min-autocomplete-7c51a7bb7002c3cab62252fca10785bf.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/popups-93b3e4a8e727d44c1e3cfb6f9aaad38d.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/hull_js-81929acf76090d47ea37146e57b7cb93.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/akamai-0548781ebcb1c6808eb9a73cdd0c54ec.js?body=1"></script>
+<script data-turbolinks-track="true" src="/assets/jquery.jscroll-2a5e370f52295913f1fb30d3006d8ce8.js?body=1"></script>
+
+      <script src="//d3f5pyioow99x0.cloudfront.net/0.8/hull.js"></script>
+
+<!--       <script type="text/javascript" src="/assets/flash/jwplayer.js"></script> --> 
+ 
+        <script type = "text/javascript" src = "/assets/flash/playerParser_V5.js"></script>
+      <script type = "text/javascript" src = "/assets/html5/jwplayer.js"></script>
+     
+      <!-- <script type="text/javascript"> jwplayer.key = "3mwcMaiT4akIPV8WPDzHZJZZGwyOSsryCX7v3A=="; </script> -->
+      <script type="text/javascript"> jwplayer.key = "XtWFuCK/ytTi7a/eN1uvsRtq6MpIHJTm1hiLbQ=="; </script>
+      
+      <!--
+  <script>_gaq.push(['_trackPageview']);</script>
+-->
+      <script type='text/javascript'>(function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://widget.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'cebccd16-78ea-496e-bd21-1c3507987980', f: true }); done = true; } }; })();</script>
+      
+      <script type="text/javascript">
+          var google_conversion_id = 965297917;
+          var google_custom_params = window.google_tag_params;
+          var google_remarketing_only = true;
+      </script>
+      <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+      </script>
+      <noscript>
+        <div style="display:inline;">
+          <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/965297917/?value=0&amp;guid=ON&amp;script=0"/>
+        </div>
+      </noscript>
+
+      <script type="text/javascript">
+          /* <![CDATA[ */
+          var google_conversion_id = 982869742;
+          var google_custom_params = window.google_tag_params;
+          var google_remarketing_only = true;
+          /* ]]> */
+      </script>
+      <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+      </script>
+      <noscript>
+        <div style="display:inline;">
+          <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/982869742/?value=0&amp;guid=ON&amp;script=0"/>
+        </div>
+      </noscript>
+    </div>
+    </body>
+
+</html>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53d8ef8a2e85ce0a" async></script>
+
+
+
+<input type="hidden" id="service_valid_country_code" value="SG">
+<input type="hidden" id="service_valid_calling_code" value="0065">
+<input type="hidden" id="service_valid_min_digits" value="6">
+<input type="hidden" id="service_valid_max_digits" value="8">
+
+
+<script src="/assets/new_ditto_v2-c812ec3d6faddba779dd6ef108ff6c44.js?body=1"></script>
+
+<script>
+    $(document).ready(function(){
+        //To push the uppercase requested urls to lowercase. For both WEB and WAP
+        var requestUrl = window.location.pathname;
+        if (requestUrl != requestUrl.toLowerCase()){
+            window.history.pushState('','',requestUrl.toLowerCase());
+        }
+    });
+
+    // we obtaining languge information from cookie
+    //if it is "hi" ie "hindi" then we are prepending /hi for the url    
+    document.cookie.split(";").forEach(function(value,index){
+      var otherLanguage = "";
+      if(value.split("=")[0].indexOf("i18n") >= 0){
+            otherLanguage = value.split("=")[1];
+      }
+      if(otherLanguage == "hi"){
+        //if wer are changing language param , the prepending of /hi was conflicting
+        //so we are retaining the original functionality only for anchor tag with id "landing-lang-filter"
+        $("a").click(function(e){
+          if($(this).attr("id") == "landing-lang-filter"){
+            console.log("clicked on language change filter");
+            console.log($(this).attr("href"));
+            window.location.href = $(this).attr("href");
+          }
+          //prevent page reload of the login and subscribe ad popup in the homepage
+          else if($(this).hasClass("news-letter-close")){
+            console.log("clicked on close the subscribe and  login popup");
+          }
+          //check if there is junk value in anchor href then dont do redirection!!         
+          else{            
+            e.preventDefault();
+            console.log($(this).attr("href"));
+            var href = $(this).attr("href");
+            if(((href.indexOf("/")) == 0)){
+                console.log('converting url to '+'/hi'+$(this).attr("href"));
+                window.location.href = "/hi"+$(this).attr("href");                            
+            }
+            if(((href.indexOf("http")) == 0)){
+                console.log('navigating to '+href);
+                window.location.href = $(this).attr("href");
+            }
+          }
+        });
+      }
+    });    
+</script>

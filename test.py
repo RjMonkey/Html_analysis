@@ -14,3 +14,39 @@
 #
 # x = my_col.insert_many(my_list)
 # print(x.inserted_ids)
+# html_doc = """
+# <html><head><title>The Dormouse's story</title></head>
+#
+# <p class="title"><b>The Dormouse's story</b></p>
+#
+# <p class="story">Once upon a time there were three little sisters; and their names were
+# <a href="http://example.com/elsie" class="sister" id="link1">Elsie</a>,
+# <a href="http://example.com/lacie" class="sister" id="link2">Lacie</a> and
+# <a href="http://example.com/tillie" class="sister" id="link3">Tillie</a>;
+# and they lived at the bottom of a well.</p>
+#
+# <p class="story">...</p>
+# """
+#
+# from bs4 import BeautifulSoup
+#
+#
+# soup = BeautifulSoup(html_doc)
+# first_link = soup.a
+# first_link
+# # <a class="sister" href="http://example.com/elsie" id="link1">Elsie</a>
+#
+# first_link.find_all_next()
+# # [u'Elsie', u',\n', u'Lacie', u' and\n', u'Tillie',
+# #  u';\nand they lived at the bottom of a well.', u'\n\n', u'...', u'\n']
+#
+# first_link.find_all_next()
+# # <p class="story">...</p>
+# pass
+
+
+list = [1, 2, 3, 4]
+print(list)
+list.remove(3)
+print(list)
+print(list[len(list) - 1])

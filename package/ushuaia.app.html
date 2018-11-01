@@ -1,0 +1,800 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <meta name="description" content="The hotels app which will change your guests’ experience"/>
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png"/>
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png"/>
+  <link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196"/>
+  <link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96"/>
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32"/>
+  <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16"/>
+  <link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128"/>
+  <meta name="Applications-name" content="Stay"/>
+  <link rel="icon" href="img/favicon.ico">
+  <title>STAY</title>
+  <meta property="og:url"           content="https://www.stay-app.com/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Stay-App" />
+  <meta property="og:description"   content="The hotels app which will change your guests’ experience" />
+  <meta property="og:image"         content="https://www.stay-app.com/img/ogimage.png" />
+
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/app.min.css"/>
+  <script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
+
+</head>
+<body class="conditions">
+
+  <div class="page-wrapper">
+
+    <header class="cd-morph-dropdown">
+        <div>
+        <a href="index.html"><img src="img/logo-stay-negro.png" srcset="img/logo-stay-negro.png 1x, img/logo-stay-negro@2x.png 2x" alt="Stay" class="logo"></a>
+          <button class="btn menu-btn" data-function="toggleMenu"><img class="dark" src="img/ico-menu.png" alt=""></button>
+          <button class="btn dark translate try-button-form hidden-xs " data-translate="home.button.try">Try Demo</button>
+          <div class="menu black main-nav">
+            <button class="btn menu-btn" data-function="toggleMenu"><img src="img/ico-close.png" alt=""></button>
+            <ul>
+              <li class="has-dropdown gallery" data-content="products">
+                <a href="#" data-function="toggleSubMenu" class="translate navbar-link" data-translate="header.navbar.products">Products</a>
+                <ul class="list_submenu products">
+                  <li>
+                    <a href="cms.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.cms">CMS<small>Your hotel’s control panel<br/>Data, tracking and management</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="app.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.app">App<small>Your hotel in your guests’ phone<br/>Reservations, request and all the information</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="bot.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.bot">Bot<small>Your hotel in Facebook Messenger<br/>Automatized personal assistant via chat</small>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="has-dropdown gallery" data-content="features">
+                <a href="#" data-function="toggleSubMenu" class="translate navbar-link" data-translate="header.navbar.features">Features</a>
+                <ul class="list_submenu features">
+                  <li>
+                    <a href="requests.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.requests">
+                      requests<small>Your hotel’s control panel<br/>Data, tracking and management</small>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="bookings.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.bookings">
+                      bookings<small>Your hotel in your guests’ phone<br/>Reservations, request and all the information</small>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="checkin.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.checkin">
+                      checkin<small>Your hotel in Facebook Messenger<br/>Automatized personal assistant via chat</small>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="surveys.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.surveys">
+                      surveys<small>Your hotel’s control panel<br/>Data, tracking and management</small>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="chat.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.chat">
+                      chat<small>Your hotel in your guests’ phone<br/>Reservations, request and all the information</small>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="congress.html" class="translate" data-translate="header.navbar.congress">
+                      Congress<small>Interactive MICE Events in the App<br/>Engage your events’ attendees</small>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="links"><a href="/jobs/index.html" target="_blank" class="translate navbar-link" data-translate="header.navbar.jobs">Work with us</a></li>
+              <li><a href="http://blog.stay-app.com/" target="_blank" class="translate navbar-link" data-translate="header.navbar.blog">Blog</a></li>
+            </ul>
+            <a data-translate="navbar.clientaccess" href="https://cms.stay-app.com" target="_blank" class="translate access client-access-btn">Customer Access</a>
+          </div>
+
+
+
+
+          <div class="morph-dropdown-wrapper">
+            <div class="dropdown-list">
+              <ul>
+                <li id="products" class="dropdown gallery">
+                  <a href="#" class="label">Products</a>
+                  
+                  <div class="content products-dropdown"> 
+                    <ul>
+                      <li>
+                        <a href="cms.html" class="translate" data-translate="header.navbar.cms">
+                          CMS<small>Your hotel’s control panel<br/>Data, tracking and management</small>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="app.html" class="translate" data-translate="header.navbar.app">
+                          App<small>Your hotel in your guests’ phone<br/>Reservations, request and all the information</small>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="bot.html" class="translate" data-translate="header.navbar.bot">
+                          Bot<small>Your hotel in Facebook Messenger<br/>Automatized personal assistant via chat</small>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="products.html" class="translate" data-type="sub-navbar-link" data-translate="header.navbar.compare">
+                          Compare products and functionalities
+                        </a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </li>
+
+                <li id="features" class="dropdown gallery">
+                  <a href="#" class="label">Features</a>
+
+                  <div class="content features-dropdown"> 
+                    <ul>
+                      <li>
+                        <a href="requests.html" class="translate" data-translate="header.navbar.requests">
+                          CMS<small>Your hotel’s control panel<br/>Data, tracking and management</small>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="bookings.html" class="translate" data-translate="header.navbar.bookings">
+                          App<small>Your hotel in your guests’ phone<br/>Reservations, request and all the information</small>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="checkin.html" class="translate" data-translate="header.navbar.checkin">
+                          Bot<small>Your hotel in Facebook Messenger<br/>Automatized personal assistant via chat</small>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="surveys.html" class="translate" data-translate="header.navbar.surveys">
+                          CMS<small>Your hotel’s control panel<br/>Data, tracking and management</small>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="chat.html" class="translate" data-translate="header.navbar.chat">
+                          App<small>Your hotel in your guests’ phone<br/>Reservations, request and all the information</small>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="congress.html" class="translate" data-translate="header.navbar.congress">
+                          Congress<small>Interactive MICE Events in the App<br/>Engage your events’ attendees</small>
+                        </a>
+                      </li>
+            
+
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="bg-layer" aria-hidden="true"></div>
+            </div> <!-- dropdown-list -->
+          </div> <!-- morph-dropdown-wrapper -->
+
+
+        </div>
+      </header>
+
+    <section class='conditions-container'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-sm-12 text-center'>
+            <h1 data-translate='conditions.title' class='translate-conditions conditions-title'>Terms and conditions</h1>
+            <!-- <div class='col-md-10 col-sm-offset-1'>
+              <p class='translate' data-translate='prices.text'>Two options for different needs. Questions? Don’t hesitate to contact us through our chat</p>
+            </div> -->
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col-sm-12'>
+
+            <div>
+              <!-- Nav tabs -->
+              <ul class='nav nav-tabs centered' role='tablist'>
+                <li role='presentation' class='active '><a class="translate-conditions" data-translate="conditions.users.tab" href='#users' aria-controls='users' role='tab' data-toggle='tab'>Users</a></li>
+                <li role='presentation'><a class="translate-conditions" data-translate="conditions.hotels.tab" href='#hotel' aria-controls='hotel' role='tab' data-toggle='tab'>Hotels</a></li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class='tab-content'>
+                <div role='tabpanel' class='tab-pane active translate-conditions' id='users' data-translate='conditions.users'>
+                  <h3 class='section-title'>TERMS AND CONDITIONS FOR USE OF STAY’s APPS BY USERS</h3>
+                   
+                  <p>This Applications enables Stay’s apps users to find information about the hotel where they are staying or any other included in the app and access services and functionalities in order to facilitate and make the most of their stay. The STAY platform englobes the Android and iOS apps as well as the Content Management System (CMS). Users download Stay’s apps from the iOS and Android app stores. The hotel manages the contents which appear in the app in its section through the CMS.<br/><br/>
+                   
+                  Use of the Applicationss is governed by the general terms and conditions of use, which are supplemented by the special terms and conditions in order to take into account the specificities of certain Services.</p>
+                   
+                  <h3 class='section-title'>I – GENERAL TERMS AND CONDITIONS OF USE</h3>
+                   
+                   
+                  <h3 class='section-title'>ARTICLE 1 -   DEFINITIONS</h3>
+                   
+                  <p><strong>Applicationss:</strong> the software Applicationss developed by Stay which provide access to the Services, available in the Online Store and which the User has chosen to download on his/her Device.</p>
+                   
+                  <p><strong>Online Store:</strong> the Applications download platform distributed by the editor of the Device’s operating system.</p>
+                   
+                  <p><strong>MeetMe:</strong> the chat system between Users defined in the special terms and conditions of use applicable to the Applicationss hereinbelow.</p>
+                   
+                  <p><strong>Account:</strong> the account created by the User on the Applicationss. Connection to the Account is necessary to use certain Services, including inter alia receive Notifications, Book a service, Chat Room, etc.</p>
+                   
+                  <p><strong>Terms and Conditions of Use:</strong> this document.</p>
+                   
+                  <p><strong>Necessary Configuration:</strong> the necessary configuration of the Device to download and use the Applicationss defined in the article “Terms and Conditions of Access” hereinbelow.</p>
+                   
+                  <p><strong>Personal Data:</strong> the information which the User voluntarily provided to STAY, such as his/her last name, first name, room number.</p>
+                   
+                  <p><strong>Notification:</strong> information about the hotel sent to the Users</p>
+                   
+                  <p><strong>Networks:</strong> the electronic communication networks open to the public, interconnected and run by any operator, regardless of the technologies or standards used by said networks.</p>
+                   
+                  <p><strong>Social Network(s):</strong> the social network(s) Facebook or (and) Twitter or (and) Linked’In to which the User is signed up.</p>
+                   
+                  <p><strong>Services:</strong> the various services and functionalities offered by the Applicationss, including some services and functionalities which are subject to prior connection to his/her Account. Some Services, are provided by third parties and are subject to the special terms and conditions set forth hereinbelow. Some Services can only be offered in certain hotels.</p>
+                   
+                  <p><strong>Device:</strong> the mobile terminal device which can be used to connect to the Internet via the Networks and has the necessary Configuration.</p>
+                   
+                  <p><strong>User:</strong> means the the holder of the Terminal who has downloaded the Applicationss thereon from the Online Store.</p>
+                   
+                   
+                  <h3 class='section-title'>ARTICLE 2 -       PURPOSE</h3>
+                   
+                  <p>The purpose of the Terms and Conditions of Use is to define the terms and conditions of use of Stay’s apps app by users who have downloaded it from the iOS or Android store.</br>
+                   
+                  The user will only be able to use the STAY solution after first expressly accepting the Terms and Conditions of Use. Downloading the Stay’s apps and installing it on a device is considered as acceptance of these terms and conditions.</p>
+                   
+                   
+                  <h3 class='section-title'>ARTICLE 3 -       TERMS AND CONDITIONS OF ACCESS</h3>
+                   
+                  <h4 class='section-title'>Article 3.1 -   Necessary Configuration</h4>
+                   
+                  <p>The Applicationss are optimised for IOS 8 and later versions and for Android 4.4 and later versions. 
+                   
+                  STAY does not warrant the smooth running of the Applicationss on other operating systems or older operating systems.</p>
+                    
+                   
+                  <h4 class='section-title'>Article 3.2 -   Terms and Conditions of Use</h4>
+                   
+                  <p><strong>3.2.1 -             Personal Use</strong><br/>
+                   
+                  The Applicationss are reserved for personal use by persons aged 18 and over during their stay at the hotel. Use thereof for professional purposes is strictly forbidden. Persons younger than 18 years old should not use the Applicationss without permission from their parents or legal tutors.</p>
+                   
+                  <p><strong>3.2.2 -             Account</strong><br/>
+                   
+                  The Applicationss can be used without an Account.<br/>
+                   
+                  However, it is only possible to access some Services when the User is connected to his/her Account.<br/>
+                   
+                  In order to connect to his/her Account, the User must log in with Facebook, Google Plus or simply providing a user name. In order to connect to the hotel, the guest will have  to provide personal information like his/her name and room number in the Hotel. The User must provide accurate Personal Data to Stay’s apps and keep this Personal Data up-to-date. STAY will not be held liable for any damage sustained by the User or third parties due to inaccuracy in the Personal Data provided to STAY.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 4 -       USE AND RUNNING OF THE Applications</h3>
+                   
+                  <h4 class='section-title'>Article 4.1 -             Security</h4>
+                   
+                  <p>In the absence of a fault by STAY, the User will be solely liable for the use of the Applicationss and the Services as well as all consequences resulting therefrom. In particular, he/she must ensure that no person has access to the Applications without his/her consent (e.g., by locking access to his/her Device with a password.).<br/>
+                   
+                  The User must promptly inform STAY or the hotel regarding any unauthorised use of the Applicationss (see Article 11. “Contact”).<br/>
+                   
+                  In the event where STAY has a valid reason to consider that the security of the Applicationss is compromised, it reserves the right to block the User’s access to the Applicationss.</p>
+                   
+                  <h4 class='section-title'>Article 4.2 -             Compliance with applicable regulations</h4>
+                   
+                  <p>The User agrees to use the Applicationss and the Services in accordance with applicable regulations and laws. <br/>STAY will not be held responsible forthe misuse of the Applications by anybody who has downloaded it.</p>
+                   
+                  <h4 class='section-title'>Article 4.3 -             Maintenance</h4>
+                   
+                  <p>For the purpose of the smooth running of the Applicationss, STAY carries out maintenance operations, which it endeavours to perform outside times of high use of the Applicationss.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 5 -       CONTENT AND SERVICES</h3>
+                   
+                  <h4 class='section-title'>Article 5.1 -             Content of the Applications</h4>
+                   
+                  <p>The content of the Applications, including inter alia articles, photographs, videos, brands, software and functionalities are protected by intellectual and industrial property rights.<br/>
+                   
+                  Therefore, the User undertakes to observe these rights and in this respect to refrain from using the content of the Applications without authorisation. Any unauthorised use of all or part of such content may constitute infringement, breach of image rights, personal rights or any other rights, or applicable regulations and consequently incur civil and/or criminal liability.</p>
+                   
+                  <h4 class='section-title'>Article 5.2 -             Content posted by the User</h4>
+                   
+                  <p>The User will be solely liable for the content which he/she creates and posts, receives, shares and/or makes available on or via the Applications and compliance thereof with applicable laws and regulations in addition to his/her use of the Services and content of the Applications. No warranty is given relating to a specific result due to use thereof.<br/>
+                   
+                  If the User posts content, he/she automatically warrants that he/she holds the rights over said content or is authorised to diffuse post that content.<br/>
+                   
+                  STAY reserves the right to delete any content without prior notice, which the User creates and posts, receives and/or makes available in breach of the Terms and Conditions of Use. STAY will not be held responsible for the contents posted by users.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 6 -       LIABILITY AND WARRANTIES</h3>
+                   
+                  <h4 class='section-title'>Article 6.1 -             STAY’s Liability</h4>
+                   
+                  <p>STAY excludes and disclaims all liability except in the event where it breaches its contractual obligations. Its liability will be limited to direct and definite damage. The User acknowledges that STAY’s liability will be excluded in the following cases: (i) act by a third party and (ii) force majeure.<br/>
+                  Content on the Applications may be proposed by STAY’s partners or by other Users and, as a result, STAY will not in principle have any control over such content. Moreover, the Applications may contain links to website or Applicationss, whose content is not controlled by STAY. Therefore, the User is kindly asked to consult the terms and conditions of use of these websites or Applicationss. Additionally, STAY will not be held responsible for contents published by third parties like hotels or service providers, without this being an exhaustive list.<br/><br/>
+                   
+                  STAY will not provide any express or implicit warranty, including inter alia with regard to the quality and compatibility of the Services and content on the Applications for a specific purpose.</p>
+                   
+                  <h4 class='section-title'>Article 6.2 -             User’s Undertakings</h4>
+                   
+                  <p>The User will be solely liable for use by him/her or any other person using his/her Device carried out on the Applications and the Services.<br/>
+                   
+                  Accordingly without this list being exhaustive, the User will breach the Terms and Conditions of Use if he/she or any other person using his/her Device uses the Services to:<br/><br/>
+                  - post pornographic, paedophile, offensive, violent, crude, insulting or defamatory comments, videos, films, images, whether realistic or otherwise;<br/>
+                  - publish or post a page containing comments or images intended to harass, threaten and/or embarrass other people. In this respect, the User must not make negative comments about others, or make personal attacks or attacks based on race, nationality, ethnic origin, religion, gender, sexual orientation, disability or any other difference;<br/>
+                  - solicit, post, promote or facilitate the diffusion, sending, exchange, sale or purchase of any illegal content or content contrary to applicable law;<br/>
+                  - impersonate another person or communicate under a false name or room number which he/she is not authorised or permitted to use for any reason whatsoever, including inter alia to commit offences;<br/>
+                  - transmit a computer virus or files, programmes or lines of code intended to limit or damage the operating of computer or telecommunication equipment;<br/>
+                  - send spam (messages, including inter alia unsolicited promotional messages) or propose snowball or pyramid sales, or solicit unauthorised online payments or donations;<br/>
+                  - list or give access to websites in contradiction with the Terms and Conditions of Use;<br/>
+                  - diffuse material in breach of intellectual or industrial property laws or propose files for downloading which are protected by copyright without the permission of the rightholders.<br/><br/>
+                   
+                  In the event of breach of the Terms and Conditions of Use by the User or by any other person using his/her Device, STAY is entitled to immediately block his/her access to the Applications.<br/>
+                   
+                  The User undertakes to save and hold STAY harmless against any damage or claim resulting from his/her breach of the Terms and Conditions of Use.<br/>
+                   
+                  If the User notices content which he/she considers to be inappropriate on the Applications, including inter alia child pornography or written material intended to incite racial hatred, he/she can report it to STAY/the hotel (see Article: 11. “Contact”).<br/></p>
+                   
+                  <h3 class='section-title'>ARTICLE 7 -       FINANCIAL TERMS AND CONDITIONS</h3>
+                   
+                  <p>Downloading and using the app is free. All costs relating to access to the Applications whatsoever (including inter alia costs for equipment or Network access) will be exclusively covered by the User, who will be responsible for the operating of his/her Device and the Networks.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 8 -       TERM - TERMINATION</h3>
+                   
+                  <p>The term of use of the Applications is not limited. The User, as is the case for STAY, may put an end to such use at any time. To this end, the User simply needs to uninstall the Applications.<br/>
+                   
+                  STAY may automatically terminate the Terms and Conditions of Use without notice in the event of serious breach by the User (e.g. abusive use of the Applications in accordance with Article 4. “Use”).<br/>
+                   
+                  STAY may automatically terminate the Terms and Conditions of Use on any other valid grounds after first notifying the User by posting information on the Applications.<p>
+                   
+                  <h3 class='section-title'>ARTICLE 9 -       AMENDMENTS</h3>
+                   
+                  <p>The Terms and Conditions of Use may be amended in accordance with technical, statutory and regulatory changes.</br>
+                   
+                  Any amendments will be automatically notified on the Applications. Therefore, the User is kindly asked to regularly consult the Terms and Conditions of Use in order to be informed about any amendments.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 10 -    PRIVACY</h3>
+                   
+                  <h4 class='section-title'>Article 10.1 Data Processing</h4>
+                   
+                  <p>The Personal Data Processing Manager is STAY which uses said personal data in order to:<br/>
+                  - provide the Applications and requested Services to the User, improve and optimise the quality thereof. <br/>
+                  - aggregate users data anonimously in order to analyze and optimize app use and user profiles<br/>
+                  - provide him/her with information relating to the Hotel and, if he/she has granted his/her express prior consent, STAY’s commercial offers which may be of interest to him/her,<br/>
+                  - reply to requests by the judicial authorities which may demand disclosure of data enabling the identification of any person who contributed to creating content posted via the Applications.<br/>
+
+                  - STAY may also transfer temporarily users’ personal data to hotels where they are staying in order to improve the service offered by the hotel through the Applications, for example, to let him or her check-in using the Applications in a faster way. The data transferred to the hotel in this case can be: Name, Last Name, Address, National Identity Document number and date of issue, credit card number and expiration date, check-in and check-out dates, type and number of rooms booked, flight number and time of arrival, and type of traveler (business or leisure).<br/><br/>
+
+                  For these purposes, the User accepts that his/her Personal Data will be stored, processed and transferred by STAY to its subcontractors, which may only have access thereto to carry out certain necessary functions to provide the Applications and the Services requested by the User, in strict compliance with his/her rights relating to personal data protection. He/she also accepts for his/her connection data to be transferred and stored outside of the European Union by subcontractors which have adhered to the Safe Harbour standards and comply with the principles thereof.</p>
+                   
+                  <h4 class='section-title'>Article 10.2            - User’s Rights</h4>
+                   
+                  <p>The User is entitled to access, modify and delete his/her Personal Data, which he/she may exercise by sending a written request to Mobail. <br/>Address: Consuegra 7, 2º izq- 28036 - Madrid - Spain (Phone number:   +34649920539. <br/>Email: <a href='mailto:info@stay-app.com'>info@stay-app.com</a>) and attaching a photocopy of his/her identity card. </p>
+                   
+                  <h4 class='section-title'>Article 10.3 -          Privacy</h4>
+                   
+                  <p><strong>10.3.1            Account Connection – Account Settings</strong></br>
+                   
+                  When the User is connected to his/her Account, the other connected Users and, where applicable, the Users in MeetMe, can see his/her name and photograph.</br>
+                   
+                  The User can personalise his/her Account under the “Settings” heading. In this case, the following data will be shared with the other connected Users: the personal photograph which the User wishes, where applicable, to associate with his/her Account and his/her name. This data is subject to the same provisions as those governing obligations applicable to Content stipulated in Article 5.</br>
+                   
+                  The User can also personalise his/her Account by sharing his/her data on Social Networks. In this case, the terms and conditions of use applicable to data sharing are set forth in Article 10.2.2.</p>
+                   
+                  <p><strong>10.3.2            Social Networks</strong></br>
+                   
+                  a) Share Buttons</br>
+                   
+                  The Application uses sharing buttons which enable the User to share Content with his/her friends.</br>
+                   
+                  By clicking on the “share” buttons, the User can select how he/she wishes to share this Content by clicking on the corresponding icon: on the Social Networks to which he/she is signed up, via SMS or e-mail.</br>
+                   
+                  If the User uses share buttons on Social Networks, the Content which he/she has selected will be recorded and published on his/her Social Network(s) account selected by the User.</br></br>
+                   
+                  b) Use of the User’s Personal Data relating to Social Networks</br>
+                   
+                  The User is kindly asked to read the privacy protection policies of the Social Networks in order to be aware of the purposes of use and browsing data which is collected by Social Networks relating to the Services. The User can directly adjust the settings on Social Networks and confidentiality of his/her Personal Data. STAY is not liable for the use of Personal Data by the Social Networks.</br></br>
+                   
+                  c) Account Personalisation</br>
+                   
+                  In order to personalise his/her Account, the User will be asked to accept that some of his/her data available on his/her profile on Social Networks is shared on the Applications. This data is subject to the same provisions as those governing obligations applicable to Content stipulated in Article 5. The User is liable for this data and STAY will not be held liable for damage sustained by the User or third parties in view thereof.</br>
+                   
+                  By accepting this data sharing, the Applications will have access to the User’s profile data on the Social Networks and will store the following data: name, photograph, data of birth, gender, Social Network user name (e-mail).</br>
+                   
+                  This data will only be stored on the Applications and will not be transferred to any person. It will be deleted when the Applications is deleted.</p>
+                   
+                  <p><strong>10.3.3            Geographic Location Tracking</strong></br>
+                   
+                  Subject to the User’s express prior consent, the Applications can find the geographic location of the User’s Device on maps proposed on the Applications.</br>
+                   
+                  When the User is connected to his/her Account, the User’s photograph and name is shared with the User’s Chat Room group and other connected Users.</br>
+                   
+                  The User is informed that geographic location tracking of his/her Device can be fully deactivated at any time either by uninstalling the Applications or by adjusting the settings on the Terminal to prevent the Applications from accessing GPS data.</br>
+                   
+                  Geographic location tracking data is not stored or kept by STAY.</br>
+                   
+                  Geographic location tracking is in principle carried out instantaneously. However, STAY will not be held liable for any delay in obtaining a geographic location due to any reason whatsoever.</p>
+                   
+                  <p><strong>10.3.4            Notifications</strong></br>
+
+                  - Logged in users will be able to receive notifications sent by the hotel where they are staying.
+                   </br>
+                  - STAY will occasionally send push notifications to app users informing them about news in the app or sending them commercial offers considered of interest to users.</br></br>
+
+                   The User can deactivate Notifications either by deactivating them in the Applications, uninstalling the Applications or disconnecting from his/her Account.</p>
+                   
+                  <p><strong>10.3.5            My Schedule</strong></br>
+                   
+                  The Applications contain a “Hotel Schedule” heading, which states the activities at the Hotel. The User can select his/her activities. The activity is then added to the “My Agenda” heading. The User can also confirm his/her participation in activities. This information is intended for the organiser of the activity and the Users who have also confirmed that they are participating. Said information is not subject to data processing.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 11 -    CONTACT – LEGAL NOTICE</h3>
+                   
+                  <h4 class='section-title'>Article 11.1 -          Contact</h4>
+                   
+                  <p>For all questions, in particular relating to commercial or technical matters, the User can contact: </br>
+                  Mobail. Address: Consuegra 7, 2º izq- 28036 - Madrid - Spain</br></br>
+                  Phone number:   +34649920539. Email: <a href='mailto:info@stay-app.com'>info@stay-app.com</a></br></p>
+
+                   
+                  <h4 class='section-title'>Article 11.2 -          LEGAL NOTICE</h4>
+                    
+                  <p>HOST, PUBLISHER AND MANAGER OF THE Applications: Mobail. Address: Consuegra 7, 2º izq- 28036 - Madrid - Spain
+                  Phone number:   +34649920539. The host may subcontract its hosting services, with the understanding that he   undertakes to have personal data processed inside the European Union.</p>
+                   
+                   
+                   
+                  <h3 class='section-title'>ARTICLE 12 -    GOVERNING LAW</h3>
+                   
+                  <p>The Terms and Conditions of Use will be governed by Spanish law.</p>
+                   
+                   </br></br>
+                  ***
+                  </br></br>
+                   
+                   
+                  <h3 class='section-title'>II – SPECIAL TERMS AND CONDITIONS</h3>
+                   
+                  <p>SPECIAL TERMS AND CONDITIONS APPLICABLE TO THE MEETME FEATURE</br>
+                   
+                  The purpose of these special terms and conditions applicable to MeetMe (chat system) is to supplement the Terms and Conditions of Use of the Applications hereinabove in order to take into account the specificities of this Service.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 1 -       DESCRIPTION OF THE MEETME FEATURE</h3>
+                   
+                  <p>The Applications provides Users with a discussion forum with other Users: MeetMe. This Chat System enables connected Users to see other Users connected to the Applications and staying in the same hotel, personally contact them and/or create a discussion group.</br>
+                   
+                  The User uses this system under his/her sole liability and in accordance with regulations governing freedom of speech.</br>
+                   
+                  During exchanges of messages the User must take into account that he/she is obliged to require with the Special Terms and Conditions, which are drawn up in accordance with applicable laws and etiquette rules applicable on the Internet. If a message in MeetMe breaches one of the aforementioned rules, the User is strongly invited to report it (see Article 11. “Contact” of the Terms and Conditions of Use). STAY’s teams will endeavour to take appropriate measures.</br>
+                   
+                  Minimum Age:  To use the chat functionality in the Stay’s apps, you must be at least 16 years of age.</p>
+
+                  <h3 class='section-title'>ARTICLE 2 -       MESSAGE CONTENT AND RESPECT FOR OTHERS</h3>
+                   
+                  <h4 class='section-title'>Article 2.1 -   Message Content and Respect for Others</h4>
+                   
+                  <p>The User must not under any circumstances insult other Users of MeetMe or make hateful, crude or vulgar comments (even hidden by symbols or other characters). He/she must consequently show respect towards the other Meet Me Users at all times.</p>
+                   
+                  <h4 class='section-title'><h4 class='section-title'>Article 2.2 -   Respect for Privacy</h4>
+                   
+                  <p>It is forbidden to collect personal data such as e-mail addresses in MeetMe without the Users’ knowledge. It is also stipulated that any person who carries out this type of activity in breach of the Data Protection Act of 6 January 1978, as amended, may run the risk of being imposed criminal and civil sanctions.</br>
+                   
+                  MeetMe is accessible to a large number of Users. As the User’s messages may potentially be read by a large number of Users, the User must be careful about the information which he/she discloses. In addition, the User must not provide his last name or e-mail address if he/she does not wish such information to be known.</p>
+                   
+                  <h4 class='section-title'>Article 2.3 -   Content</h4>
+                   
+                  <p>STAY disclaims all liability relating to the impossibility to access, delete or amend messages published in MeetMe.</br>
+                   
+                  In principle, STAY does not control the content posted in the Chat Room and consequently does not warrant the appropriateness, legality, integrity or quality of such content. Without prejudice to any applicable legal provisions, STAY may not under any circumstances be held liable for the content, including inter alia illegal content, having regard to applicable regulations, error or omission in any content, loss or damage further to use of the content posted, sent by e-mail or in any other manner via MeetMe.</br>
+                   
+                  In general, STAY does not filter the content of messages before they are sent through MeetMe. However, STAY reserves the right to immediately delete without notice any content which does not comply herewith and, in general, applicable laws and etiquette rules applicable on the Internet. In the event of breach of applicable laws, the User may be blocked from using Stay’s apps.</br></br>
+
+                  </p>
+                </div>
+
+
+                <div role='tabpanel' class='tab-pane translate-conditions' id='hotel' data-translate='conditions.hotel'>
+
+                  <h3 class='section-title'>TERMS AND CONDITIONS FOR USE OF THE STAY PLATFORM BY HOTELS</h3>
+                   
+                  <p>The STAY platform englobes the Android and iOS apps as well as the Content Management System (CMS). Users download Stay’s apps from the iOS and Android app stores. The hotel manages the contents which appear in the app in its section through the CMS.</p>
+                   
+                  <p>Use of the CMS by hotels and their staff is governed by the general terms and conditions of use, which are supplemented by the special terms and conditions in order to take into account the specificities of certain Services.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 1 -   DEFINITIONS</h3>
+                   
+                  <p><strong>Applications:</strong> the software Applications developed by STAY which provide access to the Services, available in the Online Store and which the User has chosen to download on his/her Device.</p>
+
+                  <p><strong>Content Management System:</strong> The website where hotels can manage the content which appears in their section of Stay’s apps and are shown to users.<p>
+                   
+                  <p><strong>Online Store:</strong> the Applications download platform distributed by the editor of the Device’s operating system.</p>
+                   
+                  <p><strong>MeetMe:</strong> the chat system between Users defined in the special terms and conditions of use applicable to the Applications hereinbelow.</p>
+                   
+                  <p><strong>Account:</strong> the account created by the User on the Applications. Connection to the Account is necessary to use certain Services, including inter alia receive Notifications, Book a service, Chat Room, etc.</p>
+                   
+                  <p><strong>Terms and Conditions of Use:</strong> this document.</p>
+                   
+                  <p><strong>Necessary Configuration:</strong> the necessary configuration of the Device to download and use the Applications defined in the article “Terms and Conditions of Access” hereinbelow.</p>
+                   
+                  <p><strong>Personal Data:</strong> the information which the User voluntarily provided to STAY, such as his/her last name, first name, room number.</p>
+                   
+                  <p><strong>Notification:</strong> information about the hotel sent to the Users.</p>
+                   
+                  <p><strong>Networks:</strong> the electronic communication networks open to the public, interconnected and run by any operator, regardless of the technologies or standards used by said networks.</p>
+                   
+                  <p><strong>Social Network(s):</strong> the social network(s) Facebook or (and) Twitter or (and) Linked’In to which the User is signed up.</p>
+                   
+                  <p><strong>Services:</strong> the various services and functionalities offered by the Applications, including some services and functionalities which are subject to prior connection to his/her Account. Some Services, are provided by third parties and are subject to the special terms and conditions set forth hereinbelow. Some Services can only be offered in certain hotels.</p>
+                   
+                  <p><strong>Device:</strong> the mobile terminal device which can be used to connect to the Internet via the Networks and has the necessary Configuration.</p>
+                   
+                  <p><strong>User:</strong> means the the holder of the Terminal who has downloaded the Applications thereon from the Online Store.</p>
+                   
+                   
+                  <h3 class='section-title'>ARTICLE 2 -       PURPOSE</h3>
+                   
+                  <p>The purpose of these Terms and Conditions of Use is to define the terms and conditions of use of STAY’s platform by hotels, comprising the Content Managing System and the apps for iOS and Android.</p>
+                   
+                  <p>The hotel will only be able to use the STAY platform after first expressly accepting the Terms and Conditions of Use.</p>
+                   
+                   
+                  <h3 class='section-title'>ARTICLE 3 -       TERMS AND CONDITIONS OF ACCESS</h3>
+                   
+                  <h4 class='section-title'>Article 3.1 -   Necessary Configuration</h4>
+                   
+                  <p>The CMS is optimised for use with any Chrome, Firefox or Safari versions from 2013 or later and with Internet Explorer 10 or later. </p>
+
+                  <p>STAY does not warrant the smooth running of the CMS on other browsers or older versions of the browsers mentioned above.</p>
+                    
+                   
+                  <h4 class='section-title'>Article 3.2 -   Terms and Conditions of Use</h4>
+                   
+                  <p>The use of the CMS is reserved to users authorized by the hotel for professional purposes only. 
+                  In the absence of a fault by STAY, the Hotel will be solely liable for the use of the CMS and the Services as well as all consequences resulting therefrom. In particular, the hotel must ensure that no person has access to the Applications without his/her consent.</p>
+                   
+                  <p>The Hotel must promptly inform STAY regarding any unauthorised use of the Applications (see Article 11. “Contact”).</p>
+                   
+                  <p>In the event where STAY has a valid reason to consider that the security of the CMS is compromised, it reserves the right to block the Hotel’s access to the CMS.</p>
+
+                  <h4 class='section-title'>Article 3.3 - Use of Push Notifications</h4>
+                  <p>STAY will limit the sending of push notifications to app users who are not logged in as guests but are going to stay in the hotel to a limited amount of time comprised between: 10 days before day of check-in and 10 days after day of check-out. </p>
+
+                   
+                  <h4 class='section-title'>Article 3.4 -             Compliance with applicable regulations</h4>
+                   
+                  <p>The Hotel agrees to use the CMS and the Services in accordance with applicable regulations.</p>
+                   
+                  <h4 class='section-title'>Article 3.5 -             Maintenance</h4>
+                   
+                  <p>For the purpose of the smooth running of the CMS and the Applicationss, STAY carries out maintenance operations, which it endeavours to perform outside times of high use of the Applications as defined in the SERVICE LEVEL AGREEMENT. The conditions in which these maintenance operations are carried out are explained in said SERVICE LEVEL AGREEMENT.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 4 -       CONTENT AND SERVICES</h3>
+                   
+                  <p>The hotel guarantees that the content it uploads to the CMS so it will appear in the Applications, including inter alia articles, photographs, videos, brands, software and functionalities are in accordance to intellectual and industrial property rights. Any unauthorised use of all or part of such content may constitute infringement, breach of image rights, personal rights or any other rights, or applicable regulations and consequently incur civil and/or criminal liability.</p>
+
+                  <p>The hotel also guarantees that the content uploaded is not illegal in any way. STAY does not take responsibility for the contents uploaded by the hotel, but it reserves the right to block access to the CMS if it detects that a hotel is uploading illegal contents to the app. The hotel will be solely responsible for the contents uploaded by its authorized CMS users.</p>
+
+                  <h3 class='section-title'>ARTICLE 5 -       LIABILITY AND WARRANTIES</h3>
+                   
+                  <h4 class='section-title'>Article 5.1 -             STAY’s Liability</h4>
+                   
+                  <p>STAY excludes and disclaims all liability except in the event where it breaches its contractual obligations. Its liability will be limited to direct and definite damage. The Hotel acknowledges that STAY’s liability will be excluded in the following cases: (i) act by a third party and (ii) force majeure.</p>
+                  <p>Content on the Applications may be proposed by STAY’s partners or by other Users and, as a result, STAY will not in principle have any control over such content. Moreover, the Applications may contain links to website or Applicationss, which content is not controlled by STAY. Therefore, the Hotel is kindly asked to consult the terms and conditions of use of these websites or Applicationss.</p>
+                   
+                  <p>STAY will not provide any express or implicit warranty, including inter alia with regard to the quality and compatibility of the Services and content on the Applications for a specific purpose.</p>
+                   
+                  <h4 class='section-title'>Article 5.2 -             User’s Undertakings</h4>
+                   
+                  <p>The User will be solely liable for use by him/her or any other person using his/her Device carried out on the Applications and the Services.</p>
+                   
+                  <p>Accordingly without this list being exhaustive, the User will breach the Terms and Conditions of Use if he/she or any other person using his/her Device uses the Services to:</p>
+                  <p>- post pornographic, paedophile, offensive, violent, crude, insulting or defamatory comments, videos, films, images, whether realistic or otherwise;<br/>
+                  - publish or post a page containing comments or images intended to harass, threaten and/or embarrass other people. In this respect, the User must not make negative comments about others, or make personal attacks or attacks based on race, nationality, ethnic origin, religion, gender, sexual orientation, disability or any other difference;<br/>
+                  - solicit, post, promote or facilitate the diffusion, sending, exchange, sale or purchase of any illegal content or content contrary to applicable law;<br/>
+                  - impersonate another person or communicate under a false name or room number which he/she is not authorised or permitted to use for any reason whatsoever, including inter alia to commit offences;<br/>
+                  - transmit a computer virus or files, programmes or lines of code intended to limit or damage the operating of computer or telecommunication equipment;<br/>
+                  - send spam (messages, including inter alia unsolicited promotional messages) or propose snowball or pyramid sales, or solicit unauthorised online payments or donations;<br/>
+                  - list or give access to websites in contradiction with the Terms and Conditions of Use;<br/>
+                  - diffuse material in breach of intellectual or industrial property laws or propose files for downloading which are protected by copyright without the permission of the rightholders.</p>
+                   
+                  <p>In the event of breach of the Terms and Conditions of Use by the User or by any other person using his/her Device, STAY is entitled to immediately block his/her access to the Applications.</p>
+                   
+                  <p>STAY is in no way responsible for the use of the app by the users.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 6 -       FINANCIAL TERMS AND CONDITIONS</h3>
+                   
+                  <p>All costs relating to access to the CMS (including inter alia costs for equipment or Network access) will be exclusively covered by the hotel, who will be responsible for the operating of his/her Device and the Networks.</p> <p>The use of the CMS by the hotel is free of charge althogh new additional features might have a cost. In this case the hotel would have to accept the terms & conditions specific to that feature.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 7 -       TERM - TERMINATION</h3>
+                   
+                  <p>The term of use of the CMS is not limited. The hotel, as is the case for STAY, may put an end to such use at any time. To this end, the Hotel simply needs to notify STAY and STAY will deactivate the hotel in the CMS and the Applicationss..</p>
+                   
+                  <p>STAY may automatically terminate the Terms and Conditions of Use without notice in the event of serious breach by the Hotel (e.g. uploading illegal contents to the Applications in accordance with Article 3 “Use”).</p>
+                   
+                  <p>STAY may automatically terminate the Terms and Conditions of Use on any other valid grounds after first notifying the User by posting information on the Applications.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 8 -       AMENDMENTS</h3>
+                   
+                  <p>The Terms and Conditions of Use may be amended in accordance with technical, statutory and regulatory changes. The hotel will be notified by email in the case of said amendments.</p>
+                   
+                  <h3 class='section-title'>ARTICLE 9 -    DATA PRIVACY</h3>
+                   
+                  <p><strong>STAY will be the sole owner and processor of the personal data provided by users through the Applications.</br>STAY uses said personal data in order to:</strong><p>
+                  <p><strong>- provide the Applications and requested Services to the User, improve and optimise the quality thereof.</strong><br/> 
+                  <strong>- aggregate users data anonimously in order to analyze and optimize app use and user profiles</strong><br/>
+                  <strong>- reply to requests by the judicial authorities which may demand disclosure of data enabling the identification of any person who contributed to creating content posted via the Applications.</strong><br/>
+
+                  <strong>- STAY may also transfer temporarily users’ personal data to hotels where they are staying in order to improve the service offered by the hotel through the Applications, for example, to let him or her check-in using the Applications in a faster way. The data transferred to the hotel in this case can be: Name, Last Name, Address, National Identity Document number and date of issue, credit card number and expiration date, check-in and check-out dates, type and number of rooms booked, flight number and time of arrival, and type of traveler (business or leisure).</strong></p>
+                   
+                  <h3 class='section-title'>ARTICLE 10 -    CONTACT – LEGAL NOTICE</h3>
+                   
+                  <p>For all questions, in particular relating to commercial or technical matters, the User can contact: 
+                  Mobail, which is the host, publisher and manager of the Applications. The host may subcontract its hosting services, with the understanding that he undertakes to have personal data processed inside the European Union.:</p>
+
+                  <p>Address: Consuegra 7, 2º izq- 28036 - Madrid - Spain</br>
+                  Phone number:   +34649920539. Email: <a href='mailto:info@stay-app.com'>info@stay-app.com</a></p>
+
+                  <h3 class='section-title'>ARTICLE 11 -    GOVERNING LAW</h3>
+                   
+                  <p>The Terms and Conditions of Use will be governed by Spanish law.</p>
+                   
+                   
+                  <p>***</p>
+
+                   
+                   
+
+                  <h3 class='section-title'>APPENDIX: ADDITIONAL TECHNICAL INFORMATION CONCERNING ASSOCIATED SERVICES</h3>
+
+
+                  <h3 class='section-title'>1. INTERFACING, PARAMETERING and SPECIFIC DEVELOPMENTS</h3>
+
+                   <p>Administration and parametering interface:</p>
+
+                  <p>STAY’s platform includes an interface (also known as 'CMS') that the CLIENT may access with its login and password. This tool is used for simple parameterization of Data, services, and the Applications's user interface. These Data will subsequently be displayed in real time. </p>
+
+                  <p>In the event of specific developments for the CLIENT, STAY will offer development of functions.</p>
+
+                  <h3 class='section-title'>2. HOSTING</h3>
+
+                  <h4 class='section-title'>2.1 Server address:</h4>
+
+
+
+
+                  <h4 class='section-title'>2.2 Guarantee of functioning and availability for each Applications and for the CMS</h4>
+
+                  <p>STAY guarantees:<p>
+
+                  <p>- allocation of storage capacity on Servers, at all times</br>
+                  - access to the Applications and/or to the CMS via Internet and its functioning.</br>
+                  - supervision of proper functioning by the Server.</br>
+                  - supervision of the database, backups and processing.</p>
+
+                  <p>The Applications and/or the CMS will be accessible 7 days a week, 24 hours a day. </p>
+
+                  <p>STAY guarantees that the Applications and/or the CMS will have a rate of availability at least equal to 99% per week during periods known as 'Public Periods'.</p>
+
+                  <p>The Parties agree to the following definitions of periods:</br>
+                  Public Periods: Monday to Friday, 08:00 am to 8:00 pm in peninsular Spain’s time zone.</br>
+                  Non-Public Periods: weekends and Monday to Friday, 8:01pm to 07:59 in peninsular Spain’s time zone.</p>
+
+                  <p>Provided it notifies the Client beforehand, STAY may shut down access to the Server in order to carry out maintenance on the Server and infrastructures deployed for operation of the Applications and/or the CMS. The following is stipulated in this regard:</br>
+
+                  - During Non-Public Periods: for any work over a period exceeding 30 minutes, STAY must notify the Client beforehand.<p>
+
+                  <p>In a general sense and for any reason, when the Applications and/or the CMS cannot be used in the best possible fashion by Users, STAY will notify the Client and Users of this circumstance, displaying a message stating the Non-Availability of the Applications or of a service and/or of the CMS, and the likely timeframe required to restore the service. </p>
+
+                  <h4 class='section-title'>2.3 Guarantee of performances</h4>
+
+                  <p>STAY guarantees the performances and incoming and outgoing speeds of the infrastructure supporting the Applications and/or the CMS will meet the specifications.</p>
+
+                  <p>STAY issues a guarantee to the Client that the hosting site will meet all the required quality, performance and security criteria.</p>
+
+                  <p>STAY guarantees a response time applied to access to the Applications and downloading of Data of 30 seconds.</p>
+
+                  <p>Any performance failures/response times exceeding 30 seconds will be considered excessive waiting time. </p>
+
+                  <p>STAY may not be held liable for poor response times caused by faults in the Client's Internet access or for any other reason relating to dysfunctions concerning the Client’s access infrastructure or caused by the Distributor such as the lack of availability of the Online shop.</p>
+
+                  <p>The service must be restored as soon as possible in the case of excessive waiting times observed by the Client or a User or STAY. </p>
+
+                  <h4 class='section-title'>2.4 Data Backups</h4>
+
+                  <p>STAY declares it provides a full-maintenance emergency infrastructure to guarantee continuous, total and complete access to the Applications and/or to the CMS.</p>
+
+                  <p>STAY will create a database backup (including updates) in order to guarantee total and complete access to the Applications and/or to the CMS, even in the event of incidents affecting the Server.</p>
+
+                  <p>The database will be backed up by STAY once a day - each daily backup will be made on a different support. STAY will store the daily backups for fifteen (15) days.</p>
+
+                  <h3 class='section-title'>3. Technical Incidences </h3>
+
+                  <p>The CLIENT will notify STAY of a Dysfunction by e-mail to <a href='mailto:info@stay-app.com'>info@stay-app.com</a>. The CLIENT will describe, in as much detail as possible, the conditions in which the Dysfunction arose, and its consequences. STAY undertakes to take action on working days, to solve the incidence as soon as possible, except in the event of the following:</p>
+
+                  <p>A Dysfunction that is not attributable to the Applications and/or to the CMS, such as electrical wiring or a facility in the Client’s telecommunications network that is at odds with the instructions issued by STAY.
+                  A Dysfunction due to an instance of force majeure, including dysfunctions in connection with mobile phone operator networks or Wi-Fi networks. </p>
+                  <p>Failure by the CLIENT to adhere to the contractual conditions of usage, or maintenance carried out by the CLIENT on the Applications and/or the CMS without adhering to the instructions issued by STAY.</p>
+
+
+                  <h3 class='section-title'>4. MAINTENANCE</h3>
+
+                  <p>STAY will perform periodic maintenance of the platform. </p>
+
+                  <p>Contents of Maintenance</p>
+
+                    <p>a) Corrective maintenance</p>
+
+                  <p>STAY will carry out the following corrective maintenance operations on the Applications and the CMS: </br>
+                  - diagnosis of Dysfunctions</br>
+                  - correction of Dysfunctions
+                  </p>
+                  <p>STAY will perform an analysis in remote mode, by following an inquiry procedure.</p>
+
+                  <p>Correction (hereinafter 'Correction') is understood as either actual correction or restoration of the functions of the Applications and of the CMS, including provision of a workaround or backup solution pending final correction of the dysfunction.</p>
+
+                  <p>STAY will correct the dysfunctions in the briefest period of time possible and taking into account if the dysfunction is critical or not, giving priority to the former.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="dark">
+      <div>
+        <h2 class="translate" data-translate="footer.title">Your Guests want Fast, Easy and Customized service. Give it to them</h2>
+        <!-- <button class="btn dark translate" data-translate="home.button.try">Try demo</button> -->
+      </div>
+      <div>
+        <a href="/conditions.html" class="translate" data-translate="footer.conditions">Términos y Condiciones</a> 
+        <span class="hidden-xs">/</span> 
+        <a href="/cookies.html" class="translate" data-translate="footer.cookies">Política de cookies</a>
+      </div>
+    </footer>
+  </div>
+
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-98445472-1', 'auto');
+
+      ga('send', 'pageview');
+    </script>
+
+    <script src="js/googlemaps.js"></script>
+
+    <script src="js/main.min.js"></script>
+    <script src="js/home.js"></script>
+
+  </body>
+</html>

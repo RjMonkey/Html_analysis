@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+
+<html >
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>
+	Travel Agency
+</title>
+
+	<!-- social media -->
+	<meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@TravelReception" /><meta name="twitter:title" content="TravelReception" /><meta name="twitter:description" content="TravelReceptions provides a large selection of activities, tours, Hotels and special deals in Bali, Srilanka, Thailand and more." /><meta name="twitter:creator" content="@TravelReception" /><meta name="twitter:image:src" content="http://www.travelreception.com/images/twitter.jpeg" /><meta name="twitter:domain" content="travelreception.com" /><meta name="twitter:app:name:iphone" /><meta name="twitter:app:name:ipad" /><meta name="twitter:app:name:googleplay" /><meta name="twitter:app:url:iphone" /><meta name="twitter:app:url:ipad" /><meta name="twitter:app:url:googleplay" /><meta name="twitter:app:id:iphone" /><meta name="twitter:app:id:ipad" /><meta name="twitter:app:id:googleplay" />
+	<!-- end of meta tags -->
+
+    <!-- Fonts -->	
+	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic" /><link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,400,300,300italic" />	
+
+    <!-- Font-Awesome -->
+    <link type="text/css" rel="stylesheet" href="/assets/css/font-awesome.css" media="screen" />
+    <!--[if lt IE 7]>
+	<link type="text/css" rel="stylesheet" href="/assets/css/font-awesome-ie7.css" media="screen" />
+	<![endif]-->
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/assets/js/html5shiv.js"></script>
+      <script src="/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <link type="text/css" rel="stylesheet" href="/css/preload.css" media="screen" />
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="/dist/css/bootstrap.css" media="screen" /><link type="text/css" rel="stylesheet" href="/assets/css/custom.css" media="screen" />
+
+    <!-- Carousel -->
+	<link type="text/css" rel="stylesheet" href="examples/carousel/carousel.css" />
+
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="/css/fullscreen.css" media="screen" /><link rel="stylesheet" type="text/css" href="/rs-plugin/css/settings.css" media="screen" /><link href="/plugins/jquery.ambiance-master/assets/css/jquery.ambiance.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Picker UI-->	
+	<link type="text/css" rel="stylesheet" href="/assets/css/jquery-ui.css" /><link type="text/css" rel="stylesheet" href="/assets/css/calendar.css" media="screen" />
+
+    <!-- jQuery -->	
+    <script type="text/javascript" src="/assets/js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="/dist/js/bootstrap.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="/assets/css/calendar.css" media="screen" />
+    <script type="text/javascript" src="/assets/js/zebra_datepicker.js"></script>
+        
+	<script type="text/javascript" src="/assets/js/js-index.js" ></script>	
+	
+    <!-- Custom functions -->
+    <script type="text/javascript" src="/assets/js/functions.js"></script>
+	
+    <!-- Picker UI-->		
+	<script type="text/javascript" src="/plugins/jquery-ui-1.9.2.custom.js" ></script>
+    <script type="text/javascript" src="/plugins/jquery.ui.core.js" ></script>
+    <script type="text/javascript" src="/plugins/jquery.ui.widget.js" ></script>
+    <script type="text/javascript" src="/plugins/jquery.ui.autocomplete.js" ></script>
+
+	<!-- Easing -->
+    <script type="text/javascript" src="/assets/js/jquery.easing.js"></script>
+	
+    <!-- jQuery KenBurn Slider  -->
+    <script type="text/javascript" src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	
+	<!-- Nicescroll  -->	
+	<script type="text/javascript" src="/assets/js/jquery.nicescroll.js"></script>
+	
+    <!-- CarouFredSel -->
+    <script type="text/javascript" src="/assets/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="/assets/js/helper-plugins/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="/assets/js/helper-plugins/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="/assets/js/helper-plugins/jquery.transit.min.js"></script>
+	<script type="text/javascript" src="/assets/js/helper-plugins/jquery.ba-throttle-debounce.min.js"></script>
+	
+    <!-- Custom Select	--> 
+	<script type='text/javascript' src='/assets/js/jquery.customSelect.js'></script>
+	<script type="text/javascript" src="/js/page/general-func.js" ></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+	
+    
+
+    <!-- SOSIAL MEDIA -->
+        <!--FBScript-->
+    <div id="fb-root"></div>
+    <script type="text/javascript">
+        $(function () {
+            var $currdate = new Date();
+            var $currTHN = $currdate.getFullYear();
+            console.log($currTHN);
+            $("#sp_thn").text($currTHN);
+        });
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        } (document, 'script', 'facebook-jssdk'));
+        
+
+        //TwitterScript
+
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id; js.src = p + '://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            } (document, 'script', 'twitter-wjs');
+
+                function mn_repcode_onclick() {
+
+                };
+        
+    </script>
+        <!--G+Script-->
+    <!--<script type="text/javascript">
+        (function () {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>-->
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+    <!-- SOSIAL MEDIA -->
+
+	<script type="text/javascript" src="/assets/js/moment.js"></script>
+	<script type="text/javascript" src="/assets/js/accounting.js"></script>
+    <script src="plugins/jquery.ambiance-master/assets/js/jquery.ambiance.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/assets/js/general.js"></script>
+	<script type="text/javascript" src="/js/page/site.master.js"></script>
+
+    
+    <script src="js/page/aboutus.js" type="text/javascript"></script>
+
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-49818404-1', 'govacation-indonesia.com');
+        ga('send', 'pageview');
+
+        function goBack() {
+            window.history.back()
+            window.history.go(-1)
+        }
+
+    </script>
+    <style>
+        textarea {
+    resize: none;
+}
+.bluebtn:disabled{
+	opacity:0.4;
+} 
+    </style>
+<meta name="author" content="www.smarttouristicsystem.com" /><meta name="content-language" content="en" /></head>
+<body id="top" class='thebg'>
+    
+    <span class="hidden" id="info-domain">http://excursion.govacation-indonesia.com</span>
+    
+	<!-- Top wrapper -->	
+	<div class="navbar-wrapper2 navbar-fixed-top">
+		<div class="container">
+			<div class="navbar mtnav">
+
+				<div class="container">
+				<!-- Navigation-->
+					<a href="Default.aspx" class="navbar-brand mt10"></a>			  
+					<div class="navbar-header">
+						<button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						
+						<div id="picpic" class="withpic"></div>
+					</div>
+
+					<div class="navbar-collapse collapse" >
+						<ul class="nav navbar-nav navbar-right mobile"  >
+                            <li>
+                                <div style="padding:8px 0;" id="repcode">
+                                    <div class="relative">
+					                    <input class="form-control fccustom2" id="rc" value="r-bc placeholder="Rep Code" type="text" style="display:none;" />
+					                    <button type="submit" id="mn-repcode" class="btn btn-default btncustom" style="display:none;" onclick="return mn_repcode_onclick()">Submit<img src="/images/arrow.png" alt=""></button>
+				                    </div>
+                                </div>
+                            </li>
+							<li><a href="/">Home</a></li>				  
+							<li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Currency&nbsp;<b class="lightcaret mt-2"></b></a>
+								<ul id="mn-currency" class="dropdown-menu posright-0">
+									<li class='curr' id='curr_idr'><a href='?cr=idr&c=about&opt=2'>IDR: INDONESIA RUPIAH</a></li><li class='curr' id='curr_gbp'><a href='?cr=gbp&c=about&opt=2'>GBP: BRITISH POUND</a></li><li class='curr' id='curr_eur'><a href='?cr=eur&c=about&opt=2'>EUR: EURO</a></li><li class='curr' id='curr_chf'><a href='?cr=chf&c=about&opt=2'>CHF: SWISS FRANC</a></li><li class='curr' id='curr_usd'><a href='?cr=usd&c=about&opt=2'>USD: US DOLLAR</a></li>
+								</ul>
+							</li>	
+							<li class="dropdown">
+								<a data-toggle="dropdown" class="dropdown-toggle" href="#">Language&nbsp;<b class="lightcaret mt-2"></b></a>
+								<ul id="mn-language" class="dropdown-menu posright-0">
+									<li class='lang' id='lang_in'><a  href='?ln=in&c=about&opt=2'>BAHASA</a></li><li class='lang' id='lang_en'><a  href='?ln=en&c=about&opt=2'>ENGLISH</a></li><li class='lang' id='lang_de'><a  href='?ln=de&c=about&opt=2'>GERMAN</a></li><li class='lang' id='lang_ja'><a  href='?ln=ja&c=about&opt=2'>JAPANESE</a></li><li class='lang' id='lang_ko'><a  href='?ln=ko&c=about&opt=2'>KOREAN</a></li><li class='lang' id='lang_ru'><a  href='?ln=ru&c=about&opt=2'>RUSSIAN</a></li>
+								</ul>
+							</li>	 
+							
+                            
+                            <!--tesrar-->
+                            <li class="tampilin" id="cart"><a class="dropdown-toggle" href="#">Shopping Cart <span id="itemshop"></span></a>
+                                <ul class="dropdown-menu tampilina" style="min-width:415px; max-height:350px;">
+						            <li >
+                                        <!--tes-->
+                                        <div style="overflow: auto; max-height: 155px">
+                                            <table width="100%" id="#" >
+                                                <tbody id="cart-list">
+													<!--
+                                                    <tr>
+                                                        <td  style="width:15%;">
+                                                            <img style="margin-left:2px;" src="/images/user-avatar.jpg" />
+                                                        </td>
+                                                        <td style="width:80%;" >
+                                                            <p class="opensans dark bold margtop1 lh2rar ync">You have no item in cart!</p>
+								                            <p class="opensans size14 ync"></p>
+                                                            <p class="opensans size14 lblue ync"><i></i></p>
+                                                        </td>
+                                                        <td style="width:2px;" class="x hidden">
+                                                            <span class="close">x</span>
+                                                        </td>
+                                                    </tr>
+													<!--
+                                                    <tr><td><div class="clearfix bpadding10"></div></td></tr>
+                                                    <tr>
+                                                        <td  style="width:15%;">
+                                                            <img style="margin-left:2px;" src="/images/user-avatar.jpg" />
+                                                        </td>
+                                                        <td style="width:80%;" >
+                                                            <p class="opensans dark bold margtop1 lh2rar ync">Dinner Jimbaran Rooftop Bar</p>
+								                            <p class="opensans size14 ync">Pax Occupancy: 2 Adult + 5 Children </p>
+                                                            <p class="opensans size14 lblue ync"><i>IDR 550,000.00</i></p>
+                                                        </td>
+                                                        <td style="width:2px;">
+                                                            <span class="close">x</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td><div class="clearfix bpadding10"></div></td></tr>
+                                                    <tr>
+                                                        <td  style="width:15%;">
+                                                            <img style="margin-left:2px;" src="/images/user-avatar.jpg" />
+                                                        </td>
+                                                        <td style="width:80%;" >
+                                                             <p class="opensans dark bold margtop1 lh2rar ync">Spa 3 Hour Package</p>
+								                            <p class="opensans size14 ync">Pax Occupancy: 15 Adult </p>
+                                                            <p class="opensans size14 lblue ync"><i>IDR 950,000.00</i></p>
+                                                        </td>
+                                                        <td style="width:2px;">
+                                                            <span class="close">x</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td><div class="clearfix bpadding10"></div></td></tr>
+                                                    <tr>
+                                                        <td  style="width:15%;">
+                                                            <img style="margin-left:2px;" src="/images/user-avatar.jpg" />
+                                                        </td>
+                                                        <td style="width:80%;" >
+                                                             <p class="opensans dark bold margtop1 lh2rar ync">Spa 3 Hour Package</p>
+								                            <p class="opensans size14 ync">Pax Occupancy: 15 Adult </p>
+                                                            <p class="opensans size14 lblue ync"><i>IDR 950,000.00</i></p>
+                                                        </td>
+                                                        <td style="width:2px;">
+                                                            <span class="close">x</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td><div class="clearfix bpadding10"></div></td></tr>
+                                                    <tr>
+                                                       <td  style="width:15%;">
+                                                            <img style="margin-left:2px;" src="/images/user-avatar.jpg" />
+                                                        </td>
+                                                        <td style="width:80%;" >
+                                                             <p class="opensans dark bold margtop1 lh2rar ync">Spa 3 Hour Package</p>
+								                            <p class="opensans size14 ync">Pax Occupancy: 15 Adult </p>
+                                                            <p class="opensans size14 lblue ync"><i>IDR 950,000.00</i></p>
+                                                        </td>
+                                                        <td style="width:2px;">
+                                                            <span class="close">x</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr><td><div class="clearfix bpadding10"></div></td></tr>
+                                                    <tr>
+                                                        <td  style="width:15%;">
+                                                            <img style="margin-left:2px;" src="/images/user-avatar.jpg" />
+                                                        </td>
+                                                        <td style="width:80%;" >
+                                                             <p class="opensans dark bold margtop1 lh2rar ync">Spa 3 Hour Package</p>
+								                            <p class="opensans size14 ync">Pax Occupancy: 15 Adult </p>
+                                                            <p class="opensans size14 lblue ync"><i>IDR 950,000.00</i></p>
+                                                        </td>
+                                                        <td style="width:2px;">
+                                                            <span class="close">x</span>
+                                                        </td>
+                                                    </tr>
+													-->
+                                                </tbody>
+                                            </table>
+                                            </div>
+
+                                           <div style='text-align:center; padding:5px;'>
+                                        
+                                            <a href="/payment.aspx"><button id="cart-view" type="button" class="btn  wh90percent btn-primary">Check Out (0 Item)</button></a>
+                                     </div>
+                                     </li>
+                                     
+					            </ul>
+
+                              </li>
+                            
+                            <!--tesrar-->
+
+							<li class="dropdown hide"><a data-toggle="dropdown" class="dropdown-toggle" href="#">Login<b class="lightcaret mt-2"></b></a>
+								<ul class="dropdown-menu posright-0">
+									<li><a href="/userprofile.aspx"><span> User Profile</span></a></li>
+									<li><a href="/login.aspx"><span> Log Out</span></a></li>
+								</ul>
+							</li>                  			  
+						</ul>
+					</div>	
+					<!-- Navigation--><span style='display:none;' id='selected-curr' >IDR		  </span>	
+					<!-- Navigation--><span style='display:none;' id='selected-lang' >en		  </span>	
+					<!-- Navigation--><span ></span>
+				</div>
+		
+			</div>
+		</div>
+    </div>
+	<!-- /Top wrapper -->	
+
+	
+     <div class="container breadcrub">
+	    <div>
+			<a class="homebtn left mobile" href="default.aspx"></a>
+			<div class="left" style="margin-top:10px;">
+				<ul class="bcrumbs">
+                    <li><a href="javascript:void" onclick="goBack()">Back</a></li>
+					<li>/</li>
+					<li><a href="#">About Go Vacation Indonesia</a></li>
+					<li class="mobile">/</li>
+				</ul>				
+			</div>
+			
+		</div>
+		<div class="clearfix"></div>
+		<div class="brlines"></div>
+	</div>	
+
+	<!-- CONTENT -->
+	<div class="container">
+		
+		<div class="container mt25 offset-0">
+
+			<div class="col-md-12 pagecontainer2 offset-0">
+				<div class="" style="background:#0099cc; height:40px; position:absolute; top:0px; width:100%"></div>
+				<ul class="nav nav-tabs" id="myTab_aboutus">
+					<li id='op1' class="mobile" ><a data-toggle="tab" href="#about_tr"><span class="summary"></span><span class="hidetext">About Us</span>&nbsp;</a></li>
+					<li class=""><a id="op2" data-toggle="tab" href="#privacy_pol"><span class="rates"></span><span class="hidetext">Privacy Policy</span>&nbsp;</a></li>
+					<li class=""><a id='op3' data-toggle="tab" href="#term_cond"><span class="preferences"></span><span class="hidetext">Term and Condition</span>&nbsp;</a></li>
+					<li class=""><a id='op4' data-toggle="tab" href="#faq"><span class="maps"></span><span class="hidetext">FAQ</span>&nbsp;</a></li>
+					<li class=""><a id='op5' data-toggle="tab" href="#contact_us"><span class="reviews"></span><span class="hidetext">Contact Us</span>&nbsp;</a></li>
+				</ul>			
+				<div class="tab-content4" >
+					<!-- TAB 1 -->				
+					<div id="about_tr" class="tab-pane fade active in mobile">
+						<p class="hpadding20">
+						    Go Vacation Indonesia one of provider sightseeing tours, travel experiences and ground transportation worldwide.<br /><br />
+                            With over more of carefully selected travel activities in worldwide destinations and user-friendly features such as traveler reviews, add to cart, suggested itineraries and promotional code, Go Vacation Indonesia can meet the varied interests of travelers. It sells directly to consumers through govacation-indonesia.com and a network of over 5000 travel agencies and affiliates.<br /><br />
+                            Go Vacation Indonesia is available in more of languages and has offices in Indonesia.
+ 						</p>
+						<div class="line4"></div>
+						
+						<!-- Collapse 1 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse1">
+						  Our History <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse1" class="collapse in">
+							<div class="hpadding20">
+								Starting 2013, a team of experienced travel professionals got together to create Go Vacation Indonesia. They have been involved in the growth of the Internet Travel Industry from the very beginning  and knew that the next stage in the industry was to create a simple online reservations system that lets travelers book quality travel experiences quickly and easily.<br /><br />
+                                Go Vacation Indonesia has proven to be an invaluable online resource for travelers looking to book tours and attractions, Hotels in a worldwide. With millions of visitors every year, our market is extensive and growing everyday.
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 1 -->	
+						
+						<div class="line4"></div>						
+						
+						<!-- Collapse 2 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse2">
+						  Some great about Go Vacation Indonesia : <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse2" class="collapse in">
+							<div class="hpadding20">
+								<b style='color:#FF9900'>Great Activities</b><br /><br />
+                                We have one of the largest online inventories of tours and things to do. Everyday, we add in tens of activities to our inventory.
+                                To guarantee travelers' satisfaction, we select only leading tour operators from across the globe. Our network of tour suppliers must meet our standards of quality and customer service dedication.<br /><br />
+                                Our wide range of travel activities can meet the varied interests of travelers. Below are samples of the kinds of products we offer.
+                               <ul>
+                                   <li>City Tours & Sightseeing</li>
+                                   <li>Day Trips & Excursions outside the city</li>
+                                   <li>Private Tours</li>
+                                   <li>Night Tours</li>
+                                   <li>Cruises, Mini & Dinner Cruises</li>
+                                   <li>Shows, Cabarets & Concerts</li>
+                                   <li>Wildlife and Nature</li>
+                                   <li>Honeymoon</li>
+                                   <li>Wellness for Body and Soul</li>
+                                   <li>Culture and History</li>
+                                   <li>Adventure</li>
+                                   <li>Sport Activities</li>
+                                   <li>Culture and History and many more !!!</li>
+                               </ul><br /><br />
+                                <b style='color:#FF9900'>Great Hotels:</b><br /><br /> 
+                                govacation-indonesia.com offers more than 50,000 hotels and resorts worldwide for both your leisure and business travel needs. Our comprehensive selection of hotels range from budget to 5-star international hotel chains. We provide full information and multi-media for all our hotels and resorts as well asGoogle Map and Hotel Reviews. All our discounted hotel rates are available on Instant Confirmation and can be booked even for Same Day Check-in and with the option toPrepay or Pay to Hotel base on hotel policy.<br /><br /><br />
+                                
+                                <b style='color:#FF9900'>Great Customer Service</b><br /><br />
+                                We're here to help. Live and in-person. Really!<br /><br />
+                                Call or email our contact center anytime, we're always here. We might not get out much, but we know what we are talking about, which means we can actually help. And we're nice too!<br /><br />
+                                All inquiries are addressed within one business day<br /><br /><br />
+                                <b style='color:#FF9900'>Great features</b><br /><br />
+                                <b style='color:#3366FF'>Instant Confirmation of bookings:</b> Book, Print Voucher and Go!<br />
+                                <b style='color:#3366FF'>Mobile Site and Mobile Apps</b> allowing customers to book Hotels and Tours using their mobile phones<br />
+                                <b style='color:#3366FF'>Add to Cart</b> allowing customers to book in a multiple product in one transaction.<br />
+                                <b style='color:#3366FF'>6 Languages</b>, 6 translated websites for govacation-indonesia.com.<br />
+                                <b style='color:#3366FF'>Traveler reviews and photo reviews</b> highlighting the best our customers have to share<br /><br />
+                                And with our <b style='color:#3366FF'>low price guarantee, secure and easy booking</b>, and <b style='color:#3366FF'>button add to cart</b>, your online experience on Go Vacation Indonesia will always be fast and efficient.<br /><br />
+
+                                <b  style='color:#FF9900'>Great services for Travel Professionals</b><br /><br />
+                                Work with us. In exchange, you give your customers access to a great selection of travel activities and ground transportation worldwide.<br /> 
+                                See our Travel Agent Program, Affiliate Program, and White Label Solutions.
+
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 2 -->	
+						
+						<div class="line4"></div>								
+
+					</div>
+                    <!-- End of TAB1 -->
+
+					<!-- TAB 2 -->
+					<div id="privacy_pol" class="tab-pane fade">
+					   <p class="hpadding20">
+						govacation-indonesia.com values your privacy. It is important that you have a clear understanding of our practices with regards to information collection and information usage, that you have full control of which personal information you provide to govacation-indonesia.com. 
+ 						</p>
+						<div class="line4"></div>
+						
+						<!-- Collapse 1 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse3">
+						  Information Collected <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse3" class="collapse in">
+							<div class="hpadding20">
+								When making a booking through govacation-indonesia.com, we need to collect certain details in relation to processing the transaction and fulfilling your order, including (but not limited to) the following: your name, nationality, credit card details, and contact information (email, phone, and fax).<br /><br /> 
+                                We also collect your name and email information from submission of your queries via our Inquiry forms.<br /><br /> 
+                                You agree that by disclosing your personal information to us, we may include your record in our database. 
+
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 1 -->	
+						
+						<div class="line4"></div>						
+						
+						<!-- Collapse 2 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse4">
+						  Use and Care of Information <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse4" class="collapse in">
+							<div class="hpadding20">
+								govacation-indonesia.com remains the owner of any information collected on the web site and has no intention to change this policy in the future. Use of contact information (e.g. email) is for us to send to you confirmation / related information for your booking/s such as vouchers, etc. You may also receive promotional communications from time to time.<br /><br /> 
+                                Should you prefer not to receive promotional emails an unsubscribe link is located below the promotional emails. You may also contact our Customer Service.<br /><br /> 
+                                Disclosure of information is limited only to parties (such as hotels, excursion, airlines, etc.) connected to fulfilling the service/s you have ordered. govacation-indonesia.com does not sell, rent, or otherwise trade any personal information from our guests to any party for marketing purposes.<br /><br /> 
+                                govacation-indonesia.com also reserves the right to disclose personal information only if required to do so by law, or by court order, or by law enforcement or governmental authorities, or in good faith belief that such disclosure is necessary to protect the rights or properties of govacation-indonesia.com, our guests/users, or the public.<br /><br /> 
+                                Where links are present that will result in you leaving the govacation-indonesia.com website and being taken to third-party websites, please do note that any information that you may provide to these third-party websites are not covered by govacation-indonesia.com privacy policy and as such we do recommend that you review their privacy and security policies.<br /><br /> 
+                        </div>
+                        <div class='clearfix'></div>
+					</div>
+					<div class="line4"></div>
+                        <!-- End of collapse 2 -->
+                        <button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse5">
+						    Data Security  <span class="collapsearrow"></span>
+					    </button>
+						
+					    <div id="collapse5" class="collapse in">
+						    <div class="hpadding20">
+							    We, at govacation-indonesia.com give the utmost importance to keeping your data secure at all times. Secure Sockets Layer (SSL) technology, a strong encryption technology to ensure the safe transmission of all credit card transactions and personal information, is implemented.<br /><br /> 
+                                A digital certificate from Thawte, a recognized industry leader has been obtained. You can view this site certificate on the secure pages by clicking on the padlock icon (or solid key) found on the status bar of your browser. 
+                        </div>
+                        <div class='clearfix'></div>
+				    </div>
+					</div>
+                    <!-- End of TAB2 -->
+
+					<!-- TAB 3 -->					
+					<div id="term_cond" class="tab-pane fade">
+						 <button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse6">
+						    Reservation Guarantee  <span class="collapsearrow"></span>
+					    </button>
+						
+					    <div id="collapse6" class="collapse in">
+						    <div class="hpadding20">
+							    All reservation availability in govacation-indonesia.com provided directly from our partners with instant confirmation. govacation-indonesia.com will guarantee all complete reservation after all payment has been materialized, which has been made through our website. 
+                            </div>
+                            <div class='clearfix'></div>
+				        </div>
+						
+						<div class="line4"></div>
+						
+						<!-- Collapse 7 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse7">
+						  Payment<span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse7" class="collapse in">
+                            <div class='hpadding20'>
+							    All tours must be pre-paid except otherwise stated. We accept Visa and Mastercard. Payment will be listed as "TRAVELReception on behalf of GoVacation-Indonesia.com " on the credit card statement. You will be charged in local currency by IDR  at the conversion's rate applicable on the date of your booking
+						        
+								<div style="background-image: url(/images/mastercard_visa_amex_ppX1.png); width:109px; height:38px; ">
+						</div>
+                            </div>
+                        <div class='clearfix'></div>
+                        </div>
+						<!-- End of collapse 7 -->		
+						
+						<div class="line4"></div>		
+						
+						<!-- Collapse 8 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse8">
+						  Secure Payment <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse8" class="collapse in">
+							<div class="hpadding20">
+								govacation-indonesia.com have secure payment system, guarantee your confidential information while using your credit card. We use Secure Socket Layer (SSL) technology to encrypts all information which using credit card for online transaction.						
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 8 -->
+						<div class="line4"></div>
+                        <!-- Collapse 9 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse9">
+						  Cancellation Policy <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse9" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                    Cancellation policy of your reservation is also informed in confirmation letter that has been sent to your email address. The entire cancellation must be done during our working hours starts from 09.00-17.00 (GMT+8).
+                                    Canceling a booking with govacation-indonesia.com can result in cancellation fees being applied by Go Vacation Indonesia, as outlined below. Additional fees may be levied by the individual supplier/operator (see your  Voucher for specific details). When canceling any booking you will be notified via email, facsimile or telephone of the total cancellation fees.
+                                </p>
+                                <p>
+                                    <ol type="I">
+                                      <li>Event, Attraction, Theater, Show or Coupon Ticket</li>
+                                        These are non-refundable in all circumstances.<br />
+                                        ii.	Gift Certificate (promotional code)<br />
+                                        &nbsp &nbsp These are non-refundable in all circumstances.<br />
+                                        iii.	Other Tour Products & Services
+                                        &nbsp &nbsp Cancellation more than 7 calendar days before the services begin : You will be charged a 10% cancellation fee.<br />
+                                        &nbsp &nbsp Cancellation between 7 and 4 calendar days before the services begin: You will be charged a 20% cancellation fee.<br />
+                                        &nbsp &nbsp Cancellation within 3 calendar days before the services begin : You will be charged a 100% cancellation fee (no refund).<br />
+                                        &nbsp &nbsp Cancellation the day of the services or after : You will be charged a 100% cancellation fee (no refund)
+                                    </ol>
+                                </p>
+                                <p>
+                                    The value of the transaction may be subject to taxes, foreign transaction, currency exchange or other fees. 
+                                    Your bank or credit or debit card company may convert the payment into the local currency and charge fees, resulting in differences 
+                                    between the amount displayed on govacation-indonesia.com  and the final amount charged to your bank account or credit or debit card statement. 
+                                    Please contact your bank or card company if you have any questions concerning any applicable conversion or fees.<br /><br />
+                                    Please note that certain supplier apply more stringent cancellation fees, which might apply if relevant. 
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 9 -->	
+                        <div class="line4"></div>	
+                        <!-- Collapse 10 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse10">
+						  Refund Policy <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse10" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                    govacation-indonesia.com has commit to provide an easy and fast refund process. To process your refund please contact our Customer Service.
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 10 -->
+                        <div class="line4"></div>
+                        <!-- Collapse 11 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse11">
+						  Notes: <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse11" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                   Any refund will be process directly through your credit card  that has been used on your reservation and it will take processing time within 30 (thirty) working days. 
+                                   Some hotels or tours will add penalty fees, it is often same as the cost while you stay for a night, for shorten your stay there will be notified in the end. Please check the policies carefully.
+                                </p>
+                                <p>
+                                   Full cancellation of services previously confirmed by us must be followed by a confirmation of cancellation from us.
+                                    govacation-indonesia.com will not be responsible for any cancellation not received and not confirmed back to you and might debit the relative cancellation or no-show charges
+
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 11 -->		
+						<div class="line4"></div>
+						<!-- Collapse 12 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse12">
+						  Passports, Visas & Insurance <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse12" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                  It is the responsibility of all passengers, regardless of nationality and destination, to check with the consulate of the country they are visiting for current entry requirements.<br />
+                                  As visa and health requirements are subject to change without notice, we recommend that you verify health and visa requirements with the appropriate consulate prior to departure.<br />
+                                  We strongly recommend that you purchase a comprehensive Travel Insurance Policy prior to departure. If you cancel your trip or significantly alter travel dates, many policies will reimburse the cost of cancellation fees and related expenses.
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 12 -->
+						<div class="line4"></div>
+                        <!-- Collapse 13 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse13">
+						  Disclaimers & Limitations of Liability <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse13" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                Under no circumstances will Go Vacation Indonesia or its agents, affiliates, service providers, suppliers, and/or distributors be liable for any of the following losses or damage (whether such losses where foreseen, foreseeable, known or otherwise): (a) loss of data; (b) loss of revenue or anticipated profits; (c) loss of business; (d) loss of opportunity; (e) loss of goodwill or injury to reputation; (f) losses suffered by third parties; or (g) any indirect, consequential, special or exemplary damages arising from the use of govacation-indonesia.com regardless of the form of action.<br /><br />
+                                Go Vacation Indonesia and its agents and suppliers, in making arrangements for hotels, tours, transportation or any service in connection with the itineraries of individual customers, shall not be liable for injury, damage, loss, accident, delay or irregularity, liability or expense to person or property due to act of default by any hotel, carrier or other company or person providing services included in the tours.<br /><br />
+                                Furthermore, Go Vacation Indonesia and its agents and suppliers accept no responsibility for any sickness, pilferage, labor disputes, machinery breakdown, government restrains, acts of war and/or terrorism, weather conditions, defect in any vehicle of transportation or for any misadventure or casualty or any other causes beyond their control.<br /><br />
+                                GoVacationIndonesia ’s content - including the information, names, images, pictures, logos, prices, dates, and availability regarding or relating to govacation-indonesia.com, service provider, operator and/or distribution partner  is provided “AS IS” and on an “AS AVAILABLE” basis without any representations or any kind of warranty made (whether express or implied by law) to the extent permitted by law, including the implied warranties of satisfactory quality, fitness for a particular purpose, non-infringement, compatibility, security and accuracy.<br /><br />
+                                At govacation-indonesia.com we check and recheck the details about all the products and services we offer for accuracy. However, Go Vacation Indonesia does not warrant that functionality, content or information contained on govacation-indonesia.com  will be uninterrupted or error free, that defects will be corrected, or that govacation-indonesia.com or the servers that make it available are free of viruses or bugs.<br /><br />
+                                If any of these terms are determined to be illegal, invalid or otherwise unenforceable by reason of the laws of any state or country in which these terms are intended to be effective, then to the extent and within the jurisdiction in which that term is illegal, invalid or unenforceable, it shall be severed and deleted from these terms and the remaining terms shall survive, remain in full force and effect and continue to be binding and enforceable.
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 13 -->
+						<div class="line4"></div>
+                        <!-- Collapse 14 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse14">
+						  Restrictions on Use <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse14" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                   You agree that you will not, and will not assist or enable others to:<br />
+                                    use the site to threaten, stalk, defraud, incite, harass, or advocate the harassment of another person, orotherwise interfere with another user's use of the site;<br />
+                                    use the site to submit or transmit spam, chain letters, contests, junk email, pyramid schemes, surveys, or other mass messaging, whether commercial in nature or not;<br />
+                                    use the site in a manner that may create a conflict of interest, such as trading reviews with other business owners or writing or soliciting reviews;<br />
+                                    use the site to promote bigotry or discrimination against protected classes;<br />
+                                    use the site to violate any third-party right, including any breach of confidence, copyright, trademark, patent, trade secret, moral right, privacy right, right of publicity, or any other intellectual property or proprietary right;<br />
+                                    use the site to submit or transmit pornography or illegal content;<br />
+                                    use the site to solicit personal information from minors or to harm or threaten to cause harm to minors;<br />
+                                    use any robot, spider, site search/retrieval application, or other automated device, process or means to access, retrieve, scrape, or index the site or any site Content;<br /><br />
+                                    attempt to gain unauthorized access to the site, user accounts, computer systems or networks connected to the Site through hacking, password mining or any other means; use the Site or any Site Content to transmit any computer viruses, worms, defects, Trojan horses or other items of a destructive nature (collectively, "Viruses"); use any device, software or routine that interferes with the proper working of the Site, or otherwise attempt to interfere with the proper working of the Site; make excessive traffic demands; use the Site to violate the security of any computer network, crack passwords or security encryption codes; disrupt or interfere with the security of, or otherwise cause harm to, the site or site Content; remove, circumvent, disable, damage or otherwise interfere with any security-related features of the Site, features that prevent or restrict the use or copying of Site Content, or features that enforce limitations on the use of the Site.
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 14 -->
+						<div class="line4"></div>
+                         <!-- Collapse 15 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse15">
+						  Account Termination <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse15" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                  We may terminate or suspend your account or ability to use the Site, in whole or in part, at our sole discretion, for any or no reason, and without notice or liability of any kind. For example, we may terminate or suspend your account or ability to use the Site if you misuse the Site. 
+                                  Any such termination or suspension could prevent you from accessing your account, the Site, your Content, Site Content, or any other related information.<br />
+                                  You may terminate the Terms of Service at any time by closing your account and discontinuing your use of any and all parts of the Site. If you close your account, we may continue to display your previously published Content and are under no obligation to remove any of your Content.
+
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 15 -->
+						<div class="line4"></div>
+                         <!-- Collapse 16 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse16">
+						 Privacy Policy<span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse16" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                At Go Vacation Indonesia , we recognize that earning and retaining your trust is one of the most important things we do as a business. Protecting your privacy is a responsibility we take very seriously.<br />
+                                We have prepared this Privacy Policy to help you understand how Go Vacation Indonesia collects, uses and seeks to safeguard the Personal Information (as defined below) you provide to us on our websites, via email, and through our service providers and distribution partners. This Privacy Policy does not address, and we are not responsible for, the privacy, information or other practices of any third party, including any third-party distribution partners, suppliers and tour operators, and any third party operating any site to which our websites contain a link. By downloading, accessing or using our websites, or providing information to us in connection with our websites, you agree to the terms and conditions of this Privacy Policy.
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 16 -->
+					</div>
+                    <!-- End of TAB3 -->
+					
+					<!-- TAB 4 -->					
+					<div id="faq" class="tab-pane fade">
+						<div class="hpadding20">
+						</div>
+                        <!-- Collapse 17 -->	
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse17">
+						  General Question <span class="collapsearrow"></span>
+						</button>
+						
+						<div id="collapse17" class="collapse in">
+							<div class="hpadding20">
+                                <p style='color:#009900;'><b>What is Go Vacation Indonesia ?</b></p>
+								Starting 2013, a team of experienced travel professionals got together to create Go Vacation Indonesia. They have been involved in the growth of the Internet Travel Industry from the very beginning  and knew that the next stage in the industry was to create a simple online reservations system that lets travelers book quality travel experiences quickly and easily.<br /><br />
+                                Go Vacation Indonesia has proven to be an invaluable online resource for travelers looking to book tours and attractions, Hotels in a worldwide. With millions of visitors every year, our market is extensive and growing everyday.
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 17 -->
+                        <div class="line4"></div>
+                        <!-- Collapse 18 -->	
+											
+						<div id="collapese18" class="collapse in">
+                        <div class='hpadding20'><p style='color:#009900;'><b>What is Go Vacation Indonesia ?</b></p></div>
+
+							<div class="hpadding20"><ul class="a">
+                                <ol>
+                                  <li>Reservation through Go Vacation Indonesia will give you ease of : searching for tours/excursions or to find rooms availability and prices as the prices are implemented on a table and gives you an easy way to find the date and prices you are looking for.</li>
+                                  <!--<li>We guarantee the prices on the table are the best and the cheapest prices. If you have found cheaper price at other website, contact us and we will give you minimum the same price as the price you have found.</li>-->
+                                  <li>We will confirm your reservation status immediately by e-mail or telephone.</li>
+                                  <li>We have button Add to cart easily for customers book multiple in one transaction.</li>
+                                  <li>The easy way to settle the payment through online direct payment at our website.</li>
+                                </ol>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 18 -->
+                        <div class="line4"></div>
+                        <!-- Collapse 19 -->	
+											
+						<div id="collapse19" class="collapse in">
+                        <div class='hpadding20'><p style='color:#009900;'><b>How do I make a reservation?</b></p></div>
+
+							<div class="hpadding20">
+                            <p>
+                                Reservation can be done through our website by choosing your destination on the Menu and you will find some choice of tour or excursion which could be listed as well by budget, holiday type and holiday duration.<br />
+                                You are also able to use a searching table with a Key you have knew such as your favorite hotel name, by typing one word on the Hotel Name, the searching machine will deliver you the result or to find a hotel name accordance with the criteria you want.<br />
+                                The Tours that are offered by Go Vacation Indonesia also meet the varied interests of travelers.<br />
+                                If you have any special requests such as non smoking room, rooms with connecting door and so on, you can enter any special requests into "Guest Note" box which is available in your  reservation form, and your special request will be proceed and follow-up by the hotel directly but we could not guarantee you.
+                            </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 19 -->
+                        <div class="line4"></div>
+                        <!-- Collapse 20 -->	
+											
+						<div id="collapse20" class="collapse in">
+                        <div class='hpadding20'><p style='color:#009900;'><b>What should I do after making reservation?</b></p></div>
+
+							<div class="hpadding20">
+                            <p>
+                                After you have filled reservation form and before you submit the data, please make sure all important information such as your first name, tours name, hotel name, check-in and check-out date, total rooms, and room type are already correct due the data you have submitted would not be able to be edited except to cancel and re-book the room.<br />
+                                You will move to the step for the payment. You will see the price you will pay through credit card, and you input the necessary parts for the credit card payment.<br />
+                                As soon as the booking process has been completed, you will receive a confirmation email concerning your  booking information detail and please keep your confirmation. Whenever you log in by inputting your own username and password, you can also check your history of bookings.<br />
+
+                            </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 20 -->
+                        <div class="line4"></div>
+                        <!-- Collapse 21 -->	
+											
+						<div id="collapse21" class="collapse in">
+                        <div class='hpadding20'>
+                          <p style='color:#009900;'><b>When will I receive the Booking Voucher?</b></p></div>
+
+							<div class="hpadding20">
+                            <p>
+                                The Booking Voucher will be sent after your payment confirmation done. 
+                                If within 24 hours you do not receive the Booking voucher, 
+                                there must be some errors and we ask you to contact Go Vacation Indonesia Hotline Support to +6281-23801503 during working hour 09:00 -17:00 WITA.
+                            </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 21 -->
+                        <div class="line4"></div>
+                        <!-- Collapse 22 -->	
+											
+						<div id="collapse22" class="collapse in hide">
+                        <div class='hpadding20'>
+                          <p style='color:#009900;'><b>I lost my Booking Voucher, can I check-in without a Hotel Voucher?</b></p></div>
+
+							<div class="hpadding20">
+                            <p>
+                                If you lost your Hotel voucher, you have to contact the agents site of the hotel booking that provide your hotels. <br />
+                                Check the terms and conditions of the hotel policy on the site hotel bookings.<br />
+                                Go Vacation Indonesia is not guarantee for the Hotel bookings.                                <br />
+</div>
+                    <!-- End of TAB4 -->
+					
+					<!-- TAB 5 -->					
+                    </p>
+							</div>
+						</div>
+						<div id='contact_us' class="tab-pane fade">
+                        <p class='hpadding20 custcontus'><b>You have a question about your booking? Activities? Do you wish to partner with us?</b></p>	
+					    <div class="line4"></div>
+						<!-- Collapse 24 -->
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse24">
+						  Contact our Customer Service. <span class="collapsearrow"></span>
+						</button>
+						<div id="collapse24" class="collapse in">
+							<div class="hpadding20">
+                                <p>
+                                    <ul>
+                                        <li>Feel free to contact us for help or question about your trip</li>
+                                        <li>Office Hours : 09.00 - 17.00 (GMT+8)</li>
+                                    </ul>
+                                    We respond to all inquiries within one business day.<br />
+                                    Please contact us by Email, Phone, Fax, or Chat. Or request a Call Back.
+                                </p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 24 -->
+						<div class="line4"></div>
+                        <!-- Collapse 26 -->
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse261">
+						  Contact us by Email <span class="collapsearrow"></span>
+						</button>
+                            <form action="Contactus.aspx" method="post" id="frm_contact">
+						<div id="collapse261 hpadding20" class="collapse in">
+							<div class="col-md-3 textleft">
+						        <div class="margtop15"><span class="dark">First Name</span><span class="red">*</span></div>
+					        </div>
+					        <div class="col-md-7 text-left">
+						        <input type="text" class="form-control " name="t_fname" placeholder="">
+					        </div>
+                            <div class="col-md-4 textleft margtop15">
+					        </div>
+					        <div class="clearfix"></div>
+                            <div class="col-md-3 textleft">
+						        <div class="margtop15"><span class="dark">Last Name</span><span class="red">*</span></div>
+					        </div>
+					        <div class="col-md-7 text-left">
+						        <input type="text" class="form-control " name="t_lname" placeholder="">
+					        </div>
+                            <div class="col-md-4 textleft margtop15">
+					        </div>
+					        <div class="clearfix"></div>
+                            <div class="col-md-3 textleft">
+						        <div class="margtop15"><span class="dark">Enter your email address</span><span class="red">*</span></div>
+					        </div>
+					        <div class="col-md-7 text-left">
+						        <input type="text" class="form-control " name="t_email" placeholder="">
+					        </div>
+                            <div class="col-md-4 textleft margtop15">
+					        </div>
+					        <div class="clearfix"></div>
+                            <div class="col-md-3 textleft">
+						        <div class="margtop15"><span class="dark">Select a subject for your email</span><span class="red">*</span></div>
+					        </div>
+					        <div class="col-md-7 text-left">
+                                <select name="pilihan" style="padding:3px 0px 3px 12px; height:34px; border:2px solid #ebebeb">
+                                    <option value="1">Tours Information Request</option>
+                                    <option value="2">Airport Transfer Information Request</option>
+                                    <option value="3">Special Request/Price Quote</option>
+                                    <option value="4">Booking Status</option>
+                                    <option value="5">Booking Cancellation</option>
+                                    <option value="6">Booking Modification</option>
+                                    <option value="7">Voucher Not Received</option>
+                                    <option value="0">Other Inquiries</option>
+                                </select>
+					        </div>
+                            <div class="col-md-4 textleft margtop15">
+					        </div>
+					        <div class="clearfix"></div>
+                            <div class="col-md-3 textleft">
+						        <div class="margtop15"><span class="dark">Message</span><span class="red">*</span></div>
+					        </div>
+					        <div class="col-md-7 text-left">
+						        <textarea cols='24' name="t_note" style='width:100%;height:200px;'></textarea>
+                            </div>
+                            <div class="col-md-2 text-left" style='margin-top:220px;margin-left:-47%;'>
+							    <button id="submit-email" class="bluebtn margtop20"  type="submit" >Submit</button>
+                            </div>
+                            <div class="col-md-4 textleft margtop15">
+					        </div>
+					        <div class="clearfix"></div>
+						</div>
+                            </form>
+
+						<!-- End of collapse 26 -->
+						<div class="line4"></div>
+                        <!-- Collapse 27 -->
+						<button type="button" class="collapsebtn2" data-toggle="collapse" data-target="#collapse27">
+						  Mailing Address <span class="collapsearrow"></span>
+						</button>
+						<div id="collapse27" class="collapse in">
+							<div class="col-md-6 container left">
+                                <p><b style='color:#FF6500'>Indonesia</b><br />
+                                Jalan Bypass Ngurah Rai No.7 Sanur 80227 P.O.BOX : 3375, Denpasar 80033, Bali-Indonesia <br />
+                                <a href="mailto:cs@govacation-indonesia.com">cs[at]govacation-indonesia.com</a> 
+                                </p>
+                                <!--Jalan Bypass Ngurah Rai No.7 Sanur 80227, P.O.BOX : 3375, Denpasar 80033, Bali-Indonesia 
+                                Phone : (+62 361) 286 333 Fax : (+62 361) 286 092
+                                http://www.govacation-indonesia.com-->
+							</div>
+                            
+							<div class="clearfix"></div>
+						</div>
+						<!-- End of collapse 27 -->
+                    </div>		
+                    <!-- End of TAB5 -->
+					
+					<!-- TAB 6 -->					
+											
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+
+	<!-- END OF CONTENT -->
+
+
+	<!-- FOOTER -->
+	
+	    <div class="footerbgblack">
+			 <div class="container">
+				<div class="col-md-3 mobile">
+				    
+                    <span class="ftitleblack">Accepted Cards</span>
+                        <div style="background-image: url(/images/mastercard_visa_amex_ppX1.png); width:109px; height:38px; " >
+						</div><br />
+                        <span class="ftitleblack">Secure Payment With	</span>
+                        <br />
+                        <a href="#" ><img src='/images/f_digicert.png' height='40px' /></a> 
+                </div>
+			    <!-- End of column 1-->
+				
+				<div class="col-md-3 mobile">
+					<span class="ftitleblack">Information</span>
+					<ul class="footerlistblack">
+						<li><a href="/about_us.aspx">About GoVacation Indonesia</a></li>
+						<li><a href="/about_us.aspx?c=about&opt=2">Privacy Policy</a></li>
+						<li><a href="/about_us.aspx?c=about&opt=3">Terms And Conditions</a></li>
+                        <!--<li><a href="/about_us.aspx?c=about&opt=4">FAQ </a></li>
+						<li><a href="/about_us.aspx?c=about&opt=5">Contact Us</a></li>-->
+
+					</ul>
+				</div>
+				<!-- End of column 2-->		
+				
+				<div class="col-md-3 mobile">
+                    <span class="ftitleblack">&nbsp;</span>
+					
+					<ul class="footerlistblack">
+                        <li><a href="/about_us.aspx?c=about&opt=4">FAQ </a></li>
+						<li><a href="/about_us.aspx?c=about&opt=5">Contact Us</a></li>
+						
+					</ul>				
+				</div>
+				<!-- End of column 3-->	
+		
+			    <div class="col-md-3">
+				    <!--<span class="ftitleblack mobile">Subscribe to our Newsletter</span>
+				    <div class="relative mobile">
+					    <input type="email" class="form-control fccustom2black" id="exampleInputEmail1" placeholder="Enter Email">
+					    <button type="submit" class="btn btn-default btncustom">Submit<img src="/images/arrow.png" alt=""/></button>
+				    </div>
+				    <br/>-->
+				    <span class="ftitleblack">Customer Support</span><br/>
+				    <span class="pnr">+6281-23801503</span><br/>
+				    
+				    <i><a class="grey" href="mailto:cs@govacation-indonesia.com"> cs[at]govacation-indonesia.com</a></i><br /><br />
+			        
+                </div>
+                
+			    <!-- End of column 4-->			
+				
+				
+			</div>	<br />
+            <div class="container">
+                <div class="col-md-4">
+                    <span class="ftitlebync">Download Our Mobile Apps</span>
+				    <div class="mt5">
+                        <a alt="travelreception.com" href="https://play.google.com/store/apps/details?id=air.com.govacation.smarttouristicsystem" target="_blank"><img id="Img1" src="http://excursion.govacation-indonesia.com/images/androidGVI.png"  style="height:80px;cursor:pointer;"/></a>
+                    </div>
+                </div>	
+                <div class="col-md-4">
+                    <span class="ftitlebync">&nbsp;</span>
+                    <div class="mt5">  
+                        <a alt="travelreception.com"href="https://itunes.apple.com/id/app/govacation/id942355764?mt=8" target="_blank"><img id="Img2" src="http://excursion.govacation-indonesia.com/images/iosGVI.png" style="height:80px;cursor:pointer;"/></a>    
+				    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+            </div>	
+		</div>	
+	 
+	
+	<div class="footerbg3black">
+		<div class="container center grey"> 
+		    
+		    Copyright &copy; 1995 - <span id='sp_thn'></span> Go Vacation Indonesia, All Rights Reserved.<br />
+            Powered By <a href="http://www.smarttouristicsystem.com" target="_blank" ><i>Smart Touristic System PTE Ltd.</i></a>
+		<a href="#top" class="gotop scroll"><img src="/images/spacer.png" alt=""/></a>
+		</div>
+	</div>
+    
+
+
+</body>
+</html>

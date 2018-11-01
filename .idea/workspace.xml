@@ -1,315 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/analysis.py" line="94" />
-    <bookmark url="file://$PROJECT_DIR$/analysis.py" line="3" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd15f185-c0cb-4d70-b832-32886be2f591" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/extract_html.py" afterDir="false" />
+    <list default="true" id="bd15f185-c0cb-4d70-b832-32886be2f591" name="Default" comment="new commit">
+      <change afterPath="$PROJECT_DIR$/download_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a2016.dgap.ashot.terminal.bluetooth.udevterm.professional.google.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a2016.dgap.ashot.terminal.combined.udevterm.professional.google.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a2dp.Vol.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a2z.Mobile.Event2535.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a2z.Mobile.Event3067.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a2z.Mobile.Event4413.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a7.elcuboproductora.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aa.AaHubble.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aa.SA.emadtayel1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aa.aharonamram.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aa.christmas.lock.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aa.mosaic.effect.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aa.photo.mix.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aam.webmap.android.alainmaps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aaoclickkare.app.com.aaoclickkare.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aaps.lm.bo6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aashna.modernstick.battle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aavo.gujarat.hanuman.chalisa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab.cd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab.teximage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abdullahjuhainy.quranmp3offline.QuranMajeed.quransharifaudio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abmdesign.pensa.unnumero.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abnehm.app.low.carb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abnormal.ragozin.tic_tac_toe3d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboard.and.dualexplorer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboard.and.lotto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboard.and.magicbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboard.and.magichangul.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboard.and.multitable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abos.mobile.tigerpro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutdevice.com.munir.symphony.mysymphony.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abrsys.paymentreceiver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abs.check.imhere.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abstafflocator.abtracker.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/abtcul.myphotoapplock.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ac.gestureCall.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ac.robinson.bettertogether.plugin.video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ac.robinson.bookmark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/academix.schoolone.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/academy.itmons.noble.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/academy.itmons.readingbee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acatistul.maicii.domnului.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/access.valley.studio.woman.gown.photo.maker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acelight.kz.ben.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achieveapps.hanumanchalisa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/achopijo.billionaire.clicker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acidjazz.adhd.headphones.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ackmaniac.vescmonitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acpar.maipu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acradio.alerta.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acradio.catedral.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acs.app.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/action_media.ekiosk.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actiongames.game.fkc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actiongames.games.hhobjects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actiongames.games.sfr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/activities.riesgo.yacare.com.ec.appriesgo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actualizaciones.disponibles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actualizar.aplicaciones.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/acupuncture.for.body.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad.adln.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad.realtaserstunngun.electroshocks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad.up4iraq.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ad3iya.mohamed.metwali.chaaraoui.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adab.ghona.sarao.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adamioan.mk802recoveryf1.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adayroi.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addev.com.lovediarymemory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addingtechnology.gettaxi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adelgazarbailando.pierdepeso.slimmingdancing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adeyinka.example.com.nanaimobusschedule.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adhd.easylistening.binaural.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adiiya.sawtiiya.jadid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aditya.swami.pmps.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adivina.la.cancionv.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adivinhando.game.id.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adkar.et.ad3iya.idriss.abkar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adkar.fares.abbad.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adkar.saad.el.ghamidi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admeonline.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/administramosriesgos.com.drummond.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.bestkeroncong.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.chinesesongs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.gratislagulama.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.javajazz.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.justforlaughs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.justinbieber.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.laguanakanak.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.pyku.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.smulesejati.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admobileapps.topsongs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admovi.iSayHello.DE_PT2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admovi.iSayHello.de_en1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adn.MissouriSandT.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adroid.driverlad.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads.blocker.browser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ads.giirbox.com.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adult.coloring.book.flowers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adv.weirdisland.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advance.fast.charger.battery.charging.free.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/advantys.mobile.android.wfgen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adzan.collectionx.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.appfreeislamic.AnasheedMishariAlafasyMp3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.appfreeislamic.MisharyRashidAlafasymp3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.appfreeislamic.hameddabanAnasheed.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.appfreeislamic.ibrahimalsaiedmp3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.brandsore.brandstore.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.cosmeticsurgeon.waynesmith.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.dubaiairports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.find_differences.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.gov.ajmanpolice.ajmanpolice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.gov.khda.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.gov.mof.e_dirham.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.gwu.aljawhara.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ae.modcon.foodmoji.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aent.stars.android.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aero.mim.titan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aero.sita.lab.resmobileweb.android.mh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aero.tav.tavit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aerobicexercise.danceworkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aerobicsfitness.yogaworkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aerostone.bigear.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afb.dennis.afblager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/african.braids.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/african.fashion.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afrigis.navigator.plus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/afrikaans.Bybel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aftertouchsoccer.v1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ag.caju.plaza.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ag.oasis.mobile.advancedservice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ag.oasis.mobile.consumer.market.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ag.prospera.technician.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agency.vj.sbl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agengineering.tipcalculator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agexdev.anidrive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agile.ti.mobile.fisicadivertida.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agile.ti.mobile.resenhageral.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agnapp.photocollagechanger.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/agroindustria.min.emergenciasagropecuarias.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aguamarina.pe.radio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahapps.appshare.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ahsan.wasafat.sahrawiya.mojaraba.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai.paperbot.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aib.ibank.android.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aib.ibank.android.tablet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aig.mssc.main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aih.memorama.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aikyu.net.tomohoninfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.A1091900567099.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.A1k.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AK.RockHani.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AbandonedBlueCaveEscape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AbandonedSteelPlantsEscape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AdorableAntQueenEscape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AlienLights.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AljazirahPlus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AlphabetBible.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Alseraalnaboya.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Angel_Escape_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Angelandr.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AnimalDance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Answer_N_Escape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AntCartEscape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AssessAABBPatterns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Assesscountingto10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.AsylumVII.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BRFree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BabyArya.TeddyDoctor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BabyLisiDoughCake.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BabyOzum.FrozenDressUp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BalapCagubDKI.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Battlegrounds.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Big_Bubble_Bang.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BlueBirdRescue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Boggaalfabetsvensk.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BookBoyEscape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BoxerCombos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BreakFreeTheSubmarine.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Breakfast_Cooking.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.BurlywoodColorRoomEscape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.CalculadoraIGVPeruLite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.CalculadoradeIVAChilePro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.CalculadoradeIVAMexico.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Calculus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Calisthenics.for.kids.A4enc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Candykiss.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.CartillaMultiplicarFREE.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.CartoonColoringPages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.CasualClothing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.Catch21Blackjack.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.a3w4u.LittleAirplane3dFree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.abbott.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.TakosJapanese.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.UnbalancedPlatformer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.choppy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.com.aceviral.millionairetobillionaire.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.com.bmapps.babyspasalon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.com.cardswars.EATERS.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.com.fruit.android.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.cookingstory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.org.worldmag.godsbigworld.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.air.ru.Astraport.tarothandbook.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.airmodelcalc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.ChemicalPropertiesEscape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.ajazmermaidescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.ajazpalaceescape2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.ajaztreasurehunt2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.ajaztreasurehunt3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.babysnailescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.blowingviperescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.christmasboyescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.colorfulshoppingmallescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapeaffectionchristmas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapecubiclebedrooms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapefromtheloveroom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapefromwildbear.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapegamebestowal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapegameimmatureboy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapegamesafetyhelmet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapegoldierobinhood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapemeenakshipond.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapemorningalarm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.escapeoceancontour.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.findbamboofan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.helicopterlandingescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.hogsheadroomescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.hungerescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.imperialescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.littleboovescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.littlecaveboyescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.newyear2016escape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.pillowcuthouseescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.romannumericescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.streetcafeescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.unlockhoardescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ajazgames.wealthescape.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.amcgolfcesky.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.amcgolffree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.amerakids.AnimalSounds.v2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.americanGirls.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.angelgamez.jewelstravel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.animalkingdomcoloringbook.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.anne3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ardoiseetcoloriagelocale.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.aropaedu.SDLControllerApp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.artBrush.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.arwin.WinterWonderland.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.at.fosbury.mystickerzoosz.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.at.lifetool_solutions.TouchMeUnColor.mobile.full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.at.steigein_online.app.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.atebol.sgiliaucymdeithasol.PhysicalBullying.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.attaqueDuChateaugratuite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.au.com.sanfl.eagles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.awesome023androslix.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.babyphone.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bahraniapps.gifsparks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bahraniapps.lettersboxes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bahraniapps.misterpingpong.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ballodia.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bearcoloringbook.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.beating.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.beearabicalphabet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.beingfashiondesigner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bigstakes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bingoslotfree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.biz.krokodyl.speakers_corner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bouncing.balls.A2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.boyslikeitdemo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.bitlabs.FLVPlayer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.buracojustificadomano.mobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.cacheta.mobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.damas.mobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.immersive.olympikus.coladebolso.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.istunning.boutiquedaestacao.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.istunning.myFreeBrechic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.istunning.myFreeShopping.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.original.taxifoneclient.centraltaxi.CentralTaxi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.trilha.mobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.com.tripper.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.embrapa.sojaemnumeros.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.br.org.ias.desafiosdosenninha.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.brightest.atvtrilladventure.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.brightest.halloweenspookymotocross.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.brightest.motoracingchampionship.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.brightest.tankworldhero.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bubble.shooter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bulldozerandro001.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bullstudios.breakfastmania.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bullstudios.mynewbornfarmadventures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.bullstudios.toothfairy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.buraco.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.busythings.androidapps.animalmuddle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.busythings.androidapps.shapeuplite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.ca.uoguelph.cmer.EuchreDeck.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.cakecoloringbook.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.californianGirls.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.carsjingsawpuzzlekaluku.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/air.catsfamily.sonscomplexesgratuit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eatiht" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_html.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -319,10 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/analysis_html$test.coverage" NAME="test Coverage Results" MODIFIED="1539348428810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_html$test.coverage" NAME="test Coverage Results" MODIFIED="1540797250907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_html$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1538718397689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eatiht" />
     <SUITE FILE_PATH="coverage/analysis_html$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1539348443251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_html$extract_html.coverage" NAME="extract_html Coverage Results" MODIFIED="1539528759125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_html$extract_html.coverage" NAME="extract_html Coverage Results" MODIFIED="1540567544056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_html$extract.coverage" NAME="extract Coverage Results" MODIFIED="1540911089029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -342,55 +40,88 @@
     <session id="-447828538">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="3" />
+          <entry key="project.open.time.17" value="5" />
+          <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="1" />
+          <entry key="html" value="1" />
+          <entry key="json" value="5" />
+          <entry key="log" value="10" />
           <entry key="null/test/test_mongodb" value="17" />
-          <entry key="py" value="12" />
+          <entry key="py" value="28" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
+          <entry key="ANSI Aware" value="10" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="5" />
           <entry key="MONGO" value="17" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3858" />
+          <entry key="json" value="2" />
+          <entry key="log" value="1" />
+          <entry key="py" value="8374" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3858" />
+          <entry key="ANSI Aware" value="1" />
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="8374" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="analysis_html" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/extract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state>
+              <caret selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/download_html.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -398,25 +129,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1248">
-              <caret line="21" column="75" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1539436731596" expanded="true" signature="121:133" ph="..." />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="21" column="76" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extract_html.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/set/com.bestgamingzone.wallpaper.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1539528759072" expanded="true" signature="210:246" ph="..." />
-              </folding>
+            <state>
+              <caret column="13" selection-end-column="44851" />
             </state>
           </provider>
         </entry>
@@ -427,12 +150,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&lt;h1&gt;</find>
+      <find>lease consider carefully what y</find>
+      <find>logging</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -447,9 +173,14 @@
         <option value="$PROJECT_DIR$/eatiht/eatiht/main/main.py" />
         <option value="$PROJECT_DIR$/eatiht/main/main.py" />
         <option value="$PROJECT_DIR$/analusis.py" />
-        <option value="$PROJECT_DIR$/analysis.py" />
-        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/main.log" />
+        <option value="$PROJECT_DIR$/extract.html" />
         <option value="$PROJECT_DIR$/extract_html.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/set/test.json" />
+        <option value="$PROJECT_DIR$/analysis.py" />
+        <option value="$PROJECT_DIR$/extract.py" />
+        <option value="$PROJECT_DIR$/download_html.py" />
       </list>
     </option>
   </component>
@@ -460,7 +191,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="759" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -469,16 +200,20 @@
       <profile-state>
         <expanded-state>
           <State />
+          <State>
+            <id>Python</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Angular</id>
+            <id>PyBroadExceptionInspection</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -486,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -493,25 +229,29 @@
               <item name="analysis_html" type="b2602c69:ProjectViewProjectNode" />
               <item name="analysis_html" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="analysis_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/Scripts/conda.exe" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Documents\Project\analysis_html" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Documents\Project\analysis_html\eatiht" />
+      <recent name="F:\Documents\Project\analysis_html" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Documents\Project\analysis_html" />
     </key>
   </component>
@@ -527,7 +267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.extract_html">
+  <component name="RunManager" selected="Python.extract">
     <configuration name="analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="analysis_html" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -542,6 +282,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="analysis_html" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -586,28 +348,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eatiht/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="analysis_html" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/eatiht/main" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Documents\Project\analysis_html\eatiht\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -663,18 +403,18 @@
     <list>
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main (2)" />
       <item itemvalue="Python.analysis" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.extract_html" />
+      <item itemvalue="Python.extract" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.extract" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.extract_html" />
         <item itemvalue="Python.analysis" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -688,34 +428,52 @@
       <option name="presentableId" value="Default" />
       <updated>1538230647403</updated>
     </task>
+    <task id="LOCAL-00001" summary="new commit">
+      <created>1539588906088</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539588906088</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993481" visible="true" weight="0.21908316" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" weight="0.32929516" />
+      <window_info id="Favorites" order="2" sideWeight="0.5006519" side_tool="true" weight="0.1684435" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.17511013" />
-      <window_info anchor="bottom" x="-1920" y="23" width="1920" height="1017" id="Debug" order="3" type="WINDOWED" weight="0.4284141" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3160793" />
+      <window_info anchor="bottom" x="-1920" y="-54" width="1920" height="1017" id="Debug" order="3" type="WINDOWED" weight="0.35022026" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32048458" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.30396476" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.017621145" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.30396476" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" visible="true" weight="0.0" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32995737" />
-      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.22428884" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.2238806" />
+      <window_info anchor="right" id="Python Console" order="6" weight="0.32889125" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -729,14 +487,21 @@
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/eatiht" />
     </ignored-roots>
+    <MESSAGE value="new commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="new commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/extract_html.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="27" />
+          <line>173</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extract.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -749,17 +514,31 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="result[29]" />
-        <watch expression="page" />
-        <watch expression="bsObj.declared_html_encoding" />
-        <watch expression="a" language="Python" />
+        <watch expression="result" language="Python" />
+        <watch expression="result" />
+        <watch expression="result[22]" />
+        <watch expression="__py_debug_temp_var_1353204118" />
+        <watch expression="html_nodes.299" />
+        <watch expression="final_result[4].__len__()" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
+        <expression-string>result</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>a</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>Personal Information within Your Content</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -802,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7204">
-          <caret line="1806" selection-start-line="1806" selection-end-line="1806" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -822,55 +594,105 @@
     <entry file="file://$PROJECT_DIR$/eatiht/eatiht/v2.py" />
     <entry file="file://$PROJECT_DIR$/set/foo.txt" />
     <entry file="file://$PROJECT_DIR$/set/foo.json" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/warnings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="308" column="23" selection-start-line="308" selection-start-column="23" selection-end-line="308" selection-end-column="23" />
+        <state relative-caret-position="-622">
+          <caret line="750" column="16" selection-start-line="750" selection-start-column="16" selection-end-line="750" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-9527092/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="246" column="4" lean-forward="true" selection-start-line="246" selection-start-column="4" selection-end-line="246" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/bs4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        <state relative-caret-position="26">
+          <caret line="277" column="30" selection-start-line="277" selection-start-column="30" selection-end-line="277" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/warnings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-9527092/builtins.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="4416" column="26" selection-start-line="4416" selection-start-column="19" selection-end-line="4416" selection-end-column="26" />
+        <state relative-caret-position="370">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="659">
+          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1248">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1539436731596" expanded="true" signature="121:133" ph="..." />
-          </folding>
+        <state relative-caret-position="261">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extract_html.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="3198">
+          <caret line="132" column="46" selection-start-line="132" selection-start-column="38" selection-end-line="132" selection-end-column="46" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-            <marker date="1539528759072" expanded="true" signature="210:246" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret column="2088" lean-forward="true" selection-end-column="126711" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set/com.bestgamingzone.wallpaper.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-end-column="44851" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download_html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

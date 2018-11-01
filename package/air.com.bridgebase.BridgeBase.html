@@ -1,0 +1,255 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="keywords" content="bridge, bridgebase, vugraph, vu-graph, free, bridge club, online bridge, online bridge club, acbl, wbf, rubber bridge, duplicate bridge, money bridge">
+		<meta name="description" content="Free online bridge. Largest bridge site in the world. Duplicate, tournaments, money games, vugraph, more.">
+		<link rel="icon" href="/favicon.ico">
+
+		<title>Bridge Base Online</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="/bs/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<link href="/bs/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="/bs/css/jumbotron.css" rel="stylesheet">
+
+		<!-- uday   -->
+       <link rel="stylesheet" href="/stylesheets/general.css" type="text/css" />
+
+       <script src="//www.bridgebase.com/js/content.js"></script>
+
+		<!-- Google Analytics -->
+		<script>
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function () {
+						(i[r].q = i[r].q || []).push(arguments)
+					}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+					m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-11095855-4', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+
+	</head>
+
+	<body class="bbo_content">
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+
+ 		<!-- Show old homepage on IE8 and lower -->
+ 		<!--[if lt IE 9]>
+       <div style="display:none;" />
+ 		<![endif]-->
+			<div class="navbar-header">
+				<a href="//www.bridgebase.com/"><img style="height:30px;padding-top:2px;" src="/images/bbo_red.png"></a>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+						aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+ 		<!-- Show old homepage on IE8 and lower -->
+ 		<!--[if lt IE 9]>
+        </div>
+<div class="navtable">
+   &nbsp;&nbsp;&nbsp;<a href="//www.bridgebase.com/">Home</a>
+
+   &nbsp;&nbsp;&nbsp;<a href="/vugraph/schedule.php">Vugraph Schedule</a>
+   &nbsp;&nbsp;&nbsp;<a href="/myhands/index.php">Hand Records</a>
+   &nbsp;&nbsp;&nbsp;<a href="/points/index.php">Points</a>
+</div>
+ 		<![endif]-->
+ 		<div id="navbar" class="nav navbar-collapse collapse">
+
+				<div class="container">
+					<ul class="nav navbar-nav">
+						<li><a href="//www.bridgebase.com/vugraph/schedule.php" target="_blank">Vugraph Schedule</a></li>
+						<li><a href="//www.bridgebase.com/myhands/index.php" target="_blank">Hand Records</a></li>
+						<li><a href="//www.bridgebase.com/points/index.php" target="_blank">BBO Points</a></li>
+						<li><a href="https://www.bridgebase.com/purchase/pay.php" target="_blank">BB$</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+    <!-- CONTENT START  -->
+    <div class="container bbo_content" >
+<h4>Bridge Base Online Privacy Statement</h4>
+<i>(Last updated: May 2018. The most significant recent changes have been highlighted.)</i>
+<br>
+<br>
+<p>
+Bridge Base Online ("BBO") is committed to protecting your privacy. This privacy statement applies to the data collected by BBO through the Bridge Base Online web pages and the original BBO program (collectively, the Site); it does not apply to data collected through other online or offline BBO sites, products or services.
+<h4>Collection of your personal information</h4>
+<p>
+We will ask you when we need information that personally identifies you or allows us to contact you. 
+<p>
+We will ask you for your username, password, and a valid email address during the registration process.
+<p>
+You need not enter your real name in the registration form or your profile. The public portion of your profile (Name, country, skill level, other information) will be visible to every other member of the site.
+<p>
+If you choose to engage in commerce on our site, we may ask you for your real name, address, telephone number, and credit card details. You can opt to have us remember your name, address, and telephone number and credit card expiration date as a convenience for you. We will not store your credit card number or credit card security code.
+<p>
+From time to time we may request demographic information.
+<p>
+If you choose to play in tournaments sponsored by a National Bridge Organization ( "NBO" -- for example, the ACBL ) we will ask you for your player number in that NBO to allow us to report your results.
+<p>
+We record visitor IP addresses, usernames, and many details of site activity.
+<p>
+We may record all chat, including private chat between usernames.
+<p>
+We record hands played on the site. This information may be made publicly available.
+
+<h4>Use of Your Personal Information</h4>
+<p>
+The personal information collected will be used to operate the Site and to provide the service(s) or carry out the transaction(s) you have requested or authorized.
+<p>
+In support of these uses, BBO may use personal information to provide you with more effective customer service, to improve the Site and any related BBO products or services, and to make the Site easier to use by eliminating the need for you to repeatedly enter the same information or by customizing the Site to your particular preference or interests.
+<p>
+We may use your personal information to provide you with important information about the product or service that you are using, including critical updates and notifications
+<p>
+We may use your personal information to provide you with information about products or services you may be interested in.
+<p>
+Personal information collected on the Site may be stored and processed in the United States or any other country in which BBO or its affiliates, subsidiaries or agents maintain facilities, and by using the Site, you consent to any such transfer of information outside of your country.
+<h4>Sharing of Your Personal Information</h4>
+<p>
+BBO may disclose personal information if required to do so by law or in the good faith belief that such action is necessary to (a) conform to the edicts of the law or comply with legal process served on BBO or the Site; (b) protect and defend the rights or property of BBO and our family of Web sites; or (c) act in urgent circumstances to protect the personal safety of users of BBO products or members of the public.
+<p>
+BBO may also disclose your personal information to cooperate with our partners in abuse-related investigations. For instance: ACBL requires that BBO report the names of players who have been banned from ACBL games.
+<p>
+Personally identifiable demographic information will not be shared except as specified above. From time to time, we may publish summaries of our demographic data.
+<p>
+<h4>Control of Your Personal Information</h4>
+<p>
+Except as otherwise described in this statement, personal information you provide on the Site will not be shared outside of BBO and its controlled subsidiaries and affiliates without your permission.
+<p>
+Please be aware that this privacy statement and any choices you make on the Site will not necessarily apply to personal information you may have provided to BBO in the context of other, separately operated, BBO products or services. 
+
+<h4>Security of Your Personal Information</h4>
+<p>
+BBO is committed to protecting the security of your personal information. We use a variety of security technologies and procedures to help protect your personal information from unauthorized access, use, or disclosure. For example, we store the personal information you provide on computer servers with limited access that are located in controlled facilities. 
+<p>
+Additionally, when we transmit sensitive personal information (such as a credit card number) over the Internet, we protect it through the use of encryption, such as the Secure Socket Layer (SSL) protocol.
+<p>
+The public portion of your profile (Name, email, country, skill level, other information) will be visible to every other member of the site.
+<p>
+Our support staff and some of our yellow volunteers can look up your IP address and, in addition, identify other aliases that you have might have used previously.
+<p>
+Our support staff can look up your entire profile, aliases, purchase history and chatlogs. 
+<p>
+Our accounting staff can look up your prior transactions (including your real name, address and phone number, if you supplied this information during commerce)
+<p>
+<h4>Destruction of Your Personal Information</h4>
+<p>
+BBO routinely discards system logs and other records after approximately 100 days. Parts of some logs ( for example: those relating to commerce, technical support, and some account activity ) are kept indefinitely. Usernames can be disabled but not destroyed.
+<p>
+<span style="background-color:yellow;">You may request</span> some private data we hold on our servers for you (such as any address, credit card data, real name field) to be wiped clean for you. Email us at <a target="_blank" href="mailto:support@bridgebase.com">support@bridgebase.com</a>. 
+
+
+<h4>Updating your information</h4>
+<p>
+<span style="background-color:yellow;">You may alter</span> information that's displayed to other users by logging into your BBO account and updating your profile.
+
+<h4>Use of Local Storage</h4>
+<p>
+We sometimes use your local storage ( typically, your hard drive ) to store your preferences (for example: screen size, screen position ). If you choose to have the Site remember your username and password, the Site will encrypt these fields weakly and save them in local storage.
+<p>
+Your chat logs, including your private chat logs, are recorded to local storage in some versions of the Site. You have the ability to direct that these versions of the Site stop recording chat. You also have the ability to erase previously logged chat. Both can be found in the Preferences section of the Site.
+<p>
+Some versions of the Site grant you the ability to automatically save hands that you have either played or viewed. You have the ability to specify that these versions of the Site stop recording hands. This can be specified in the Preferences section of the Site.
+<h4>Links to Other Web Sites</h4>
+This site may contain links to other Web sites. Please be aware that this privacy statement applies solely to the information collected by the Site. We are not responsible for the privacy practices or the content of other Web sites.
+<h4>Use of Cookies</h4>
+<p>
+We sometimes use cookies on this Site to ensure the integrity of the login/registration process and to personalize the Site. A cookie is a small text file that is placed on your hard disk by a Web page server. Cookies cannot be used to run programs or deliver viruses to your computer. Cookies are uniquely assigned to you, and can only be read by a Web server in the domain that issued the cookie to you.
+<p>
+One of the primary purposes of cookies is to provide a convenience feature to save you time. For example, if you personalize a web page, or navigate within a site, a cookie helps the site to recall your specific information on subsequent visits. This simplifies the process of delivering relevant content, eases site navigation, and so on. When you return to the web site, the information you previously provided can be retrieved, so you can easily use the site's features that you customized. 
+<p>
+You have the ability to accept or decline our cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. If you choose to decline cookies, you may not be able to use interactive features of this or other web sites that depend on cookies.
+
+<h4>Use of Cookies in Advertising</h4>
+<p>
+<span style="background-color:yellow;">We work with third-party advertisers</span> to serve targeted ads. These advertisement partners may also be tracking you via their own third-party cookies. These cookies collect information about your browsing habits in order to provide advertising more relevant to you and your interests. These cookies are placed by the advertising networks who may in turn share information with the advertisers.
+<p>
+There are ways to decline/delete cookies within most browsers. You can update your browser settings to modify your browser privacy. ( For example:  if you use Google Chrome browser, you can follow the steps listed <a  target="_blank" href="https://support.google.com/chrome/answer/114836?co=GENIE.Platform%3DDesktop&hl=en">here</a> to modify your privacy settings.)
+<p>
+You also have choices about the collection of information by these third party advertisers on our website.
+<p>
+If you would like to read more about your option not to accept advertiser cookies, please click <a  target="_blank" href="http://optout.networkadvertising.org/?c=1#!/">here</a>.
+<p>
+If you would like to opt-out of having interest-based ad targeting, please click <a  target="_blank" href="http://optout.aboutads.info/?c=2#!/">here</a>.
+
+<h4>Mobile Devices</h4>
+<p>
+Due to differences between apps and websites on mobile devices, you may need to take <span style="background-color:yellow;">additional steps to disable</span> tracking technologies in mobile apps. Many mobile devices allow you to opt-out of targeted advertising within the  Settings area of the device.
+
+<h4>Changes to this Privacy Statement</h4>
+<p>
+We may occasionally update this privacy statement. When we do, we will also revise the last updated date at the top of the privacy statement. For material changes to this privacy statement, we will notify you either by placing a prominent notice on our site or by directly sending you a notification. We encourage you to periodically review this privacy statement to stay informed about how we are helping to protect the personal information we collect. Your continued use of the service constitutes your agreement to this privacy statement and any updates.
+
+<h4>Contact Information</h4>
+<p>
+BBO welcomes your comments regarding this privacy statement. If you have questions about this statement or believe that we have not adhered to it, please contact us at via email at <a href=mailto:support@bridgebase.com>support@bridgebase.com</a>.  You may also contact us through postal mail at the address provided below and we will use commercially reasonable efforts to promptly determine and remedy the problem.
+<p>
+<p>
+Bridge Base Online, Ltd.
+<br>
+2805 High Sail Court
+<br>
+Las Vegas, NV 
+<br>
+USA 89117<br />
+
+<br><!-- END CONTENT -->
+    </div>
+
+   
+
+    <div class="container bbo_footer" >
+        <div class="row">
+
+            <footer>
+                &copy; 2018 Bridge Base Online, Inc. &bull;
+                <a href="//www.bridgebase.com/intro/introduction.php">About</a> &bull;
+                <a href="//www.bridgebase.com/intro/privacy.php">Privacy</a> &bull;
+                <a href="http://online.bridgebase.com/v2/doc_rules.html">Rules</a> &bull;
+                <a href="http://online.bridgebase.com/v2/tcm.html">Terms and Conditions</a> &bull;
+                <a href="http://doc.bridgebase.com/advertise/advertise.shtml">Advertise</a> &bull;
+                <a href="http://online.bridgebase.com/prod/cust_ask_question.php">Support</a> &bull;
+                <a href="http://www.bridgebase.com/doc/gib_system_notes.php">Robot Convention Card</a>
+            </footer>
+
+        </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/bs/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/bs/js/ie10-viewport-bug-workaround.js"></script>
+    </body>
+    </html>
+ 
