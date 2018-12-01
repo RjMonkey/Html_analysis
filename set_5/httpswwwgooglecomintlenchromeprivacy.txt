@@ -1,0 +1,85 @@
+<h1 id="google-chrome-privacy-notice">Google Chrome Privacy Notice</h1>
+<h4>Last modified: October 24, 2018</h4>
+<h4 id="details-about-the-privacy-notice">Details about the Privacy Notice </h4>
+<h3 class="chr-table-contents" id="table-of-contents:">Table of contents: </h3>
+<h2 id="browser-modes"> <span>Browser modes </span> </h2>
+<h3 id="basic-browser-mode">Basic browser mode </h3>
+<h4 id="how-chrome-handles-your-information">How Chrome handles your information </h4>
+<strong>Information for website operators.</strong>
+<strong>Prerendering.</strong>
+<strong>Location.</strong>
+<strong>Updates.</strong>
+<strong>Search features.</strong>
+<strong>Search prediction service.</strong>
+<strong>Navigation assistance.</strong>
+<strong>Autofill and password management.</strong>
+<strong>Payments.</strong>
+<strong>Language.</strong>
+<strong>Web Apps on Android.</strong>
+<strong>Usage statistics and crash reports.</strong>
+<strong>Media licenses.</strong>
+<strong>Other Google services.</strong>
+<h4 id="identifiers-in-chrome">Identifiers in Chrome </h4>
+<strong>Installation tracking.</strong>
+<strong>Promotion tracking.</strong>
+<strong>Field trials.</strong>
+<h3 id="signed-in-chrome-mode"> <span id="signed-in">Signed-in, Synced Chrome mode </span> </h3>
+<h4 id="how-chrome-handles-your-signed-in-information">How Chrome handles your synced information </h4>
+<h3 id="incognito-mode-and-guest-mode">Incognito mode and guest mode </h3>
+<h4 id="how-chrome-handles-your-incognito-or-guest-information">How Chrome handles your incognito or guest information </h4>
+<strong>Cookies.</strong>
+<strong>Browser configuration changes.</strong>
+<strong>Permissions.</strong>
+<strong>Profile information.</strong>
+<h2 id="managing-users-in-chrome"> <span id="managing-users">Managing Users in Chrome </span> </h2>
+<h3 id="managing-users-for-personal-chrome-use">Managing users for personal Chrome use </h3>
+<h3 id="managing-users-on-chrome-for-enterprise">Managing users on Chrome for Enterprise </h3>
+<h2 id="safe-browsing-practices"> <span>Safe Browsing practices </span> </h2>
+<h3 id="how-safe-browsing-works">How Safe Browsing works </h3>
+<h2 id="privacy-practices-of-apps"> <span id="policy-on-using-apps">Privacy practices of apps, extensions, themes, services, and other add-ons </span> </h2>
+<h3 id="managing-add-ons">Managing add-ons </h3>
+<h3 id="log-privacy-information">Server Log Privacy Information </h3>
+<h2 id="more-information"> <span id="more-info">More information </span> </h2>
+<h2 id="key-terms">Key Terms </h2>
+<h3 id="cookies-and-similar-technologies"> <span id="cookies">Cookies </span> </h3>
+<h3 id="google-account"> <span>Google Account </span> </h3>
+<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">Chrome Family                      <svg class="chr-icon chr-icon--24" role="img"><use xlink:href="#mi-expand"></use></svg></h4>
+<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">Enterprise                      <svg class="chr-icon chr-icon--24" role="img"><use xlink:href="#mi-expand"></use></svg></h4>
+<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">Education                      <svg class="chr-icon chr-icon--24" role="img"><use xlink:href="#mi-expand"></use></svg></h4>
+<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">Dev and Partners                      <svg class="chr-icon chr-icon--24" role="img"><use xlink:href="#mi-expand"></use></svg></h4>
+<h4 class="chr-footer-links__heading js-footer-link" tabindex="0">Stay Connected                      <svg class="chr-icon chr-icon--24" role="img"><use xlink:href="#mi-expand"></use></svg></h4>
+<h2 id="eula-u-h-os-win">Download Chrome for Windows</h2>
+<h2 id="eula-u-h-os-mac">Download Chrome for Mac</h2>
+<h2 id="eula-u-h-os-linux">Download Chrome for Linux</h2>
+<h3 id="linux-distro-options-label">Please select your download package:</h3>
+<h2 id="eula-u-h-os-ios">Download Chrome for iOS</h2>
+<h2>Google Chrome Terms of Service </h2>
+<p class="chr-copy"> <strong>1. Your relationship with Google </strong> </p>
+<p class="chr-copy"> <strong>2. Accepting the Terms </strong> </p>
+<p class="chr-copy"> <strong>3. Language of the Terms </strong> </p>
+<p class="chr-copy"> <strong>4. Provision of the Services by Google </strong> </p>
+<p class="chr-copy"> <strong>5. Use of the Services by you </strong> </p>
+<p class="chr-copy"> <strong>6. Privacy and your personal information </strong> </p>
+<p class="chr-copy"> <strong>7. Content in the Services </strong> </p>
+<p class="chr-copy"> <strong>8. Proprietary rights </strong> </p>
+<p class="chr-copy"> <strong>9. License from Google </strong> </p>
+<p class="chr-copy"> <strong>10. Content license from you </strong> </p>
+<p class="chr-copy"> <strong>11. Software updates </strong> </p>
+<p class="chr-copy"> <strong>12. Ending your relationship with Google </strong> </p>
+<p class="chr-copy"> <strong>13. EXCLUSION OF WARRANTIES </strong> </p>
+<p class="chr-copy"> <strong>14. LIMITATION OF LIABILITY </strong> </p>
+<p class="chr-copy"> <strong>15. Copyright and trade mark policies </strong> </p>
+<p class="chr-copy"> <strong>16. Advertisements </strong> </p>
+<p class="chr-copy"> <strong>17. Other content </strong> </p>
+<p class="chr-copy"> <strong>18. Changes to the Terms </strong> </p>
+<p class="chr-copy"> <strong>19. General legal terms </strong> </p>
+<p class="chr-copy"> <strong>20. Additional Terms for Extensions for Google Chrome </strong> </p>
+<p class="chr-copy"> <strong>21. Additional Terms for Enterprise Use </strong> </p>
+<h2>Google Chrome Additional Terms of Service </h2>
+<p class="chr-copy"> <strong>MPEGLA </strong> </p>
+<p class="chr-copy"> <strong>Adobe </strong> </p>
+<strong>Note:</strong>
+<h2 id="dialog-o-h-os-header">Download Chrome</h2>
+<h4>Download for phone or tablet</h4>
+<h4>Download for another desktop OS</h4>
+<h4 class="frozen-version">Frozen versions</h4>

@@ -1,0 +1,28 @@
+<h1>Privacy Policy</h1>
+<h3>What & Why</h3>
+<em>Your Stuff.</em>
+<em>Account information.</em>
+<em>Usage information.</em>
+<em>Device information.</em>
+<em>Crash reports and diagnostic information.</em>
+<em>Cookies and other technologies.</em>
+<em>Marketing.</em>
+<em>Bases for processing your data.</em>
+<h3>With Whom</h3>
+<em>Others working for and with XMind.</em>
+<em>Other users.</em>
+<em>Law & Order and the Public Interest.</em>
+<h3>How</h3>
+<em>Security.</em>
+<em>User Controls.</em>
+<em>Retention.</em>
+<h3>Where</h3>
+<em>Devices that you use.</em>
+<em>U.S. and around the world.</em>
+<h3>Changes</h3>
+<h3>Your Right to Control and Access Your Information</h3>
+<em>Access and take your data.</em>
+<em>Change or correct personal data.</em>
+<em>Delete your entire account.</em>
+<em>Unsubscribe from our newsletters.</em>
+<h3>Contact</h3>

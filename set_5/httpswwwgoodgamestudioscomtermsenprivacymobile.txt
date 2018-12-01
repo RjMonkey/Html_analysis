@@ -1,0 +1,90 @@
+<h3>Legal Information</h3>
+<strong>Altigi GmbH</strong>
+<em>Goodgame Studios is a brand of Altigi GmbH.</em>
+<strong>Board of directors:</strong>
+<strong>District court:</strong>
+<strong>Trade register number:</strong>
+<strong>VAT ID:</strong>
+<strong>Youth protection officer:</strong>
+<h3>General terms and conditions</h3>
+<strong>Subject; Area of Validity</strong>
+<strong>Conclusion of Contract</strong>
+<strong>General User Obligations</strong>
+<strong>Specific Terms for the Use of Online and Mobile Games</strong>
+<strong>Consequences of a Breach of Duty</strong>
+<strong>Usage fees</strong>
+<strong>Limitation of liability</strong>
+<strong>Contract Duration; Deletion of User Accounts</strong>
+<strong>Online Dispute Resolution</strong>
+<strong>Governing law</strong>
+<strong>Amendments to these general terms and conditions; Miscellaneous</strong>
+<strong>Licenses</strong>
+<h3>Withdrawal</h3>
+<strong>Right of withdrawal</strong>
+<strong>Effects of withdrawal</strong>
+<strong>Information</strong>
+<strong>Model withdrawal form</strong>
+<h3>Privacy Policy for online services</h3>
+<h4>Table of Contents:</h4>
+<h4><a name="_Toc514062652"></a>1.      Contact Us</h4>
+<h4><a name="_Toc514062653"></a>2.      General Information on the Processing of Personal Data</h4>
+<h4><a name="_Toc514062654"></a>3.      Duration of Storage</h4>
+<h4><a name="_Toc514062655"></a>4.      Transmission of data</h4>
+<h4><a name="_Toc514062656"></a>5.      Contact Form</h4>
+<h4><a name="_Toc514062657"></a>6.      Registration and Login</h4>
+<h4><a name="_Toc514062658"></a>7.      Facebook Connect</h4>
+<h4><a name="_Toc514062659"></a>8.      Data Processing in our Games</h4>
+<h4><a name="_Toc514062660"></a>9.      Payments made on our Website</h4>
+<h4><a name="_Toc514062661"></a>10. Community (Forum)</h4>
+<h4><a name="_Toc514062662"></a>11. Publisher Backend</h4>
+<h4><a name="_Toc514062663"></a>12. Job Applications</h4>
+<h4><a name="_Toc514062664"></a>13. Newsletter</h4>
+<h4><a name="_Toc514062665"></a><a name="_Toc513476405"></a>14. Surveys</h4>
+<h4><a name="_Toc514062666"></a>15. Processing Server Log Files</h4>
+<h4><a name="_Toc514062667"></a>16. Combating Fraud</h4>
+<h4><a name="_Toc514062668"></a>17. Cookies</h4>
+<h4><a name="_Toc514062669"></a>18. Facebook (Visitor Action Pixel)</h4>
+<h4><a name="_Toc514062670"></a>19. Google Analytics</h4>
+<h4><a name="_Toc514062671"></a>20. Google Marketing Services</h4>
+<h4><a name="_Toc514062672"></a>21. Microsoft Bing Ads</h4>
+<h4><a name="_Toc514062673"></a>22. Twitter Conversion Tracking</h4>
+<h4><a name="_Toc514062679"></a>23. Taboola</h4>
+<h4><a name="_Toc514062674"></a>24. Integrated Services and Third Party Content</h4>
+<h4><a name="_Toc514062675"></a>25. Your Rights</h4>
+<h4><a name="_Toc514062676"></a>26. The Right to Object</h4>
+<h4><a name="_Toc514062676a"></a>27. Minor’s privacy</h4>
+<h4><a name="_Toc514062677"></a>28. Data Protection Officer</h4>
+<h4><a name="_Toc514062678"></a>29. Complaints to Government Authorities</h4>
+<h3>Privacy Policy for mobile applications (apps)</h3>
+<h4>Table of Contents</h4>
+<h4><a name="_Toc514059979"></a>1.      Contact Us</h4>
+<h4><a name="_Toc514059980"></a>2.      General Information on the Processing of Personal Data</h4>
+<h4><a name="_Toc514059981"></a>3.      Duration of Storage</h4>
+<h4><a name="_Toc514059982"></a>4.      Transmission of Data</h4>
+<h4><a name="_Toc514059983"></a>5.      Data Collection during Downloading</h4>
+<h4><a name="_Toc514059984"></a>6.      Access Rights of this App</h4>
+<h4><a name="_Toc514059985"></a>7.      Contact Form</h4>
+<h4><a name="_Toc514059986"></a>8.      Registration and Login</h4>
+<h4><a name="_Toc514059987"></a>9.      Facebook Connect</h4>
+<h4><a name="_Toc514059988"></a>10. Data Processing in our Games</h4>
+<h4><a name="_Toc514059989"></a>11. Payments made through our App</h4>
+<h4><a name="_Toc514059990"></a>12. Newsletter</h4>
+<h4><a name="_Toc514059991"></a><a name="_Toc513476108"></a><a name="_Toc513475822"></a>13. Surveys</h4>
+<h4><a name="_Toc514059992"></a>14. Processing App Log Files</h4>
+<h4><a name="_Toc514059993"></a>15. Combating Fraud</h4>
+<h4><a name="_Toc514059994"></a>16. Facebook SDK</h4>
+<h4><a name="_Toc514059995"></a>17. Google Marketing Services</h4>
+<h4><a name="_Toc514059996"></a>18. Google SDK (Firebase Analytics)</h4>
+<h4><a name="_Toc514059997"></a>19. AppsFlyer SDK</h4>
+<h4><a name="_Toc514059998"></a>20. Microsoft Bing Ads</h4>
+<h4><a name="_Toc514060003"></a>21. Taboola</h4>
+<h4><a name="_Toc514060004"></a>22. Pinterest</h4>
+<h4><a name="_Toc514059999"></a>23. The Right to Object</h4>
+<h4><a name="_Toc514060000"></a>24. Your Additional Rights</h4>
+<h4><a name="_Toc514060000a"></a>25. Minor’s privacy</h4>
+<h4><a name="_Toc514060001"></a>26. Data Protection Officer</h4>
+<h4><a name="_Toc514060002"></a>27. Complaints to Government Authorities</h4>
+<h5 class="footer-list-heading">Mobile Games</h5>
+<h5 class="footer-list-heading">Browser games</h5>
+<h5 class="footer-list-heading">Company</h5>
+<h5 class="footer-list-heading">Connect</h5>

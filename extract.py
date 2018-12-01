@@ -1,5 +1,7 @@
 from bs4 import BeautifulSoup
 from bs4 import NavigableString
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 import requests
 import re
 import json
@@ -9,7 +11,28 @@ import html
 import logging
 
 
-def surrounded_by_strings( tag ):
+
+def remove_punctuation(line):
+    rule = re.compile(r"[^a-zA-Z0-9\u4e00-\u9fa5]")
+    line = rule.sub('', line)
+    return line
+
+
+def only_word(line):
+    rule = re.compile(r"[^a-zA-Z\u4e00-\u9fa5]")
+    line = rule.sub('', line)
+    return line
+
+
+def remove_regex(string):
+    regex = ['(', ')', '?', '[', ']', '{', '}', '|', '.', '&', '*', '$']
+    for c in regex:
+        string = string.replace(c, '\\' + c)
+
+    return string
+
+
+def surrounded_by_strings(tag):
     return (isinstance(tag.next_element, NavigableString)
             and isinstance(tag.previous_element, NavigableString))
 
@@ -42,41 +65,39 @@ with open('F:\\Documents\\Project\\analysis_html\\package\\url.txt') as rfile:
 #         name = file.replace('.html', '')
 #         filename = root + '\\' + file
 for url in urls:
-    page = requests.get(url)
-    # page = "E:\\BaiduNetdiskDownload\\apps\\data\\air.com.arcadefest.jigsawpuzzles.html"
-    # soup = BeautifulSoup(open(filename, encoding="ISO-8859-1"), "lxml")
-    soup = BeautifulSoup(page.text, "lxml")
-    for s in soup('script'):
-        s.extract()
-    html_nodes = soup.body.find_all()
-    # a = soup.find_all_next(html_nodes[0])
-    # html_nodes = soup.find_all(surrounded_by_strings)
-    # print(html_nodes)
-    result = list()
-    temp_stack = list()
+    try:
+        page = requests.get("https://www.lazada.com.ph/privacy-policy/")
 
 
+        # page = "E:\\BaiduNetdiskDownload\\apps\\data\\air.com.arcadefest.jigsawpuzzles.html"
+        # soup = BeautifulSoup(open(filename, encoding="ISO-8859-1"), "lxml")
+        soup = BeautifulSoup(page.text, "lxml")
+        for s in soup('script'):
+            s.extract()
 
-    #寻找标题
-    title_set = set()
-    #h标题
-    h_nodes = soup.find_all(re.compile("^h[1-9]$"))
+        html_nodes = excludeSpecial(str(soup.body))
 
+        # 寻找标题
+        result = list()
+        temp_stack = list()
+        title_set = set()
+        # h标题
+        h_nodes = soup.find_all(re.compile("^h[1-9]$"))
 
+        for h_node in h_nodes:
+            title_set.add(excludeSpecial(str(h_node)))
 
-    for h_node in h_nodes:
-        title_set.add(h_node)
+        maybe_title_tag = ['strong', 'b', 'em', 'i']
 
-    maybe_title_tag = ['strong', 'b', 'em']
-    for tag in maybe_title_tag:
-        tag_nodes = soup.find_all(tag)
+        stop_words = set(stopwords.words('english'))
 
+        for tag in maybe_title_tag:
+            tag_nodes = soup.find_all(tag)
 
-        for i in tag_nodes:
-            flag = True
+            for i in tag_nodes:
+                flag = False
 
-            if flag:
-                son_text = i.text
+                son_text = i.text.strip()
 
                 try:
                     baba_p_text = i.find_parent("p").text.strip()
@@ -84,93 +105,127 @@ for url in urls:
                     baba_p_text = ""
 
                 try:
+                    pre_node = i.previous_sibling
+                    if pre_node is None or pre_node == '\n':
+                        title_node = i
+                        flag = True
+                    if not only_word(str(pre_node)).strip().isalpha():
+                        # print(str(i))
+                        title_node = i
+                        flag = True
+                except:
+                    flag = True
+
+                try:
                     baba_div_text = i.find_parent("div").text.strip()
                 except:
                     baba_div_text = ""
 
-                # print(i.find_parent("div").string)
+                try:
+                    brother_node = i.next_sibling
+                    if brother_node == '\n':
+                        flag = True
+                        title_node = i
+                except:
+                    brother_node = ""
+
+                if brother_node is not None:
+
+                    if brother_node.name == "br":
+                        flag = True
+                        title_node = i
 
                 if son_text == baba_p_text:
                     title_node = i.find_parent("p")
                     flag = True
-                elif son_text == baba_div_text:
+
+                if son_text == baba_div_text:
                     title_node = i.find_parent("div")
                     flag = True
-                else:
-                    title_node = ""
-                    flag = False
-
-                if '.' in son_text:
-                    flag = False
 
                 word_num = son_text.count(' ')
 
                 if word_num > 10:
                     flag = False
 
+                try:
+                    child = i.contents[0].name
+                    # print(child)
+                    if child in maybe_title_tag:
+                        # print(child)
+                        flag = False
+                except:
 
-            if flag > 0:
-                # logging.
-                title_set.add(title_node)
+                    pass
 
+                # if son_text.title() == son_text and son_text.isalpha():
+                #     title_node = i
+                #     flag = True
+                #
+                # if son_text.upper() == son_text and son_text.isalpha():
+                #     title_node = i
+                #     flag = True
 
+                if flag and len(only_word(son_text).strip()) > 0:
+                    # logging.
+                    # # print(type(title_node))
+                    # print(str(title_node))
+                    title_set.add(excludeSpecial(str(title_node)))
+        if len(title_set) <= 2:
+            # print("haha")
+            str_nodes = html_nodes.split('<br/>')
+            flag = False
+            for ele in str_nodes:
+                flag = False
+                word_num = ele.count(' ')
+                word_tokens = word_tokenize(ele)
+                filtered_sentence = [w for w in word_tokens if not w in stop_words]
 
-    for node in html_nodes:
+                filtered_sentence = []
 
-        text = excludeSpecial(node.text).strip()
-        if node in title_set:
+                for w in word_tokens:
+                    if w not in stop_words:
+                        filtered_sentence.append(w)
+                title_str = (' '.join(filtered_sentence)).strip()
+                if word_num > 10:
+                    flag = False
 
-            if len(temp_stack) > 0:
-                result.append(temp_stack)
-            temp_stack = [str(node)]
+                if title_str == title_str.title() and only_word(title_str).isalpha():
+                    flag = True
 
+                if ele.title() == ele and only_word(ele).isalpha():
+                    flag = True
 
-        else:
+                if ele.upper() == ele and only_word(ele).isalpha():
+                    # print(ele)
 
-            if len(text) > 0 and len(temp_stack) > 0:
-                temp_stack.append(str(node))
-    result.append(temp_stack)
+                    flag = True
+                if flag and len(only_word(ele).strip()) > 0:
+                    # print(ele + str(len(ele)))
+                    # logging.
+                    # print(type(title_node))
+                    title_set.add(excludeSpecial(ele))
+        temp_set = []
+        for title in list(title_set):
 
-    paragraph_temp_stack = list()
-    final_result = list()
-    for paragraph in result:
+            temp_set.append(remove_regex(title))
 
-        p = 0
-        q = p + 1
-        paragraph_len = len(paragraph)
-        while q < paragraph_len:
-            if paragraph[p].find(paragraph[q]) >= 0:
-                # print(paragraph[p] + "\n &&& \n" + paragraph[q] + ";;;;;;\n\n\n\n")
-                paragraph.remove(paragraph[q])
-                paragraph_len = paragraph_len - 1
+        # title_set = set(temp_set)
 
-            else:
-                p = q
-                q = q + 1
+        # # # 按照标题分割字符串
+        if len(title_set) > 0:
+            split_str = '|'.join(temp_set)
+            paragraph = re.split(r'(' + split_str + ')', html_nodes)
+            for word in paragraph:
+                if word in title_set:
+                    result.append(word)
 
-            next_index = result.index(paragraph) + 1
-            if next_index < len(result):
-                if paragraph[p].find(result[next_index][0]) >= 0:
-                    paragraph.remove(paragraph[p])
-                    paragraph_len = paragraph_len - 1
+        name = remove_punctuation(url)
+        # fo = open("./set_5/" + name + ".txt", "w", encoding="utf-8")
+        # for i in result:
+        #     fo.write(i + '\n')
+        # fo.close()
 
-        temp_paragraph = list()
-        for word in paragraph:
-            elem = dict()
-            elem['value'] = word
-            level = 0
-            if paragraph.index(word) == 0:
-                level = 1
-                check_level = word[0:3]
-                if re.match("^<h[1-9]$", check_level) is not None:
-                    level = 10 - int(word[2])
+    except:
+        print(url)
 
-            elem['level'] = level
-            temp_paragraph.append(elem)
-
-        final_result.append(temp_paragraph)
-
-    name = url.replace('.', '_').replace('/', '_')
-    fo = open("./set2/" + name + ".json", "w")
-    fo.write(json.dumps(final_result))
-    fo.close()

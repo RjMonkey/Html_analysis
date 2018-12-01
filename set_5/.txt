@@ -1,0 +1,49 @@
+<h4>Most often used by people in the United States</h4>
+<h4>All languages</h4>
+<h1>Privacy Statement</h1>
+<h4>What kind of personal information does Booking.com collect?</h4>
+<h4>Why does Booking.com collect and use your personal data?</h4>
+<h4>How does Booking.com share your data with third parties?</h4>
+<h4>How is your personal data shared within the Booking Holdings Inc. corporate family?</h4>
+<h4>How does Booking.com process communications that you and your booked Trip Provider might send to Booking.com?</h4>
+<h4>How does Booking.com use mobile devices?</h4>
+<h4>How does Booking.com use social media?</h4>
+<h4>What security and retention procedures does Booking.com put in place to safeguard your personal data?</h4>
+<h4>How does Booking.com treat personal data about children?</h4>
+<h4>How can you control the personal data you've given to Booking.com?</h4>
+<h4>Who's responsible for the processing of personal data on the Booking.com website and apps?</h4>
+<h2 id="policy-what">What kind of personal data does Booking.com collect?</h2>
+<h4>Personal data you give to us. </h4>
+<h4>Personal data you give us about others.</h4>
+<h4>Personal data we collect automatically.</h4>
+<h4>Personal data we receive from other sources.</h4>
+<h2 id="policy-why">Why does Booking.com collect and use your personal data?</h2>
+<h4>To process your personal data as described above, we rely on the following legal bases:</h4>
+<h2 id="policy-third-parties">How does Booking.com share your data with third parties?</h2>
+<h2 id="policy-booking-holdings">How is your personal data shared within the Booking Holdings Inc. corporate family?</h2>
+<h2 id="policy-communications">How does Booking.com process communications that you and your booked Trip Provider may send through Booking.com?</h2>
+<h2 id="policy-mobile">How does Booking.com use mobile devices?</h2>
+<h2 id="policy-social">How does Booking.com use social media?</h2>
+<h2 id="policy-security">What security and retention procedures does Booking.com put in place to safeguard your personal data?</h2>
+<h2 id="policy-children">How does Booking.com treat personal data about children?</h2>
+<h2 id="policy-personal">How can you control the personal data you've given to Booking.com?</h2>
+<h2 id="policy-processing">Who is responsible for the processing of personal data on Booking.com and how to contact us?</h2>
+<h1 id="cookie-statement">Cookie Statement</h1>
+<h4 id="cookie-what">What's a cookie?</h4>
+<h4 id="cookie-use">How are cookies used?</h4>
+<h4 id="cookie-choices">What are your choices?</h4>
+<h2>Save time, save money!</h2>
+<h1>Verified reviews from real guests.</h1>
+<h2 class="rlp-intro__title rlp-intro__a11y-exp-title">How does it work?</h2>
+<h3 class="rlp-intro-how__title rlp-intro-how__a11y-exp-title">It starts with a booking</h3>
+<h3 class="rlp-intro-how__title rlp-intro-how__a11y-exp-title">Followed by a trip</h3>
+<h3 class="rlp-intro-how__title rlp-intro-how__a11y-exp-title">And finally, a review</h3>
+<div class="js-ua-facebook-button-header ua-facebook-button-header social-media__buttons"><i class="ua-facebook-button-header__text">Or sign in with one click</i></div>
+<h4 class="resend-conf__step__title">Enter your email address and we'll resend your confirmation</h4>
+<h4 class="resend-conf__step__title"><em class="resend-conf__icon resend-conf__icon--success"></em>We've resent your requested confirmations to <span class="resend-conf__success__email"></span></h4>
+<h4 class="resend-conf__step__title"><em class="resend-conf__icon resend-conf__icon--error"></em>Sorry, we were unable to resend your requested confirmations</h4>
+<div class="js-ua-facebook-button-header ua-facebook-button-header social-media__buttons"><i class="ua-facebook-button-header__text">Or</i></div>
+<h4 class="resend-conf__step__title">Enter your email address and we'll resend your confirmation</h4>
+<h4 class="resend-conf__step__title"><em class="resend-conf__icon resend-conf__icon--success"></em>We've resent your requested confirmations to <span class="resend-conf__success__email"></span></h4>
+<h4 class="resend-conf__step__title"><em class="resend-conf__icon resend-conf__icon--error"></em>Sorry, we were unable to resend your requested confirmations</h4>
+<h3>Two Factor Authentication</h3>

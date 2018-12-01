@@ -1,0 +1,64 @@
+<h1 class="visually-hidden">Serkan Ozyilmaz</h1>
+<h1 class="h-landmark entry-title"><span>Privacy</span></h1>
+<h1 class="gjg-title">PRIVACY POLICY</h1>
+<strong>Serkan Ozyilmaz  Privacy Policy</strong>
+<h2><strong>1. INFORMATION WE COLLECT FROM YOU</strong></h2>
+<p><strong>(a) Information that you provide voluntarily</strong></p>
+<p><strong>(b) Information that we collect automatically</strong></p>
+<em>Advertising ID</em>
+<em>Device identifier / information</em>
+<p><strong>(c)  Information we obtain from third-party sources</strong></p>
+<strong>Third-Party Social Network/s.</strong>
+<p><strong>(d) No special categories of information</strong></p>
+<h2><strong>2. HOW WE USE YOUR INFORMATION</strong></h2>
+<h3>2.1. In General</h3>
+<strong>Delivering and improving our services. </strong>
+<strong>Displaying advertisements</strong>
+<strong>Cross-promotion.</strong>
+<strong>Tracking and fraud prevention for advertising purposes.</strong>
+<strong>Analytics and research. </strong>
+<strong>Security. </strong>
+<strong>Customer Support.</strong>
+<strong>Our legal obligations. </strong>
+<h3><strong>2.2. In-App Purchases</strong></h3>
+<h2><strong>3.HOW WE SHARE YOUR INFORMATION </strong></h2>
+<strong>Our analytics providers.</strong>
+<strong>Our cloud service providers. </strong>
+<strong>Our tracking and fraud prevention providers. </strong>
+<strong>Third-party advertising partners.</strong>
+<strong>Advertising partner’s third-party tracking provider. </strong>
+<strong>Other third-party service providers. </strong>
+<h2><strong>4.ADVERTISING</strong></h2>
+<h3><strong>4.1. In General </strong></h3>
+<h3><strong>4.2. In-game advertising </strong>(i.e. when you view ads in Our Games)</h3>
+<h3><strong>4.3. View of Our ads on third-party services</strong></h3>
+<h3><strong>4</strong>.<strong>4. WHO CAN SHOW PERSONALIZED ADS TO YOU?</strong></h3>
+<h3><strong>4.5. HOW CAN YOU TURN OFF PERSONOLIZED ADS?</strong></h3>
+<p><strong>iOS</strong></p>
+<p><strong>Android</strong></p>
+<h2><strong>5. THIRD-PARTY SOCIAL NETWORKS</strong></h2>
+<h3><strong>5.1. Connecting to Third-Party Social Networks </strong></h3>
+<h3><strong>5.2. Information We May Receive When You Connect to Third-Party Social Networks</strong></h3>
+<h3><strong>5.3.  How You Share Your Information On Third-Party Social Networks</strong></h3>
+<h2><strong>6. COOKIES</strong></h2>
+<h2><strong>7. CHILDREN’S PRIVACY</strong></h2>
+<h2><strong>8. YOUR RIGHTS</strong></h2>
+<strong>Right to withdraw your consent</strong>
+<strong>Right to access your data</strong>
+<strong>Right to correct your data</strong>
+<strong>Right to have your data deleted</strong>
+<strong>Right to limit data collection</strong>
+<strong>Right to take your data with you</strong>
+<strong>Right to object how your data is handled</strong>
+<strong>Right to send complaints</strong>
+<h2><strong>9. GENERAL</strong></h2>
+<h2><strong>10. LEGAL BASES</strong></h2>
+<strong>Contractual Necessity.</strong>
+<strong>Legitimate Interests.</strong>
+<strong>Consent.</strong>
+<strong>Legal Obligation.</strong>
+<h2><strong>11. SECURITY </strong></h2>
+<h2><strong>12. INTERNATIONAL TRANSFER </strong></h2>
+<h2><strong>13. RETENTION </strong></h2>
+<h2><strong>14. CHANGES TO OUR PRIVACY POLICY</strong></h2>
+<h2><strong>15. CONTACT US</strong></h2>

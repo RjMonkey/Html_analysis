@@ -1,0 +1,12 @@
+<h2 class="block__title"><span></span><span></span><span></span><span></span></h2>
+<h2 class="element-invisible">You are here</h2>
+<h1>Kodi Privacy Policy</h1>
+<h2>What do we mean by “personal information”?</h2>
+<h2>How do we learn information about you?</h2>
+<h2>What do we do with your information once we have it?</h2>
+<h2>When do we share your information with others?</h2>
+<h2>How do we store and protect your personal information?</h2>
+<h2>What else should you know?</h2>
+<h2>What if we change this privacy policy or any of our privacy notices?</h2>
+<h2>History</h2>
+<h2 class="block__title">Kodi</h2>

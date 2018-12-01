@@ -1,0 +1,14 @@
+<h2>Introduction</h2>
+<h3>Information we collect</h3>
+<h3>IParties with whom we may share your information:</h3>
+<h3>IHow we use information we collect</h3>
+<h3>IYour User Profile</h3>
+<h3>IData Access and Removal</h3>
+<h3>IService Providers</h3>
+<h3>IOutbound Links</h3>
+<h3>ISecurity</h3>
+<h3>IData Transfer</h3>
+<h3>IAge</h3>
+<h3>INotification of Changes</h3>
+<h3>IContact information</h3>
+<h3>Date</h3>

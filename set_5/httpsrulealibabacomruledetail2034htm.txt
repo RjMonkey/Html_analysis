@@ -1,0 +1,33 @@
+<h3><a href="//www.alibaba.com/Products">Categories<i class="ui-header-hollow-arrow"><em></em><b></b></i></a></h3>
+<h4 class="prompt">                        Privacy Policy                    </h4>
+<p><strong><span style="font-size: 14.0pt;">PART A: New Version (Effective as of May 25, 2018)</span></strong></p>
+<p><a id="_Toc514364026" name="_Toc514364026"><strong>A. COLLECTION OF INFORMATION</strong></a></p>
+<p><a name="_Toc514364027"><strong>B. USE OF PERSONAL DATA</strong></a></p>
+<p><a name="_Toc514364028"><strong>C. DISCLOSURE OF PERSONAL DATA</strong></a></p>
+<p><a name="_Toc514364029"><strong>D. RIGHTS REGARDING PERSONAL DATA</strong></a></p>
+<p><a name="_Toc514364030"><strong>E. COOKIES</strong></a></p>
+<p style="text-align: justify;text-justify: inter-ideograph;line-height: 17.5pt;vertical-align: middle;"><strong><u><span style="color: #333333;">Provider</span></u></strong></p>
+<p style="text-align: justify;text-justify: inter-ideograph;line-height: 17.5pt;vertical-align: middle;"><strong><u><span style="color: #333333;">Cookie</span></u></strong></p>
+<p style="text-align: justify;text-justify: inter-ideograph;line-height: 17.5pt;vertical-align: middle;"><strong><u><span style="color: #333333;">Cookie-Type</span></u></strong></p>
+<p style="text-align: justify;text-justify: inter-ideograph;line-height: 17.5pt;vertical-align: middle;"><strong><u><span style="color: #333333;">Purpose</span></u></strong></p>
+<p><strong>Google Analytics</strong></p>
+<p><a name="_Toc514364031"><strong>F. MINORS</strong></a></p>
+<p><a name="_Toc514364032"><strong>G. SECURITY MEASURES</strong></a></p>
+<p><a name="_Toc514364033"><strong>H. CHANGES TO THIS PRIVACY POLICY</strong></a></p>
+<p><a name="_Toc514364034"><strong>I. VISITORS FROM THE EUROPEAN UNION</strong></a></p>
+<p style="margin-bottom: 7.5pt;vertical-align: baseline;"><a name="_Toc514364035"><strong><em>Legal Basis for Data Processing</em></strong></a></p>
+<p style="margin-bottom: 7.5pt;vertical-align: baseline;"><a name="_Toc514364036"><strong><em>International Transfers of Personal Data</em></strong></a></p>
+<p style="margin-bottom: 7.5pt;vertical-align: baseline;"><a name="_Toc514364037"><strong><em>Your Rights</em></strong></a></p>
+<strong>J. </strong>
+<strong>HOW TO CONTACT US</strong>
+<strong><span style="font-size: 14.0pt;">PART B</span></strong>
+<p align="center" style="text-align: center;"><strong><span style="font-size: 14.0pt;">Privacy Policy</span></strong></p>
+<p><strong>A. COLLECTION OF INFORMATION</strong></p>
+<p><strong>B. USE OF PERSONAL DATA</strong></p>
+<p><strong>C. DISCLOSURE OF PERSONAL DATA</strong></p>
+<p><strong>D. RIGHT TO ACCESS/CORRECT PERSONAL DATA</strong></p>
+<p><strong>E. COOKIES</strong></p>
+<p><strong>F. MINORS</strong></p>
+<p><strong>G. SECURITY MEASURES</strong></p>
+<p><strong>H. CHANGES TO THIS PRIVACY POLICY</strong></p>
+<p><strong>I. YOUR FEEDBACK</strong></p>

@@ -1,0 +1,33 @@
+<h2>                    Privacy Policy                                                                <span>Effective May 21, 2018</span><span> Last Amended May 21, 2018</span></h2>
+<h3 id="1">1. Introduction</h3>
+<h3 id="2">2. Information We Collect and How We Collect It</h3>
+<h4 id="sharedirectly">Information About You That You Share With Us Directly</h4>
+<h4 id="infocontacts">Information About Your Contacts</h4>
+<h4>Information You Generate Using Our Services</h4>
+<h4>Payment Information</h4>
+<h4>Customer Support Correspondence</h4>
+<h4>Information About You That We Get From Connected Third-Party Applications, Including Social Networks</h4>
+<h4>Cookies and Other Automated Information Collection</h4>
+<h4>Other Sources</h4>
+<h3 id="3">3. How We Use Information We Collect and Our Legal Bases for Processing It</h3>
+<h3 id="4">4. How We Share Information</h3>
+<h4>Friends and Other Zynga Players</h4>
+<h4>Third-Party Advertising Including Behavioral Advertising and Analytics</h4>
+<h4>Safety, Security, and Compliance with Law</h4>
+<h4>Third-Party Service Providers</h4>
+<h4>Sale or Merger</h4>
+<h4>Other Third Parties</h4>
+<h3 id="5">5. Your Rights and How to Access, Update, and Manage Your Personal Information</h3>
+<h4 id="howtoaccess">European Countries’ Users’ Rights</h4>
+<h4>Accessing and Deleting Personal Information Held by Zynga</h4>
+<h4>Managing Personal Information We Receive From Third-Party Applications / Platforms And From Your Mobile Device</h4>
+<h4>Opting Out of Promotional Communications from Zynga</h4>
+<h4>Opting Out of Third-Party Behavioral Advertising</h4>
+<h3 id="6">6. California Online Privacy Protection Act Notice</h3>
+<h3 id="7">7. Privacy Policies of Linked Third-Party Services and Advertisers</h3>
+<h3 id="8">8. Our Policies Concerning Children</h3>
+<h3 id="9">9. International Operations and Transfers Out of European Countries</h3>
+<h3 id="10">10. How Long We Keep Your Information</h3>
+<h3 id="11">11. Security of Your Information</h3>
+<h3 id="12">12. Changes to Our Privacy Policy</h3>
+<h3 id="13">13. Contact Us</h3>

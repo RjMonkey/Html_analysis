@@ -1,0 +1,15 @@
+<h1><span class="medium">Apps Privacy Policy</span></h1>
+<h3><b><span class="number">1.</span> Introduction</b></h3>
+<h3><b><span class="number">2.</span> Information about the Collection of Personal Data</b></h3>
+<h3><b><span class="number">3.</span> Provider Identification</b></h3>
+<h3><b><span class="number">4.</span> Data Security</b></h3>
+<h3><b><span class="number">5.</span> Collection of Personal Data for Use of the Product</b></h3>
+<h3><b><span class="number">6.</span> Use of the TeamViewer App</b></h3>
+<p><b><span class="number">6.1</span> Information necessary for establishment of a connection</b></p>
+<p><b><span class="number">6.2</span> Information necessary for providing the service</b></p>
+<p><b><span class="number">6.3</span> Requested permissions</b></p>
+<h3><b><span class="number">7.</span> Consent and Limits to Use</b></h3>
+<h3><b><span class="number">8.</span> Data Transfer to Third Parties</b></h3>
+<h3><b><span class="number">9.</span> Right to Obtain Information and Revocation</b></h3>
+<h3><b><span class="number">10.</span> Additional Information</b></h3>
+<h3><b><span class="number">11.</span> Address</b></h3>

@@ -1,0 +1,21 @@
+<h1 class="entry-title">        Privacy Policy      </h1>
+<h3><span style="color: #ffffff;"><strong>Tastypill Privacy Policy</strong></span></h3>
+<p><span style="color: #ffffff;"><strong>Effective: May 25, 2018</strong></span></p>
+<h3><span style="color: #ffffff;"><strong>Information and Data We Collect from You</strong></span></h3>
+<h3><span style="color: #ffffff;"><strong>How We Use Your Information</strong></span></h3>
+<h3><span style="color: #ffffff;"><strong>Use of Your Information by Others</strong></span></h3>
+<strong>Advertising.</strong>
+<h3><span style="color: #ffffff;"><strong>How We May Disclose Your Information to Third Parties</strong></span></h3>
+<h3><span style="color: #ffffff;"><strong>Specific Provisions for EU Individuals</strong></span></h3>
+<strong>Accessing and Correcting Your Personal Information.</strong>
+<strong>Withdrawing Your Consent.</strong>
+<strong>Erasing or Restricting Access to Your Information.</strong>
+<strong>Right to Make Complaint:</strong>
+<strong>Security Safeguards.</strong>
+<strong>Data Retention.</strong>
+<strong>Our Policy Regarding Children.</strong>
+<strong>Transfer of Personal Data Outside Your Country.</strong>
+<strong>Lawful Basis for Processing.</strong>
+<strong>Changes to This Policy.</strong>
+<h3><span style="color: #ffffff;"><strong>Privacy Shield Framework</strong></span></h3>
+<h3><span style="color: #ffffff;"><strong>Tastypill’s Data Protection Officer</strong></span></h3>

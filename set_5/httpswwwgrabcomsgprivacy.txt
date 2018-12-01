@@ -1,0 +1,17 @@
+<h2>Grab Privacy Policy</h2>
+<h3><strong>Collection of Personal Data</strong></h3>
+<h3><strong>Purposes of Processing</strong></h3>
+<p><strong>General:</strong></p>
+<h3><strong>Marketing and promotional purposes</strong></h3>
+<h3><strong>Unsubscribe and Revocation of Consent</strong></h3>
+<h3><strong>Transfer of Personal Data</strong></h3>
+<h3><strong>Disclosure to Third Parties</strong></h3>
+<h3><strong>Cookies</strong></h3>
+<h3><strong>Links to Third-Party Websites</strong></h3>
+<h3><strong>Personal Information from Minors and Other Individuals</strong></h3>
+<h3><strong>Acknowledgement, Consent, and Data Retention</strong></h3>
+<h4 class="text-caps">Company</h4>
+<h4 class="text-caps">Services</h4>
+<h4 class="text-caps">Corporate</h4>
+<h4 class="text-caps">Ride</h4>
+<h4 class="text-caps">Stay in Touch</h4>

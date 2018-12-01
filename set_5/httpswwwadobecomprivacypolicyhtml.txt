@@ -1,0 +1,38 @@
+<h5 class="Gnav-submenu-headline">Creative Cloud plans</h5>
+<h5 class="Gnav-submenu-headline">Featured products</h5>
+<h5 class="Gnav-submenu-headline">Products and solutions</h5>
+<h5 class="Gnav-submenu-headline">Featured products</h5>
+<h5 class="Gnav-submenu-headline">Overview</h5>
+<h5 class="Gnav-submenu-headline">Featured products</h5>
+<h1 class="Subnav-logo-text">Adobe Privacy Center</h1>
+<h2><span class="text-light">Adobe Privacy Policy</span></h2>
+<h2> </h2>
+<h5><span style="font-style: normal; font-weight: 300;"><span class="text-light">Summary of Key Points</span></span></h5>
+<h5><span class="text-light"><a id="cover" name="cover"></a>What does this privacy policy cover?</span></h5>
+<h5><span class="text-light"><a id="info-collect" name="info-collect"></a>What information does Adobe collect about me?</span></h5>
+<div class="text-6-block"><span class="text-light"><strong>Adobe ID, registration, and customer support</strong></span></div>
+<div class="text-6-block"><strong><span class="text-light"><strong>Adobe apps and websites</strong></span></strong></div>
+<div class="text-6-block"><span class="text-light"><strong>Adobe app activation and automatic updates</strong></span></div>
+<div class="text-6-block"><span class="text-light"><br/><strong>Adobe emails</strong></span></div>
+<div class="text-6-block"><span class="text-light"><br/><strong>Adobe online advertising</strong></span></div>
+<div class="text-6-block"><strong><span class="text-light"><strong>Buttons, tools, and content from other companies</strong></span></strong></div>
+<div class="text-6-block"><span class="text-light"><br/><strong>Adobe social networking pages and social sign-on services</strong></span></div>
+<h5><span class="text-light"><a id="info-use" name="info-use"></a>How does Adobe use the information it collects about me, and what are the legal bases for these uses?</span></h5>
+<h5><span class="text-light"><a name="info-share"></a>Does Adobe share my personal information?</span></h5>
+<div class="text-6-block"><span class="text-light"><strong>Sharing with other Data Controllers</strong></span></div>
+<div class="text-6-block"><span class="text-light"><strong>Sharing with Data Processors</strong></span></div>
+<strong>Other Information Sharing</strong>
+<h5><span class="text-light"><a id="website-applications" name="website-applications"></a>Is my personal information displayed anywhere on Adobe’s websites or applications?</span></h5>
+<h5><span class="text-light">Is my personal information secure?</span></h5>
+<h5><span class="text-light"><a name="info-secure"></a>Where does Adobe store my personal information?</span></h5>
+<h5><span class="text-light">Does Adobe transfer my personal information across national borders?<br/></span></h5>
+<h5><span class="text-light">What rights do I have in respect of my personal information and how can I exercise these rights?</span></h5>
+<h5><span class="text-light">Withdrawing consent or otherwise objecting to direct marketing</span></h5>
+<h5><span class="text-light">What information is collected by companies using Adobe Experience Cloud solutions?</span></h5>
+<h5><span class="text-light">How long does Adobe retain my information?</span></h5>
+<h5><span class="text-light">Will this privacy policy change?</span></h5>
+<h5><span class="text-light">Who can I contact with questions or concerns?</span></h5>
+<h2>Choose your region</h2>
+<h5>Americas</h5>
+<h5>Europe, Middle East and Africa</h5>
+<h5>Asia Pacific</h5>

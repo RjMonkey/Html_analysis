@@ -1,0 +1,35 @@
+1.WHAT INFORMATION WE COLLECT
+2.HOW WE USE INFORMATION WE COLLECT
+3. HOW WE PROTECT YOUR INFORMATION
+4.HOW WE SHARE YOUR INFORMATION
+- Request Install Packages
+- Take Pictures & Videos
+- Find Accounts on the Device
+- Read Contacts
+- Set Wallpaper & Adjust Wallpaper Size
+- Control Vibration
+- Read Sync Settings
+- Read Home Settings & Shortcuts
+- Install Shortcuts
+- Access Bluetooth Settings
+- Retrieve Running Apps
+- Connect/Disconnect from Wi-Fi
+- Pair with Bluetooth Devices
+- Change Network Connectivity
+- Full Network Access & Receive Data from Internet
+- View Wi-Fi Connections
+- View Network Connections
+- Prevent Phone from Sleeping
+- Apply for Notification Access
+- Disable Screen Lock
+- Read Call Logs
+- Send Sticky Broadcast
+- Expand/Collapse Status Bar
+- Measure App Storage Space
+- Reorder Running Apps
+- Change Audio Settings
+- Close Other Apps
+- Use Fingerprint Hardware
+6.CHILDREN'S PRIVACY
+7.CHANGES TO THE PRIVACY POLICY
+8.CONTACT US

@@ -1,0 +1,66 @@
+<h1 dir="auto" id="dev_page_title">Telegram Privacy Policy</h1>
+<h3><a class="anchor" href="#1-introduction" name="1-introduction"><i class="anchor-icon"></i></a>1. Introduction</h3>
+<strong>‘us’</strong>
+<h4><a class="anchor" href="#1-1-privacy-principles" name="1-1-privacy-principles"><i class="anchor-icon"></i></a>1.1 Privacy Principles</h4>
+<h4><a class="anchor" href="#1-2-terms-of-service" name="1-2-terms-of-service"><i class="anchor-icon"></i></a>1.2. Terms of Service</h4>
+<h4><a class="anchor" href="#1-3-table-of-contents" name="1-3-table-of-contents"><i class="anchor-icon"></i></a>1.3. Table of Contents</h4>
+<h4><a class="anchor" href="#1-4-eea-representative" name="1-4-eea-representative"><i class="anchor-icon"></i></a>1.4. EEA Representative</h4>
+<h3><a class="anchor" href="#2-legal-ground-for-processing-your-personal-data" name="2-legal-ground-for-processing-your-personal-data"><i class="anchor-icon"></i></a>2. Legal Ground for Processing Your Personal Data</h3>
+<h3><a class="anchor" href="#3-what-personal-data-we-use" name="3-what-personal-data-we-use"><i class="anchor-icon"></i></a>3. What Personal Data We Use</h3>
+<h4><a class="anchor" href="#3-1-basic-account-data" name="3-1-basic-account-data"><i class="anchor-icon"></i></a>3.1. Basic Account Data</h4>
+<h4><a class="anchor" href="#3-2-your-e-mail-address" name="3-2-your-e-mail-address"><i class="anchor-icon"></i></a>3.2. Your E-mail Address</h4>
+<h4><a class="anchor" href="#3-3-your-messages" name="3-3-your-messages"><i class="anchor-icon"></i></a>3.3. Your Messages</h4>
+<h5><a class="anchor" href="#3-3-1-cloud-chats" name="3-3-1-cloud-chats"><i class="anchor-icon"></i></a>3.3.1. Cloud Chats</h5>
+<h5><a class="anchor" href="#3-3-2-secret-chats" name="3-3-2-secret-chats"><i class="anchor-icon"></i></a>3.3.2. Secret Chats</h5>
+<em>Secret chats</em>
+<h5><a class="anchor" href="#3-3-3-media-in-secret-chats" name="3-3-3-media-in-secret-chats"><i class="anchor-icon"></i></a>3.3.3. Media in Secret Chats</h5>
+<h5><a class="anchor" href="#3-3-4-public-chats" name="3-3-4-public-chats"><i class="anchor-icon"></i></a>3.3.4. Public Chats</h5>
+<h5><a class="anchor" href="#3-3-5-phone-number-and-contacts" name="3-3-5-phone-number-and-contacts"><i class="anchor-icon"></i></a>3.3.5. Phone Number and Contacts</h5>
+<h5><a class="anchor" href="#3-3-6-cookies" name="3-3-6-cookies"><i class="anchor-icon"></i></a>3.3.6. Cookies</h5>
+<h3><a class="anchor" href="#4-keeping-your-personal-data-safe" name="4-keeping-your-personal-data-safe"><i class="anchor-icon"></i></a>4. Keeping Your Personal Data Safe</h3>
+<h4><a class="anchor" href="#4-1-storing-data" name="4-1-storing-data"><i class="anchor-icon"></i></a>4.1. Storing Data</h4>
+<h4><a class="anchor" href="#4-2-end-to-end-encrypted-data" name="4-2-end-to-end-encrypted-data"><i class="anchor-icon"></i></a>4.2. End-to-End Encrypted Data</h4>
+<h4><a class="anchor" href="#4-3-retention" name="4-3-retention"><i class="anchor-icon"></i></a>4.3. Retention</h4>
+<h3><a class="anchor" href="#5-processing-your-personal-data" name="5-processing-your-personal-data"><i class="anchor-icon"></i></a>5. Processing Your Personal Data</h3>
+<h4><a class="anchor" href="#5-1-our-services" name="5-1-our-services"><i class="anchor-icon"></i></a>5.1. Our Services</h4>
+<h4><a class="anchor" href="#5-2-safety-and-security" name="5-2-safety-and-security"><i class="anchor-icon"></i></a>5.2. Safety and Security</h4>
+<h4><a class="anchor" href="#5-3-spam-and-abuse" name="5-3-spam-and-abuse"><i class="anchor-icon"></i></a>5.3. Spam and Abuse</h4>
+<h4><a class="anchor" href="#5-4-cross-device-functionality" name="5-4-cross-device-functionality"><i class="anchor-icon"></i></a>5.4. Cross-Device Functionality</h4>
+<h4><a class="anchor" href="#5-5-advanced-features" name="5-5-advanced-features"><i class="anchor-icon"></i></a>5.5. Advanced features</h4>
+<h4><a class="anchor" href="#5-6-no-ads" name="5-6-no-ads"><i class="anchor-icon"></i></a>5.6. No Ads</h4>
+<h3><a class="anchor" href="#6-bot-messages" name="6-bot-messages"><i class="anchor-icon"></i></a>6. Bot Messages</h3>
+<h4><a class="anchor" href="#6-1-ecosystem" name="6-1-ecosystem"><i class="anchor-icon"></i></a>6.1. Ecosystem</h4>
+<h4><a class="anchor" href="#6-2-how-bots-can-receive-data" name="6-2-how-bots-can-receive-data"><i class="anchor-icon"></i></a>6.2. How Bots Can Receive Data</h4>
+<h4><a class="anchor" href="#6-3-what-data-bots-receive" name="6-3-what-data-bots-receive"><i class="anchor-icon"></i></a>6.3. What Data Bots Receive</h4>
+<h4><a class="anchor" href="#6-4-bots-are-not-maintained-by-telegram" name="6-4-bots-are-not-maintained-by-telegram"><i class="anchor-icon"></i></a>6.4. Bots Are Not Maintained by Telegram</h4>
+<h3><a class="anchor" href="#7-third-party-payment-services" name="7-third-party-payment-services"><i class="anchor-icon"></i></a>7. Third Party Payment Services</h3>
+<h4><a class="anchor" href="#7-1-payment-information" name="7-1-payment-information"><i class="anchor-icon"></i></a>7.1. Payment Information</h4>
+<h4><a class="anchor" href="#7-2-credit-card-information" name="7-2-credit-card-information"><i class="anchor-icon"></i></a>7.2. Credit Card Information</h4>
+<h4><a class="anchor" href="#7-3-shipping-information" name="7-3-shipping-information"><i class="anchor-icon"></i></a>7.3 Shipping Information</h4>
+<h4><a class="anchor" href="#7-4-clearing-payment-information" name="7-4-clearing-payment-information"><i class="anchor-icon"></i></a>7.4. Clearing Payment Information</h4>
+<h4><a class="anchor" href="#7-5-payment-disputes" name="7-5-payment-disputes"><i class="anchor-icon"></i></a>7.5. Payment Disputes</h4>
+<h3><a class="anchor" href="#8-who-your-personal-data-may-be-shared-with" name="8-who-your-personal-data-may-be-shared-with"><i class="anchor-icon"></i></a>8. Who Your Personal Data May Be Shared With</h3>
+<h4><a class="anchor" href="#8-1-other-telegram-users" name="8-1-other-telegram-users"><i class="anchor-icon"></i></a>8.1. Other Telegram Users</h4>
+<h4><a class="anchor" href="#8-2-telegrams-group-companies" name="8-2-telegrams-group-companies"><i class="anchor-icon"></i></a>8.2. Telegram’s Group Companies</h4>
+<h4><a class="anchor" href="#8-3-law-enforcement-authorities" name="8-3-law-enforcement-authorities"><i class="anchor-icon"></i></a>8.3. Law Enforcement Authorities</h4>
+<h3><a class="anchor" href="#9-your-rights-regarding-the-personal-data-you-provide-to-us" name="9-your-rights-regarding-the-personal-data-you-provide-to-us"><i class="anchor-icon"></i></a>9. Your Rights Regarding the Personal Data You Provide to Us</h3>
+<h4><a class="anchor" href="#9-1-your-rights" name="9-1-your-rights"><i class="anchor-icon"></i></a>9.1. Your Rights</h4>
+<h4><a class="anchor" href="#9-2-exercising-your-rights" name="9-2-exercising-your-rights"><i class="anchor-icon"></i></a>9.2. Exercising Your Rights</h4>
+<h4><a class="anchor" href="#9-3-data-settings" name="9-3-data-settings"><i class="anchor-icon"></i></a>9.3. Data Settings</h4>
+<h3><a class="anchor" href="#10-deleting-data" name="10-deleting-data"><i class="anchor-icon"></i></a>10. Deleting data</h3>
+<h4><a class="anchor" href="#10-1-accounts" name="10-1-accounts"><i class="anchor-icon"></i></a>10.1. Accounts</h4>
+<h4><a class="anchor" href="#10-2-messages" name="10-2-messages"><i class="anchor-icon"></i></a>10.2. Messages</h4>
+<h4><a class="anchor" href="#10-3-self-destructing-messages" name="10-3-self-destructing-messages"><i class="anchor-icon"></i></a>10.3. Self-Destructing Messages</h4>
+<h4><a class="anchor" href="#10-4-account-self-destruction" name="10-4-account-self-destruction"><i class="anchor-icon"></i></a>10.4. Account Self-Destruction</h4>
+<h3><a class="anchor" href="#11-changes-to-this-privacy-policy" name="11-changes-to-this-privacy-policy"><i class="anchor-icon"></i></a>11. Changes to this Privacy Policy</h3>
+<h3><a class="anchor" href="#12-questions-and-concerns" name="12-questions-and-concerns"><i class="anchor-icon"></i></a>12. Questions and concerns</h3>
+<h5>Telegram</h5>
+<h5><a href="/faq">About</a></h5>
+<h5><a href="/apps#mobile-apps">Mobile Apps</a></h5>
+<h5><a href="/apps#desktop-apps">Desktop Apps</a></h5>
+<h5><a href="//core.telegram.org/">Platform</a></h5>
+<h5><a href="/faq">About</a></h5>
+<h5><a href="/blog">Blog</a></h5>
+<h5><a href="/apps">Apps</a></h5>
+<h5><a href="//core.telegram.org/">Platform</a></h5>
+<h5><a data-track="Follow/Twitter" href="https://twitter.com/telegram" onclick="trackDlClick(this, event)" target="_blank">Twitter</a></h5>

@@ -1,0 +1,72 @@
+<h1 class="miniclip-logo"><a href="http://www.miniclip.com/">Smartphone Games</a></h1>
+<h2 id="privacy">Miniclip Privacy Policy</h2>
+<h3>(For War Wings players, please refer specifically to the <a href="#ww">War Wings Privacy Policy</a>)</h3>
+<h3>(For Snake Wars players, please refer specifically to the <a href="#sw">Snake Wars Privacy Policy</a>)</h3>
+<p><strong>KEY POINTS:</strong></p>
+<h3 id="who">Who we are</h3>
+<h3 id="third_party">Third party sites</h3>
+<h3 id="what_data">What data does Miniclip collect from you?</h3>
+<p><strong>Data you give us directly:</strong></p>
+<h3 id="legal_basis">What does Miniclip do with this data and what is our legal basis for processing this data?</h3>
+<p><strong>Use of data which is necessary to perform a contract</strong></p>
+<p><strong>Use of data which is necessary for our legitimate interests</strong></p>
+<p><strong>Data we use with your consent</strong></p>
+<p><strong>Anonymous data</strong></p>
+<h3 id="marcoms">Does Miniclip send marketing communications and how can I opt out?</h3>
+<h3 id="protect">What does Miniclip do to protect data?</h3>
+<h3 id="#term">How long does Miniclip keep hold of data?</h3>
+<h3 id="#shared">What data is shared with or accessed by third parties?</h3>
+<h3 id="ad_cos">Third party advertising companies</h3>
+<strong><span style="font-size: small;">Advertising our products on third party websites and mobile</span><br/></strong>
+<h3 id="overseas">Will data be transferred overseas?</h3>
+<h3 id="childrens">Children's privacy</h3>
+<p><strong>For parents/guardians:</strong></p>
+<h3 id="erase">How do I erase or restrict or update my data?</h3>
+<h3 id="copy">How do I get a copy of my data?</h3>
+<h3>How can I contact Miniclip?</h3>
+<h3 id="complaint">What can I do if I have a complaint?</h3>
+<h2 id="adpart_list">List of advertising partners used in Miniclip's games</h2>
+<h3>MOBILE</h3>
+<h3>WEB</h3>
+<h2 id="ww">WAR WINGS PRIVACY POLICY</h2>
+<p><strong>KEY POINTS:</strong></p>
+<h3 id="ww_who">Who we are</h3>
+<h3 id="ww_third_party">Third party sites</h3>
+<h3 id="ww_what">What data do we collect from you?</h3>
+<p><strong>Data you give us directly:</strong></p>
+<h3 id="ww_legal_basis">What do we do with this data and what is our legal basis for processing this data?</h3>
+<p><strong>Use of data which is necessary to perform a contract</strong></p>
+<p><strong>Data we use with your consent</strong></p>
+<h3 id="ww_marcoms">Does Miniclip send marketing communications and how can I opt out?</h3>
+<h3 id="ww_protect">What do we do to protect data?</h3>
+<h3 id="ww_term">How long do we keep hold of data?</h3>
+<h3 id="ww_shared">What data is shared with or accessed by third parties?</h3>
+<h3 id="ww_overseas">Will data be transferred overseas?</h3>
+<h3 id="ww_childrens">Children's privacy</h3>
+<h3 id="ww_erase">How do I erase or restrict or update my data?</h3>
+<h3 id="ww_copy">How do I get a copy of my data?</h3>
+<h3 id="ww_contact_mc">How can I contact Miniclip?</h3>
+<h3 id="ww_contact_sj">How can I contact Sixjoy?</h3>
+<h3 id="ww_complaint">What can I do if I have a complaint?</h3>
+<h2 id="sw">SNAKE WARS PRIVACY POLICY</h2>
+<p><strong>KEY POINTS:</strong></p>
+<h3 id="sw_who">Who we are</h3>
+<h3 id="sw_third_party">Third party sites</h3>
+<h3 id="sw_what">What data do we collect from you?</h3>
+<p><strong>Data you give us directly:</strong></p>
+<h3 id="sw_legal_basis">What do we do with this data and what is our legal basis for processing this data?</h3>
+<p><strong>Use of data which is necessary to perform a contract</strong></p>
+<p><strong>Use of data which is necessary for our legitimate interests</strong></p>
+<p><strong>Data we use with your consent</strong></p>
+<h3 id="sw_marcoms">Does Miniclip send marketing communications and how can I opt out?</h3>
+<h3 id="sw_protect">What do we do to protect data?</h3>
+<h3 id="sw_term">How long do we keep hold of data?</h3>
+<h3 id="sw_shared">What data is shared with or accessed by third parties?</h3>
+<h3 id="sw_3pac">Third party advertising companies</h3>
+<h3 id="sw_overseas">Will data be transferred overseas?</h3>
+<h3 id="sw_childrens">Children's privacy</h3>
+<h3 id="sw_erase">How do I erase or restrict or update my data?</h3>
+<h3 id="sw_copy">How do I get a copy of my data?</h3>
+<h3 id="sw_contact_mc">How can I contact Miniclip?</h3>
+<h3 id="sw_contact_sj">How can I contact Sixjoy?</h3>
+<h3 id="sw_complaint">What can I do if I have a complaint?</h3>

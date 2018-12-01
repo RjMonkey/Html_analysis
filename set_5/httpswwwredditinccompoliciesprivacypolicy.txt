@@ -1,0 +1,46 @@
+<h1>Reddit Privacy Policy</h1>
+<strong class="h3">What We Collect</strong>
+<strong class="h4">Information You Provide to Us</strong>
+<em>Account information.</em>
+<em>Content you submit.</em>
+<em>Actions you take.</em>
+<em>Transactional information.</em>
+<em>Other information.</em>
+<strong class="h4">Information We Collect Automatically</strong>
+<em>Log and usage data.</em>
+<em>Information collected from cookies and similar technologies.</em>
+<em>Location information.</em>
+<strong class="h4">Information Collected from Other Sources</strong>
+<em>Linked services.</em>
+<em>Information collected from integrations.</em>
+<strong class="h3">How We Use Information About You</strong>
+<strong class="h3">How Information About You Is Shared</strong>
+<em>With linked services.</em>
+<em>With our partners.</em>
+<em>To comply with the law.</em>
+<em>In an emergency.</em>
+<em>To enforce our policies and rights.</em>
+<em>With our affiliates.</em>
+<em>With your consent.</em>
+<em>Aggregated or de-identified information.</em>
+<strong class="h3">Ads and Analytics Partners</strong>
+<strong class="h4">Advertisers and Ad Networks</strong>
+<strong class="h4">Analytics Partners</strong>
+<strong class="h3">Your Choices</strong>
+<strong class="h4">Accessing and Changing Your Information</strong>
+<strong class="h4">Deleting Your Account</strong>
+<strong class="h4">Controlling Linked Services’ Access to Your Account</strong>
+<strong class="h4">Controlling the Use of Cookies</strong>
+<strong class="h4">Controlling Advertising and Analytics</strong>
+<strong class="h4">Do Not Track</strong>
+<strong class="h4">Controlling Promotional Communications</strong>
+<strong class="h4">Controlling Mobile Notifications</strong>
+<strong class="h4">Controlling Location Information</strong>
+<strong class="h3">Other Information</strong>
+<strong class="h4">Information Security</strong>
+<strong class="h4">Data Retention</strong>
+<strong class="h4">International Data Transfers</strong>
+<strong class="h4">Additional Information for EEA Users</strong>
+<strong class="h4">Children</strong>
+<strong class="h4">Changes to This Policy</strong>
+<strong class="h3">Contact Us</strong>

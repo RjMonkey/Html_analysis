@@ -1,0 +1,14 @@
+<h1>Privacy and Confidentiality </h1>
+<h4>1. Data that we collect </h4>
+<p><strong>2. Cookies </strong></p>
+<p><strong>3. Security </strong></p>
+<p><strong>4. Your rights </strong></p>
+<h3 class="footer-title footer-title-first">Customer Care</h3>
+<h3 class="footer-title">Make Money With Us</h3>
+<h3 class="footer-title">Daraz</h3>
+<h3 class="footer-title footer-title-first">Exclusive Deals and Offers!</h3>
+<h3 class="footer-title">Payment Methods</h3>
+<h3 class="footer-title">Daraz International</h3>
+<h3 class="footer-title">Follow Us</h3>
+<h3 class="footer-title">Verified by</h3>
+<h3 class="drz-copyright">© Daraz 2018</h3>

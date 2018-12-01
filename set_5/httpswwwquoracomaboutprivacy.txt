@@ -1,0 +1,45 @@
+<p class="qtext_para"><i>Last updated: May 18, 2018</i></p>
+<p class="qtext_para"><b>The Information We Collect</b></p>
+<i>Account and Profile Information:</i>
+<i>Your Content:</i>
+<i>Communications.</i>
+<i>Integrated Service Provider and Linked Networks. </i>
+<i>Automatically Collected Information About Your Activity.</i>
+<i>Engagement. </i>
+<p class="qtext_para"><b>How We Use Your Information</b></p>
+<p class="qtext_para"><b>How We Share Your Information</b></p>
+<i>Service Providers.</i>
+<i>Affiliates</i>
+<i>Business Transfers. </i>
+<i>Legally Required.</i>
+<i>Protection of Rights. </i>
+<i>Your Content and Activity. </i>
+<i>Metrics</i>
+<i>Anonymized and Aggregated Data.</i>
+<p class="qtext_para"><b>Cookies, Pixels and Tracking</b></p>
+<i>Cookies</i>
+<i>Pixels, web beacons, clear GIFs</i>
+<i>Analytics Tools.</i>
+<b>Do-Not-Track Signals.</b>
+<p class="qtext_para"><b>Quora Ads and Personalization</b></p>
+<p class="qtext_para"><b>How We Protect Your Information</b></p>
+<p class="qtext_para"><b>Access and Amend Your Information</b></p>
+<p class="qtext_para"><b>Your Choices</b></p>
+<i>Anonymous Posts.</i>
+<i>Your Content</i>
+<i>Adult Content.</i>
+<i>Emails and Communications. </i>
+<i>Followers. </i>
+<i>Topics</i>
+<i>Credentials</i>
+<i>Indexed Search. </i>
+<i>Deleted or Deactivated Account. </i>
+<i>Pixels</i>
+<p class="qtext_para"><b>Third Party Ad Networks</b></p>
+<i>Linked Networks. </i>
+<p class="qtext_para"><b>Transferring Your Data</b></p>
+<p class="qtext_para"><b>Children’s Privacy</b></p>
+<p class="qtext_para"><b>Links to Other Websites</b></p>
+<p class="qtext_para"><b>Your California Privacy Rights</b></p>
+<p class="qtext_para"><b>Contact Us</b></p>
+<p class="qtext_para"><b>Changes to Our Privacy Policy</b></p>

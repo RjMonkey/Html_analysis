@@ -1,0 +1,19 @@
+<h1 class="PhotomathLogo Large"><a href="/" title="Photomath">Photomath</a></h1>
+<h2>Photomath Privacy Policy</h2>
+<h3>1.  Introduction</h3>
+<h3>2.  Information We May Collect From You</h3>
+<h4>(i) Data You Provide to Us Directly</h4>
+<h4>(ii)    Data Collected Automatically</h4>
+<h3>3.  The Purposes for Which We Use The Data</h3>
+<h4>a)  We use the personal data you provide to us directly for the following purposes:</h4>
+<h4>b)  We use the data collected automatically for the following purposes:</h4>
+<h3>4.  How We Disclose Data</h3>
+<h4>a)  Personal data you provide directly:</h4>
+<h4>b)  Data collected automatically:</h4>
+<h3>5.  Your Rights</h3>
+<h3>6.  Data Security</h3>
+<h3>7.  International Transfers of Personal Data</h3>
+<h3>8.  Children’s Privacy</h3>
+<h3>9.  Changes to the Privacy Policy</h3>
+<h3>10. Questions or Concerns?</h3>
+<h4 class="PhotomathLogo Small"><a href="/" title="Photomath">Photomath</a></h4>

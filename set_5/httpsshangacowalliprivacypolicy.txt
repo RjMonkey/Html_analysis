@@ -1,0 +1,20 @@
+<h1>PRIVACY POLICY</h1>
+<h2>1- What information does the Application obtain and how is it used?</h2>
+<h3>User Provided Information</h3>
+<h3>Automatically Collected Information</h3>
+<h3>Access to third parties services account</h3>
+<h4>Access to the Facebook account</h4>
+<h3>Does the Application collect precise real time location information of the device?</h3>
+<h2>2- The Use of the Collected Data</h2>
+<h3>Do third parties see and/or have access to information obtained by the Application?</h3>
+<h3>Automatic Data Collection and Advertising</h3>
+<h3>What are my opt-out rights?</h3>
+<strong>Opt-out of all information collection by uninstalling the Application:</strong>
+<h2>3 - Additional info about Data Collection and processing</h2>
+<h3>Data Retention Policy, Managing Your Information </h3>
+<h3>Children </h3>
+<h3>Security</h3>
+<h3>Your Consent</h3>
+<h3>Contact us</h3>
+<h3>Facebook ads preferences</h3>
+<h3>Changes</h3>

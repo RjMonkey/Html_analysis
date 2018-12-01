@@ -1,0 +1,14 @@
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>Privacy Policy</b> </font></p>
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>What Information We Collect ?</b> </font></p>
+<b>Device Information.</b>
+<b>App Usage Data. </b>
+<b>Google Advertising ID.</b>
+<b>Geographic Location.</b>
+<b>Aggregate Information.</b>
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>Social Media</b></font></p>
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>How We Use Information We Collect ?</b></font></p>
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>Opt-out of personalized advertising.</b></font></p>
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>Information Security</b></font></p>
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>International Users</b></font></p>
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>Sensitive Information</b></font></p>
+<p style="margin-bottom: 0in; margin-left: 16px;; margin-right: 16px"><font size="5"><b>Changes to This Privacy Policy</b></font></p>

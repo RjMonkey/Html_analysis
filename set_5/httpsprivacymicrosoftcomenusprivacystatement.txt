@@ -1,0 +1,217 @@
+<h1>Microsoft Privacy Statement</h1>
+<strong>Name and contact data</strong>
+<strong>Credentials</strong>
+<strong>Demographic data</strong>
+<strong>Payment data</strong>
+<strong>Subscription and licensing data</strong>
+<strong>Interactions</strong>
+<strong>Device and usage data</strong>
+<strong>Payment and account history</strong>
+<strong>Browse history</strong>
+<strong>Device, connectivity, and configuration data</strong>
+<strong>Error reports and performance data</strong>
+<strong>Troubleshooting and help data</strong>
+<strong>Interests and favorites</strong>
+<strong>Content consumption data</strong>
+<strong>Searches and commands</strong>
+<strong>Voice data</strong>
+<strong>Text, inking, and typing data</strong>
+<strong>Images</strong>
+<strong>Contacts and relationships</strong>
+<strong>Social data</strong>
+<strong>Location data</strong>
+<strong>Other input</strong>
+<strong>Content</strong>
+<strong>Video or recordings</strong>
+<strong>Feedback and ratings</strong>
+<p><strong>More on the purposes of processing:</strong></p>
+<strong>Provide our products. </strong>
+<strong>Product improvement. </strong>
+<strong>Personalization. </strong>
+<strong>Product activation. </strong>
+<strong>Product development. </strong>
+<strong>Customer support. </strong>
+<strong>Help secure and troubleshoot. </strong>
+<strong>Safety. </strong>
+<strong>Updates. </strong>
+<strong>Promotional communications. </strong>
+<strong>Relevant offers. </strong>
+<strong>Advertising. </strong>
+<strong>Transacting commerce. </strong>
+<strong>Reporting and business operations. </strong>
+<strong>Protecting rights and property. </strong>
+<strong>Legal compliance. </strong>
+<strong>Research.</strong>
+<strong>Microsoft privacy dashboard</strong>
+<strong>Microsoft account</strong>
+<strong>Volume Licensing Service Center (VLSC)</strong>
+<strong>Skype</strong>
+<strong>Xbox</strong>
+<strong>Microsoft Store</strong>
+<strong>Microsoft.com</strong>
+<p><strong>Your communications preferences </strong></p>
+<p><strong>Your advertising choices</strong></p>
+<p><strong>Browser-based controls </strong></p>
+<strong>Cookie controls</strong>
+<strong>Tracking protection</strong>
+<strong>Browser controls for "Do Not Track."</strong>
+<p><strong>Our use of cookies and similar technologies</strong></p>
+<strong>Storing your preferences and settings</strong>
+<strong>Sign-in and authentication</strong>
+<strong>Security</strong>
+<strong>Storing information you provide to a website</strong>
+<strong>Social media</strong>
+<strong>Feedback</strong>
+<strong>Interest-based advertising</strong>
+<strong>Showing advertising</strong>
+<strong>Analytics</strong>
+<strong>Performance</strong>
+<strong>MUID, MC1, and MSFPC.</strong>
+<strong>ANON.</strong>
+<strong>CC.</strong>
+<strong>PPAuth, MSPAuth, MSNRPSAuth, KievRPSAuth, WLSSC, MSPProf. </strong>
+<strong>MC0.</strong>
+<strong>MS0.</strong>
+<strong>NAP.</strong>
+<strong>MH.</strong>
+<strong>childinfo, kcdob, kcrelid, kcru, pcfm.</strong>
+<strong>MR.</strong>
+<strong>x-ms-gateway-slice.</strong>
+<strong>TOptOut.</strong>
+<p><strong>How to control cookies</strong></p>
+<strong> Privacy </strong>
+<strong> Advanced Settings</strong>
+<strong>Cookies</strong>
+<p><strong>Our use of web beacons and analytics services</strong></p>
+<p><strong>Other similar technologies</strong></p>
+<strong>Local Shared Objects or "Flash cookies."</strong>
+<strong>Silverlight Application Storage</strong>
+<strong>Personal Microsoft accounts</strong>
+<strong>Creating your Microsoft account</strong>
+<strong>Signing in to Microsoft account</strong>
+<strong>Signing in to Microsoft products</strong>
+<strong>Signing in to third-party products</strong>
+<strong>Work or school accounts</strong>
+<strong>Third-party accounts</strong>
+<strong>Is the personal data of a sensitive type?</strong>
+<strong>Has the user provided consent for a longer retention period?</strong>
+<strong>Advertising industry best practices and commitments</strong>
+<strong>Health-related ad targeting</strong>
+<strong>Children and advertising</strong>
+<strong>Data retention</strong>
+<strong>Data sharing</strong>
+<strong>Data collected by other advertising companies</strong>
+<strong>General</strong>
+<strong>Options</strong>
+<strong>Trust Center</strong>
+<strong>Trust Center Settings</strong>
+<strong>Privacy Options</strong>
+<strong>Office Roaming Service</strong>
+<strong>Microsoft Updates</strong>
+<strong>Online help, templates, and fonts</strong>
+<strong>Click-to-Run Update Service</strong>
+<strong>Recommendation services</strong>
+<strong>Search services</strong>
+<strong>Translation service</strong>
+<strong>Outlook.com</strong>
+<strong>Outlook applications</strong>
+<strong>Skype profile</strong>
+<strong>Skype Contacts</strong>
+<strong>Partner companies</strong>
+<strong>Skype Manager</strong>
+<strong>Push notifications</strong>
+<strong>Skype advertising</strong>
+<strong>Translation features</strong>
+<strong>Recording features</strong>
+<strong>Skype bots</strong>
+<strong>Cortana in Skype</strong>
+<strong>Captioning</strong>
+<strong>Search suggestions</strong>
+<strong>Bing experience improvement program for Bing Desktop and Bing Toolbar</strong>
+<strong>Retention and de-identification</strong>
+<strong>Personalization through Microsoft account</strong>
+<strong>Managing search history</strong>
+<strong>Third-party services that use Bing</strong>
+<strong>Search query passed in referral URL</strong>
+<strong>Sharing data from Bing and Bing-powered experiences with third parties</strong>
+<strong>Voice data</strong>
+<strong>Searches and commands</strong>
+<strong>Device and usage data</strong>
+<strong>Location data</strong>
+<strong>Contacts, communications, and other inputs</strong>
+<strong>Contacts, text messages, and email</strong>
+<strong>Communications history</strong>
+<strong>Calendar appointments</strong>
+<strong>Browse history</strong>
+<strong>Connected services and Skills</strong>
+<strong>Basic</strong>
+<strong>Full</strong>
+<strong>Basic</strong>
+<strong>Full</strong>
+<strong>Settings</strong>
+<strong>Privacy</strong>
+<strong>Diagnostics & feedback</strong>
+<strong>Inking and typing Recognition</strong>
+<strong>Settings</strong>
+<strong>Privacy</strong>
+<strong>Diagnostics & feedback</strong>
+<strong>Windows location service</strong>
+<strong>General Location</strong>
+<strong>Find My Phone</strong>
+<strong>Find my device</strong>
+<strong>Windows motion sensing</strong>
+<strong>Recording</strong>
+<strong>Device encryption</strong>
+<strong>Malicious Software Removal Tool</strong>
+<strong>Microsoft Family</strong>
+<strong>Windows Defender SmartScreen</strong>
+<strong>Windows Defender Antivirus</strong>
+<strong>Online Speech Recognition</strong>
+<strong>Inking & Typing Personalization</strong>
+<strong>Settings</strong>
+<strong>Accounts</strong>
+<strong>Sync your settings</strong>
+<strong>Web note</strong>
+<strong>Active reading</strong>
+<strong>Hub</strong>
+<strong>Website Pin to Taskbar</strong>
+<strong>Settings</strong>
+<strong>Accounts</strong>
+<strong>Sync your settings</strong>
+<strong>Search suggestions</strong>
+<strong>Search and site suggestions</strong>
+<strong>Maps app</strong>
+<strong>Camera and Photo apps</strong>
+<strong>People app</strong>
+<strong>Mail and Calendar app</strong>
+<strong>Messaging app</strong>
+<strong>Microsoft Wallet app for Windows Phone</strong>
+<strong>Xbox Live data viewable by other users</strong>
+<strong>Xbox Live data shared with game or app publishers</strong>
+<strong>Linking your Xbox Live profile to non-Microsoft accounts</strong>
+<strong>Kinect</strong>
+<strong>Captioning</strong>
+<strong>Communications monitoring</strong>
+<strong>Voice data for service improvement</strong>
+<strong>GameDVR</strong>
+<strong>Children and online safety</strong>
+<strong>Permission for Microsoft Store apps</strong>
+<strong>App updates</strong>
+<strong>Sideloaded apps and developer mode</strong>
+<strong>Silverlight Configuration tool</strong>
+<strong>Silverlight application storage</strong>
+<strong>Silverlight updates</strong>
+<strong>Digital Rights Management</strong>
+<strong>DRM updates</strong>
+<strong>Profile data</strong>
+<strong>Activity and fitness data</strong>
+<strong>Usage data</strong>
+<strong>Location</strong>
+<strong>Access and control</strong>
+<strong>Cortana</strong>
+<strong>Signing in to HealthVault</strong>
+<strong>HealthVault account and Health records</strong>
+<strong>Sharing health data</strong>
+<strong>Reports to U.S. health care providers</strong>
+<strong>Access and controls</strong>
+<strong>Email communications</strong>

@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd15f185-c0cb-4d70-b832-32886be2f591" name="Default" comment="new commit">
-      <change afterPath="$PROJECT_DIR$/download_html.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download_html.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extract_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/extract_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/main.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package/url.txt" beforeDir="false" afterPath="$PROJECT_DIR$/package/url.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/set2/http" beforeDir="false" afterPath="$PROJECT_DIR$/extract_based_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/set2/https" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +21,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/analysis_html$test.coverage" NAME="test Coverage Results" MODIFIED="1540797250907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_html$test.coverage" NAME="test Coverage Results" MODIFIED="1543068266506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/analysis_html$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1538718397689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eatiht" />
     <SUITE FILE_PATH="coverage/analysis_html$analysis.coverage" NAME="analysis Coverage Results" MODIFIED="1539348443251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_html$extract_html.coverage" NAME="extract_html Coverage Results" MODIFIED="1540567544056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/analysis_html$extract.coverage" NAME="extract Coverage Results" MODIFIED="1540911089029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_html$extract_based_string.coverage" NAME="extract_based_string Coverage Results" MODIFIED="1543065517762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_html$extract_html.coverage" NAME="extract_html Coverage Results" MODIFIED="1543072873625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/analysis_html$extract.coverage" NAME="extract Coverage Results" MODIFIED="1543139609375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -40,50 +46,53 @@
     <session id="-447828538">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.16" value="3" />
-          <entry key="project.open.time.17" value="5" />
-          <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.20" value="2" />
+          <entry key="project.closed" value="26" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="7" />
+          <entry key="project.open.time.16" value="9" />
+          <entry key="project.open.time.17" value="8" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="4" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="3" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
-          <entry key="json" value="5" />
+          <entry key="html" value="2" />
+          <entry key="json" value="8" />
           <entry key="log" value="10" />
           <entry key="null/test/test_mongodb" value="17" />
-          <entry key="py" value="28" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="51" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ANSI Aware" value="10" />
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="5" />
+          <entry key="HTML" value="2" />
+          <entry key="JSON" value="8" />
           <entry key="MONGO" value="17" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="28" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="2" />
           <entry key="log" value="1" />
-          <entry key="py" value="8374" />
+          <entry key="py" value="11780" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
@@ -92,7 +101,7 @@
           <entry key="ANSI Aware" value="1" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="8374" />
+          <entry key="Python" value="11780" />
         </counts>
       </usages-collector>
     </session>
@@ -103,43 +112,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extract.py">
+        <entry file="file://$PROJECT_DIR$/extract_based_string.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="2289">
+              <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extract_html.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2142">
+              <caret line="112" column="27" selection-start-line="109" selection-start-column="12" selection-end-line="112" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+              <folding>
+                <element signature="e#2#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/download_html.py">
+        <entry file="file://$PROJECT_DIR$/extract.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="21">
+              <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="22" selection-end-line="171" selection-end-column="44" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="21" column="76" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/set/com.bestgamingzone.wallpaper.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-end-column="44851" />
             </state>
           </provider>
         </entry>
@@ -149,8 +164,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -159,6 +174,12 @@
       <find>&lt;h1&gt;</find>
       <find>lease consider carefully what y</find>
       <find>logging</find>
+      <find>zonmob</find>
+      <find>print(string)</find>
+      <find>remove_regex</find>
+      <find>print</find>
+      <find>Service Providers</find>
+      <find>haha</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,12 +196,14 @@
         <option value="$PROJECT_DIR$/analusis.py" />
         <option value="$PROJECT_DIR$/main.log" />
         <option value="$PROJECT_DIR$/extract.html" />
-        <option value="$PROJECT_DIR$/extract_html.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/set/test.json" />
         <option value="$PROJECT_DIR$/analysis.py" />
-        <option value="$PROJECT_DIR$/extract.py" />
         <option value="$PROJECT_DIR$/download_html.py" />
+        <option value="$PROJECT_DIR$/set_4/httpim30netprivacyhtml.json" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/extract_html.py" />
+        <option value="$PROJECT_DIR$/extract_based_string.py" />
+        <option value="$PROJECT_DIR$/extract.py" />
       </list>
     </option>
   </component>
@@ -190,8 +213,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="759" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -221,7 +244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +259,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -244,7 +267,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Anaconda3/Scripts/conda.exe" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -268,26 +291,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.extract">
-    <configuration name="analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="analysis_html" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analysis.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="access.valley.studio.woman.gown.photo.maker.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/analysis_html/package/access.valley.studio.woman.gown.photo.maker.html">
       <method v="2" />
     </configuration>
     <configuration name="extract" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -312,6 +316,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="extract_based_string" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="analysis_html" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_based_string.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="extract_html" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="analysis_html" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -326,28 +352,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extract_html.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="analysis_html" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/eatiht" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eatiht/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,19 +406,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.analysis" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.extract_html" />
       <item itemvalue="Python.extract" />
+      <item itemvalue="Python.extract_based_string" />
+      <item itemvalue="JavaScript Debug.access.valley.studio.woman.gown.photo.maker.html" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.extract" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.extract_html" />
-        <item itemvalue="Python.analysis" />
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.extract_based_string" />
+        <item itemvalue="JavaScript Debug.access.valley.studio.woman.gown.photo.maker.html" />
       </list>
     </recent_temporary>
   </component>
@@ -451,22 +455,22 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993481" visible="true" weight="0.21908316" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993481" visible="true" weight="0.21908316" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5006519" side_tool="true" weight="0.1684435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3160793" />
-      <window_info anchor="bottom" x="-1920" y="-54" width="1920" height="1017" id="Debug" order="3" type="WINDOWED" weight="0.35022026" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32048458" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.017621145" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.30396476" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="12" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3270925" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32048458" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.280837" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.08480176" />
+      <window_info anchor="bottom" x="-1920" y="32" width="1920" height="1057" id="Debug" order="12" type="WINDOWED" weight="0.35022026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -484,7 +488,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/eatiht" />
     </ignored-roots>
     <MESSAGE value="new commit" />
@@ -494,14 +497,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/extract_html.py</url>
-          <line>173</line>
-          <option name="timeStamp" value="36" />
+          <url>file://$PROJECT_DIR$/extract_based_string.py</url>
+          <line>247</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/extract.py</url>
-          <line>117</line>
-          <option name="timeStamp" value="46" />
+          <url>file://$PROJECT_DIR$/extract_html.py</url>
+          <line>248</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/extract_html.py</url>
+          <line>208</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -512,16 +520,6 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="result" language="Python" />
-        <watch expression="result" />
-        <watch expression="result[22]" />
-        <watch expression="__py_debug_temp_var_1353204118" />
-        <watch expression="html_nodes.299" />
-        <watch expression="final_result[4].__len__()" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -597,13 +595,6 @@
     <entry file="file://$USER_HOME$/Anaconda3/Lib/warnings.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-622">
-          <caret line="750" column="16" selection-start-line="750" selection-start-column="16" selection-end-line="750" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-9527092/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -632,41 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extract_html.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3198">
-          <caret line="132" column="46" selection-start-line="132" selection-start-column="38" selection-end-line="132" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/set/test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret column="2088" lean-forward="true" selection-end-column="126711" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="21" column="76" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -677,20 +637,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extract.py">
+    <entry file="file://$PROJECT_DIR$/package/url.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="8" selection-end-column="14" />
+          <caret line="19" column="21" selection-start-line="19" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download_html.py" />
+    <entry file="file://$PROJECT_DIR$/analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1193" column="8" selection-start-line="1193" selection-start-column="8" selection-end-line="1193" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/access.valley.studio.woman.gown.photo.maker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_5/httpwwwwordgameplaycomprivacyhtml.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_5/httpwwwplecocomprivacypolicy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_5/httpwwwcamelgamescomprivacypolicyhtm.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/set_4/.json" />
+    <entry file="file://$PROJECT_DIR$/set_4/httpim30netprivacyhtml.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="30530" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpswwwbookingcomcontentprivacynlhtml.json" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21252">
+          <caret line="1017" column="29" selection-start-line="1017" selection-start-column="29" selection-end-line="1017" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract_based_string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2289">
+          <caret line="119" column="35" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/download_html.py">
+    <entry file="file://$PROJECT_DIR$/extract_html.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="2142">
+          <caret line="112" column="27" selection-start-line="109" selection-start-column="12" selection-end-line="112" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="e#2#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="170" column="20" lean-forward="true" selection-start-line="170" selection-start-column="22" selection-end-line="171" selection-end-column="44" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>

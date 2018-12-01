@@ -1,0 +1,49 @@
+<h4>Meest gebruikte talen in Nederland</h4>
+<h4>Alle talen</h4>
+<h1>Privacyverklaring</h1>
+<h4>Wat voor persoonsgegevens verzamelt Booking.com?</h4>
+<h4>Waarom verzamelt en gebruikt Booking.com uw persoonlijke gegevens?</h4>
+<h4>Hoe deelt Booking.com uw gegevens met derden?</h4>
+<h4>Hoe worden uw persoonsgegevens binnen de groep Booking Holdings Inc. gedeeld?</h4>
+<h4>Hoe verwerkt Booking.com communicatie die u en uw geboekte Reisaanbieder naar Booking.com versturen?</h4>
+<h4>Hoe maakt Booking.com gebruik van mobiele toestellen?</h4>
+<h4>Hoe maakt Booking.com gebruik van social media?</h4>
+<h4>Welke bewaar- en veiligheidsmaatregelen hanteert Booking.com om uw persoonlijke gegevens te beschermen?</h4>
+<h4>Hoe behandelt Booking.com de persoonlijke gegevens van kinderen?</h4>
+<h4>Hoe kunt u de persoonlijke gegevens die u aan Booking.com heeft verstrekt beheren?</h4>
+<h4>Wie is verantwoordelijk voor het verwerken van persoonlijke gegevens op de website en apps van Booking.com?</h4>
+<h2 id="policy-what">Welke persoonsgegevens verzamelt Booking.com?</h2>
+<h4>Persoonsgegevens die u aan ons verstrekt.</h4>
+<h4>Persoonsgegevens van anderen die u aan ons verstrekt.</h4>
+<h4>Persoonsgegevens die we automatisch verzamelen.</h4>
+<h4>Persoonsgegevens die we uit andere bronnen verkrijgen.</h4>
+<h2 id="policy-why">Waarom verzamelt en gebruikt Booking.com uw persoonlijke gegevens?</h2>
+<h4>Om uw persoonsgegevens zoals hierboven beschreven te verwerken, baseren we ons op de volgende juridische grondslagen:</h4>
+<h2 id="policy-third-parties">Hoe deelt Booking.com uw gegevens met derden?</h2>
+<h2 id="policy-booking-holdings">Hoe worden uw persoonsgegevens binnen de groep Booking Holdings Inc. gedeeld?</h2>
+<h2 id="policy-communications">Hoe verwerkt Booking.com communicatie die u en uw geboekte Reisaanbieder via Booking.com versturen?veranciers</h2>
+<h2 id="policy-mobile">Hoe maakt Booking.com gebruik van mobiele toestellen?</h2>
+<h2 id="policy-social">Hoe maakt Booking.com gebruik van social media?</h2>
+<h2 id="policy-security">Welke veiligheids- en bewaarprocedures gebruikt Booking.com om uw persoonlijke gegevens te waarborgen?</h2>
+<h2 id="policy-children">Hoe gaat Booking.com om met de persoonlijke gegevens van kinderen?</h2>
+<h2 id="policy-personal">Hoe kunt u de persoonlijke gegevens die u aan Booking.com heeft gegeven beheren?</h2>
+<h2 id="policy-processing">Wie is verantwoordelijk voor het verwerken van persoonsgegevens via Booking.com en hoe ons te bereiken?</h2>
+<h1 id="cookie-statement">Cookieverklaring</h1>
+<h4 id="cookie-what">Wat is een cookie?</h4>
+<h4 id="cookie-use">Hoe worden cookies gebruikt?</h4>
+<h4 id="cookie-choices">Wat zijn uw keuzes?</h4>
+<h2>Bespaar tijd, bespaar geld!</h2>
+<h1>Geverifieerde beoordelingen van echte gasten.</h1>
+<h2 class="rlp-intro__title rlp-intro__a11y-exp-title">Hoe werkt het?</h2>
+<h3 class="rlp-intro-how__title rlp-intro-how__a11y-exp-title">Het begint met een boeking</h3>
+<h3 class="rlp-intro-how__title rlp-intro-how__a11y-exp-title">Gevolgd door een reis</h3>
+<h3 class="rlp-intro-how__title rlp-intro-how__a11y-exp-title">Ten slotte, een beoordeling</h3>
+<div class="js-ua-facebook-button-header ua-facebook-button-header social-media__buttons"><i class="ua-facebook-button-header__text">of log in met één klik</i></div>
+<h4 class="resend-conf__step__title">Voer uw e-mailadres in en wij sturen u de bevestiging opnieuw</h4>
+<h4 class="resend-conf__step__title"><em class="resend-conf__icon resend-conf__icon--success"></em>Wij hebben de door u aangevraagde bevestigingen verstuurd naar <span class="resend-conf__success__email"></span></h4>
+<h4 class="resend-conf__step__title"><em class="resend-conf__icon resend-conf__icon--error"></em>Sorry, het is ons niet gelukt om de door u aangevraagde bevestigingen te versturen</h4>
+<div class="js-ua-facebook-button-header ua-facebook-button-header social-media__buttons"><i class="ua-facebook-button-header__text">of</i></div>
+<h4 class="resend-conf__step__title">Voer uw e-mailadres in en wij sturen u de bevestiging opnieuw</h4>
+<h4 class="resend-conf__step__title"><em class="resend-conf__icon resend-conf__icon--success"></em>Wij hebben de door u aangevraagde bevestigingen verstuurd naar <span class="resend-conf__success__email"></span></h4>
+<h4 class="resend-conf__step__title"><em class="resend-conf__icon resend-conf__icon--error"></em>Sorry, het is ons niet gelukt om de door u aangevraagde bevestigingen te versturen</h4>
+<h3>Tweefactorauthenticatie</h3>
